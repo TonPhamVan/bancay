@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "status": "PASS",
+  "constraint": "~6.2.15; patch only",
+  "locked_exment": "6.2.15",
+  "dependency_versions_unchanged_on_lock_metadata_refresh": true
+}

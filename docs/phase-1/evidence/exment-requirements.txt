@@ -1,0 +1,14 @@
+■Memory usage limit ： 512MB ： OK
+---------------------------
+■Maximum number of POST at one time ： 10000 ： OK
+---------------------------
+■File upload size limit ： 16 MB ： OK
+---------------------------
+■Timeout time ： 0(Unlimited) ： OK
+---------------------------
+■File permissions ： Success ： OK
+---------------------------
+■Install Composer ： Success ： OK
+---------------------------
+■Backup/Restore ： Success ： OK
+---------------------------

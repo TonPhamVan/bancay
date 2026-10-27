@@ -1,0 +1,3220 @@
+{
+    "server_version": "10.11.19-MariaDB-ubu2204",
+    "database": "bancay",
+    "tables": {
+        "categories": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "legacy_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "parent_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "name",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "slug",
+                    "column_type": "varchar(191)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "description",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "image",
+                    "column_type": "varchar(500)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "sort_order",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'DRAFT'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "featured",
+                    "column_type": "tinyint(1)",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "meta_title",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "meta_description",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "published_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "parent_id",
+                    "referenced_table_name": "categories",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "categories",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "categories",
+                    "non_unique": "0",
+                    "key_name": "categories_slug_unique",
+                    "seq_in_index": "1",
+                    "column_name": "slug",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "categories",
+                    "non_unique": "0",
+                    "key_name": "categories_legacy_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "legacy_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "categories",
+                    "non_unique": "1",
+                    "key_name": "categories_parent_id_status_sort_order_index",
+                    "seq_in_index": "1",
+                    "column_name": "parent_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "categories",
+                    "non_unique": "1",
+                    "key_name": "categories_parent_id_status_sort_order_index",
+                    "seq_in_index": "2",
+                    "column_name": "status",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "categories",
+                    "non_unique": "1",
+                    "key_name": "categories_parent_id_status_sort_order_index",
+                    "seq_in_index": "3",
+                    "column_name": "sort_order",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "products": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "legacy_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "category_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "name",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "slug",
+                    "column_type": "varchar(191)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "short_description",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "description",
+                    "column_type": "longtext",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'DRAFT'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "featured",
+                    "column_type": "tinyint(1)",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "meta_title",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "meta_description",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "published_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "deleted_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "category_id",
+                    "referenced_table_name": "categories",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "products",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "products",
+                    "non_unique": "0",
+                    "key_name": "products_slug_unique",
+                    "seq_in_index": "1",
+                    "column_name": "slug",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "products",
+                    "non_unique": "0",
+                    "key_name": "products_legacy_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "legacy_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "products",
+                    "non_unique": "1",
+                    "key_name": "products_browse_index",
+                    "seq_in_index": "1",
+                    "column_name": "category_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "products",
+                    "non_unique": "1",
+                    "key_name": "products_browse_index",
+                    "seq_in_index": "2",
+                    "column_name": "status",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "products",
+                    "non_unique": "1",
+                    "key_name": "products_browse_index",
+                    "seq_in_index": "3",
+                    "column_name": "featured",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "products",
+                    "non_unique": "1",
+                    "key_name": "products_browse_index",
+                    "seq_in_index": "4",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "products",
+                    "non_unique": "1",
+                    "key_name": "products_status_published_at_index",
+                    "seq_in_index": "1",
+                    "column_name": "status",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "products",
+                    "non_unique": "1",
+                    "key_name": "products_status_published_at_index",
+                    "seq_in_index": "2",
+                    "column_name": "published_at",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "product_images": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "product_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "path",
+                    "column_type": "varchar(500)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "alt_text",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "sort_order",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "is_primary",
+                    "column_type": "tinyint(1)",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "primary_product_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": "STORED GENERATED"
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "product_id",
+                    "referenced_table_name": "products",
+                    "referenced_column_name": "id",
+                    "delete_rule": "CASCADE"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "product_images",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_images",
+                    "non_unique": "0",
+                    "key_name": "product_images_id_product_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_images",
+                    "non_unique": "0",
+                    "key_name": "product_images_id_product_id_unique",
+                    "seq_in_index": "2",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_images",
+                    "non_unique": "0",
+                    "key_name": "product_images_primary_product_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "primary_product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_images",
+                    "non_unique": "1",
+                    "key_name": "product_images_product_id_sort_order_index",
+                    "seq_in_index": "1",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_images",
+                    "non_unique": "1",
+                    "key_name": "product_images_product_id_sort_order_index",
+                    "seq_in_index": "2",
+                    "column_name": "sort_order",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "product_options": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "product_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "name",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "sort_order",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "product_id",
+                    "referenced_table_name": "products",
+                    "referenced_column_name": "id",
+                    "delete_rule": "CASCADE"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "product_options",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_options",
+                    "non_unique": "0",
+                    "key_name": "product_options_product_id_name_unique",
+                    "seq_in_index": "1",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_options",
+                    "non_unique": "0",
+                    "key_name": "product_options_product_id_name_unique",
+                    "seq_in_index": "2",
+                    "column_name": "name",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_options",
+                    "non_unique": "0",
+                    "key_name": "product_options_id_product_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_options",
+                    "non_unique": "0",
+                    "key_name": "product_options_id_product_id_unique",
+                    "seq_in_index": "2",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "product_option_values": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "product_option_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "product_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "value",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "sort_order",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "product_option_id",
+                    "referenced_table_name": "product_options",
+                    "referenced_column_name": "id",
+                    "delete_rule": "CASCADE"
+                },
+                {
+                    "column_name": "product_id",
+                    "referenced_table_name": "product_options",
+                    "referenced_column_name": "product_id",
+                    "delete_rule": "CASCADE"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "product_option_values",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "4",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_option_values",
+                    "non_unique": "0",
+                    "key_name": "product_option_values_product_option_id_value_unique",
+                    "seq_in_index": "1",
+                    "column_name": "product_option_id",
+                    "collation": "A",
+                    "cardinality": "4",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_option_values",
+                    "non_unique": "0",
+                    "key_name": "product_option_values_product_option_id_value_unique",
+                    "seq_in_index": "2",
+                    "column_name": "value",
+                    "collation": "A",
+                    "cardinality": "4",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_option_values",
+                    "non_unique": "0",
+                    "key_name": "option_values_identity_unique",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "4",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_option_values",
+                    "non_unique": "0",
+                    "key_name": "option_values_identity_unique",
+                    "seq_in_index": "2",
+                    "column_name": "product_option_id",
+                    "collation": "A",
+                    "cardinality": "4",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_option_values",
+                    "non_unique": "0",
+                    "key_name": "option_values_identity_unique",
+                    "seq_in_index": "3",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "4",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_option_values",
+                    "non_unique": "1",
+                    "key_name": "option_values_owner_fk",
+                    "seq_in_index": "1",
+                    "column_name": "product_option_id",
+                    "collation": "A",
+                    "cardinality": "4",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_option_values",
+                    "non_unique": "1",
+                    "key_name": "option_values_owner_fk",
+                    "seq_in_index": "2",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "4",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "product_variants": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "product_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "legacy_variant_index",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "legacy_sku",
+                    "column_type": "varchar(191)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "sku",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "combination_key",
+                    "column_type": "char(64)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "pricing_type",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'FIXED'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "price",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "sale_price",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'ACTIVE'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "image_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "product_id",
+                    "referenced_table_name": "products",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                },
+                {
+                    "column_name": "image_id",
+                    "referenced_table_name": "product_images",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                },
+                {
+                    "column_name": "product_id",
+                    "referenced_table_name": "product_images",
+                    "referenced_column_name": "product_id",
+                    "delete_rule": "RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "product_variants",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "0",
+                    "key_name": "product_variants_product_id_combination_key_unique",
+                    "seq_in_index": "1",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "0",
+                    "key_name": "product_variants_product_id_combination_key_unique",
+                    "seq_in_index": "2",
+                    "column_name": "combination_key",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "0",
+                    "key_name": "product_variants_id_product_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "0",
+                    "key_name": "product_variants_id_product_id_unique",
+                    "seq_in_index": "2",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "0",
+                    "key_name": "product_variants_sku_unique",
+                    "seq_in_index": "1",
+                    "column_name": "sku",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "0",
+                    "key_name": "product_variants_product_id_legacy_variant_index_unique",
+                    "seq_in_index": "1",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "0",
+                    "key_name": "product_variants_product_id_legacy_variant_index_unique",
+                    "seq_in_index": "2",
+                    "column_name": "legacy_variant_index",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "1",
+                    "key_name": "variant_image_owner_fk",
+                    "seq_in_index": "1",
+                    "column_name": "image_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "1",
+                    "key_name": "variant_image_owner_fk",
+                    "seq_in_index": "2",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "1",
+                    "key_name": "product_variants_product_id_status_index",
+                    "seq_in_index": "1",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variants",
+                    "non_unique": "1",
+                    "key_name": "product_variants_product_id_status_index",
+                    "seq_in_index": "2",
+                    "column_name": "status",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "product_variant_values": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "product_variant_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "product_option_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "product_option_value_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "product_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "product_option_value_id",
+                    "referenced_table_name": "product_option_values",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                },
+                {
+                    "column_name": "product_option_id",
+                    "referenced_table_name": "product_option_values",
+                    "referenced_column_name": "product_option_id",
+                    "delete_rule": "RESTRICT"
+                },
+                {
+                    "column_name": "product_id",
+                    "referenced_table_name": "product_option_values",
+                    "referenced_column_name": "product_id",
+                    "delete_rule": "RESTRICT"
+                },
+                {
+                    "column_name": "product_variant_id",
+                    "referenced_table_name": "product_variants",
+                    "referenced_column_name": "id",
+                    "delete_rule": "CASCADE"
+                },
+                {
+                    "column_name": "product_id",
+                    "referenced_table_name": "product_variants",
+                    "referenced_column_name": "product_id",
+                    "delete_rule": "CASCADE"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "product_variant_values",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variant_values",
+                    "non_unique": "0",
+                    "key_name": "variant_one_value_per_option",
+                    "seq_in_index": "1",
+                    "column_name": "product_variant_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variant_values",
+                    "non_unique": "0",
+                    "key_name": "variant_one_value_per_option",
+                    "seq_in_index": "2",
+                    "column_name": "product_option_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variant_values",
+                    "non_unique": "1",
+                    "key_name": "variant_values_variant_fk",
+                    "seq_in_index": "1",
+                    "column_name": "product_variant_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variant_values",
+                    "non_unique": "1",
+                    "key_name": "variant_values_variant_fk",
+                    "seq_in_index": "2",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variant_values",
+                    "non_unique": "1",
+                    "key_name": "variant_values_option_fk",
+                    "seq_in_index": "1",
+                    "column_name": "product_option_value_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variant_values",
+                    "non_unique": "1",
+                    "key_name": "variant_values_option_fk",
+                    "seq_in_index": "2",
+                    "column_name": "product_option_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "product_variant_values",
+                    "non_unique": "1",
+                    "key_name": "variant_values_option_fk",
+                    "seq_in_index": "3",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "inventories": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "product_variant_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "quantity",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "reserved_quantity",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "product_variant_id",
+                    "referenced_table_name": "product_variants",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "inventories",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "inventories",
+                    "non_unique": "0",
+                    "key_name": "inventories_product_variant_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "product_variant_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "customers": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "legacy_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "name",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "email",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "phone",
+                    "column_type": "varchar(40)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'ACTIVE'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "table": "customers",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "customers",
+                    "non_unique": "0",
+                    "key_name": "customers_legacy_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "legacy_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "customers",
+                    "non_unique": "1",
+                    "key_name": "customers_email_index",
+                    "seq_in_index": "1",
+                    "column_name": "email",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "customers",
+                    "non_unique": "1",
+                    "key_name": "customers_phone_index",
+                    "seq_in_index": "1",
+                    "column_name": "phone",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "customer_addresses": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "customer_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "label",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "recipient_name",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "phone",
+                    "column_type": "varchar(40)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "line1",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "line2",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "ward",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "district",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "province",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "country_code",
+                    "column_type": "char(2)",
+                    "is_nullable": "NO",
+                    "column_default": "'VN'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "postal_code",
+                    "column_type": "varchar(20)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "is_default",
+                    "column_type": "tinyint(1)",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "default_customer_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": "STORED GENERATED"
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "customer_id",
+                    "referenced_table_name": "customers",
+                    "referenced_column_name": "id",
+                    "delete_rule": "CASCADE"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "customer_addresses",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "customer_addresses",
+                    "non_unique": "0",
+                    "key_name": "customer_addresses_default_customer_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "default_customer_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "customer_addresses",
+                    "non_unique": "1",
+                    "key_name": "customer_addresses_customer_id_foreign",
+                    "seq_in_index": "1",
+                    "column_name": "customer_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "orders": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "legacy_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "legacy_status",
+                    "column_type": "tinyint(3) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "is_legacy",
+                    "column_type": "tinyint(1)",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "order_number",
+                    "column_type": "varchar(40)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "customer_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "customer_name",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "customer_email",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "customer_phone",
+                    "column_type": "varchar(40)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "shipping_address",
+                    "column_type": "longtext",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "shipping_note",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "currency",
+                    "column_type": "char(3)",
+                    "is_nullable": "NO",
+                    "column_default": "'VND'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "subtotal",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "discount_amount",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "shipping_fee",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "total",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'NEW'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "customer_id",
+                    "referenced_table_name": "customers",
+                    "referenced_column_name": "id",
+                    "delete_rule": "SET NULL"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "orders",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "orders",
+                    "non_unique": "0",
+                    "key_name": "orders_order_number_unique",
+                    "seq_in_index": "1",
+                    "column_name": "order_number",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "orders",
+                    "non_unique": "0",
+                    "key_name": "orders_legacy_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "legacy_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "orders",
+                    "non_unique": "1",
+                    "key_name": "orders_status_created_at_index",
+                    "seq_in_index": "1",
+                    "column_name": "status",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "orders",
+                    "non_unique": "1",
+                    "key_name": "orders_status_created_at_index",
+                    "seq_in_index": "2",
+                    "column_name": "created_at",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "orders",
+                    "non_unique": "1",
+                    "key_name": "orders_customer_id_created_at_index",
+                    "seq_in_index": "1",
+                    "column_name": "customer_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "orders",
+                    "non_unique": "1",
+                    "key_name": "orders_customer_id_created_at_index",
+                    "seq_in_index": "2",
+                    "column_name": "created_at",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "orders",
+                    "non_unique": "1",
+                    "key_name": "orders_customer_phone_index",
+                    "seq_in_index": "1",
+                    "column_name": "customer_phone",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "order_items": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "order_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "product_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "product_variant_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "product_name",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "sku",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "variant_description",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "unit_price",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "quantity",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "subtotal",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "order_id",
+                    "referenced_table_name": "orders",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                },
+                {
+                    "column_name": "product_id",
+                    "referenced_table_name": "products",
+                    "referenced_column_name": "id",
+                    "delete_rule": "SET NULL"
+                },
+                {
+                    "column_name": "product_variant_id",
+                    "referenced_table_name": "product_variants",
+                    "referenced_column_name": "id",
+                    "delete_rule": "SET NULL"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "order_items",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "order_items",
+                    "non_unique": "1",
+                    "key_name": "order_items_order_id_foreign",
+                    "seq_in_index": "1",
+                    "column_name": "order_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "order_items",
+                    "non_unique": "1",
+                    "key_name": "order_items_product_id_foreign",
+                    "seq_in_index": "1",
+                    "column_name": "product_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "order_items",
+                    "non_unique": "1",
+                    "key_name": "order_items_product_variant_id_foreign",
+                    "seq_in_index": "1",
+                    "column_name": "product_variant_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "order_status_histories": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "order_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "from_status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "to_status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "note",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "changed_by",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "NO",
+                    "column_default": "current_timestamp()",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "changed_by",
+                    "referenced_table_name": "login_users",
+                    "referenced_column_name": "id",
+                    "delete_rule": "SET NULL"
+                },
+                {
+                    "column_name": "order_id",
+                    "referenced_table_name": "orders",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "order_status_histories",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "order_status_histories",
+                    "non_unique": "1",
+                    "key_name": "order_status_histories_changed_by_foreign",
+                    "seq_in_index": "1",
+                    "column_name": "changed_by",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "order_status_histories",
+                    "non_unique": "1",
+                    "key_name": "order_status_histories_order_id_created_at_index",
+                    "seq_in_index": "1",
+                    "column_name": "order_id",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "order_status_histories",
+                    "non_unique": "1",
+                    "key_name": "order_status_histories_order_id_created_at_index",
+                    "seq_in_index": "2",
+                    "column_name": "created_at",
+                    "collation": "A",
+                    "cardinality": "2",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "article_categories": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "legacy_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "parent_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "name",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "slug",
+                    "column_type": "varchar(191)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "description",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "image",
+                    "column_type": "varchar(500)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "sort_order",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "show_in_menu",
+                    "column_type": "tinyint(1)",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'DRAFT'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "meta_title",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "meta_description",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "published_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "parent_id",
+                    "referenced_table_name": "article_categories",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "article_categories",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "article_categories",
+                    "non_unique": "0",
+                    "key_name": "article_categories_slug_unique",
+                    "seq_in_index": "1",
+                    "column_name": "slug",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "article_categories",
+                    "non_unique": "0",
+                    "key_name": "article_categories_legacy_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "legacy_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "article_categories",
+                    "non_unique": "1",
+                    "key_name": "article_categories_parent_id_status_sort_order_index",
+                    "seq_in_index": "1",
+                    "column_name": "parent_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "article_categories",
+                    "non_unique": "1",
+                    "key_name": "article_categories_parent_id_status_sort_order_index",
+                    "seq_in_index": "2",
+                    "column_name": "status",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "article_categories",
+                    "non_unique": "1",
+                    "key_name": "article_categories_parent_id_status_sort_order_index",
+                    "seq_in_index": "3",
+                    "column_name": "sort_order",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "articles": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "legacy_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "article_category_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "title",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "slug",
+                    "column_type": "varchar(191)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "excerpt",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "content",
+                    "column_type": "longtext",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "image",
+                    "column_type": "varchar(500)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'DRAFT'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "featured",
+                    "column_type": "tinyint(1)",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "show_in_menu",
+                    "column_type": "tinyint(1)",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "view_count",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "published_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "meta_title",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "meta_description",
+                    "column_type": "text",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "article_category_id",
+                    "referenced_table_name": "article_categories",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "articles",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "articles",
+                    "non_unique": "0",
+                    "key_name": "articles_slug_unique",
+                    "seq_in_index": "1",
+                    "column_name": "slug",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "articles",
+                    "non_unique": "0",
+                    "key_name": "articles_legacy_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "legacy_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "articles",
+                    "non_unique": "1",
+                    "key_name": "articles_browse_index",
+                    "seq_in_index": "1",
+                    "column_name": "article_category_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "articles",
+                    "non_unique": "1",
+                    "key_name": "articles_browse_index",
+                    "seq_in_index": "2",
+                    "column_name": "status",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "articles",
+                    "non_unique": "1",
+                    "key_name": "articles_browse_index",
+                    "seq_in_index": "3",
+                    "column_name": "published_at",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "banners": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "legacy_source",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "legacy_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "name",
+                    "column_type": "varchar(255)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "image",
+                    "column_type": "varchar(500)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "link",
+                    "column_type": "varchar(2048)",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "position",
+                    "column_type": "varchar(50)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "category_id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "priority",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "sort_order",
+                    "column_type": "int(10) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": "0",
+                    "extra": ""
+                },
+                {
+                    "column_name": "status",
+                    "column_type": "varchar(16)",
+                    "is_nullable": "NO",
+                    "column_default": "'INACTIVE'",
+                    "extra": ""
+                },
+                {
+                    "column_name": "starts_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "ends_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [
+                {
+                    "column_name": "category_id",
+                    "referenced_table_name": "categories",
+                    "referenced_column_name": "id",
+                    "delete_rule": "RESTRICT"
+                }
+            ],
+            "indexes": [
+                {
+                    "table": "banners",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "banners",
+                    "non_unique": "0",
+                    "key_name": "banners_legacy_source_legacy_id_unique",
+                    "seq_in_index": "1",
+                    "column_name": "legacy_source",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "banners",
+                    "non_unique": "0",
+                    "key_name": "banners_legacy_source_legacy_id_unique",
+                    "seq_in_index": "2",
+                    "column_name": "legacy_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "banners",
+                    "non_unique": "1",
+                    "key_name": "banners_category_id_foreign",
+                    "seq_in_index": "1",
+                    "column_name": "category_id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "YES",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "banners",
+                    "non_unique": "1",
+                    "key_name": "banners_position_status_sort_order_index",
+                    "seq_in_index": "1",
+                    "column_name": "position",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "banners",
+                    "non_unique": "1",
+                    "key_name": "banners_position_status_sort_order_index",
+                    "seq_in_index": "2",
+                    "column_name": "status",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "banners",
+                    "non_unique": "1",
+                    "key_name": "banners_position_status_sort_order_index",
+                    "seq_in_index": "3",
+                    "column_name": "sort_order",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        },
+        "settings": {
+            "columns": [
+                {
+                    "column_name": "id",
+                    "column_type": "bigint(20) unsigned",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": "auto_increment"
+                },
+                {
+                    "column_name": "key",
+                    "column_type": "varchar(100)",
+                    "is_nullable": "NO",
+                    "column_default": null,
+                    "extra": ""
+                },
+                {
+                    "column_name": "value",
+                    "column_type": "longtext",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "created_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                },
+                {
+                    "column_name": "updated_at",
+                    "column_type": "timestamp",
+                    "is_nullable": "YES",
+                    "column_default": "NULL",
+                    "extra": ""
+                }
+            ],
+            "foreign_keys": [],
+            "indexes": [
+                {
+                    "table": "settings",
+                    "non_unique": "0",
+                    "key_name": "PRIMARY",
+                    "seq_in_index": "1",
+                    "column_name": "id",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                },
+                {
+                    "table": "settings",
+                    "non_unique": "0",
+                    "key_name": "settings_key_unique",
+                    "seq_in_index": "1",
+                    "column_name": "key",
+                    "collation": "A",
+                    "cardinality": "1",
+                    "sub_part": null,
+                    "packed": null,
+                    "null": "",
+                    "index_type": "BTREE",
+                    "comment": "",
+                    "index_comment": "",
+                    "ignored": "NO"
+                }
+            ]
+        }
+    }
+}

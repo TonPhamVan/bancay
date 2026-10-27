@@ -1,0 +1,25 @@
+{
+  "health": {
+    "status": 200,
+    "body": {
+      "status": "ok"
+    }
+  },
+  "unauthenticated_admin": {
+    "status": 200,
+    "final_path": "/admin/auth/login"
+  },
+  "missing_csrf": {
+    "status": 419
+  },
+  "login": {
+    "status": 200,
+    "final_path": "/admin",
+    "dashboard_bytes": 39022
+  },
+  "session_cookie": {
+    "http_only": true,
+    "same_site": "lax",
+    "secure": false
+  }
+}

@@ -1,0 +1,8 @@
+.git
+vendor
+node_modules
+backups
+legacy-private
+.env
+.env.*
+storage/logs

@@ -1,0 +1,5 @@
+{
+    "preset": "laravel",
+    "exclude": ["backups", "legacy-private", "resources/lang", "resources/views/vendor", "public", "vendor"],
+    "notPath": ["database/migrations/2016_01_04_173148_create_admin_tables.php"]
+}
