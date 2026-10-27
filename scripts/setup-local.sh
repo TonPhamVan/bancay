@@ -10,3 +10,4 @@ docker compose run --rm app php artisan store:install-local --no-interaction
 docker compose run --rm --env-from-file legacy-private/phase1/admin.env app php artisan store:initialize-local-admin --no-interaction
 docker compose run --rm app php artisan storage:link
 docker compose run --rm app php artisan store:configure-admin
+docker compose run --rm --no-deps assets

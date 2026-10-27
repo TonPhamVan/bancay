@@ -12,8 +12,12 @@ use App\Models\Inventory;
 use App\Models\Order;
 use App\Models\ProductVariant;
 use App\Services\InventoryService;
+use App\Services\Storefront\Cart;
+use App\Services\Storefront\Checkout;
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabaseState;
+use Illuminate\Session\ArraySessionHandler;
+use Illuminate\Session\Store;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 use Tests\TestCase;
@@ -50,6 +54,21 @@ final class StoreConcurrencyTest extends TestCase
             $this->assertSame(['ok', 'rejected'], $this->parallel(fn ($index) => app(CreateVariant::class)->execute($index === 0 ? $a : $b,
                 ['sku' => 'RACE-UNIQUE', 'pricing_type' => 'CONTACT', 'quantity' => 0])));
             $this->assertSame(1, ProductVariant::where('sku', 'RACE-UNIQUE')->count());
+
+            // Independent connections replay the same checkout, without the extra HTTP session lock.
+            $checkoutVariant = app(CreateVariant::class)->execute($make('checkout-race'),
+                ['sku' => 'RACE-CHECKOUT', 'pricing_type' => 'FIXED', 'price' => 45000, 'quantity' => 1]);
+            $session = new Store('checkout-race', new ArraySessionHandler(120), str_repeat('s', 40));
+            $session->start();
+            $cart = app(Cart::class);
+            $cart->set($session, $checkoutVariant->product_id, $checkoutVariant->id, 1);
+            $token = app(Checkout::class)->prepare($session, $cart->summary($session));
+            $checkoutInput = ['checkout_token' => $token, 'customer_name' => 'Concurrent guest synthetic', 'customer_phone' => '0900000000',
+                'shipping_address' => ['line1' => 'Synthetic concurrency address', 'country_code' => 'VN']];
+            $before = Order::count();
+            $this->assertSame(['ok', 'ok'], $this->parallel(fn () => app(Checkout::class)->place(clone $session, $checkoutInput)));
+            $this->assertSame($before + 1, Order::count());
+            $this->assertSame(1, $checkoutVariant->inventory()->firstOrFail()->reserved_quantity);
         } finally {
             // This suite owns the dedicated bancay_test database, with no enclosing transaction.
             $this->artisan('migrate:fresh');

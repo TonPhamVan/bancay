@@ -10,6 +10,7 @@ use App\Models\Customer;
 use App\Models\Order;
 use App\Models\ProductVariant;
 use App\Services\InventoryService;
+use App\Services\Storefront\Publication;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
@@ -44,11 +45,12 @@ final class CreateOrder
         ];
     }
 
-    public function execute(array $input, ?int $actorId = null, ?Customer $customer = null): Order
+    public function execute(array $input, ?int $actorId = null, ?Customer $customer = null, bool $storefront = false): Order
     {
         $data = Validator::make($input, self::rules())->validate();
 
-        return DB::transaction(function () use ($data, $actorId, $customer) {
+        return DB::transaction(function () use ($data, $actorId, $customer, $storefront) {
+            $visibleCategories = $storefront ? app(Publication::class)->categories()->keys()->all() : [];
             $lines = collect($data['items'])->sortBy('product_variant_id');
             $snapshots = [];
             $subtotal = 0;
@@ -58,6 +60,7 @@ final class CreateOrder
                 if (! $variant || $variant->status !== RecordStatus::Active
                     || ! $variant->product || $variant->product->status !== PublicationStatus::Published
                     || ! $variant->product->published_at || $variant->product->published_at->isFuture()
+                    || ($storefront && ! in_array($variant->product->category_id, $visibleCategories))
                     || $variant->effectivePrice() === null) {
                     throw ValidationException::withMessages(['items' => 'Variant is not available for ordering.']);
                 }

@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import "./fonts.css";
+@source "../views/layouts";
+@source "../views/components";
+@source "../views/home";
+@source "../views/products";
+@source "../views/cart";
+@source "../views/checkout";
+@source "../views/articles";
+@source "../views/errors";
+@theme {
+  --color-forest: #244735;
+  --color-forest-dark: #173426;
+  --color-sage: #eaf0e7;
+  --color-cream: #faf9f5;
+  --color-clay: #a84d32;
+  --font-sans: 'Segoe UI', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: 'Lora', Georgia, 'Times New Roman', serif;
+}
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-cream text-stone-800 font-sans antialiased; }
+  button, a, input, textarea, select { -webkit-tap-highlight-color: transparent; }
+  button { cursor: pointer; }
+  button:disabled { cursor: not-allowed; }
+  :focus-visible { outline: 3px solid #718d57; outline-offset: 4px; }
+  input, select, textarea { min-width: 0; }
+  [x-cloak] { display: none !important; }
+  summary { cursor: pointer; }
+}
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-[1280px] px-5 md:px-8; }
+  .eyebrow { @apply text-xs font-semibold tracking-[.18em] uppercase text-forest; }
+  .section-title { @apply font-display text-3xl leading-tight tracking-tight text-forest md:text-[40px]; }
+  .btn { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-forest px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-forest-dark disabled:bg-stone-200 disabled:text-stone-500; }
+  .btn-light { @apply bg-white text-forest hover:bg-sage; }
+  .btn-outline { @apply border border-forest bg-transparent text-forest hover:bg-sage; }
+  .field { @apply w-full rounded-md border border-stone-300 bg-white px-4 py-3 text-base outline-none focus:border-forest focus:ring-2 focus:ring-forest/15; }
+  .label { @apply mb-2 block text-sm font-medium; }
+  .card-grid { @apply grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 md:gap-x-6 lg:grid-cols-4; }
+  .section { @apply py-12 md:py-18; }
+  .section-head { @apply mb-7 flex flex-wrap items-end justify-between gap-4; }
+  .text-link { @apply inline-flex items-center gap-2 border-b border-forest/35 pb-1 text-sm font-medium text-forest hover:border-forest; }
+  .panel { @apply rounded-lg border border-stone-200 bg-white p-5 md:p-7; }
+  .article-body { @apply text-base leading-8 text-stone-600; }
+  .article-body h2 { @apply mt-9 mb-4 font-display text-3xl text-forest; }
+  .article-body h3 { @apply mt-7 mb-3 text-xl font-semibold text-forest; }
+  .article-body p { @apply mb-5; }
+  .article-body a { @apply text-forest underline; }
+  .article-body ul { @apply mb-5 list-disc pl-5; }
+  .article-body ol { @apply mb-5 list-decimal pl-5; }
+  .article-body img { @apply my-6 h-auto max-w-full rounded-md; }
+  .article-body table { @apply block max-w-full overflow-x-auto; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }

@@ -1,0 +1,11 @@
+{
+  "php": "8.3.36",
+  "laravel": "10.50.4",
+  "exment": "v6.2.15",
+  "database_server": "10.11.19-MariaDB-ubu2204",
+  "debug": false,
+  "session_driver": "file",
+  "cache_driver": "file",
+  "indexable": false,
+  "gd_webp": true
+}

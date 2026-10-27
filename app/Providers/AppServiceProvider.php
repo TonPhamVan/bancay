@@ -5,6 +5,7 @@ namespace App\Providers;
 use App\Exceptions\Handler;
 use App\Http\Middleware\AdminOperationLog;
 use App\Http\Middleware\StoreAdminGuard;
+use App\Services\Storefront\Catalog;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\ServiceProvider;
 
@@ -15,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->scoped(Catalog::class);
     }
 
     /**

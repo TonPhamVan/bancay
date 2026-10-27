@@ -1,0 +1,6 @@
+{
+  "tests": 5,
+  "exit_code": 0,
+  "runner": "Node --test",
+  "result": "PASS"
+}

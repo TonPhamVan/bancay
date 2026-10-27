@@ -14,8 +14,9 @@ class Handler extends ExceptionHandler
     {
         // Exment v6 renders some web errors with HTTP 200. Native store adapters need
         // Laravel's real 403/404/405/419/422 responses and validation error bags.
-        if ($request->is(trim(config('admin.route.prefix'), '/').'/plugins/bancay_*',
-            trim(config('admin.route.prefix'), '/').'/plugins/bancay_*/*')
+        if (! $request->is(trim(config('admin.route.prefix'), '/'), trim(config('admin.route.prefix'), '/').'/*')
+            || $request->is(trim(config('admin.route.prefix'), '/').'/plugins/bancay_*',
+                trim(config('admin.route.prefix'), '/').'/plugins/bancay_*/*')
             || $exception instanceof AuthorizationException
             || ($exception instanceof HttpExceptionInterface && $exception->getStatusCode() === 403)) {
             return (new LaravelHandler(app()))->render($request, $exception);

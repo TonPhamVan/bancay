@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "pint",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.32,
+      "result": "PASS"
+    },
+    {
+      "name": "php-tests",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 28.83,
+      "result": "PASS"
+    },
+    {
+      "name": "blade-compile",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.42,
+      "result": "PASS"
+    },
+    {
+      "name": "composer-validate",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.27,
+      "result": "PASS"
+    },
+    {
+      "name": "platform",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.22,
+      "result": "PASS"
+    },
+    {
+      "name": "exment-requirements",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.35,
+      "result": "PASS"
+    },
+    {
+      "name": "npm-ci",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 10.23,
+      "result": "PASS"
+    },
+    {
+      "name": "js-tests",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.95,
+      "result": "PASS"
+    },
+    {
+      "name": "assets-build",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 1.45,
+      "result": "PASS"
+    },
+    {
+      "name": "npm-audit",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 1.36,
+      "result": "PASS"
+    },
+    {
+      "name": "composer-audit",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "seconds": 1.0,
+      "result": "KNOWN FAIL — PRODUCTION BLOCKED"
+    },
+    {
+      "name": "git-whitespace",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.0,
+      "result": "PASS"
+    },
+    {
+      "name": "historic-evidence-preserved",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "seconds": 0.0,
+      "result": "PASS"
+    }
+  ],
+  "master_plan_byte_preserved": true,
+  "public_blade_has_no_db_queries": true,
+  "http_checks_pass": true,
+  "domain_schema_unchanged": true,
+  "production": "BLOCKED — Exment v6/Laravel10 dependency advisories remain",
+  "limits": [
+    "Synthetic local only",
+    "Chrome/Edge/device Safari matrix not connected",
+    "No production import/traffic/SMTP/shipping/payment test"
+  ]
+}

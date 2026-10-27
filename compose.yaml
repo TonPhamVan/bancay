@@ -33,5 +33,15 @@ services:
       timeout: 5s
       retries: 30
     # No database port is published to the host.
+  assets:
+    image: node:24-bookworm-slim
+    profiles: ["tools"]
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    environment:
+      npm_config_cache: /tmp/npm-cache
+    command: ["sh", "-c", "npm ci && npm run build"]
 volumes:
   bancay_database:

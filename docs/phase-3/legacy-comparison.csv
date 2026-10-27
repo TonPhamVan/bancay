@@ -1,0 +1,23 @@
+Legacy Feature,New Feature,Status,Behavior Changed?,Reason
+Public homepage,Blade hero/categories/featured/latest/articles,REBUILT,No,Single store homepage preserved with current publication scopes
+Product detail gallery,Storage gallery and Alpine thumbnails,REBUILT,No,Public storage fallback and variant image switching
+Variant JSON combination,Relational variant ID and option values,CHANGED IMPLEMENTATION,Yes,Globally unique SKU and server ownership validation replace ambiguous browser text
+Price from browser,Current server price and immutable snapshot,BUSINESS RULE CHANGE,Yes,Reject price tampering and require review if quote changes
+Contact pricing,CONTACT visible without cart/zero-price offer,PRESERVED,No,Contact remains consultation only
+Category direct children,All visible descendants,BUSINESS RULE CHANGE,Yes,Complete hierarchy browsing with hidden ancestor protection
+Keyword product search,Bound name and ACTIVE SKU search,REBUILT,Yes,Escape wildcard and validate length while supporting SKU
+Legacy page zero based,New page one based,BUSINESS RULE CHANGE,Yes,Translate old product-list paging; entity category query mapping deferred to Phase5
+Legacy popularity ordering,Featured then newest default,BUSINESS RULE CHANGE,Yes,No migrated/validated popularity metric in current schema
+Cookie/client cart,Server session cart,BUSINESS RULE CHANGE,Yes,No client-authoritative prices; current stock checked each request
+Buy Now,Add selected variant then checkout with existing cart,REBUILT,Yes,One shared cart and order path; existing cart items retained
+Boolean order status,NEW workflow and append-only history,BUSINESS RULE CHANGE,Yes,Policy from Phase1/2 replaces ambiguous toggle
+Repeated order submit,Database attempt token and row lock,BUSINESS RULE CHANGE,Yes,One committed order per session-bound attempt
+Order result page,Exact session-owned order number,REBUILT,Yes,Prevent order ID enumeration and cross-session PII
+Article/category pages,Published past content with ancestor visibility,REBUILT,No,Preserve article purpose while sanitizing editor HTML
+Contact data,Settings whitelist and safe map/social links,REBUILT,No,No invented contact details or executable map HTML
+Banner schedules,Eligible first hero and optional secondary banners,REBUILT,Yes,Schedule/status/position/scope enforced; no carousel/popup marketing
+SEO ID alias URLs,Generic legacy_id resolver to unique slug,FOUNDATION,Yes,301 only for published mapped entities; no full import or blanket home redirect
+Legacy upload paths,Validated Laravel public storage,FOUNDATION,Yes,Exact legacy media mapping deferred to Phase5
+Untrusted rich HTML,Purifier and escaped plain fields,CHANGED IMPLEMENTATION,Yes,Remove executable content
+Guest order lookup,Backlog with privacy/verification design,DEFERRED,Yes,Session success implemented; no lookup by bare order ID
+Accounts/vouchers/reviews/payments/shipping APIs,Later phases,NOT APPLICABLE,No,Explicitly outside Phase3 scope

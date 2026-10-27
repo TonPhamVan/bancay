@@ -1,0 +1,2 @@
+@if(session('store_notice'))<div role="status" class="wrap mt-5"><p class="rounded-lg bg-sage px-5 py-4 text-sm text-forest">{{ session('store_notice') }}</p></div>@endif
+@if($errors->any())<div class="wrap mt-5"><div role="alert" class="rounded-lg border border-red-200 bg-red-50 p-5 text-sm text-red-900"><p class="font-semibold">Vui lòng kiểm tra lại thông tin</p><ul class="mt-2 list-disc pl-5 space-y-1">@foreach($errors->all() as $error)<li>{{ $error }}</li>@endforeach</ul></div></div>@endif

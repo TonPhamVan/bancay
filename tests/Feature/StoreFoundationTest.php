@@ -60,12 +60,12 @@ class StoreFoundationTest extends TestCase
         ];
     }
 
-    public function test_health_and_exment_routes_are_registered_without_storefront(): void
+    public function test_health_exment_and_phase3_storefront_routes_are_registered(): void
     {
         $this->getJson('/health')->assertOk()->assertExactJson(['status' => 'ok']);
         $this->assertTrue(app('router')->getRoutes()->hasNamedRoute('health'));
         $this->assertTrue(collect(app('router')->getRoutes())->contains(fn ($r) => str_starts_with($r->uri(), 'admin/')));
-        $this->get('/')->assertNotFound();
+        $this->get('/')->assertOk();
     }
 
     public function test_synthetic_seed_builds_relationships_and_is_idempotent(): void

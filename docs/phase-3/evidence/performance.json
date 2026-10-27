@@ -1,0 +1,8 @@
+{
+    "database": "bancay_test",
+    "products_1_queries": 9,
+    "products_21_queries": 9,
+    "cart_21_lines_queries": 8,
+    "method": "Real HTTP kernel + Blade render, real MariaDB, no mocked queries",
+    "limits": "Small synthetic fixtures; not a production load or latency benchmark."
+}

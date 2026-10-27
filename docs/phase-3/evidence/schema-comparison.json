@@ -1,0 +1,15 @@
+{
+  "domain_tables_checked": 17,
+  "structural_changes": [],
+  "added_technical_table": "checkout_attempts",
+  "technical_columns": [
+    "id",
+    "token_hash",
+    "owner_hash",
+    "quote_hash",
+    "order_id",
+    "created_at",
+    "updated_at"
+  ],
+  "database": "bancay"
+}

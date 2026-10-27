@@ -1,0 +1,1793 @@
+{
+  "date": "2026-10-28",
+  "checks_total": 446,
+  "checks_passed": 446,
+  "local_document_links": 77,
+  "checks": [
+    {
+      "check": "source:.env.example",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Actions/Catalog/CreateProduct.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Actions/Catalog/CreateVariant.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Actions/Commerce/ChangeOrderStatus.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Actions/Commerce/CreateOrder.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Actions/System/SetPublicSetting.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Admin/StoreController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Admin/StorePage.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Admin/StoreResources.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Admin/bootstrap.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Admin/routes.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Console/Commands/ConfigureStoreAdmin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Console/Commands/InitializeLocalAdmin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Console/Commands/InstallLocalFoundation.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Console/Kernel.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Domain/Catalog/PricingType.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Domain/Catalog/PublicationStatus.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Domain/Catalog/RecordStatus.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Domain/Commerce/Money.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Domain/Commerce/OrderStatus.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Exceptions/Handler.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Exment/bootstrap.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Controllers/Controller.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Controllers/Frontend/ArticleController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Controllers/Frontend/CartController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Controllers/Frontend/CatalogController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Controllers/Frontend/CheckoutController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Controllers/Frontend/ContactController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Controllers/Frontend/LegacyRedirectController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Kernel.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/AdminOperationLog.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/Authenticate.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/EncryptCookies.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/PreventRequestsDuringMaintenance.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/RedirectIfAuthenticated.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/StoreAdminGuard.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/StorefrontContext.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/TrimStrings.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/TrustHosts.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/TrustProxies.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/ValidateSignature.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Middleware/VerifyCsrfToken.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Requests/ChangeOrderStatusRequest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Requests/StoreOrderRequest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Requests/StoreProductRequest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Requests/Storefront/CartRequest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Http/Requests/Storefront/CheckoutRequest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/Article.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/ArticleCategory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/Banner.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/Category.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/CheckoutAttempt.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/Customer.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/CustomerAddress.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/Inventory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/Order.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/OrderItem.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/OrderStatusHistory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/Product.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/ProductImage.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/ProductOption.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/ProductOptionValue.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/ProductVariant.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/ProductVariantValue.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Models/Setting.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Providers/AppServiceProvider.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Providers/AuthServiceProvider.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Providers/BroadcastServiceProvider.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Providers/EventServiceProvider.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Providers/RouteServiceProvider.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Rules/DatabaseTimestamp.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Rules/PublicImagePath.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/CatalogEditor.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/CustomerAddresses.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/ImageStorage.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/ProductImages.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/RecordEditor.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/SettingsEditor.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/StockAdjustment.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/StoreAccess.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Admin/StoreQueries.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/CategoryTreeService.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/InventoryService.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Storefront/Cart.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Storefront/Catalog.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Storefront/Checkout.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Storefront/Presentation.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Storefront/Publication.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Services/Storefront/Seo.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:app/Support/IntegerDisplay.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:compose.yaml",
+      "result": "PASS"
+    },
+    {
+      "check": "source:composer.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:composer.lock",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/admin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/app.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/auth.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/broadcasting.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/cache.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/cors.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/database.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/exment.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/filesystems.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/hashing.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/logging.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/mail.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/queue.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/services.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/session.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/storefront.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/view.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:config/website.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/.gitignore",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/factories/ArticleCategoryFactory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/factories/ArticleFactory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/factories/BannerFactory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/factories/CategoryFactory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/factories/CustomerFactory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/factories/ProductFactory.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/migrations/2016_01_04_173148_create_admin_tables.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/migrations/2019_08_19_000000_create_failed_jobs_table.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/migrations/2026_10_27_000001_create_store_domain_tables.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/migrations/2026_10_28_000001_create_checkout_attempts_table.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/seeders/AdminDemoSeeder.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/seeders/DatabaseSeeder.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/seeders/DemoDataSeeder.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:database/seeders/StorefrontDemoSeeder.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:docker/php/Dockerfile",
+      "result": "PASS"
+    },
+    {
+      "check": "source:docker/php/local.ini",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayCatalog/Plugin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayCatalog/config.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayContent/Plugin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayContent/config.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayCustomers/Plugin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayCustomers/config.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayDashboard/Plugin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayDashboard/config.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayOrders/Plugin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancayOrders/config.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancaySettings/Plugin.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:exment-plugins/BancaySettings/config.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:package-lock.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:package.json",
+      "result": "PASS"
+    },
+    {
+      "check": "source:public/storefront/Lora-OFL.txt",
+      "result": "PASS"
+    },
+    {
+      "check": "source:public/storefront/fallback.svg",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/css/fonts.css",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/css/store.css",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/demo-images/hero.webp",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/demo-images/monstera.webp",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/demo-images/zz.webp",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/fonts/OFL.txt",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/fonts/SOURCE.md",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/fonts/lora-italic-latin.woff2",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/fonts/lora-italic-vietnamese.woff2",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/fonts/lora-normal-latin.woff2",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/fonts/lora-normal-vietnamese.woff2",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/js/product-picker.js",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/js/store.js",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/address-form.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/customer.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/dashboard.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/detail.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/form.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/inventory.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/list.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/order.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/product.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/remove.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/settings.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/shell.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/admin/store/variant-form.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/articles/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/articles/show.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/cart/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/checkout/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/checkout/success.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/components/store/alerts.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/components/store/article-card.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/components/store/breadcrumb.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/components/store/icon.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/components/store/input.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/components/store/price.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/components/store/product-card.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/errors/404.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/errors/500.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/home/contact.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/home/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/layouts/store.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/products/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:resources/views/products/show.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:routes/api.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:routes/channels.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:routes/console.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:routes/web.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:scripts/phase3/collect_evidence.py",
+      "result": "PASS"
+    },
+    {
+      "check": "source:scripts/phase3/verify_artifacts.py",
+      "result": "PASS"
+    },
+    {
+      "check": "source:scripts/setup-local.sh",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/CreatesApplication.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/Feature/MigrationLifecycleTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/Feature/StoreAdminTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/Feature/StoreConcurrencyTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/Feature/StoreFoundationTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/Feature/StorefrontTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/Support/ExmentAdminTestCase.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/TestCase.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/Unit/MoneyTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "source:tests/js/product-picker.test.js",
+      "result": "PASS"
+    },
+    {
+      "check": "source:vite.config.js",
+      "result": "PASS"
+    },
+    {
+      "check": "master_plan_original_bytes",
+      "result": "PASS"
+    },
+    {
+      "check": "phase3_request_original_bytes",
+      "result": "PASS"
+    },
+    {
+      "check": "96_php_tests_no_fail_skip",
+      "result": "PASS"
+    },
+    {
+      "check": "node_tests",
+      "result": "PASS"
+    },
+    {
+      "check": "domain_schema_unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "one_technical_table",
+      "result": "PASS"
+    },
+    {
+      "check": "npm_audit_zero",
+      "result": "PASS"
+    },
+    {
+      "check": "known_composer_findings_recorded",
+      "result": "PASS"
+    },
+    {
+      "check": "production_still_blocked",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:pint",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:php-tests",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:blade-compile",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:composer-validate",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:platform",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:exment-requirements",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:npm-ci",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:js-tests",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:assets-build",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:npm-audit",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:composer-audit",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:git-whitespace",
+      "result": "PASS"
+    },
+    {
+      "check": "execution:historic-evidence-preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/san-pham",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/danh-muc/cay-trong-nha-demo",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/tim-kiem?q=Monstera",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/san-pham/monstera-chau-dat-nung-demo",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/gio-hang",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/bai-viet",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/bai-viet/lang-nghe-chiec-la-demo",
+      "result": "PASS"
+    },
+    {
+      "check": "http:/lien-he",
+      "result": "PASS"
+    },
+    {
+      "check": "http:fresh_guest_order_IDOR_denied",
+      "result": "PASS"
+    },
+    {
+      "check": "http:fresh_guest_order_IDOR_denied",
+      "result": "PASS"
+    },
+    {
+      "check": "http:unpublished_product_hidden",
+      "result": "PASS"
+    },
+    {
+      "check": "http:cart_missing_csrf",
+      "result": "PASS"
+    },
+    {
+      "check": "http:checkout_missing_csrf",
+      "result": "PASS"
+    },
+    {
+      "check": "http:native_admin_dashboard_after_frontend",
+      "result": "PASS"
+    },
+    {
+      "check": "http:native_admin_products_after_frontend",
+      "result": "PASS"
+    },
+    {
+      "check": "http:native_admin_orders_after_frontend",
+      "result": "PASS"
+    },
+    {
+      "check": "http:native_admin_can_read_synthetic_frontend_order",
+      "result": "PASS"
+    },
+    {
+      "check": "http:admin_session_does_not_bypass_public_order_grant",
+      "result": "PASS"
+    },
+    {
+      "check": "http:native_admin_can_read_synthetic_frontend_order",
+      "result": "PASS"
+    },
+    {
+      "check": "http:admin_session_does_not_bypass_public_order_grant",
+      "result": "PASS"
+    },
+    {
+      "check": "browser_console_clean",
+      "result": "PASS"
+    },
+    {
+      "check": "desktop_core_ui",
+      "result": "PASS"
+    },
+    {
+      "check": "mobile_core_ui",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:home-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:category-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:product-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:cart-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:checkout-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:success-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:search-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:article-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:home-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:category-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:product-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:cart-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:checkout-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:success-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:search-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:article-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:home-320.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:category-tablet.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:checkout-tablet.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:home-desktop-viewport.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:home-320.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:product-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "ui_evidence:checkout-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "legacy_comparison_22_rows_5_fields",
+      "result": "PASS"
+    },
+    {
+      "check": "report_26_required_sections",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/architecture.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/phase-3/evidence/composer-audit.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/master-plan.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/phase-0.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/phase-1-report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/phase-2-report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/phase-3-report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/frontend-architecture.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/frontend-routes.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/cart-checkout.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/seo-frontend.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/exment-admin.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/product-management.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/order-workflow.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/permissions.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/architecture.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/database-design.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/exment-mapping.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/legacy-mapping.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→AGENTS.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:README.md→docs/phase-3/evidence/verification.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/frontend-architecture.md→phase-3/request.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/frontend-architecture.md→phase-3-report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/frontend-architecture.md→phase-3/image-provenance.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/frontend-architecture.md→phase-3/architecture-change-proposal.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/frontend-architecture.md→cart-checkout.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/frontend-routes.md→phase-3/evidence/routes.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/cart-checkout.md→phase-3/architecture-change-proposal.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/cart-checkout.md→phase-3/evidence/schema-comparison.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/seo-frontend.md→phase-0/seo.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/seo-frontend.md→phase-3/evidence/verification.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/request.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→master-plan.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-0.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-1-report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-2-report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→database-design.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-0/business-rules.csv",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→product-management.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→order-workflow.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-0/seo.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→frontend-architecture.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/architecture-change-proposal.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→frontend-routes.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/routes.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/home-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/home-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/category-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/category-tablet.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/search-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/product-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/product-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→cart-checkout.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/cart-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/cart-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/checkout-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/checkout-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/synthetic-ui-orders.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/success-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/success-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/article-desktop.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/article-mobile.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→seo-frontend.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/home-320.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/checkout-tablet.jpg",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/composer-audit.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/npm-audit.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/performance.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/tests.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/js-tests.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/verification.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/ui-tests.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/ui-tests.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/verification.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/image-provenance.md",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/evidence/artifact-verification.json",
+      "result": "PASS"
+    },
+    {
+      "check": "doc_link:docs/phase-3-report.md→phase-3/legacy-comparison.csv",
+      "result": "PASS"
+    },
+    {
+      "check": "private_inputs_not_versioned",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:.env.example",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:.gitattributes",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:AGENTS.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:README.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Actions/Commerce/CreateOrder.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Exceptions/Handler.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Controllers/Frontend/ArticleController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Controllers/Frontend/CartController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Controllers/Frontend/CatalogController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Controllers/Frontend/CheckoutController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Controllers/Frontend/ContactController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Controllers/Frontend/LegacyRedirectController.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Middleware/StorefrontContext.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Requests/Storefront/CartRequest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Http/Requests/Storefront/CheckoutRequest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Models/CheckoutAttempt.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Providers/AppServiceProvider.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Services/Storefront/Cart.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Services/Storefront/Catalog.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Services/Storefront/Checkout.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Services/Storefront/Presentation.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Services/Storefront/Publication.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:app/Services/Storefront/Seo.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:compose.yaml",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:config/storefront.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:database/migrations/2026_10_28_000001_create_checkout_attempts_table.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:database/seeders/StorefrontDemoSeeder.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/cart-checkout.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/frontend-architecture.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/frontend-routes.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3-report.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/architecture-change-proposal.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/artifact-manifest.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/artifact-verification.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/composer-audit.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/http-smoke.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/js-tests.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/npm-audit.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/performance.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/routes.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/runtime.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/schema-comparison.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/source-manifest.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/synthetic-ui-orders.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/tests.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/ui-tests.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/evidence/verification.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/image-provenance.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/legacy-comparison.csv",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/phase-3/request.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:docs/seo-frontend.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:package-lock.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:package.json",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:public/storefront/Lora-OFL.txt",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:public/storefront/fallback.svg",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/css/fonts.css",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/css/store.css",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/fonts/OFL.txt",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/fonts/SOURCE.md",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/js/product-picker.js",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/js/store.js",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/articles/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/articles/show.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/cart/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/checkout/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/checkout/success.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/components/store/alerts.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/components/store/article-card.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/components/store/breadcrumb.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/components/store/icon.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/components/store/input.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/components/store/price.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/components/store/product-card.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/errors/404.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/errors/500.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/home/contact.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/home/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/layouts/store.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/products/index.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:resources/views/products/show.blade.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:routes/web.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:scripts/phase3/collect_evidence.py",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:scripts/phase3/verify_artifacts.py",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:scripts/setup-local.sh",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:tests/Feature/StoreConcurrencyTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:tests/Feature/StoreFoundationTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:tests/Feature/StorefrontTest.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:tests/TestCase.php",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:tests/js/product-picker.test.js",
+      "result": "PASS"
+    },
+    {
+      "check": "secret_hygiene:vite.config.js",
+      "result": "PASS"
+    }
+  ],
+  "limits": "Static integrity/basic token patterns and selected synthetic evidence; not a penetration test or exhaustive PII scanner."
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "method": "GET|HEAD",
+    "uri": "health",
+    "name": "health",
+    "middleware": [
+      "web"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "/",
+    "name": "store.home",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "san-pham",
+    "name": "store.products.index",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "san-pham/{slug}",
+    "name": "store.products.show",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "danh-muc/{slug}",
+    "name": "store.categories.show",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "tim-kiem",
+    "name": "store.search",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "bai-viet",
+    "name": "store.articles.index",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "bai-viet/{slug}",
+    "name": "store.articles.show",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "chuyen-muc/{slug}",
+    "name": "store.article-categories.show",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "lien-he",
+    "name": "store.contact",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "gio-hang",
+    "name": "store.cart.index",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": 15,
+    "session_lock_wait_seconds": 10
+  },
+  {
+    "method": "POST",
+    "uri": "gio-hang",
+    "name": "store.cart.store",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext",
+      "throttle:60,1"
+    ],
+    "session_lock_seconds": 15,
+    "session_lock_wait_seconds": 10
+  },
+  {
+    "method": "PATCH",
+    "uri": "gio-hang/{variant}",
+    "name": "store.cart.update",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext",
+      "throttle:60,1"
+    ],
+    "session_lock_seconds": 15,
+    "session_lock_wait_seconds": 10
+  },
+  {
+    "method": "DELETE",
+    "uri": "gio-hang/{variant}",
+    "name": "store.cart.destroy",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": 15,
+    "session_lock_wait_seconds": 10
+  },
+  {
+    "method": "DELETE",
+    "uri": "gio-hang",
+    "name": "store.cart.clear",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": 15,
+    "session_lock_wait_seconds": 10
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "thanh-toan",
+    "name": "store.checkout.index",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": 15,
+    "session_lock_wait_seconds": 10
+  },
+  {
+    "method": "POST",
+    "uri": "thanh-toan",
+    "name": "store.checkout.store",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext",
+      "throttle:10,1"
+    ],
+    "session_lock_seconds": 15,
+    "session_lock_wait_seconds": 10
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "don-hang/{number}",
+    "name": "store.orders.show",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": 15,
+    "session_lock_wait_seconds": 10
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "tat-ca-san-pham",
+    "name": "store.legacy.listing",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  },
+  {
+    "method": "GET|HEAD",
+    "uri": "{legacy}",
+    "name": "store.legacy.entity",
+    "middleware": [
+      "web",
+      "App\\Http\\Middleware\\StorefrontContext"
+    ],
+    "session_lock_seconds": null,
+    "session_lock_wait_seconds": null
+  }
+]

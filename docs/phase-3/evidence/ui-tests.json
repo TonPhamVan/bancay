@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-28",
+  "browser": "ChatGPT in-app browser",
+  "flows": [
+    {
+      "flow": "desktop-home",
+      "viewport": "1440x900",
+      "result": "PASS",
+      "evidence": "home-desktop.jpg"
+    },
+    {
+      "flow": "desktop-category",
+      "result": "PASS",
+      "details": "Parent category includes 3 products in 2 visible child categories",
+      "evidence": "category-desktop.jpg"
+    },
+    {
+      "flow": "desktop-variant-and-gallery",
+      "result": "PASS",
+      "details": "SKU/price/image change; CONTACT and out-of-stock disable Add/Buy; quantity + works",
+      "evidence": "product-desktop.jpg"
+    },
+    {
+      "flow": "desktop-cart-checkout-success",
+      "result": "PASS",
+      "order": "BC-01M5ZS9CFET2660WBGW070Z745",
+      "quantity": 3,
+      "total": 777000,
+      "evidence": [
+        "cart-desktop.jpg",
+        "checkout-desktop.jpg",
+        "success-desktop.jpg"
+      ]
+    },
+    {
+      "flow": "desktop-search-article",
+      "result": "PASS",
+      "details": "Active SKU gives 1 result; article list and detail render safely",
+      "evidence": [
+        "search-desktop.jpg",
+        "article-desktop.jpg"
+      ]
+    },
+    {
+      "flow": "mobile-full-core-flow",
+      "viewport": "390x844",
+      "result": "PASS",
+      "order": "BC-01M5ZSCDQM67YAH2REFEHJJV41",
+      "quantity": 2,
+      "total": 440000,
+      "evidence": [
+        "home-mobile.jpg",
+        "category-mobile.jpg",
+        "product-mobile.jpg",
+        "cart-mobile.jpg",
+        "checkout-mobile.jpg",
+        "success-mobile.jpg"
+      ]
+    },
+    {
+      "flow": "mobile-search-articles-contact",
+      "result": "PASS",
+      "details": "Name search 2 results; article category/detail; settings-driven empty contact safely rendered",
+      "evidence": [
+        "search-mobile.jpg",
+        "article-mobile.jpg"
+      ]
+    },
+    {
+      "flow": "narrow-home",
+      "viewport": "320x740",
+      "result": "PASS",
+      "details": "Header adjusted after a 5px overflow finding; scrollWidth equals clientWidth",
+      "evidence": "home-320.jpg"
+    },
+    {
+      "flow": "tablet-category",
+      "viewport": "768x1024",
+      "result": "PASS",
+      "evidence": "category-tablet.jpg"
+    },
+    {
+      "flow": "tablet-buy-now-mobile-clear",
+      "result": "PASS",
+      "viewports": [
+        "768x1024",
+        "360x800"
+      ],
+      "details": "Buy Now reuses cart then checkout; no horizontal overflow; Clear Cart reaches empty state",
+      "evidence": "checkout-tablet.jpg"
+    },
+    {
+      "flow": "final-font-layout-verification",
+      "result": "PASS",
+      "details": "Self-hosted Lora Latin/Vietnamese WOFF2 loaded; 320px home, 360px checkout, 390px product/cart/checkout, 768px tablet and 1440px desktop checked after typography update; thumbnail click switches image; no new orders placed",
+      "evidence": [
+        "home-desktop-viewport.jpg",
+        "home-320.jpg",
+        "product-mobile.jpg",
+        "checkout-mobile.jpg"
+      ]
+    }
+  ],
+  "console": {
+    "error_warning_count": 0,
+    "entries": []
+  },
+  "cross_browser": {
+    "iab_desktop": "PASS",
+    "iab_responsive_viewport": "PASS",
+    "chrome_desktop": "NOT TESTED - no connected Chrome browser provider",
+    "edge_desktop": "NOT TESTED - no connected Edge browser provider",
+    "mobile_chrome": "NOT TESTED - no actual Android browser/device",
+    "safari_ios": "NOT TESTED - no Apple browser/device"
+  },
+  "findings_fixed": [
+    "5px horizontal overflow at320px: responsive header sizing/hit areas",
+    "Multiline card title click hit area: block anchor",
+    "Sort submit button wrapping: fixed control width/no-wrap",
+    "Vietnamese serif fallback spacing: self-hosted Lora Latin/Vietnamese with OFL license"
+  ],
+  "limitations": [
+    "Viewport emulation is not a real mobile browser test",
+    "All names, contacts, addresses, products and orders shown are synthetic local fixtures",
+    "No payments, SMTP or shipping fulfillment executed"
+  ]
+}
