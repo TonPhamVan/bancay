@@ -1,0 +1,33 @@
+rule_id,legacy_behavior,classification,phase_2_behavior_and_reason,migration_or_user_impact
+BR01,Public catalog requires status1,PRESERVED,Publication status and publish time are editable and validated.,Phase 3 must reuse published scope.
+BR02,Category browsing includes self and immediate children,NOT APPLICABLE,Category tree and circular-parent guard implemented; public descendant browsing belongs to Phase 3.,Keep category identities for migration.
+BR03,Product list priority VIP then newest ID,NOT APPLICABLE,Admin has explicit sort; public featured/newest ordering belongs to Phase 3.,Keep featured mapping.
+BR04,Search title contains keyword,CHANGED,BUSINESS RULE CHANGE: substring search uses parameter binding and wildcard escaping.,Preserve user search intent; no raw SQL.
+BR05,Products page size24 and zero-based query page,NOT APPLICABLE,Admin pagination is 25; old public pagination/redirect rules belong to Phase 3/4.,No legacy URL changed.
+BR06,Article list size15 and newest ID first,NOT APPLICABLE,Article admin paging is separate from public article listing.,Keep public SEO mapping.
+BR07,Homepage popular products based on view DESC limit8,NOT APPLICABLE,Homepage popularity not built.,No invented sales/popularity ranking.
+BR08,Featured category block driven by category VIP,PRESERVED,Category featured and product featured can be managed.,Frontend placement deferred.
+BR09,Compare price=giale and displayed selling price=giaban,CHANGED,"BUSINESS RULE CHANGE: normalized SKU FIXED/CONTACT pricing, optional sale price.",Transform old giale/giaban per Phase 1 mapping; never copy blindly.
+BR10,Discount percentage rounded to one decimal,NOT APPLICABLE,No public discount badge in this phase.,Frontend calculates only positive valid discount.
+BR11,Zero price list renders contact text,PRESERVED,CONTACT has null prices; cannot create free checkout.,Zero/unknown legacy pricing requires mapping review.
+BR12,Stock label uses product sl==0,CHANGED,BUSINESS RULE CHANGE: row-locked physical/reserved/available stock; adjustments validated.,Do not trust legacy stock labels for cutover reconciliation.
+BR13,Variant JSON arrays align by index,CHANGED,BUSINESS RULE CHANGE: relational option/value/variant/inventory rows.,Normalize aligned arrays and retain legacy metadata later.
+BR14,Maximum two option groups in admin JavaScript,CHANGED,BUSINESS RULE CHANGE: up to ten configurable option groups; bounded generator.,Existing one/two groups supported; no hard-coded labels.
+BR15,Cartesian product regenerated from option values,CHANGED,BUSINESS RULE CHANGE: generate missing combinations only; preserve IDs/SKU/price/stock.,Referenced values and group structure cannot be destructively rewritten.
+BR16,Base SKU applies same value to every variant,DROPPED,BUSINESS RULE CHANGE: shared base SKU across variants forbidden; global unique SKU.,Keep legacy_sku separately in Phase 4; resolve duplicates.
+BR17,Variant selected by exact pair not SKU,PRESERVED,One value per product-owned option and unique combination.,Public selection endpoint deferred.
+BR18,Variant prices overwrite hidden order field via AJAX,DROPPED,BUSINESS RULE CHANGE: order domain uses authoritative server pricing; admin cannot edit totals.,Legacy snapshots stay archival; no repricing historical orders.
+BR19,Product gallery stored in order; variant images appended,CHANGED,"BUSINESS RULE CHANGE: ordered gallery and owned SKU image via public storage, validated/re-encoded uploads.",Legacy file/path transform later; do not delete unreferenced archive files.
+BR20,Slug fallback transliterates Vietnamese imperfectly,CHANGED,BUSINESS RULE CHANGE: normalized unique slug generator; admin can choose slug.,"Preserve exact old URL redirects during import, no URLs changed now."
+BR21,SEO fallback for product fields,PRESERVED,Explicit product SEO fields and site default SEO settings editable.,Public fallback chain belongs to Phase 3.
+BR22,One POST creates one order row with submitted snapshot,CHANGED,BUSINESS RULE CHANGE: Order plus immutable multi-item snapshots/history.,Legacy one-row requests use separate historical import path.
+BR23,Legacy order status toggles0and1,CHANGED,"BUSINESS RULE CHANGE: enum transitions, row lock, actor/time/note and expected status.",Legacy 0 NEW / 1 CONFIRMED remains proposed import policy.
+BR24,Line total calculated from stored unit price times quantity,PRESERVED,Stored integer unit price times quantity and immutable order totals/items.,"Invalid old quantities/prices remain quarantine inputs, not live order updates."
+BR25,Article views debounced by20minute cookie,NOT APPLICABLE,No public article-view/cookie handler in Phase 2.,View_count is not fabricated in admin.
+BR26,Popup hidden for365days,NOT APPLICABLE,Popup position metadata supported; dismissal cookie UX not built.,Frontend UX decision later.
+BR27,Banner placement filters a0/a1/a4,PRESERVED,Unified Banner/Slider has configured positions/category scope/priority/sort/schedule.,Map a0/a1/a4 to approved positions during import.
+BR28,Admin role guard admits1or3or5,DROPPED,BUSINESS RULE CHANGE: native Exment roles and module Gates replace legacy integer guards.,Legacy roles 1/2/3/4/5 require human identity review; no automatic grant.
+BR29,Several mutations require only session name,DROPPED,BUSINESS RULE CHANGE: native user/role routes system-admin only; per-module and owner authorization.,No login-only privilege escalation.
+BR30,Admin login MD5 and no status filter,DROPPED,BUSINESS RULE CHANGE: native bcrypt/history/reset and removed-login session revocation.,Never import MD5; provision/reset users in Phase 4.
+BR31,Article updated timestamp overwritten,CHANGED,BUSINESS RULE CHANGE: created_at remains creation timestamp; published_at independent.,Cannot reconstruct original legacy dates; retain provenance.
+BR32,Image removal from product form changes JSON only,CHANGED,"BUSINESS RULE CHANGE: owned image delete is explicit, confirmed, FK guarded and file cleanup after commit.",No deletion of original backups/media in this phase.

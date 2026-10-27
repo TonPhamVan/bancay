@@ -1,0 +1,64 @@
+{
+  "plugin_name": "BancayCustomers",
+  "uuid": "add051be-2588-5236-b8d2-cbd8874cfc02",
+  "plugin_view_name": "Khách hàng",
+  "description": "Native relational store administration via shared Actions/Services.",
+  "author": "bancay",
+  "version": "1.0.0",
+  "plugin_type": "page",
+  "uri": "bancay_customers",
+  "icon": "fa-users",
+  "order": 4,
+  "route": [
+    {
+      "method": "get",
+      "uri": "",
+      "function": "index"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/export",
+      "function": "export"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/create",
+      "function": "create"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/{id}/edit",
+      "function": "edit"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/{id}",
+      "function": "show"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}",
+      "function": "listing"
+    },
+    {
+      "method": "post",
+      "uri": "{entity}",
+      "function": "store"
+    },
+    {
+      "method": "put",
+      "uri": "{entity}/{id}",
+      "function": "update"
+    },
+    {
+      "method": "delete",
+      "uri": "{entity}/{id}",
+      "function": "destroy"
+    },
+    {
+      "method": "post",
+      "uri": "{entity}/{id}/actions/{command}",
+      "function": "command"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ namespace Tests\Unit;
 
 use App\Domain\Commerce\Money;
 use App\Domain\Commerce\OrderStatus;
+use App\Support\IntegerDisplay;
 use PHPUnit\Framework\TestCase;
 
 class MoneyTest extends TestCase
@@ -26,5 +27,11 @@ class MoneyTest extends TestCase
         $this->assertFalse(OrderStatus::Returned->canTransitionTo(OrderStatus::Shipping));
         $this->assertFalse(OrderStatus::New->canTransitionTo(OrderStatus::Completed));
         $this->assertTrue(OrderStatus::Completed->canTransitionTo(OrderStatus::Returned));
+    }
+
+    public function test_integer_vnd_display_does_not_round_bigint_values_through_float(): void
+    {
+        $this->assertSame('9,223,372,036,854,775,807', IntegerDisplay::format(PHP_INT_MAX));
+        $this->assertSame('184,467,440,737,095,516,140', IntegerDisplay::format('184467440737095516140'));
     }
 }

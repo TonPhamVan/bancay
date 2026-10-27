@@ -12,14 +12,17 @@ final class ChangeOrderStatus
 {
     public function __construct(private readonly InventoryService $inventory) {}
 
-    public function execute(Order $order, OrderStatus $next, ?int $actorId = null, ?string $note = null): Order
+    public function execute(Order $order, OrderStatus $next, ?int $actorId = null, ?string $note = null, ?OrderStatus $expected = null): Order
     {
         if ($note !== null && mb_strlen($note) > 5000) {
             throw ValidationException::withMessages(['note' => 'Note is too long.']);
         }
 
-        return DB::transaction(function () use ($order, $next, $actorId, $note) {
+        return DB::transaction(function () use ($order, $next, $actorId, $note, $expected) {
             $order = Order::query()->lockForUpdate()->findOrFail($order->id);
+            if ($expected !== null && $order->status !== $expected) {
+                throw ValidationException::withMessages(['status' => 'Trạng thái đã đổi. Tải lại trang trước khi xử lý.']);
+            }
             if ($order->is_legacy || ! $order->status->canTransitionTo($next)) {
                 throw ValidationException::withMessages(['status' => 'Invalid transition or immutable imported history.']);
             }

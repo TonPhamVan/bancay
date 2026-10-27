@@ -1,0 +1,64 @@
+{
+  "plugin_name": "BancayDashboard",
+  "uuid": "56e01eff-fd2a-5402-a617-d5eb614a62a0",
+  "plugin_view_name": "Tổng quan cửa hàng",
+  "description": "Native relational store administration via shared Actions/Services.",
+  "author": "bancay",
+  "version": "1.0.0",
+  "plugin_type": "page",
+  "uri": "bancay_dashboard",
+  "icon": "fa-dashboard",
+  "order": 1,
+  "route": [
+    {
+      "method": "get",
+      "uri": "",
+      "function": "index"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/export",
+      "function": "export"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/create",
+      "function": "create"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/{id}/edit",
+      "function": "edit"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/{id}",
+      "function": "show"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}",
+      "function": "listing"
+    },
+    {
+      "method": "post",
+      "uri": "{entity}",
+      "function": "store"
+    },
+    {
+      "method": "put",
+      "uri": "{entity}/{id}",
+      "function": "update"
+    },
+    {
+      "method": "delete",
+      "uri": "{entity}/{id}",
+      "function": "destroy"
+    },
+    {
+      "method": "post",
+      "uri": "{entity}/{id}/actions/{command}",
+      "function": "command"
+    }
+  ]
+}

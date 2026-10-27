@@ -1,0 +1,111 @@
+{
+  "native_login": {
+    "status": 200,
+    "final_path": "/admin"
+  },
+  "pages": [
+    {
+      "path": "/health",
+      "status": 200,
+      "bytes": 15
+    },
+    {
+      "path": "/admin/plugins/bancay_dashboard",
+      "status": 200,
+      "bytes": 34425
+    },
+    {
+      "path": "/admin/plugins/bancay_catalog/categories",
+      "status": 200,
+      "bytes": 35668
+    },
+    {
+      "path": "/admin/plugins/bancay_catalog/products",
+      "status": 200,
+      "bytes": 36230
+    },
+    {
+      "path": "/admin/plugins/bancay_catalog/inventory",
+      "status": 200,
+      "bytes": 35621
+    },
+    {
+      "path": "/admin/plugins/bancay_orders/orders",
+      "status": 200,
+      "bytes": 35347
+    },
+    {
+      "path": "/admin/plugins/bancay_customers/customers",
+      "status": 200,
+      "bytes": 35459
+    },
+    {
+      "path": "/admin/plugins/bancay_content/article-categories",
+      "status": 200,
+      "bytes": 35211
+    },
+    {
+      "path": "/admin/plugins/bancay_content/articles",
+      "status": 200,
+      "bytes": 35528
+    },
+    {
+      "path": "/admin/plugins/bancay_content/banners",
+      "status": 200,
+      "bytes": 35152
+    },
+    {
+      "path": "/admin/plugins/bancay_settings/settings",
+      "status": 200,
+      "bytes": 34681
+    },
+    {
+      "path": "/admin/plugins/bancay_catalog/categories/1",
+      "status": 200,
+      "bytes": 34470
+    },
+    {
+      "path": "/admin/plugins/bancay_catalog/products/1",
+      "status": 200,
+      "bytes": 48088
+    },
+    {
+      "path": "/admin/plugins/bancay_catalog/inventory/1",
+      "status": 200,
+      "bytes": 34019
+    },
+    {
+      "path": "/admin/plugins/bancay_orders/orders/1",
+      "status": 200,
+      "bytes": 35394
+    },
+    {
+      "path": "/admin/plugins/bancay_customers/customers/1",
+      "status": 200,
+      "bytes": 37223
+    },
+    {
+      "path": "/admin/plugins/bancay_content/article-categories/1",
+      "status": 200,
+      "bytes": 34550
+    },
+    {
+      "path": "/admin/plugins/bancay_content/articles/1",
+      "status": 200,
+      "bytes": 34628
+    },
+    {
+      "path": "/admin/plugins/bancay_content/banners/1",
+      "status": 200,
+      "bytes": 34535
+    }
+  ],
+  "missing_csrf": {
+    "status": 419,
+    "expected": 419
+  },
+  "invalid_category": {
+    "status": 422,
+    "expected": 422
+  }
+}

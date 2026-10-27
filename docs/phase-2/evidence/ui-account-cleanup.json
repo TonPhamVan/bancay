@@ -1,0 +1,7 @@
+{
+    "fixture_login_count": 2,
+    "system_admin_grants_remaining_for_fixtures": 0,
+    "fixture_role_memberships_remaining": 0,
+    "passwords_rotated_without_logging": true,
+    "local_admin_untouched": true
+}

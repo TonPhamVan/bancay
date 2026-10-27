@@ -1,0 +1,64 @@
+{
+  "plugin_name": "BancayContent",
+  "uuid": "ca4b192c-1b5a-5db5-89c9-924b38caafe7",
+  "plugin_view_name": "Nội dung & Banner",
+  "description": "Native relational store administration via shared Actions/Services.",
+  "author": "bancay",
+  "version": "1.0.0",
+  "plugin_type": "page",
+  "uri": "bancay_content",
+  "icon": "fa-file-text",
+  "order": 5,
+  "route": [
+    {
+      "method": "get",
+      "uri": "",
+      "function": "index"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/export",
+      "function": "export"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/create",
+      "function": "create"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/{id}/edit",
+      "function": "edit"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/{id}",
+      "function": "show"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}",
+      "function": "listing"
+    },
+    {
+      "method": "post",
+      "uri": "{entity}",
+      "function": "store"
+    },
+    {
+      "method": "put",
+      "uri": "{entity}/{id}",
+      "function": "update"
+    },
+    {
+      "method": "delete",
+      "uri": "{entity}/{id}",
+      "function": "destroy"
+    },
+    {
+      "method": "post",
+      "uri": "{entity}/{id}/actions/{command}",
+      "function": "command"
+    }
+  ]
+}

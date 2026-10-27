@@ -1,0 +1,25 @@
+{
+  "php": "8.3.36",
+  "gd_webp": true,
+  "environment": "local",
+  "plugin_count": 6,
+  "typed_store_menu_count": 6,
+  "admin_middleware": [
+    "admin.browser",
+    "admin.web-ipfilter",
+    "admin.initialize",
+    "admin.auth",
+    "log.exec.time",
+    "check.logging.enabled",
+    "admin.auth-2factor",
+    "admin.password-limit",
+    "admin.morph",
+    "admin.bootstrap2",
+    "admin.pjax",
+    "admin.log",
+    "admin.bootstrap",
+    "App\\Http\\Middleware\\StoreAdminGuard",
+    "admin.permission",
+    "admin.session"
+  ]
+}

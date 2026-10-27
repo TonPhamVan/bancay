@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-28",
+  "environment": "localhost:8000 / synthetic data only",
+  "driver": "computer-use browser UI, real Exment session",
+  "status": "PASS",
+  "flows": [
+    "Native Exment login with fresh CSRF token",
+    "Store dashboard scoped to role",
+    "Create category with Vietnamese name and slug",
+    "Create product and read back basic information",
+    "Upload image through real file chooser and save alt/primary",
+    "Create option with two values",
+    "Generate two missing variants",
+    "Set fixed/sale price and activate SKU",
+    "Adjust stock to 20 with reason",
+    "Search product by SKU prefix and filter DRAFT",
+    "Create and view customer",
+    "View order item/customer snapshots",
+    "Transition CONFIRMED to PACKING and verify actor/note/history",
+    "Create article with sanitized HTML content",
+    "Create Banner with uploaded image",
+    "Save default SEO setting",
+    "Create and edit native Exment User profile (login not enabled)",
+    "Inspect native RoleGroup plugin Access permissions",
+    "Content Manager can access articles; no catalog/order/customer/settings menu or statistics",
+    "Content Manager direct order detail URL returns 403"
+  ],
+  "credential_tests": "Native reset and login-identity revocation covered by automated tests; no personal password changed through UI.",
+  "evidence": [
+    "dashboard-ui.jpg",
+    "product-ui.jpg",
+    "order-ui.jpg",
+    "content-role-ui.jpg",
+    "permission-denied-ui.jpg"
+  ],
+  "limitations": [
+    "Single available browser engine/desktop viewport; no full browser matrix or mobile regression.",
+    "No production data, load test, real SMTP, payment or public frontend."
+  ],
+  "notes": [
+    "Initial stale login form after container recreation was rejected with 419; fresh login succeeded.",
+    "UI found same-primary re-save issue; service refresh fix plus regression assertion retained."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "plugin_name": "BancayOrders",
+  "uuid": "a0dbcbfd-5f20-503d-8ddb-888b093c058c",
+  "plugin_view_name": "Đơn hàng",
+  "description": "Native relational store administration via shared Actions/Services.",
+  "author": "bancay",
+  "version": "1.0.0",
+  "plugin_type": "page",
+  "uri": "bancay_orders",
+  "icon": "fa-shopping-cart",
+  "order": 3,
+  "route": [
+    {
+      "method": "get",
+      "uri": "",
+      "function": "index"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/export",
+      "function": "export"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/create",
+      "function": "create"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/{id}/edit",
+      "function": "edit"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}/{id}",
+      "function": "show"
+    },
+    {
+      "method": "get",
+      "uri": "{entity}",
+      "function": "listing"
+    },
+    {
+      "method": "post",
+      "uri": "{entity}",
+      "function": "store"
+    },
+    {
+      "method": "put",
+      "uri": "{entity}/{id}",
+      "function": "update"
+    },
+    {
+      "method": "delete",
+      "uri": "{entity}/{id}",
+      "function": "destroy"
+    },
+    {
+      "method": "post",
+      "uri": "{entity}/{id}/actions/{command}",
+      "function": "command"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "local_read_baseline": {
+    "products": {
+      "rows": 2,
+      "query_count": 6,
+      "elapsed_ms": 9.15
+    },
+    "orders": {
+      "rows": 1,
+      "query_count": 3,
+      "elapsed_ms": 1.39
+    },
+    "customers": {
+      "rows": 2,
+      "query_count": 2,
+      "elapsed_ms": 0.82
+    }
+  },
+  "regression": "Automated test compares 1 and 21 products; query count stays <=8 and grows by <=1.",
+  "limits": "Small synthetic dataset; measures query adapter only, excluding native Exment shell/dropdown queries. Not a load benchmark."
+}

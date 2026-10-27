@@ -1,5 +1,7 @@
 # Exment data model mapping — Phase 1
 
+Đây là baseline thiết kế Phase 1. Các mục "Phase 2/planned" bên dưới ghi trạng thái tại thời điểm foundation; implementation hiện tại xem [Exment Admin](exment-admin.md) và [báo cáo Phase 2](phase-2-report.md).
+
 Stack tạm: Exment **6.2.15**, theo chỉ định người dùng. [Architecture/risk decision](architecture.md). Exment đã install/initialize và login HTTP local thành công; **chưa xây CRUD nghiệp vụ Phase 2**.
 
 ## Integration boundary đã chọn
