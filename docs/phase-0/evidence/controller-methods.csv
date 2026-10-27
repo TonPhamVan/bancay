@@ -1,0 +1,67 @@
+file,line,method,parameters,calls_checklogin,calls_checkrole,model_methods,tables_in_body,post_fields
+application/controllers/Welcome.php,21,index,,False,False,,,
+application/modules/admin/controllers/Admin.php,4,__construct,,False,False,,,
+application/modules/admin/controllers/Admin.php,14,index,,True,False,,,
+application/modules/admin/controllers/Admin.php,21,contact,,True,False,gettbl; gettbl_limited,tblcontact,
+application/modules/admin/controllers/Admin.php,54,banner,,True,False,gettbl; gettbl_limited,tblbanner,
+application/modules/admin/controllers/Admin.php,85,frmbanner,,True,False,,,
+application/modules/admin/controllers/Admin.php,91,add_banner,,True,False,add_tbl,tblbanner,cid; file; id; link; name; status; vip; vitri
+application/modules/admin/controllers/Admin.php,136,edit_banner,$id,True,False,,,
+application/modules/admin/controllers/Admin.php,143,del_banner,,True,False,del_tbl,tblbanner,checkbox
+application/modules/admin/controllers/Admin.php,169,checkbanner,,True,False,checkstatus,tblbanner,active; id
+application/modules/admin/controllers/Admin.php,177,order,,True,False,gettbl; gettbl_limited,tblorder,
+application/modules/admin/controllers/Admin.php,209,chitiet_don,$id,True,False,,tblorder,
+application/modules/admin/controllers/Admin.php,217,slider,,True,False,gettbl; gettbl_limited,tblslider,
+application/modules/admin/controllers/Admin.php,248,frmslider,,True,False,,,
+application/modules/admin/controllers/Admin.php,254,add_slider,,True,False,add_tbl,tblslider,content; id; image; link; status; title
+application/modules/admin/controllers/Admin.php,295,edit_slider,$id,True,False,,,
+application/modules/admin/controllers/Admin.php,302,del_slider,,True,False,del_tbl,tblslider,checkbox
+application/modules/admin/controllers/Admin.php,325,checkslider,,True,False,checkstatus,tblslider,active; id
+application/modules/admin/controllers/Admin.php,334,edit_footer,$id,True,True,,,
+application/modules/admin/controllers/Admin.php,344,baiviet,,True,False,gettbl; gettbl_limited,tblbaiviet,
+application/modules/admin/controllers/Admin.php,376,frmbaiviet,,True,False,,,
+application/modules/admin/controllers/Admin.php,383,add_baiviet,,True,False,add_tbl,tblbaiviet,alias; cid; content; id; image; menu; sapo; status; title; vip
+application/modules/admin/controllers/Admin.php,435,edit_baiviet,$id,True,False,,,
+application/modules/admin/controllers/Admin.php,442,link_baiviet,$id,True,False,,,
+application/modules/admin/controllers/Admin.php,449,del_baiviet,,True,False,del_tbl,tblbaiviet,checkbox
+application/modules/admin/controllers/Admin.php,477,chuyenmuc,,True,True,gettbl; gettbl_limited,tblchuyenmuc,
+application/modules/admin/controllers/Admin.php,510,frmchuyenmuc,,True,True,,,
+application/modules/admin/controllers/Admin.php,518,add_chuyenmuc,,True,True,add_tbl; gettbl,tblchuyenmuc,alias; id; image; menu; meta_des; meta_key; meta_title; name; parent; status; thutu
+application/modules/admin/controllers/Admin.php,580,edit_chuyenmuc,$id,True,True,,,
+application/modules/admin/controllers/Admin.php,589,del_chuyenmuc,,True,True,del_tbl,tblchuyenmuc,checkbox
+application/modules/admin/controllers/Admin.php,617,danhmuc,,True,True,get_query,tbldanhmuc,keyword
+application/modules/admin/controllers/Admin.php,667,frmdanhmuc,,True,True,,,
+application/modules/admin/controllers/Admin.php,675,add_danhmuc,,True,True,add_tbl,tbldanhmuc,alias; id; image; mota; name; parent; status; thutu; vip
+application/modules/admin/controllers/Admin.php,726,edit_danhmuc,$id,True,True,,,
+application/modules/admin/controllers/Admin.php,735,del_danhmuc,,True,True,del_tbl,tbldanhmuc,checkbox
+application/modules/admin/controllers/Admin.php,761,sanpham,,True,True,get_query,tblsanpham,keyword
+application/modules/admin/controllers/Admin.php,811,frmsanpham,,True,True,,,
+application/modules/admin/controllers/Admin.php,819,add_sanpham,,True,True,add_tbl,tblsanpham,alias; cid; content; created_at; giaban; giale; id; ma; ma_pl; meta_des; meta_key; meta_title; name_pl1; name_pl2; old_img; old_img_pl; pl; price_pl; sale_pl; sapo; sl; sl_pl; status; title; vip
+application/modules/admin/controllers/Admin.php,947,checkma,,False,False,,tblsanpham,ma
+application/modules/admin/controllers/Admin.php,956,checkmanhap,,False,False,,tblsanpham,masp
+application/modules/admin/controllers/Admin.php,967,checked,,False,False,,tbldanhmuc,id
+application/modules/admin/controllers/Admin.php,974,edit_sanpham,$id,True,True,,,
+application/modules/admin/controllers/Admin.php,983,del_sanpham,,True,True,del_tbl,tblsanpham,checkbox
+application/modules/admin/controllers/Admin.php,1009,tbladmin,,True,False,gettbl; gettbl_limited,tbladmin,
+application/modules/admin/controllers/Admin.php,1040,frmthanhvien,,True,False,,,
+application/modules/admin/controllers/Admin.php,1046,add_thanhvien,,True,False,add_tbl; gettbl,tbladmin,dienthoai; fullname; id; image; kho; name; ngaysinh; pass; role; status
+application/modules/admin/controllers/Admin.php,1106,edit_thanhvien,$id,True,False,,,
+application/modules/admin/controllers/Admin.php,1114,status,,True,False,checkstatus; gettbl,tblname,id; tblname
+application/modules/admin/controllers/Admin.php,1128,add_footer,,True,True,add_tbl,tblfooter,anatic; content; diachi; email; fanpage; id; logo; map; meta_des; meta_key; meta_title; name; status; tuvan1; tuvan2; video
+application/modules/admin/controllers/Admin.php,1175,del_thanhvien,,True,False,del_tbl,tbladmin,checkbox
+application/modules/admin/controllers/Admin.php,1198,del_tbluser,,True,False,del_tbl,tbluser,checkbox
+application/modules/admin/controllers/Admin.php,1222,login,,False,False,,,
+application/modules/admin/controllers/Admin.php,1226,dologin,,False,False,getlogin,,name; pass
+application/modules/admin/controllers/Admin.php,1238,thoat,,False,False,,,
+application/modules/admin/controllers/Admin.php,1246,checklogin,,False,False,,tblsanpham,
+application/modules/admin/controllers/Admin.php,1268,checkrole,,False,False,,tbladmin,
+application/modules/admin/controllers/Admin.php,1283,smtpmailer,"$to, $from, $from_name, $subject, $body",False,False,,,
+application/modules/site/controllers/Site.php,4,__construct,,False,False,gettbl,tbldanhmuc; tblfooter,
+application/modules/site/controllers/Site.php,14,index,,False,False,,,
+application/modules/site/controllers/Site.php,27,show_sp,$id,False,False,add_tbl,tbldanhmuc; tblorder; tblsanpham,diachi; dienthoai; email; ghichu; giaban; hoten; pl1; pl2; product_id; product_name; soluong
+application/modules/site/controllers/Site.php,77,closeup,,False,False,,,
+application/modules/site/controllers/Site.php,81,show_danhmuc,$id,False,False,getitem,tbldanhmuc; tblsanpham,
+application/modules/site/controllers/Site.php,124,all_sanpham,,False,False,,tblsanpham,
+application/modules/site/controllers/Site.php,170,show_baiviet,$id,False,False,getitem,tblbaiviet; tblchuyenmuc,
+application/modules/site/controllers/Site.php,195,show_chuyenmuc,$id,False,False,,tblbaiviet; tblchuyenmuc,
+application/modules/site/controllers/Site.php,230,ajax_pl,,False,False,,tblsanpham,id; pl1; pl2

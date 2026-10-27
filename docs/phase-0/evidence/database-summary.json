@@ -1,0 +1,1554 @@
+{
+  "source_kind": "Restored supplied local SQL dump; production freshness unverified",
+  "restore": {
+    "network_mode": "none",
+    "published_ports": {},
+    "server_version": "10.3.39-MariaDB-1:10.3.39+maria~ubu2004",
+    "all_table_counts_match_dump": true,
+    "total_rows": 980
+  },
+  "tables": [
+    {
+      "table": "tbl_count",
+      "rows": 1,
+      "dump_insert_rows": 1,
+      "columns": [
+        {
+          "name": "count",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {}
+    },
+    {
+      "table": "tbladmin",
+      "rows": 2,
+      "dump_insert_rows": 2,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "fullname",
+          "type": "varchar(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "name",
+          "type": "varchar(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "pass",
+          "type": "varchar(70)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "role",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "status",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "image",
+          "type": "varchar(150)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "dienthoai",
+          "type": "char(12)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "ngaysinh",
+          "type": "char(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "kho",
+          "type": "varchar(20)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        }
+      ],
+      "status_distribution": {
+        "1": 2
+      }
+    },
+    {
+      "table": "tblbaiviet",
+      "rows": 67,
+      "dump_insert_rows": 67,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(11)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "menu",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "title",
+          "type": "varchar(255)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "alias",
+          "type": "varchar(255)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "image",
+          "type": "varchar(200)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "sapo",
+          "type": "longtext",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "content",
+          "type": "longtext",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "cid",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "created_at",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "status",
+          "type": "tinyint(1)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "vip",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "view",
+          "type": "int(10)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {
+        "1": 63,
+        "None": 1,
+        "0": 3
+      }
+    },
+    {
+      "table": "tblbanner",
+      "rows": 15,
+      "dump_insert_rows": 15,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "name",
+          "type": "varchar(100)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "link",
+          "type": "varchar(100)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "file",
+          "type": "varchar(150)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "type",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "vip",
+          "type": "tinyint(1)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "vitri",
+          "type": "varchar(8)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "cid",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "status",
+          "type": "tinyint(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {
+        "1": 12,
+        "0": 3
+      }
+    },
+    {
+      "table": "tblchuyenmuc",
+      "rows": 11,
+      "dump_insert_rows": 11,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "name",
+          "type": "varchar(100)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "alias",
+          "type": "varchar(100)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "discription",
+          "type": "text",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "image",
+          "type": "varchar(100)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "parent",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "thutu",
+          "type": "int(8)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "menu",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "meta_title",
+          "type": "tinytext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "meta_key",
+          "type": "tinytext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "meta_des",
+          "type": "mediumtext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "status",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {
+        "1": 9,
+        "0": 2
+      }
+    },
+    {
+      "table": "tbldanhmuc",
+      "rows": 8,
+      "dump_insert_rows": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(5)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "name",
+          "type": "varchar(100)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "alias",
+          "type": "varchar(100)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "image",
+          "type": "varchar(150)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_unicode_ci"
+        },
+        {
+          "name": "mota",
+          "type": "text",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "parent",
+          "type": "int(5)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "status",
+          "type": "tinyint(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "thutu",
+          "type": "int(4)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "cron",
+          "type": "varchar(150)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_unicode_ci"
+        },
+        {
+          "name": "vip",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {
+        "1": 6,
+        "0": 2
+      }
+    },
+    {
+      "table": "tblfooter",
+      "rows": 1,
+      "dump_insert_rows": 1,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "name",
+          "type": "varchar(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "content",
+          "type": "longtext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "diachi",
+          "type": "varchar(150)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "email",
+          "type": "varchar(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "tuvan1",
+          "type": "char(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "tuvan2",
+          "type": "char(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "video",
+          "type": "tinytext",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "logo",
+          "type": "varchar(100)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "meta_title",
+          "type": "tinytext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "meta_key",
+          "type": "tinytext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "meta_des",
+          "type": "mediumtext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "fanpage",
+          "type": "mediumtext",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "anatic",
+          "type": "mediumtext",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "map",
+          "type": "char(30)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "status",
+          "type": "tinyint(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {
+        "1": 1
+      }
+    },
+    {
+      "table": "tblkhachhang",
+      "rows": 0,
+      "dump_insert_rows": 0,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "dienthoai",
+          "type": "char(13)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "ten",
+          "type": "varchar(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "diachi",
+          "type": "text",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "tientich",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "thuong",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "phat",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "ghichu",
+          "type": "mediumtext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "type",
+          "type": "int(3)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "status",
+          "type": "tinyint(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {}
+    },
+    {
+      "table": "tblorder",
+      "rows": 748,
+      "dump_insert_rows": 748,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "product_id",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "soluong",
+          "type": "int(5)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "giaban",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "phanloai",
+          "type": "varchar(200)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "latin1",
+          "collation": "latin1_swedish_ci"
+        },
+        {
+          "name": "product_name",
+          "type": "varchar(250)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_unicode_ci"
+        },
+        {
+          "name": "hoten",
+          "type": "varchar(150)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "dienthoai",
+          "type": "char(40)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "email",
+          "type": "char(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "diachi",
+          "type": "varchar(250)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "ghichu",
+          "type": "text",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "ngaytao",
+          "type": "int(11)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "status",
+          "type": "tinyint(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {
+        "0": 730,
+        "1": 18
+      }
+    },
+    {
+      "table": "tblrole",
+      "rows": 4,
+      "dump_insert_rows": 4,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "name",
+          "type": "varchar(50)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "status",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {
+        "1": 4
+      }
+    },
+    {
+      "table": "tblsanpham",
+      "rows": 115,
+      "dump_insert_rows": 115,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(12)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "title",
+          "type": "varchar(250)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "ma",
+          "type": "varchar(20)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "alias",
+          "type": "varchar(250)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "image",
+          "type": "text",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "giagoc",
+          "type": "int(10)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "giasi",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "giale",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "giaban",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "sl",
+          "type": "int(5)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "sapo",
+          "type": "text",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "content",
+          "type": "mediumtext",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "cid",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "phanloai",
+          "type": "text",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_vietnamese_ci"
+        },
+        {
+          "name": "status",
+          "type": "tinyint(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "created_at",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "vip",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "view",
+          "type": "int(10)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "meta_title",
+          "type": "varchar(100)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "meta_key",
+          "type": "varchar(100)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "meta_des",
+          "type": "tinytext",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        }
+      ],
+      "status_distribution": {
+        "1": 93,
+        "0": 22
+      }
+    },
+    {
+      "table": "tblslider",
+      "rows": 8,
+      "dump_insert_rows": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "int(4)",
+          "nullable": "NO",
+          "key": "PRI",
+          "extra": "auto_increment",
+          "charset": null,
+          "collation": null
+        },
+        {
+          "name": "title",
+          "type": "varchar(255)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "image",
+          "type": "varchar(255)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "link",
+          "type": "varchar(255)",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "content",
+          "type": "text",
+          "nullable": "YES",
+          "key": "",
+          "extra": "",
+          "charset": "utf8",
+          "collation": "utf8_general_ci"
+        },
+        {
+          "name": "status",
+          "type": "int(1)",
+          "nullable": "NO",
+          "key": "",
+          "extra": "",
+          "charset": null,
+          "collation": null
+        }
+      ],
+      "status_distribution": {
+        "0": 7,
+        "1": 1
+      }
+    }
+  ],
+  "foreign_key_count": 0,
+  "product_analysis": {
+    "products": 115,
+    "variant_products": 3,
+    "variant_rows": 8,
+    "json_shapes": {
+      "img,ma_pl,pl,pl1,pl2,price_pl,sale_pl,sl_pl": 3,
+      "NoneType": 112
+    },
+    "malformed_variant_product_ids": [],
+    "misaligned_variant_product_ids": [],
+    "representative_samples": [
+      {
+        "product_id": 4,
+        "product_code": "bang01",
+        "title": "Cây bàng Singapore 01",
+        "variant_json": {
+          "pl": [
+            "ab",
+            "cd"
+          ],
+          "pl1": [
+            "a",
+            "a",
+            "b",
+            "b"
+          ],
+          "pl2": [
+            "c",
+            "d",
+            "c",
+            "d"
+          ],
+          "img": [
+            "cay-bang-singapore-01_pl.jpg",
+            "cay-bang-singapore-01_pl-11668408800.jpg",
+            "cay-bang-singapore-01_pl-21668408800.jpg",
+            "cay-bang-singapore-01_pl-31668408800.jpg"
+          ],
+          "price_pl": [
+            "100,000",
+            "100,000",
+            "100,000",
+            "100,000"
+          ],
+          "sale_pl": [
+            "80,000",
+            "90,000",
+            "95,000",
+            "96,000"
+          ],
+          "ma_pl": [
+            "CB-1",
+            "CB-2",
+            "CB-3",
+            "CB-4"
+          ],
+          "sl_pl": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      },
+      {
+        "product_id": 5,
+        "product_code": "kimngan01",
+        "title": "Cây kim ngân 01",
+        "variant_json": {
+          "pl": [
+            "ab"
+          ],
+          "pl1": [
+            "a",
+            "b"
+          ],
+          "pl2": [
+            "",
+            ""
+          ],
+          "img": [
+            "cay-kim-ngan-01_pl.jpg",
+            "cay-kim-ngan-01_pl-11668499177.jpg"
+          ],
+          "price_pl": [
+            "100,000",
+            "100,000"
+          ],
+          "sale_pl": [
+            "80,000",
+            "90,000"
+          ],
+          "ma_pl": [
+            "CB-1",
+            "CB-2"
+          ],
+          "sl_pl": [
+            "100",
+            "50"
+          ]
+        }
+      },
+      {
+        "product_id": 127,
+        "product_code": "",
+        "title": "[ CHỌN SIZE] Cây hạnh phúc hai tầng.",
+        "variant_json": {
+          "pl": [
+            "Màu sắc"
+          ],
+          "pl1": [
+            "Xanh",
+            "Đỏ"
+          ],
+          "pl2": [
+            "",
+            ""
+          ],
+          "img": [
+            "cay-hanh-phuc-hai-tang._pl.jpg",
+            "cay-hanh-phuc-hai-tang._pl-11668052179.jpg"
+          ],
+          "price_pl": [
+            "100,000",
+            "100,000"
+          ],
+          "sale_pl": [
+            "80,000",
+            "80,000"
+          ],
+          "ma_pl": [
+            "SKU",
+            "SKU"
+          ],
+          "sl_pl": [
+            "1",
+            "1"
+          ]
+        }
+      }
+    ],
+    "empty_codes": 15,
+    "duplicate_nonempty_codes": [
+      {
+        "code": "2",
+        "count": 3
+      }
+    ],
+    "duplicate_aliases": [
+      {
+        "alias": "cay-phat-tai-nui",
+        "count": 2
+      },
+      {
+        "alias": "cay-luoi-ho-mix-4-loai-chau-xi-mang.",
+        "count": 2
+      }
+    ],
+    "vip_distribution": {
+      "0": 7,
+      "1": 108
+    },
+    "negative_stock_product_ids": [],
+    "sale_over_regular_product_ids": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      67,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      91,
+      94,
+      96,
+      98,
+      108,
+      111,
+      112,
+      124,
+      125,
+      126,
+      127
+    ],
+    "zero_sale_products": 31,
+    "zero_regular_products": 111,
+    "legacy_stock_total": 808
+  },
+  "order_analysis": {
+    "count": 748,
+    "status_distribution": {
+      "0": 730,
+      "1": 18
+    },
+    "with_variant_text": 3,
+    "zero_unit_price": 344,
+    "nonpositive_quantity": 348
+  },
+  "admin_analysis": {
+    "count": 2,
+    "hash_format_distribution": {
+      "32-hex (MD5-shaped)": 2
+    },
+    "role_distribution": {
+      "1": 2
+    },
+    "roles": [
+      {
+        "id": 1,
+        "name": "admin",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "name": "Quản lý",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "name": "Nhân viên",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "name": "Viết bài",
+        "status": 1
+      }
+    ],
+    "warehouse_values_count": 1
+  },
+  "orphans": {
+    "product_category": [
+      7,
+      10
+    ],
+    "article_category": [],
+    "category_parent": [],
+    "article_category_parent": [],
+    "order_product": [],
+    "admin_role": []
+  },
+  "missing_tables_referenced_by_code": [
+    "tblcontact",
+    "tbluser",
+    "tblraovat",
+    "tblchuyenmucsp"
+  ]
+}

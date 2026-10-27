@@ -1,0 +1,11 @@
+{
+  "image": "php:7.3-cli-alpine",
+  "network_mode": "none",
+  "read_only_mount": true,
+  "mode": "syntax only; no legacy PHP executed",
+  "exit_code": 0,
+  "php_files": 362,
+  "passed_files": 362,
+  "runtime_header": "PHP 7.3.33 (cli) (built: Mar 18 2022 03:56:36) ( NTS )",
+  "failed_files": []
+}

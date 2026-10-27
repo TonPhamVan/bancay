@@ -1,0 +1,9 @@
+{
+  "database_check": "PASS",
+  "tables_checked": 12,
+  "all_tables_ok": true,
+  "network_mode": "none",
+  "published_ports": {},
+  "production_connection": false,
+  "cleanup": "PASS: only the labelled audit container removed; tmpfs database discarded; original SQL backup retained"
+}

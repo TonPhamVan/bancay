@@ -1,0 +1,64 @@
+{
+  "repository": "legacy-private/phase0/bancay-legacy",
+  "commit": "d4fa09fc8f27ebecb196bd6890e443f14aaede8a",
+  "message": "Legacy production baseline",
+  "tracked_files": 1470,
+  "snapshot_files_copied": 1470,
+  "remote_count": 0,
+  "directory_mode": "0700 (WSL)",
+  "credential_redactions": [
+    {
+      "file": "application/config/database.php",
+      "lines": [
+        79,
+        80
+      ],
+      "finding": "FOUND SECRET / CREDENTIAL"
+    },
+    {
+      "file": "ckfinder/config.php",
+      "lines": [
+        39
+      ],
+      "finding": "FOUND SECRET / CREDENTIAL"
+    },
+    {
+      "file": "cron/Bản sao cron.php",
+      "lines": [
+        10,
+        71
+      ],
+      "finding": "FOUND SECRET / CREDENTIAL"
+    },
+    {
+      "file": "cron/cron.php",
+      "lines": [
+        10,
+        49
+      ],
+      "finding": "FOUND SECRET / CREDENTIAL"
+    },
+    {
+      "file": "cron/laydm.php",
+      "lines": [
+        6
+      ],
+      "finding": "FOUND SECRET / CREDENTIAL"
+    },
+    {
+      "file": "cron/laytin.php",
+      "lines": [
+        6
+      ],
+      "finding": "FOUND SECRET / CREDENTIAL"
+    }
+  ],
+  "excluded_groups": [
+    "upload/ (all media retained in original ZIP)",
+    ".well-known/ (validation tokens)",
+    ".DS_Store (OS metadata)"
+  ],
+  "excluded_files": 1851,
+  "canonical_original": "backups/phase-0/2026-10-27/bancay.zip",
+  "baseline_kind": "Source snapshot with credential/license redaction only; not byte-identical to original archive; no business refactor"
+}

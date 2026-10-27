@@ -1,0 +1,71 @@
+{
+  "archives": [
+    {
+      "archive": "Oct-2026.tar.gz",
+      "regular_members": 2,
+      "request_lines": 1020
+    },
+    {
+      "archive": "Oct-2026.tar.gz.1",
+      "regular_members": 2,
+      "request_lines": 636
+    },
+    {
+      "archive": "Oct-2026.tar.gz.2",
+      "regular_members": 2,
+      "request_lines": 1314
+    },
+    {
+      "archive": "Oct-2026.tar.gz.3",
+      "regular_members": 2,
+      "request_lines": 1158
+    },
+    {
+      "archive": "Oct-2026.tar.gz.4",
+      "regular_members": 2,
+      "request_lines": 1181
+    },
+    {
+      "archive": "nginx.Oct-2026.tar.gz",
+      "regular_members": 2,
+      "request_lines": 1098
+    },
+    {
+      "archive": "nginx.Oct-2026.tar.gz.1",
+      "regular_members": 2,
+      "request_lines": 637
+    },
+    {
+      "archive": "nginx.Oct-2026.tar.gz.2",
+      "regular_members": 2,
+      "request_lines": 1541
+    },
+    {
+      "archive": "nginx.Oct-2026.tar.gz.3",
+      "regular_members": 2,
+      "request_lines": 1309
+    },
+    {
+      "archive": "nginx.Oct-2026.tar.gz.4",
+      "regular_members": 2,
+      "request_lines": 1308
+    }
+  ],
+  "request_lines_total": 11202,
+  "status_counts": {
+    "200": 6832,
+    "302": 1080,
+    "404": 2614,
+    "206": 22,
+    "301": 4,
+    "403": 592,
+    "500": 2,
+    "400": 52,
+    "499": 4
+  },
+  "unique_entity_paths": 166,
+  "paths_not_in_db_after_percent_decoding": 0,
+  "percent_encoded_entity_paths": 2,
+  "privacy": "Only safe entity paths and aggregate status counts exported; no IP, query, referrer or user agent",
+  "limitations": "Backend and nginx rotated logs can overlap; counts are not unique visits; no production HTTP requests"
+}

@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-27T20:56:30.345950+07:00",
+  "timezone": "Asia/Saigon",
+  "source_kind": "User-supplied local export; production freshness unverified",
+  "artifacts": [
+    {
+      "name": "bancay.zip",
+      "bytes": 587368474,
+      "sha256": "6085c236432301c537e4e1488d06022bfcaf92a42ca49d32e9b81daadd52b48a",
+      "source_modified_utc": "2026-10-27T13:38:14.378679+00:00"
+    },
+    {
+      "name": "caybonmua_db.sql",
+      "bytes": 1762723,
+      "sha256": "10d71369e8ae83826aae625b007afe75931eb8c1e22b133081ebc8d9e7879f9c",
+      "source_modified_utc": "2026-10-27T13:52:34.215187+00:00"
+    }
+  ],
+  "archive_crc": "PASS",
+  "regular_files": 3644,
+  "expanded_regular_bytes": 615374163,
+  "symlinks": [
+    {
+      "path": "domains/bancay.vn/private_html",
+      "target": "./public_html"
+    }
+  ]
+}

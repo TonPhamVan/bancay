@@ -1,0 +1,301 @@
+{
+  "areas": {
+    "cgi-bin": {
+      "files": 1,
+      "bytes": 17
+    },
+    "index.html.moved": {
+      "files": 1,
+      "bytes": 114960
+    },
+    ".DS_Store": {
+      "files": 1,
+      "bytes": 10244
+    },
+    ".editorconfig": {
+      "files": 1,
+      "bytes": 317
+    },
+    ".gitignore": {
+      "files": 1,
+      "bytes": 534
+    },
+    ".htaccess": {
+      "files": 1,
+      "bytes": 284
+    },
+    "Mobile_Detect.php": {
+      "files": 1,
+      "bytes": 77657
+    },
+    "class.phpmailer.php": {
+      "files": 1,
+      "bytes": 74525
+    },
+    "class.pop3.php": {
+      "files": 1,
+      "bytes": 10599
+    },
+    "class.smtp.php": {
+      "files": 1,
+      "bytes": 24800
+    },
+    "composer.json": {
+      "files": 1,
+      "bytes": 617
+    },
+    "contributing.md": {
+      "files": 1,
+      "bytes": 6599
+    },
+    "index.php": {
+      "files": 1,
+      "bytes": 10320
+    },
+    "robots.txt": {
+      "files": 1,
+      "bytes": 23
+    },
+    "sitemap.xml": {
+      "files": 1,
+      "bytes": 1177
+    },
+    "simple_html_dom_helper.php": {
+      "files": 1,
+      "bytes": 53141
+    },
+    "application": {
+      "files": 95,
+      "bytes": 489426
+    },
+    "ckeditor": {
+      "files": 314,
+      "bytes": 3324183
+    },
+    "ckfinder": {
+      "files": 633,
+      "bytes": 3670990
+    },
+    "cron": {
+      "files": 10,
+      "bytes": 134235
+    },
+    "css": {
+      "files": 29,
+      "bytes": 514570
+    },
+    "fonts": {
+      "files": 6,
+      "bytes": 838395
+    },
+    "images": {
+      "files": 157,
+      "bytes": 11097001
+    },
+    "js": {
+      "files": 12,
+      "bytes": 796653
+    },
+    "system": {
+      "files": 203,
+      "bytes": 1910765
+    },
+    "upload": {
+      "files": 1843,
+      "bytes": 582070658
+    },
+    "info.php": {
+      "files": 1,
+      "bytes": 19
+    },
+    "favicon.ico": {
+      "files": 1,
+      "bytes": 1150
+    },
+    ".well-known": {
+      "files": 1,
+      "bytes": 32
+    }
+  },
+  "asset_files": 2947,
+  "unique_database_referenced_paths": 840,
+  "missing_database_referenced_paths": 6,
+  "asset_files_with_database_reference": 834,
+  "no_database_reference_review_count": 2113,
+  "duplicate_groups": 329,
+  "duplicate_extra_files": 537,
+  "external_media_hosts": {
+    "www.googletagmanager.com": 1,
+    "shopee.vn": 1
+  },
+  "controller_methods": 66,
+  "versions": {
+    "system/core/CodeIgniter.php": "3.1.9",
+    "class.phpmailer.php": "5.1",
+    "ckeditor/ckeditor.js": "4.4.0",
+    "ckfinder/ckfinder.js": "2.5.0",
+    "js/bootstrap.min.js": "3.3.0",
+    "js/jquery-3.3.1.min.js": "3.3.1"
+  },
+  "table_reference_candidates": {
+    "cron_link": [
+      "cron/Bản sao cron.php",
+      "cron/cron.php",
+      "cron/laytin.php"
+    ],
+    "tbladmin": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/models/Admin_model.php",
+      "application/modules/admin/views/baiviet.php",
+      "application/modules/admin/views/frmsanpham.php",
+      "application/modules/admin/views/frmthanhvien.php",
+      "application/modules/admin/views/includes/content.php",
+      "application/modules/admin/views/includes/header.php",
+      "application/modules/admin/views/includes/left.php",
+      "application/modules/admin/views/includes/mainmenu.php",
+      "application/modules/admin/views/sanpham.php",
+      "application/modules/admin/views/tbladmin.php"
+    ],
+    "tblbaiviet": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/views/baiviet.php",
+      "application/modules/admin/views/frmbaiviet.php",
+      "application/modules/site/controllers/Site.php",
+      "application/modules/site/models/Site_model.php",
+      "application/modules/site/views/donhang.php",
+      "application/modules/site/views/listdm.php",
+      "application/modules/site/views/loaidm.php",
+      "application/modules/site/views/news.php",
+      "application/modules/site/views/order.php",
+      "application/modules/site/views/search.php",
+      "application/views/bottom-content.php",
+      "application/views/left.php",
+      "application/views/mainmenu.php"
+    ],
+    "tblbanner": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/views/banner.php",
+      "application/modules/admin/views/frmbanner.php",
+      "application/modules/site/views/danhmuc.php",
+      "application/modules/site/views/donhang.php",
+      "application/modules/site/views/listdm.php",
+      "application/modules/site/views/loaidm.php",
+      "application/modules/site/views/order.php",
+      "application/modules/site/views/search.php",
+      "application/views/bottom-content.php",
+      "application/views/header.php",
+      "application/views/left.php"
+    ],
+    "tblchuyenmuc": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/models/Admin_model.php",
+      "application/modules/admin/views/baiviet.php",
+      "application/modules/admin/views/chuyenmuc.php",
+      "application/modules/admin/views/frmbaiviet.php",
+      "application/modules/admin/views/frmchuyenmuc.php",
+      "application/modules/admin/views/frmdanhmuc.php",
+      "application/modules/admin/views/frmkhachhang.php",
+      "application/modules/site/controllers/Site.php",
+      "application/modules/site/models/Site_model.php",
+      "application/modules/site/views/donhang.php",
+      "application/modules/site/views/listdm.php",
+      "application/modules/site/views/loaidm.php",
+      "application/modules/site/views/order.php",
+      "application/modules/site/views/search.php",
+      "application/views/bottom-content.php",
+      "application/views/mainmenu.php"
+    ],
+    "tblchuyenmucsp": [
+      "application/modules/site/models/Site_model.php"
+    ],
+    "tblcontact": [
+      "application/modules/admin/controllers/Admin.php"
+    ],
+    "tbldanhmuc": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/models/Admin_model.php",
+      "application/modules/admin/views/danhmuc.php",
+      "application/modules/admin/views/frmbanner.php",
+      "application/modules/admin/views/frmdanhmuc.php",
+      "application/modules/admin/views/frmsanpham.php",
+      "application/modules/admin/views/sanpham.php",
+      "application/modules/site/controllers/Site.php",
+      "application/modules/site/models/Site_model.php",
+      "application/modules/site/views/search.php",
+      "application/views/content.php",
+      "application/views/left.php",
+      "cron/laydm.php"
+    ],
+    "tblfooter": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/views/frmfooter.php",
+      "application/modules/admin/views/includes/mainmenu.php",
+      "application/modules/site/controllers/Site.php",
+      "application/modules/site/views/contact.php"
+    ],
+    "tblkhachhang": [
+      "application/modules/admin/views/frmkhachhang.php"
+    ],
+    "tblkho": [
+      "application/modules/admin/views/frmthanhvien.php",
+      "application/modules/admin/views/tbladmin.php"
+    ],
+    "tblname": [
+      "application/helpers/status_helper.php",
+      "application/modules/admin/controllers/Admin.php"
+    ],
+    "tblorder": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/views/order.php",
+      "application/modules/site/controllers/Site.php"
+    ],
+    "tblraovat": [
+      "application/modules/admin/models/Admin_model.php"
+    ],
+    "tblrole": [
+      "application/modules/admin/views/frmthanhvien.php",
+      "application/modules/admin/views/tbladmin.php"
+    ],
+    "tblsanpham": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/views/frmsanpham.php",
+      "application/modules/admin/views/sanpham.php",
+      "application/modules/site/controllers/Site.php",
+      "application/modules/site/views/donhang.php",
+      "application/modules/site/views/order.php",
+      "application/modules/site/views/sanpham.php",
+      "application/views/content.php",
+      "cron/Bản sao cron.php",
+      "cron/cron.php"
+    ],
+    "tblslider": [
+      "application/modules/admin/controllers/Admin.php",
+      "application/modules/admin/views/frmslider.php",
+      "application/modules/admin/views/slider.php",
+      "application/views/content.php"
+    ],
+    "tblsphot_limited": [
+      "application/modules/site/models/Site_model.php"
+    ],
+    "tbltypekhach": [
+      "application/modules/admin/views/frmkhachhang.php",
+      "application/modules/admin/views/khachhang.php"
+    ],
+    "tbluser": [
+      "application/modules/admin/controllers/Admin.php"
+    ],
+    "tblxuat": [
+      "application/modules/admin/views/frmkhachhang.php",
+      "application/modules/admin/views/khachhang.php"
+    ]
+  },
+  "sitemap_url_count": 7,
+  "sitemap_hosts": {
+    "greengen.com.vn": 7
+  },
+  "seo_urls": 201,
+  "unexpected_executable_uploads": [],
+  "archive_regular_files": 3644,
+  "document_root_regular_files": 3321,
+  "outside_document_root_files": 323
+}
