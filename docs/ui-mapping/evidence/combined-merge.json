@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "created": {
+    "categories": 8,
+    "article_categories": 11,
+    "products": 115,
+    "product_images": 347,
+    "product_options": 4,
+    "product_option_values": 8,
+    "product_variants": 120,
+    "product_variant_values": 12,
+    "inventories": 120,
+    "customers": 0,
+    "customer_addresses": 0,
+    "orders": 255,
+    "order_items": 255,
+    "order_status_histories": 255,
+    "articles": 67,
+    "banners": 21,
+    "settings": 0
+  },
+  "copied_media_files": 775,
+  "source_unchanged": true,
+  "original_demo_rows_unchanged": true,
+  "local_preview_publication": true,
+  "target_after": "4d97ee06c984352b5af639c3ec06d203a7a4417b7e85550fa9393731d397509b",
+  "settings_policy": "Keep all existing website settings; preserve source settings in original staging, backup and private settings archive",
+  "backup": {
+    "status": "BACKUP VERIFIED",
+    "target_before": "7019fed46bb4f02901d9105023d35c615e16f716718b42810608661e2f984854",
+    "databases": [
+      {
+        "database": "bancay",
+        "filename": "bancay-20261028T161536Z.sql",
+        "private_path": "legacy-private/ui-mapping/combined/bancay-20261028T161536Z.sql",
+        "timestamp_utc": "2026-10-28T16:15:36.110182+00:00",
+        "size_bytes": 302926,
+        "sha256": "2027a1ca462e7c9fa11518e5e6caeb7791998ac2d07e0faae23f9a88e22e5369",
+        "tables": 98,
+        "restore_counts_data_checksums_schema_match": true,
+        "check_table_ok": true,
+        "scratch_removed": true
+      },
+      {
+        "database": "bancay_phase4_staging",
+        "filename": "bancay_phase4_staging-20261028T161536Z.sql",
+        "private_path": "legacy-private/ui-mapping/combined/bancay_phase4_staging-20261028T161536Z.sql",
+        "timestamp_utc": "2026-10-28T16:15:36.110182+00:00",
+        "size_bytes": 2065864,
+        "sha256": "c6700f193614ec267518c880bf74ce9c19900e280903e7e08593e46fd64ec853",
+        "tables": 98,
+        "restore_counts_data_checksums_schema_match": true,
+        "check_table_ok": true,
+        "scratch_removed": true
+      }
+    ],
+    "demo_media": {
+      "private_path": "legacy-private/ui-mapping/combined/original-demo-media-20261028T161536Z.tar",
+      "size_bytes": 1648640,
+      "sha256": "55bad5d719cbc366e25c98fee5603908eb0d57c6d281d44eb305a118bbaf5508",
+      "readable": true
+    }
+  },
+  "before_counts": {
+    "articles": 5,
+    "article_categories": 2,
+    "banners": 3,
+    "categories": 6,
+    "customers": 2,
+    "customer_addresses": 1,
+    "inventories": 22,
+    "orders": 3,
+    "order_items": 3,
+    "order_status_histories": 5,
+    "products": 6,
+    "product_images": 9,
+    "product_options": 11,
+    "product_option_values": 22,
+    "product_variants": 22,
+    "product_variant_values": 42,
+    "settings": 8
+  },
+  "after_counts": {
+    "articles": 72,
+    "article_categories": 13,
+    "banners": 24,
+    "categories": 14,
+    "customers": 2,
+    "customer_addresses": 1,
+    "inventories": 142,
+    "orders": 258,
+    "order_items": 258,
+    "order_status_histories": 260,
+    "products": 121,
+    "product_images": 356,
+    "product_options": 15,
+    "product_option_values": 30,
+    "product_variants": 142,
+    "product_variant_values": 54,
+    "settings": 8
+  },
+  "original_stage_all98_tables_unchanged": true,
+  "native_tables_unchanged": true,
+  "idempotent_rerun": {
+    "status": "PASS",
+    "mode": "NOOP",
+    "created": 0,
+    "domain_fingerprint_unchanged": true,
+    "source_unchanged": true
+  },
+  "environment": "Local8000 only; noindex; no production/public deployment"
+}

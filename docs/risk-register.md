@@ -1,4 +1,12 @@
-# Consolidated Risk Register — Phases 1–3
+> Current local website: **demo + migrated data combined at http://localhost:8000**. [UI mapping/merge report](ui-mapping-report.md).121 products/142 SKUs/72 articles/258 orders;120 products/71 articles visible locally, noindex. Original demo rows, source8002 and backups preserved.137 PHP/860 assertions,44 combined browser cases,0 UI mapping mismatches,201 local redirects PASS.13 inactive banner placements remain frontend work. Previous pure-demo/hidden8000 and pre-merge counts below are historical.
+
+> Current stack: **Exment7.0.0 / Laravel12.70.2 / admin-core1.0.1**, PHP8.3.36. [Upgrade report](exment-v7-report.md). Composer audit PASS (0 advisories/0 abandoned), npm audit0; RR-30/RR-34 RESOLVED.132 PHP/814 assertions +5JS and47 browser cases PASS. Both local DBs upgraded;17 business tables unchanged; migrated catalog still hidden. Older v6 pins/audit failures/exceptions below are historical. No production release.
+
+> Latest approved-review application: [report](phase-4/review-application.md). All category decisions applied:115 products/120 SKUs/67 articles, still hidden.5 missing media references resolved,1 fallback accepted;493 historical orders/2 banners/2 legacy users intentionally excluded.201/201 URL targets mapped.132 PHP/815 assertions +5JS and44 browser cases PASS. Dependency audit remains FAIL under local-only exception; Phase5 READY WITH RISKS. Earlier counts/queues below are historical.
+
+> Latest risk closure: [report](phase-4/risk-closure.md). Content URLs repaired in124 fields after verified87-table backup/restore;128 PHP/783 assertions +5JS and37 browser cases PASS. RR-46 RESOLVED. Remaining dependency/source-data/content/identity review risks are recorded; Phase5 READY WITH RISKS, public release blocked.
+
+# Consolidated Risk Register — Phases 1–4
 
 Review ngày28/10/2026 trên baseline b574d19 + targeted fixes. [Request](risk-review/request.md), [final report](risk-review-report.md), [machine register](risk-review/evidence/risk-register.json). Initial assessment phản ánh source trước fixes trong review; Current Status là kết luận sau kiểm chứng. Severity giữ mức tác hại gốc, kể cả khi đã giải quyết; không đếm RR-04/RR-22/RR-29 là Critical đang mở.
 
@@ -33,13 +41,13 @@ Evidence tên test trỏ [tests summary](risk-review/evidence/tests.json) và so
 | RR-25 | 1–3 | Medium | SEO fields/fallback/canonical/JSON-LD và CONTACT offer | StorefrontTest; seo-frontend.md | ALREADY RESOLVED | ALREADY RESOLVED | Trusted APP_URL canonical, escaped JSON-LD, no fake rating/CONTACT offer, local noindex; đầy đủ schema field cần cho mapping. |
 | RR-26 | 1–3 | Low | Full201 old URL parity và non-rendered banner placements chưa verify | legacy-mapping.md; seo-frontend.md; Phase3 legacy comparison | PARTIALLY RESOLVED | DEFERRED | Generic legacy_id resolver không chứng minh actual URL map; exact path/query/encoding/slug checks sau import; banners INACTIVE đến duyệt. |
 | RR-27 | 1–3 | High | Chưa có một test liền mạch admin→frontend→admin | RiskReviewIntegrationTest; evidence/tests.json | NEEDS FIX | RESOLVED | Native admin tạo category/product/options/4variants; active SKU price/stock; frontend order2; admin snapshot100000/qty2/NEW; giá150000 không đổi đơn; cancel PASS. |
-| RR-28 | 2–3 | Medium | Fresh browser interaction/responsive core run trong review chưa thực hiện được | risk-review/browser-validation.md | STILL EXISTS | BLOCKED | MANUAL TEST REQUIRED: provider lỗi constraints trước navigation; HTTP integration và JS unit PASS không phải browser E2E. Cần chạy lại desktop/mobile core + ảnh shared regression khi browser hoạt động. |
-| RR-29 | 1–3 | Critical | TokenGuard type-juggling advisory bị coi là exploit còn tồn tại chỉ theo version range | DependencyGuardTest; token-guard-source.json; dependency-assessment.md | FALSE POSITIVE | FALSE POSITIVE | Exact official10.50.4 implementation đã chặn non-string trước provider; Composer vẫn flag, không ignore và không suy rộng sang các advisories khác. |
-| RR-30 | 1–3 | High | Framework email CRLF advisory chưa có compatible remediation được xác minh | risk-review/dependency-assessment.md; composer-audit.json; upstream-release.json | STILL EXISTS | BLOCKED | App CR/LF rejection + mail log-only giảm exposure, không fix toàn Exment. Strict security closure chưa đạt; cần compatible supported upgrade/official fix, audit + auth/mail regression. |
-| RR-31 | 1–3 | Medium | Local temporary signed URL advisory trong audit | risk-review/dependency-assessment.md; FilesystemAdapter; config/filesystems.php | STILL EXISTS | ACCEPTED | Ứng dụng không đăng ký/use local temporary serve/upload URL, không xác nhận framework patched. |
-| RR-32 | 1–3 | Low | Debug tooltip XSS advisory | composer-audit.json; runtime-schema.json | STILL EXISTS | DEFERRED | Debug OFF; bật lại với untrusted input sẽ thay đổi exposure; audit vẫn FAIL. |
-| RR-33 | 1–3 | Low | Transitive JWT advisory | composer-audit.json; runtime-schema.json | STILL EXISTS | DEFERRED | Không mở business JWT API; Passport keys absent, API flags false. Không suy diễn mọi transitive use an toàn. |
-| RR-34 | 1–3 | Medium | Laravel10 support lifecycle/abandoned dependency/upgrade coupling | architecture.md; risk-review/dependency-assessment.md | STILL EXISTS | BLOCKED | Không force Laravel12 vào Exment6 hoặc dùng dev v7; production vẫn chặn. Xử lý cùng RR-30, không hứa ngày release. |
+| RR-28 | 2–3 | Medium | Fresh branded browser regression | readiness-closure/evidence/browser-results.json | CONFIRMED | RESOLVED | Chrome/Edge/mobile17/17 each PASS; first mobile timeout and reruns retained; Safari/iOS not tested. |
+| RR-29 | 1–3 | Critical | TokenGuard type-juggling advisory bị coi là exploit còn tồn tại chỉ theo version range | exment-v7/evidence/composer-audit.json; exment-v7-report.md | FALSE POSITIVE | RESOLVED | Official Exment7.0.0/Laravel12.70.2 upgrade; audit0 advisories/0 abandoned; auth/mail +132 PHP/814 assertions and47 browser cases PASS. Prior v6 applicability/exception is historical. |
+| RR-30 | 1–3 | High | Framework email CRLF advisory chưa có compatible remediation được xác minh | exment-v7/evidence/composer-audit.json; exment-v7-report.md | STILL EXISTS | RESOLVED | Official Exment7.0.0/Laravel12.70.2 upgrade; audit0 advisories/0 abandoned; auth/mail +132 PHP/814 assertions and47 browser cases PASS. Prior v6 applicability/exception is historical. |
+| RR-31 | 1–3 | Medium | Local temporary signed URL advisory trong audit | exment-v7/evidence/composer-audit.json; exment-v7-report.md | STILL EXISTS | RESOLVED | Official Exment7.0.0/Laravel12.70.2 upgrade; audit0 advisories/0 abandoned; auth/mail +132 PHP/814 assertions and47 browser cases PASS. Prior v6 applicability/exception is historical. |
+| RR-32 | 1–3 | Low | Debug tooltip XSS advisory | exment-v7/evidence/composer-audit.json; exment-v7-report.md | STILL EXISTS | RESOLVED | Official Exment7.0.0/Laravel12.70.2 upgrade; audit0 advisories/0 abandoned; auth/mail +132 PHP/814 assertions and47 browser cases PASS. Prior v6 applicability/exception is historical. |
+| RR-33 | 1–3 | Low | Transitive JWT advisory | exment-v7/evidence/composer-audit.json; exment-v7-report.md | STILL EXISTS | RESOLVED | Official Exment7.0.0/Laravel12.70.2 upgrade; audit0 advisories/0 abandoned; auth/mail +132 PHP/814 assertions and47 browser cases PASS. Prior v6 applicability/exception is historical. |
+| RR-34 | 1–3 | Medium | Laravel10 support lifecycle/abandoned dependency/upgrade coupling | exment-v7/evidence/composer-audit.json; exment-v7-report.md | STILL EXISTS | RESOLVED | Official Exment7.0.0/Laravel12.70.2 upgrade; audit0 advisories/0 abandoned; auth/mail +132 PHP/814 assertions and47 browser cases PASS. Prior v6 applicability/exception is historical. |
 | RR-35 | 1–3 | Low | Stock ledger/reservation expiry/return restock approval/token retention | order-workflow.md; cart-checkout.md | STILL EXISTS | DEFERRED | Current rule giữ nguyên: reserve NEW, release cancel, deduct SHIPPING, RETURNED không tự restock; admin quản lý pending. |
 | RR-36 | 2–3 | Low | Rich editor/media library/trash restore/order-line export/cache/CDN/srcset | phase-2-report.md; phase-3-report.md | STILL EXISTS | DEFERRED | Minor UX/performance debt, không làm yếu upload/snapshot invariant hoặc cản dry-run migration. |
 | RR-37 | 1–3 | Low | Customer account/OTP recovery/payment/shipping/voucher/review chưa implement | master-plan.md; cart-checkout.md; phase-3-report.md | STILL EXISTS | DEFERRED | Guest-only baseline, shipping0 không được quảng cáo miễn ship, không lookup phone-only; không giả payment success. |
@@ -76,3 +84,24 @@ ACCEPTED chỉ là review decision trong boundary local được mô tả, khôn
 Legacy data exceptions RR-11/RR-12 được contract quarantine/default-OFF bao phủ; Phase4 tooling vẫn phải chứng minh counts/idempotency/rollback, không coi design là actual import.
 
 **PHASE 4 STATUS: NOT READY**
+
+## Latest readiness closure
+
+[Eight-section report](readiness-closure-report.md) and [Evidence/Action/Test/Final Status](readiness-closure/evidence/risk-updates.json) supersede the prior RR-28 browser blocker. RR-30/RR-34 remain BLOCKED despite global email input hardening. RR-42 Database Backup: RESOLVED / BACKUP VERIFIED via87-table restore with hash/count/schema checks; later source metadata differences require review before import.
+
+PHASE 4 STATUS: NOT READY
+
+## Current Phase4 decisions
+
+Latest user instruction explicitly accepts RR-30/RR-34 for local isolated rehearsal; dependency findings remain unresolved and do not authorize deployment. Prior blocker paragraphs above are historical. [Current45-row machine register](phase-4/evidence/risk-register.json), [Phase4 report](phase-4-report.md).
+
+| ID | Final Status | Reason / Evidence | Impact | Target Phase |
+| --- | --- | --- | --- | --- |
+| RR-30 | ACCEPTED | Latest direct user instruction explicitly accepts temporary deferral for isolated Phase4 rehearsal | Audit remains FAIL; local restricted rehearsal only; not a package patch | Phase5 compatible stack update before public staging/production |
+| RR-34 | ACCEPTED | Latest direct user instruction explicitly accepts temporary deferral for isolated Phase4 rehearsal | Audit remains FAIL; local restricted rehearsal only; not a package patch | Phase5 compatible stack update before public staging/production |
+| RR-42 | RESOLVED | Original archive/source/files and fresh target restore verified | Database backup/restore verification | Phase4 completed |
+| RR-43 | ACCEPTED | Invalid records excluded with full original archive and explicit counts; schema remains strict | Legacy record quarantine | Phase5 manual review before cutover |
+| RR-44 | ACCEPTED | All actual staging data hidden; missing/unresolved content is flagged, not fabricated | Missing media/HTML/content origin/publication/branding | Phase5 review before public staging |
+| RR-45 | ACCEPTED | No approved per-account privilege mapping; no MD5 import or inferred superadmin | Legacy admin role/identity mapping | Phase5 identity review before Phase6 |
+
+PHASE 5 STATUS: READY WITH RISKS

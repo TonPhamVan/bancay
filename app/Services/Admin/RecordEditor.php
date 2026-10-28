@@ -7,6 +7,7 @@ use App\Admin\StoreResources;
 use App\Domain\Catalog\PublicationStatus;
 use App\Domain\Catalog\RecordStatus;
 use App\Models\Category;
+use App\Rules\DatabaseText;
 use App\Rules\DatabaseTimestamp;
 use App\Services\CategoryTreeService;
 use Illuminate\Database\Eloquent\Model;
@@ -54,6 +55,9 @@ final class RecordEditor
                     if (isset($data[$field])) {
                         $data[$field] = Purifier::clean($data[$field]);
                     }
+                }
+                if (in_array($entity, ['categories', 'article-categories'], true) && isset($data['description'])) {
+                    Validator::make($data, ['description' => [new DatabaseText]])->validate();
                 }
                 if ($entity === 'products' && ! $model->exists) {
                     return app(CreateProduct::class)->execute($data);
@@ -117,7 +121,7 @@ final class RecordEditor
             'products' => array_replace(CreateProduct::rules(), $slug, $pub, ['options' => ['prohibited']]),
             'categories', 'article-categories' => $name + $slug + $pub + $seo + $sort + $image + [
                 'parent_id' => ['nullable', 'integer', Rule::exists($model->getTable(), 'id')],
-                'description' => ['nullable', 'string', 'max:10000'],
+                'description' => ['nullable', 'string', 'max:65535', new DatabaseText],
                 ($entity === 'categories' ? 'featured' : 'show_in_menu') => ['required', 'boolean']],
             'articles' => ['title' => ['required', 'string', 'max:255'], 'article_category_id' => ['required', 'integer', 'exists:article_categories,id'],
                 'excerpt' => ['nullable', 'string', 'max:10000'], 'content' => ['nullable', 'string', 'max:1000000'],

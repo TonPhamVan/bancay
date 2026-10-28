@@ -1,0 +1,23 @@
+{
+  "status": "APPROVED DECISIONS APPLIED",
+  "original_quarantine_root_records": 506,
+  "restored_catalog_content_records": 9,
+  "remaining_excluded_records": 497,
+  "remaining_counts": {
+    "orders": 493,
+    "banners": 2,
+    "users": 2
+  },
+  "media_absent_original_paths": 6,
+  "approved_verified_media_aliases": 5,
+  "remaining_fallback_references": 1,
+  "manual_category_mapping_questions_remaining": 0,
+  "manual_old_url_targets_remaining": 0,
+  "historical_data_not_fabricated": true,
+  "legacy_accounts_not_provisioned": true,
+  "private_retained_queue": "legacy-private/phase4/review-application/retained-exclusions.json",
+  "retained_queue_sha256": "212413449aaf37e8aa02639dd4f7353c2d095ef9904642efcf0cce5eacd58de0",
+  "approved_decisions_sha256": "b4bd8a5843cfa05effb2c850e5525ad9b610e835e7b06bbcf8a18e42854021c6",
+  "missing_image_disposition": "1 missing article52 image explicitly waived by user; fallback accepted; no recovery task",
+  "missing_image_approval_pending": false
+}

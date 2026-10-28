@@ -1,0 +1,31 @@
+{
+  "composer_validate": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "platform": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "exment_requirements": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "audit": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "npm_audit": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "checked_at_utc": "2026-10-28T12:42:07.261276+00:00",
+  "pint": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "javascript_tests": {
+    "status": "PASS",
+    "tests": 5
+  }
+}

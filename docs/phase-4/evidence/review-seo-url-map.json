@@ -1,0 +1,12 @@
+{
+  "rows": 201,
+  "mapped_targets": 201,
+  "manual_review": 0,
+  "duplicate_sources": 0,
+  "production_redirects_enabled": false,
+  "publication": "all actual staging entities hidden; approvals applied to9 previous orphan entities",
+  "sha256": "b798984295c65d068b35b18b7e1cfeb85d3ace2321f6f73ce8be57ed9037ec04",
+  "private_dataset": "legacy-private/phase4/phase5/legacy-url-map.csv",
+  "previous_dataset": "legacy-private/phase4/phase5/legacy-url-map.before-approved-review.csv",
+  "http_redirect_parity": "DEFERRED to Phase5; mapping coverage does not imply public redirect activation"
+}

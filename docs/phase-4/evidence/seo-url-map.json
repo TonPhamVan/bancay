@@ -1,0 +1,10 @@
+{
+  "rows": 201,
+  "mapped_targets": 192,
+  "manual_review": 9,
+  "duplicate_sources": 0,
+  "production_redirects_enabled": false,
+  "publication": "all actual staging entities hidden",
+  "sha256": "39a67995882815ff7af49f5057b36c963f672937a2c84e198f49b8ceb3aca582",
+  "private_dataset": "legacy-private/phase4/phase5/legacy-url-map.csv"
+}

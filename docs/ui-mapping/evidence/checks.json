@@ -1,0 +1,14 @@
+{
+  "pint": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "composer_validate": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "audit": {
+    "status": "PASS",
+    "exit_code": 0
+  }
+}

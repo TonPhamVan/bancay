@@ -1,0 +1,15 @@
+{
+  "status": "ACCEPTED",
+  "review_id": "Q15",
+  "entity": "article",
+  "legacy_id": 52,
+  "missing_references_waived": 1,
+  "approved_date": "2026-10-28",
+  "timezone": "Asia/Saigon",
+  "user_instruction": "1 ảnh thiếu bỏ qua",
+  "action": "Keep existing fallback; close recovery/approval task for this image",
+  "recovery_required": false,
+  "image_recovered": false,
+  "database_or_source_modified": false,
+  "verification": "Policy/documentation update only; existing verified fallback unchanged; no new runtime tests required"
+}

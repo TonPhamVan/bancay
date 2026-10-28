@@ -479,4 +479,18 @@ class StorefrontTest extends TestCase
             ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)."\n");
         }
     }
+
+    public function test_desktop_navigation_exposes_categories_beyond_the_first_five(): void
+    {
+        $categories = [];
+        for ($index = 0; $index < 8; $index++) {
+            $categories[] = Category::factory()->create(['name' => 'Navigation group '.$index, 'sort_order' => $index]);
+        }
+        $hidden = Category::factory()->create(['name' => 'Hidden navigation group', 'status' => 'DRAFT']);
+        $response = $this->get('/')->assertOk()->assertSee('Danh mục khác');
+        foreach ($categories as $category) {
+            $response->assertSee('/danh-muc/'.$category->slug, false);
+        }
+        $response->assertDontSee('/danh-muc/'.$hidden->slug, false);
+    }
 }

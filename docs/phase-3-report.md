@@ -1,5 +1,9 @@
 # Phase 3 — Frontend Blade Development
 
+> Current Phase4: [report](phase-4-report.md). Isolated rehearsal completed:113 products/118 SKUs/255 historical orders;126 PHP tests/770 assertions +5JS PASS; native/frontend browser PASS. RR-30/RR-34 temporarily accepted by user; audit still FAIL, production blocked. Phase5 READY WITH RISKS. Earlier NOT READY/import-not-started statements below are historical.
+
+> Latest readiness closure: [report](readiness-closure-report.md). Browser Chrome/Edge/mobile PASS; backup restore VERIFIED;114 PHP/670 assertions +5JS PASS. RR-30/RR-34 remain BLOCKED; Phase4 NOT READY. Post-run local metadata differences recorded for review. Prior browser blockers below are historical.
+
 > **Current review 28/10/2026:** [Risk review](risk-review-report.md) và [41-risk register](risk-register.md) là kết luận hiện tại.110 PHP tests/656 assertions +5JS PASS; bổ sung3 money CHECKs và reference-aware image cleanup. TokenGuard advisory FALSE POSITIVE cho exact checked code; Composer audit vẫn FAIL với High email finding chưa remediation. Fresh browser run BLOCKED. **PHASE 4 STATUS: NOT READY**. Các counts/readiness/evidence của phase riêng bên dưới giữ làm lịch sử, không phải approval hiện tại.
 
 Ngày kiểm chứng: **28/10/2026**. Nhánh làm việc: `feature/develop`, baseline Phase2 `e1cdb4b`. Phạm vi **local test với dữ liệu tổng hợp**. [Yêu cầu nguyên bản](phase-3/request.md); [Master Plan nguyên byte](master-plan.md).

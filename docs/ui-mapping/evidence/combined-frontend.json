@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "base": "http://localhost:8000",
+  "entities": {
+    "products": {
+      "rendered_records": 120,
+      "pages": 5,
+      "matches_published_database_records": true
+    },
+    "articles": {
+      "rendered_records": 71,
+      "pages": 5,
+      "matches_published_database_records": true
+    }
+  },
+  "search_by_migrated_sku": "PASS",
+  "local_noindex": true
+}

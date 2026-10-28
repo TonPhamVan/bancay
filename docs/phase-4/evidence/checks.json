@@ -1,0 +1,42 @@
+[
+  {
+    "name": "php-tests",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "name": "pint",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "name": "composer-validate",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "name": "platform",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "name": "exment-requirements",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "name": "js-tests",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  {
+    "name": "composer-audit",
+    "exit_code": 1,
+    "status": "FAIL"
+  },
+  {
+    "name": "npm-audit",
+    "exit_code": 0,
+    "status": "PASS"
+  }
+]

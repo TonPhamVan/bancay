@@ -1,0 +1,10 @@
+{
+  "tests": "128",
+  "assertions": "783",
+  "errors": "0",
+  "failures": "0",
+  "skipped": "0",
+  "time": "44.492973",
+  "status": "PASS",
+  "scope": "Full Phase1-4 plus content URL portability and stale-plan regression"
+}

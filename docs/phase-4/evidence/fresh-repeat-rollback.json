@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "fresh_source_hash": "5e90ab0125aceac97f629ed5d017b042946d8cfc0a2bf01167346d7adfc36658",
+  "semantic_match": true,
+  "semantic_tables": {
+    "categories": {
+      "count": 8,
+      "semantic_sha256": "9cf75f134ef0f0e629b044f55425d54974653263122390291f7fe76d87ad97aa"
+    },
+    "products": {
+      "count": 113,
+      "semantic_sha256": "5d375e714320061e101f1168d3b2f4e75191aec705071faa8fa407ce94556966"
+    },
+    "product_images": {
+      "count": 342,
+      "semantic_sha256": "d9d9a18f268cf8ceb62eaf75ee85085987a66c6e0d8acf068c925b9dc09cfc0f"
+    },
+    "product_options": {
+      "count": 4,
+      "semantic_sha256": "c2827786b1da9217bf54f67671794b99cc618eac3623fc95a220b6cc8e110fa4"
+    },
+    "product_option_values": {
+      "count": 8,
+      "semantic_sha256": "8fd0bf6a6d48bc160f19a59f79a0f6bbb30ededd344c91c375d002b97c4307ec"
+    },
+    "product_variants": {
+      "count": 118,
+      "semantic_sha256": "5b2e50c0a33f00979f8fd8593e8795afb6ef5672ed8b8214b9f58972a56fad32"
+    },
+    "product_variant_values": {
+      "count": 12,
+      "semantic_sha256": "c9a76e592cc0fedc619273bb773a5749a4d79dce187b83da1394d97b8765dd96"
+    },
+    "inventories": {
+      "count": 118,
+      "semantic_sha256": "cec3698a48430e451dd2e9499ac17ce35fa249f899c7d19a83b2a6b9629b1491"
+    },
+    "customers": {
+      "count": 0,
+      "semantic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "customer_addresses": {
+      "count": 0,
+      "semantic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "orders": {
+      "count": 255,
+      "semantic_sha256": "1b946041fc847dc4f4a5686dc9991f0182be63a7012daf8e5a39406c7785a353"
+    },
+    "order_items": {
+      "count": 255,
+      "semantic_sha256": "af4d80c4592cb1ec84fb4cc23c581e347deab8ba467b48f0733a30a196931ba4"
+    },
+    "order_status_histories": {
+      "count": 255,
+      "semantic_sha256": "bbaae28e590673a8825a73b3923cf69739214486f25dcb440654413b86e943d8"
+    },
+    "article_categories": {
+      "count": 11,
+      "semantic_sha256": "01d6618b5c147b2951ff9d3d5f64b29a915a4ff98f0645cdecb28f11cf3757fa"
+    },
+    "articles": {
+      "count": 60,
+      "semantic_sha256": "c0f2cda14b9e48454ab50400a112a5e2bac6901fbb4b763ba99a6d5b141d59db"
+    },
+    "banners": {
+      "count": 21,
+      "semantic_sha256": "a55262d640649eaeea2ed9355b8dea841d8b5ec54987799ce20671e171ca4479"
+    },
+    "settings": {
+      "count": 8,
+      "semantic_sha256": "b9484a173770d9da7405dc73bb6456809da84d02eb90ad99e6f1e034c7efc987"
+    }
+  },
+  "rollback_restore": "PASS: all baseline tables/counts/data checksums/schema match",
+  "primary_staging_preserved": true,
+  "disposable_target_removed": true
+}

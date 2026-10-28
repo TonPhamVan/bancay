@@ -1,0 +1,29 @@
+{
+  "status": "PARTIAL FRONTEND COVERAGE",
+  "placements": [
+    {
+      "position": "home_slider",
+      "records": 8,
+      "active": 0,
+      "frontend": "Home consumes first eligible banner as hero image; not an8-item carousel"
+    },
+    {
+      "position": "sidebar",
+      "records": 10,
+      "active": 0,
+      "frontend": "No storefront template currently consumes this position"
+    },
+    {
+      "position": "content_bottom",
+      "records": 3,
+      "active": 0,
+      "frontend": "No storefront template currently consumes this position"
+    }
+  ],
+  "publication": "All migrated catalog/content DRAFT and banners INACTIVE; no publication changes",
+  "demo_kept": true,
+  "migrated_data_kept": true,
+  "legacy_backups_kept": true,
+  "placement_source": "app/Services/Storefront/Catalog.php; app/Http/Controllers/Frontend/CatalogController.php; resources/views/home/index.blade.php",
+  "action": "Report existing placement gaps; no silent publication, deletion or merge"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "databases": [
+    {
+      "database": "bancay",
+      "domain_tables": 17,
+      "domain_counts_data_checksums_schema_unchanged": true,
+      "table_count_before": 87,
+      "table_count_after": 98
+    },
+    {
+      "database": "bancay_phase4_staging",
+      "domain_tables": 17,
+      "domain_counts_data_checksums_schema_unchanged": true,
+      "table_count_before": 87,
+      "table_count_after": 98
+    }
+  ],
+  "production_or_legacy_source_writes": false
+}

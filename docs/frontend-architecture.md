@@ -1,4 +1,8 @@
+> Current stack: **Exment7.0.0 / Laravel12.70.2 / admin-core1.0.1**, PHP8.3.36. [Upgrade report](exment-v7-report.md). Composer audit PASS (0 advisories/0 abandoned), npm audit0; RR-30/RR-34 RESOLVED.132 PHP/814 assertions +5JS and47 browser cases PASS. Both local DBs upgraded;17 business tables unchanged; migrated catalog still hidden. Older v6 pins/audit failures/exceptions below are historical. No production release.
+
 # Frontend Blade — Phase 3
+
+> Current Phase4: [report](phase-4-report.md). Isolated rehearsal completed:113 products/118 SKUs/255 historical orders;126 PHP tests/770 assertions +5JS PASS; native/frontend browser PASS. RR-30/RR-34 temporarily accepted by user; audit still FAIL, production blocked. Phase5 READY WITH RISKS. Earlier NOT READY/import-not-started statements below are historical.
 
 Ngày kiểm chứng: 28/10/2026. Phạm vi local với dữ liệu tổng hợp. Đầu vào là Phase 2 **READY WITH RISKS**; các dependency findings của Exment v6/Laravel 10 vẫn chặn production. [Yêu cầu gốc](phase-3/request.md), [báo cáo](phase-3-report.md).
 

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "candidate_credential_scan": "PASS",
+  "private_credentials_data_ignored": true,
+  "report_links": "PASS",
+  "diff_check": "PASS",
+  "commit_or_push_performed": false
+}

@@ -1,0 +1,10 @@
+{
+  "tests": "132",
+  "assertions": "814",
+  "errors": "0",
+  "failures": "0",
+  "skipped": "0",
+  "time": "57.767589",
+  "status": "PASS",
+  "scope": "Full Phase1-4, Laravel12/Exment7, native validator and mail transport rejection; guarded bancay_test"
+}

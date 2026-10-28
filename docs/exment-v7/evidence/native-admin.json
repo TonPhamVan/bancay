@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "browser": "155.0.8059.85",
+  "cases": [
+    {
+      "case": "native_invalid_password_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "native_login_v7_dashboard_and_assets",
+      "status": "PASS"
+    },
+    {
+      "case": "native_editor_no_pageerrors_or_failed_assets",
+      "status": "PASS"
+    }
+  ],
+  "page_errors": [],
+  "failed_local_assets": []
+}

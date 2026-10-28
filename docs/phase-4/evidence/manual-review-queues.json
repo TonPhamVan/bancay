@@ -1,0 +1,35 @@
+{
+  "status": "REVIEW QUEUES PREPARED; SOURCE DEFECTS NOT REPAIRED",
+  "quarantined_records": 506,
+  "counts": {
+    "products": 2,
+    "articles": 7,
+    "orders": 493,
+    "banners": 2,
+    "users": 2
+  },
+  "manual_old_urls": 9,
+  "missing_media": 6,
+  "files": [
+    {
+      "private_path": "legacy-private/phase4/content-risk-closure/record-review-queue.json",
+      "sha256": "9f817eea2674bd67170aa26b65f119efbf244fc4fb9bd683eb442308a39e25fc"
+    },
+    {
+      "private_path": "legacy-private/phase4/content-risk-closure/missing-media-review.json",
+      "sha256": "079bed8c9284c68bcc55fea67fd7410d8d0349317693f757165e7d5dc11fb435"
+    },
+    {
+      "private_path": "legacy-private/phase4/content-risk-closure/url-review-queue.json",
+      "sha256": "1ddd0d4817bfc3c6eb11919d704cd44b5e54d6da42a061a65679728d82115e95"
+    }
+  ],
+  "requires_owner_evidence": [
+    "category relationships",
+    "historical data corrections",
+    "admin permission mapping",
+    "missing media/content/publication/branding approval"
+  ],
+  "no_source_or_database_writes": true,
+  "missing_media_with_casefold_basename_candidates": 5
+}

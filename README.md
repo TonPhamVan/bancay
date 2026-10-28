@@ -1,4 +1,16 @@
+> Current local website: **demo + migrated data combined at http://localhost:8000**. [UI mapping/merge report](docs/ui-mapping-report.md).121 products/142 SKUs/72 articles/258 orders;120 products/71 articles visible locally, noindex. Original demo rows, source8002 and backups preserved.137 PHP/860 assertions,44 combined browser cases,0 UI mapping mismatches,201 local redirects PASS.13 inactive banner placements remain frontend work. Previous pure-demo/hidden8000 and pre-merge counts below are historical.
+
+> Current stack: **Exment7.0.0 / Laravel12.70.2 / admin-core1.0.1**, PHP8.3.36. [Upgrade report](docs/exment-v7-report.md). Composer audit PASS (0 advisories/0 abandoned), npm audit0; RR-30/RR-34 RESOLVED.132 PHP/814 assertions +5JS and47 browser cases PASS. Both local DBs upgraded;17 business tables unchanged; migrated catalog still hidden. Older v6 pins/audit failures/exceptions below are historical. No production release.
+
+> Latest approved-review application: [report](docs/phase-4/review-application.md). All category decisions applied:115 products/120 SKUs/67 articles, still hidden.5 missing media references resolved,1 fallback accepted;493 historical orders/2 banners/2 legacy users intentionally excluded.201/201 URL targets mapped.132 PHP/815 assertions +5JS and44 browser cases PASS. Dependency audit remains FAIL under local-only exception; Phase5 READY WITH RISKS. Earlier counts/queues below are historical.
+
+> Latest risk closure: [report](docs/phase-4/risk-closure.md). Content URLs repaired in124 fields after verified87-table backup/restore;128 PHP/783 assertions +5JS and37 browser cases PASS. RR-46 RESOLVED. Remaining dependency/source-data/content/identity review risks are recorded; Phase5 READY WITH RISKS, public release blocked.
+
 # bancay.vn — Laravel / Exment storefront
+
+> Current Phase4: [report](docs/phase-4-report.md). Isolated rehearsal completed:113 products/118 SKUs/255 historical orders;126 PHP tests/770 assertions +5JS PASS; native/frontend browser PASS. RR-30/RR-34 temporarily accepted by user; audit still FAIL, production blocked. Phase5 READY WITH RISKS. Earlier NOT READY/import-not-started statements below are historical.
+
+> Latest readiness closure: [report](docs/readiness-closure-report.md). Browser Chrome/Edge/mobile PASS; backup restore VERIFIED;114 PHP/670 assertions +5JS PASS. RR-30/RR-34 remain BLOCKED; Phase4 NOT READY. Post-run local metadata differences recorded for review. Prior browser blockers below are historical.
 
 Một Laravel modular monolith cho một cửa hàng. **Phase 3 Blade storefront đã triển khai local:** home/category/search, sản phẩm và variants, guest cart/checkout/order success, articles/contact/SEO. Exment admin Phase2 dùng chung domain/actions; full regression pass.
 

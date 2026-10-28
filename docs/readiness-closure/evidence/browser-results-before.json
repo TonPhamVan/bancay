@@ -1,0 +1,272 @@
+{
+  "checked_at_utc": "2026-10-28T01:01:05.624Z",
+  "mode": "headless installed branded browsers; ephemeral profiles",
+  "target": "owned clone of verified current local synthetic DB; not legacy/production",
+  "base_url": "http://localhost:8001",
+  "environments": [
+    {
+      "name": "desktop-chrome",
+      "channel": "chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "emulated_mobile": false,
+      "cases": [
+        {
+          "case": "home",
+          "status": "PASS"
+        },
+        {
+          "case": "responsive_navigation",
+          "status": "PASS"
+        },
+        {
+          "case": "search",
+          "status": "PASS"
+        },
+        {
+          "case": "article",
+          "status": "PASS"
+        },
+        {
+          "case": "category",
+          "status": "PASS"
+        },
+        {
+          "case": "product",
+          "status": "PASS"
+        },
+        {
+          "case": "gallery",
+          "status": "PASS"
+        },
+        {
+          "case": "out_of_stock",
+          "status": "PASS"
+        },
+        {
+          "case": "variant_selection",
+          "status": "PASS"
+        },
+        {
+          "case": "add_cart",
+          "status": "PASS"
+        },
+        {
+          "case": "cart",
+          "status": "PASS"
+        },
+        {
+          "case": "checkout",
+          "status": "PASS"
+        },
+        {
+          "case": "required_validation",
+          "status": "PASS"
+        },
+        {
+          "case": "server_validation",
+          "status": "PASS"
+        },
+        {
+          "case": "order_success",
+          "status": "PASS"
+        },
+        {
+          "case": "order_access",
+          "status": "PASS"
+        },
+        {
+          "case": "console",
+          "status": "PASS"
+        }
+      ],
+      "version": "155.0.8059.85",
+      "synthetic_order_path": "/don-hang/BC-01M600CWRPKQ8GCCEZT39WR2WE",
+      "expected": {
+        "sku": "SF3-0-0-0",
+        "quantity": 2,
+        "unit_price": 259000,
+        "total": 518000
+      }
+    },
+    {
+      "name": "desktop-edge",
+      "channel": "msedge",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "emulated_mobile": false,
+      "cases": [
+        {
+          "case": "home",
+          "status": "PASS"
+        },
+        {
+          "case": "responsive_navigation",
+          "status": "PASS"
+        },
+        {
+          "case": "search",
+          "status": "PASS"
+        },
+        {
+          "case": "article",
+          "status": "PASS"
+        },
+        {
+          "case": "category",
+          "status": "PASS"
+        },
+        {
+          "case": "product",
+          "status": "PASS"
+        },
+        {
+          "case": "gallery",
+          "status": "PASS"
+        },
+        {
+          "case": "out_of_stock",
+          "status": "PASS"
+        },
+        {
+          "case": "variant_selection",
+          "status": "PASS"
+        },
+        {
+          "case": "add_cart",
+          "status": "PASS"
+        },
+        {
+          "case": "cart",
+          "status": "PASS"
+        },
+        {
+          "case": "checkout",
+          "status": "PASS"
+        },
+        {
+          "case": "required_validation",
+          "status": "PASS"
+        },
+        {
+          "case": "server_validation",
+          "status": "PASS"
+        },
+        {
+          "case": "order_success",
+          "status": "PASS"
+        },
+        {
+          "case": "order_access",
+          "status": "PASS"
+        },
+        {
+          "case": "console",
+          "status": "PASS"
+        }
+      ],
+      "version": "156.0.4314.42",
+      "synthetic_order_path": "/don-hang/BC-01M600D0P6DSVH7QW61MBEMMDC",
+      "expected": {
+        "sku": "SF3-0-0-0",
+        "quantity": 2,
+        "unit_price": 259000,
+        "total": 518000
+      }
+    },
+    {
+      "name": "mobile-chrome",
+      "channel": "chrome",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "emulated_mobile": true,
+      "cases": [
+        {
+          "case": "home",
+          "status": "PASS"
+        },
+        {
+          "case": "responsive_navigation",
+          "status": "PASS"
+        },
+        {
+          "case": "search",
+          "status": "PASS"
+        },
+        {
+          "case": "article",
+          "status": "PASS"
+        },
+        {
+          "case": "category",
+          "status": "PASS"
+        },
+        {
+          "case": "product",
+          "status": "PASS"
+        },
+        {
+          "case": "gallery",
+          "status": "PASS"
+        },
+        {
+          "case": "out_of_stock",
+          "status": "PASS"
+        },
+        {
+          "case": "variant_selection",
+          "status": "PASS"
+        },
+        {
+          "case": "add_cart",
+          "status": "PASS"
+        },
+        {
+          "case": "cart",
+          "status": "PASS"
+        },
+        {
+          "case": "checkout",
+          "status": "PASS"
+        },
+        {
+          "case": "required_validation",
+          "status": "PASS"
+        },
+        {
+          "case": "server_validation",
+          "status": "FAIL",
+          "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('alert').first() to be visible\u001b[22m\n"
+        },
+        {
+          "case": "order_success",
+          "status": "NOT TESTED",
+          "reason": "Earlier case failed in this environment"
+        },
+        {
+          "case": "order_access",
+          "status": "NOT TESTED",
+          "reason": "Earlier case failed in this environment"
+        },
+        {
+          "case": "console",
+          "status": "NOT TESTED",
+          "reason": "Earlier case failed in this environment"
+        }
+      ],
+      "version": "155.0.8059.85",
+      "failure": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('alert').first() to be visible\u001b[22m\n"
+    }
+  ],
+  "safari_ios": {
+    "status": "NOT TESTED",
+    "reason": "No Safari/iOS device. Mobile Chrome viewport is emulation, not a physical Android device."
+  },
+  "status": "FAIL"
+}

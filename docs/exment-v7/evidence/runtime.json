@@ -1,0 +1,13 @@
+{
+  "php": "8.3.36",
+  "laravel": "12.70.2",
+  "exment": "v7.0.0",
+  "admin_core": "v1.0.1",
+  "new_admin_class_available": true,
+  "old_admin_class_available": false,
+  "database": "bancay_phase4_staging",
+  "debug": false,
+  "mail": "log",
+  "source_fingerprint": "5e90ab0125aceac97f629ed5d017b042946d8cfc0a2bf01167346d7adfc36658",
+  "domain_fingerprint": "68e44e8f63b4b339c51bef9150d78074deb8f01eb473a55579bd7ed4e04ba3a1"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-28T16:32:36.837836+00:00",
+  "synthetic_orders": 3,
+  "snapshots_exact": true,
+  "physical_stock_preserved_for_checkout_variants": true,
+  "reserved_delta_exact": true,
+  "primary_reserved_quantity": 7,
+  "primary_historical_orders": 255,
+  "primary_live_orders": 3,
+  "primary_catalog_hidden": false,
+  "dataset": "combined"
+}

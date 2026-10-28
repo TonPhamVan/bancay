@@ -1,0 +1,40 @@
+{
+  "status": "REVIEW REQUIRED",
+  "source_unchanged": false,
+  "synthetic_order_rows": [
+    [
+      "Readiness Synthetic desktop-chrome",
+      "NEW",
+      "SF3-0-0-0",
+      "2",
+      "259000",
+      "518000"
+    ],
+    [
+      "Readiness Synthetic desktop-edge",
+      "NEW",
+      "SF3-0-0-0",
+      "2",
+      "259000",
+      "518000"
+    ],
+    [
+      "Readiness Synthetic mobile-chrome",
+      "NEW",
+      "SF3-0-0-0",
+      "2",
+      "259000",
+      "518000"
+    ]
+  ],
+  "target_database": "bancay_readiness_browser_20261028_005926",
+  "source_metadata_changes": {
+    "admin_operation_log": {
+      "before_rows": 343,
+      "after_rows": 345,
+      "data_checksum_same": false,
+      "schema_same": false
+    }
+  },
+  "limits": "Backup verified at capture; later metadata comparison is separate. No legacy or production database used."
+}

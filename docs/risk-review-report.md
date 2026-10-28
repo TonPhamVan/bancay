@@ -1,4 +1,10 @@
+> Current stack: **Exment7.0.0 / Laravel12.70.2 / admin-core1.0.1**, PHP8.3.36. [Upgrade report](exment-v7-report.md). Composer audit PASS (0 advisories/0 abandoned), npm audit0; RR-30/RR-34 RESOLVED.132 PHP/814 assertions +5JS and47 browser cases PASS. Both local DBs upgraded;17 business tables unchanged; migrated catalog still hidden. Older v6 pins/audit failures/exceptions below are historical. No production release.
+
 # Risk Consolidation & Closure Review — Phases 1–3
+
+> Current Phase4: [report](phase-4-report.md). Isolated rehearsal completed:113 products/118 SKUs/255 historical orders;126 PHP tests/770 assertions +5JS PASS; native/frontend browser PASS. RR-30/RR-34 temporarily accepted by user; audit still FAIL, production blocked. Phase5 READY WITH RISKS. Earlier NOT READY/import-not-started statements below are historical.
+
+> Latest readiness closure: [report](readiness-closure-report.md). Browser Chrome/Edge/mobile PASS; backup restore VERIFIED;114 PHP/670 assertions +5JS PASS. RR-30/RR-34 remain BLOCKED; Phase4 NOT READY. Post-run local metadata differences recorded for review. Prior browser blockers below are historical.
 
 Ngày28/10/2026; baseline `b574d1943aa9081f2449b103ab47dda63f6de74e`, branch feature/develop. [Yêu cầu nguyên bản](risk-review/request.md). Scope: kiểm source/docs/tests hiện tại, xác minh risk, fix đúng layer và regression; **không bắt đầu Phase4, không actual legacy import, không đổi dependency, không production/deploy/hosting/DNS**. Kết quả review được đóng gói trong commit riêng theo chỉ định người dùng.
 

@@ -1,6 +1,6 @@
 <?php
 
-use Encore\Admin\Form;
+use ExmentAdminCore\Admin\Form;
 
 /**
  * Laravel-admin - admin builder based on Laravel.
@@ -10,10 +10,10 @@ use Encore\Admin\Form;
  * Bootstraper for Admin.
  *
  * Here you can remove builtin form field:
- * Encore\Admin\Form::forget(['map', 'editor']);
+ * ExmentAdminCore\Admin\Form::forget(['map', 'editor']);
  *
  * Or extend custom form field:
- * Encore\Admin\Form::extend('php', PHPEditor::class);
+ * ExmentAdminCore\Admin\Form::extend('php', PHPEditor::class);
  *
  * Or require js and css assets:
  * Admin::css('/packages/prettydocs/css/styles.css');

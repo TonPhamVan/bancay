@@ -1,0 +1,10 @@
+{
+  "tests": "132",
+  "assertions": "815",
+  "errors": "0",
+  "failures": "0",
+  "skipped": "0",
+  "time": "46.654283",
+  "status": "PASS",
+  "scope": "Full Phase1-4 including approved mappings, unchanged historical NULL links, media recovery, stale decisions/edits/source/hash"
+}

@@ -1,0 +1,22 @@
+{
+  "container": "bancay-phase4-app",
+  "source_database": "bancay_phase4_source",
+  "target_database": "bancay_phase4_staging",
+  "source_account": "SELECT only",
+  "target_account": "owned staging only",
+  "url": "http://localhost:8002",
+  "source_counts": {
+    "tbl_count": 1,
+    "tbladmin": 2,
+    "tblbaiviet": 67,
+    "tblbanner": 15,
+    "tblchuyenmuc": 11,
+    "tbldanhmuc": 8,
+    "tblfooter": 1,
+    "tblkhachhang": 0,
+    "tblorder": 748,
+    "tblrole": 4,
+    "tblsanpham": 115,
+    "tblslider": 8
+  }
+}

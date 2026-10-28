@@ -1,0 +1,89 @@
+{
+  "checked_at_utc": "2026-10-28T16:21:58.959Z",
+  "modes": [
+    {
+      "mode": "combined",
+      "base": "http://localhost:8000",
+      "lists": {
+        "categories": {
+          "records": 14,
+          "pages": 1
+        },
+        "products": {
+          "records": 121,
+          "pages": 5
+        },
+        "article-categories": {
+          "records": 13,
+          "pages": 1
+        },
+        "articles": {
+          "records": 72,
+          "pages": 3
+        },
+        "banners": {
+          "records": 24,
+          "pages": 1
+        },
+        "inventory": {
+          "records": 142,
+          "pages": 6
+        },
+        "orders": {
+          "records": 258,
+          "pages": 11
+        }
+      },
+      "edit_forms": 244,
+      "checked_fields": 2488,
+      "checked_variants": 142,
+      "checked_images": 356,
+      "historical_samples": 10,
+      "frontend_public_products": 120,
+      "frontend_public_articles": 71
+    },
+    {
+      "mode": "migrated",
+      "base": "http://localhost:8002",
+      "lists": {
+        "categories": {
+          "records": 8,
+          "pages": 1
+        },
+        "products": {
+          "records": 115,
+          "pages": 5
+        },
+        "article-categories": {
+          "records": 11,
+          "pages": 1
+        },
+        "articles": {
+          "records": 67,
+          "pages": 3
+        },
+        "banners": {
+          "records": 21,
+          "pages": 1
+        },
+        "inventory": {
+          "records": 120,
+          "pages": 5
+        },
+        "orders": {
+          "records": 255,
+          "pages": 11
+        }
+      },
+      "edit_forms": 222,
+      "checked_fields": 2266,
+      "checked_variants": 120,
+      "checked_images": 347,
+      "historical_samples": 10,
+      "frontend_public_products": 0,
+      "frontend_public_articles": 0
+    }
+  ],
+  "issues": [],
+  "status": "PASS"
+}

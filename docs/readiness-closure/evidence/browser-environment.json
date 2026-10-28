@@ -1,0 +1,7 @@
+{
+  "database": "bancay_readiness_browser_20261028_005926",
+  "container": "bancay-readiness-browser",
+  "base_url": "http://localhost:8001",
+  "source": "verified current local synthetic backup; not legacy or production data",
+  "cleaned_up": true
+}

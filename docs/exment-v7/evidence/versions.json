@@ -1,0 +1,68 @@
+{
+  "php": "8.3.36",
+  "database": "MariaDB10.11",
+  "packages": {
+    "exceedone/exment": {
+      "version": "v7.0.0",
+      "source_reference": "bf795a90598d436ea83956fcd4f2db83d8526944"
+    },
+    "exceedone/exment-admin-core": {
+      "version": "v1.0.1",
+      "source_reference": "69a838b468d42adaf319eb6167f8641a1266d90d"
+    },
+    "laravel/framework": {
+      "version": "v12.70.2",
+      "source_reference": "4dc928b47c05a2a96ba51c39d2bd7749b5ea332e"
+    },
+    "laravel/passport": {
+      "version": "v12.4.3",
+      "source_reference": "1d2e0170a52f150d5c35c9a6fc1f7ccebcde7626"
+    },
+    "nesbot/carbon": {
+      "version": "3.15.1",
+      "source_reference": "ce0e5636fae7d1e99856eb70cae4c719a284aa08"
+    },
+    "doctrine/dbal": {
+      "version": "4.5.0",
+      "source_reference": "c435cd7ea33e17d2a89288caf994cf3d4549b879"
+    },
+    "symfony/mailer": {
+      "version": "v7.4.19",
+      "source_reference": "6f6f2441bef07a42d2617b9b3aadf04a321aa514"
+    },
+    "symfony/mime": {
+      "version": "v7.4.19",
+      "source_reference": "f8ac7d0a800bcabbcd1f7de56594cf05e6cd5693"
+    },
+    "egulias/email-validator": {
+      "version": "4.0.4",
+      "source_reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa"
+    },
+    "firebase/php-jwt": {
+      "version": "v7.2.1",
+      "source_reference": "0501f5729b9e2448516674aff07c7d1727869b8e"
+    },
+    "lcobucci/jwt": {
+      "version": "5.6.1",
+      "source_reference": "482760068e5a55a9045feddb3e2fc3f878cbd577"
+    },
+    "nunomaduro/collision": {
+      "version": "v8.9.5",
+      "source_reference": "fb53eacd509a1d303858e2d20cfebf2d630254ec"
+    },
+    "phpunit/phpunit": {
+      "version": "11.5.57",
+      "source_reference": "36b75bf56a8535623f5b3e24b27ea1823759da1a"
+    }
+  },
+  "removed_packages": [
+    "exceedone/laravel-admin",
+    "laravelcollective/html",
+    "intervention/image",
+    "maatwebsite/excel",
+    "doctrine/event-manager"
+  ],
+  "stable_only": true,
+  "platform_ignores": false,
+  "audit_ignores": false
+}

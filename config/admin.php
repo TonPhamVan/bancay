@@ -1,11 +1,11 @@
 <?php
 
 use App\Admin\Controllers\AuthController;
-use Encore\Admin\Auth\Database\Administrator;
-use Encore\Admin\Auth\Database\Menu;
-use Encore\Admin\Auth\Database\Permission;
-use Encore\Admin\Auth\Database\Role;
 use Exceedone\Exment\Model\LoginUser;
+use ExmentAdminCore\Admin\Auth\Database\Administrator;
+use ExmentAdminCore\Admin\Auth\Database\Menu;
+use ExmentAdminCore\Admin\Auth\Database\Permission;
+use ExmentAdminCore\Admin\Auth\Database\Role;
 
 return [
 
@@ -128,6 +128,10 @@ return [
     'auth' => [
 
         'controller' => AuthController::class,
+        'guard' => 'admin',
+        'throttle_logins' => true,
+        'throttle_attempts' => 5,
+        'throttle_timeout' => 900,
 
         'guards' => [
             'admin' => [
@@ -250,7 +254,7 @@ return [
     | Set a default avatar for newly created users.
     |
     */
-    'default_avatar' => '/vendor/laravel-admin/AdminLTE/dist/img/user2-160x160.jpg',
+    'default_avatar' => '/vendor/open-admin/open-admin/gfx/user.svg',
 
     /*
     |--------------------------------------------------------------------------

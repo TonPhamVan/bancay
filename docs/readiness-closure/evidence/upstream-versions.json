@@ -1,0 +1,41 @@
+{
+  "exment_latest_stable": {
+    "tag_name": "v6.2.15",
+    "published_at": "2026-10-09T04:14:08Z",
+    "html_url": "https://github.com/exceedone/exment/releases/tag/v6.2.15"
+  },
+  "laravel/framework": {
+    "latest": [
+      "v13.39.0",
+      "v13.38.0"
+    ],
+    "latest_10": [
+      "v10.50.4",
+      "v10.50.3"
+    ]
+  },
+  "symfony/mime": {
+    "latest": [
+      "v8.1.7",
+      "v8.1.6"
+    ]
+  },
+  "symfony/mailer": {
+    "latest": [
+      "v8.1.7",
+      "v8.1.5"
+    ]
+  },
+  "egulias/email-validator": {
+    "latest": [
+      "4.0.4",
+      "4.0.3"
+    ]
+  },
+  "exceedone/exment": {
+    "latest": [
+      "v6.2.15",
+      "v6.2.14"
+    ]
+  }
+}

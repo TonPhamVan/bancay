@@ -1,0 +1,47 @@
+[
+  {
+    "entity": "articles",
+    "code": "INVALID_REFERENCE",
+    "count": 7
+  },
+  {
+    "entity": "banners",
+    "code": "INVALID_REFERENCE",
+    "count": 1
+  },
+  {
+    "entity": "banners",
+    "code": "UNKNOWN_BANNER_POSITION",
+    "count": 1
+  },
+  {
+    "entity": "orders",
+    "code": "INVALID_HISTORICAL_EMAIL",
+    "count": 1
+  },
+  {
+    "entity": "orders",
+    "code": "INVALID_ORDER_QUANTITY",
+    "count": 103
+  },
+  {
+    "entity": "orders",
+    "code": "INVALID_TEXT",
+    "count": 45
+  },
+  {
+    "entity": "orders",
+    "code": "ORDER_PRICE_MISSING",
+    "count": 344
+  },
+  {
+    "entity": "products",
+    "code": "INVALID_REFERENCE",
+    "count": 2
+  },
+  {
+    "entity": "users",
+    "code": "ROLE_MAPPING_REQUIRED",
+    "count": 2
+  }
+]

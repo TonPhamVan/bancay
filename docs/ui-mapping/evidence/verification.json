@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-28T17:04:31.471748+00:00",
+  "website": "http://localhost:8000",
+  "products": 121,
+  "variants": 142,
+  "articles": 72,
+  "orders": 258,
+  "public_products": 120,
+  "public_articles": 71,
+  "original_demo_preserved": true,
+  "source_stage_preserved": true,
+  "backup": "BACKUP VERIFIED",
+  "rerun_created": 0,
+  "ui_mismatches": 0,
+  "php_tests": 137,
+  "assertions": 860,
+  "browser_cases": 44,
+  "old_redirects_passed": 201,
+  "composer_advisories": 0,
+  "qa_removed": true,
+  "known_frontend_banner_gaps": {
+    "sidebar": 10,
+    "content_bottom": 3
+  },
+  "production_deployed": false
+}

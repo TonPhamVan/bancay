@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "report_sections": 29,
+  "source_manifest_files": 146,
+  "master_plan_preserved": true,
+  "public_credential_export": false,
+  "rerun_created": 0,
+  "target_fingerprint_unchanged_on_rerun": true,
+  "source_fingerprint_unchanged": true,
+  "fresh_repeat_and_rollback": "PASS",
+  "browser_cases_pass": 34,
+  "qa_clone_removed": true,
+  "tests": {
+    "tests": 126,
+    "assertions": 770,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 50.049991,
+    "exit_code": 0
+  },
+  "audit_status": "FAIL - user-accepted temporary local exception",
+  "phase5_status": "READY WITH RISKS"
+}

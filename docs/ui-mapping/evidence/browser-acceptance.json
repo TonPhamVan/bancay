@@ -1,0 +1,245 @@
+{
+  "checked_at_utc": "2026-10-28T16:30:44.309Z",
+  "mode": "installed branded browsers, headless, isolated disposable profiles",
+  "dataset": "combined demo and migrated catalog; checkout only in disposable QA clone",
+  "environments": [
+    {
+      "name": "chrome-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "mobile_emulation": false,
+      "cases": [
+        {
+          "case": "exment_native_login",
+          "status": "PASS"
+        },
+        {
+          "case": "exment_product_images_options_variants",
+          "status": "PASS"
+        },
+        {
+          "case": "exment_edit_and_long_category_text",
+          "status": "PASS"
+        },
+        {
+          "case": "exment_historical_snapshot_readonly",
+          "status": "PASS"
+        },
+        {
+          "case": "exment_domain_grids",
+          "status": "PASS"
+        },
+        {
+          "case": "reviewed_products_category_forms",
+          "status": "PASS"
+        },
+        {
+          "case": "reviewed_articles_category_forms",
+          "status": "PASS"
+        },
+        {
+          "case": "home_and_responsive_navigation",
+          "status": "PASS"
+        },
+        {
+          "case": "migrated_article",
+          "status": "PASS"
+        },
+        {
+          "case": "portable_content_images_on_different_origin",
+          "status": "PASS"
+        },
+        {
+          "case": "migrated_out_of_stock",
+          "status": "PASS"
+        },
+        {
+          "case": "recovered_product_inline_images",
+          "status": "PASS"
+        },
+        {
+          "case": "home_category_migrated_product",
+          "status": "PASS"
+        },
+        {
+          "case": "variant_price_stock_and_gallery",
+          "status": "PASS"
+        },
+        {
+          "case": "add_cart_and_checkout",
+          "status": "PASS"
+        },
+        {
+          "case": "checkout_validation",
+          "status": "PASS"
+        },
+        {
+          "case": "new_order_from_migrated_variant",
+          "status": "PASS"
+        }
+      ],
+      "browser_version": "155.0.8059.85",
+      "synthetic_order_path": "/don-hang/BC-01M61NKDD7DHS18YJH7HD580WF",
+      "expected": {
+        "variant_id": "23",
+        "sku": "BC-L4-V1",
+        "quantity": 1,
+        "unit_price": 80000,
+        "available_before": 1
+      },
+      "blocked_external_hosts": []
+    },
+    {
+      "name": "edge-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "mobile_emulation": false,
+      "cases": [
+        {
+          "case": "exment_native_login",
+          "status": "PASS"
+        },
+        {
+          "case": "exment_product_images_options_variants",
+          "status": "PASS"
+        },
+        {
+          "case": "exment_edit_and_long_category_text",
+          "status": "PASS"
+        },
+        {
+          "case": "exment_historical_snapshot_readonly",
+          "status": "PASS"
+        },
+        {
+          "case": "exment_domain_grids",
+          "status": "PASS"
+        },
+        {
+          "case": "reviewed_products_category_forms",
+          "status": "PASS"
+        },
+        {
+          "case": "reviewed_articles_category_forms",
+          "status": "PASS"
+        },
+        {
+          "case": "home_and_responsive_navigation",
+          "status": "PASS"
+        },
+        {
+          "case": "migrated_article",
+          "status": "PASS"
+        },
+        {
+          "case": "portable_content_images_on_different_origin",
+          "status": "PASS"
+        },
+        {
+          "case": "migrated_out_of_stock",
+          "status": "PASS"
+        },
+        {
+          "case": "recovered_product_inline_images",
+          "status": "PASS"
+        },
+        {
+          "case": "home_category_migrated_product",
+          "status": "PASS"
+        },
+        {
+          "case": "variant_price_stock_and_gallery",
+          "status": "PASS"
+        },
+        {
+          "case": "add_cart_and_checkout",
+          "status": "PASS"
+        },
+        {
+          "case": "checkout_validation",
+          "status": "PASS"
+        },
+        {
+          "case": "new_order_from_migrated_variant",
+          "status": "PASS"
+        }
+      ],
+      "browser_version": "156.0.4314.50",
+      "synthetic_order_path": "/don-hang/BC-01M61NKVZFCY99JBB64TXMAABV",
+      "expected": {
+        "variant_id": "24",
+        "sku": "BC-L4-V2",
+        "quantity": 1,
+        "unit_price": 90000,
+        "available_before": 2
+      },
+      "blocked_external_hosts": []
+    },
+    {
+      "name": "chrome-mobile-viewport",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mobile_emulation": true,
+      "cases": [
+        {
+          "case": "home_and_responsive_navigation",
+          "status": "PASS"
+        },
+        {
+          "case": "migrated_article",
+          "status": "PASS"
+        },
+        {
+          "case": "portable_content_images_on_different_origin",
+          "status": "PASS"
+        },
+        {
+          "case": "migrated_out_of_stock",
+          "status": "PASS"
+        },
+        {
+          "case": "recovered_product_inline_images",
+          "status": "PASS"
+        },
+        {
+          "case": "home_category_migrated_product",
+          "status": "PASS"
+        },
+        {
+          "case": "variant_price_stock_and_gallery",
+          "status": "PASS"
+        },
+        {
+          "case": "add_cart_and_checkout",
+          "status": "PASS"
+        },
+        {
+          "case": "checkout_validation",
+          "status": "PASS"
+        },
+        {
+          "case": "new_order_from_migrated_variant",
+          "status": "PASS"
+        }
+      ],
+      "browser_version": "155.0.8059.85",
+      "synthetic_order_path": "/don-hang/BC-01M61NM1VX5M39YNSMHQ53NKST",
+      "expected": {
+        "variant_id": "24",
+        "sku": "BC-L4-V2",
+        "quantity": 1,
+        "unit_price": 90000,
+        "available_before": 1
+      },
+      "blocked_external_hosts": []
+    }
+  ],
+  "status": "PASS",
+  "safari_ios": "NOT TESTED: no device; mobile is Chrome viewport emulation"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-28T11:22:24.602210+00:00",
+  "content_fields_repaired": 124,
+  "backup": "BACKUP VERIFIED",
+  "reconciliation": "PASS",
+  "php_tests": 128,
+  "assertions": 783,
+  "javascript_tests": 5,
+  "browser_cases": 37,
+  "browser_result": "PASS",
+  "main_staging_preserved_hidden": true,
+  "qa_removed": true,
+  "private_queue_checksums": "PASS",
+  "master_plan_unchanged": true,
+  "syntax_pint_diff_check": "PASS",
+  "composer_audit": "FAIL; user-accepted RR-30/RR-34 local-only exception",
+  "phase5_status": "READY WITH RISKS",
+  "deployment_authorized": false
+}

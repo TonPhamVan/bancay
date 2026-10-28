@@ -1,0 +1,27 @@
+{
+  "status": "BACKUP VERIFIED",
+  "target_database": "bancay_phase4_staging",
+  "extracted_files_verified": 3644,
+  "archive_crc": "PASS",
+  "source_restore_counts": {
+    "tbl_count": 1,
+    "tbladmin": 2,
+    "tblbaiviet": 67,
+    "tblbanner": 15,
+    "tblchuyenmuc": 11,
+    "tbldanhmuc": 8,
+    "tblfooter": 1,
+    "tblkhachhang": 0,
+    "tblorder": 748,
+    "tblrole": 4,
+    "tblsanpham": 115,
+    "tblslider": 8
+  },
+  "target_restore_tables": 87,
+  "target_restore": "PASS",
+  "artifact_hashes": {
+    "source_sql": "10d71369e8ae83826aae625b007afe75931eb8c1e22b133081ebc8d9e7879f9c",
+    "source_zip": "6085c236432301c537e4e1488d06022bfcaf92a42ca49d32e9b81daadd52b48a",
+    "target_backup": "15d870a108efa0e655727982d686fdd67d286ffc3f16ad09a2c02f36c13135e4"
+  }
+}

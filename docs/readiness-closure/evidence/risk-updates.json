@@ -1,0 +1,34 @@
+[
+  {
+    "id": "RR-28",
+    "initial": "CONFIRMED",
+    "action": "Playwright actual installed Chrome155/Edge156; mobile390x844; ephemeral profiles, isolated synthetic DB clone",
+    "test_result": "PASS17/17 cases each; first mobile alert assertion timed out once, two subsequent full mobile runs PASS; retained before evidence",
+    "final_status": "RESOLVED",
+    "evidence": "readiness-closure/evidence/browser-results.json"
+  },
+  {
+    "id": "RR-30",
+    "initial": "NEEDS FIX",
+    "action": "Backport upstream CR/LF rejection in application validator while inheriting native ExmentCustomValidator; no vendor edits or audit ignore",
+    "test_result": "4 email tests PASS, including native Exment memory transport; Composer audit still FAIL because laravel/framework10.50.4 remains in advisory range",
+    "final_status": "BLOCKED",
+    "evidence": "readiness-closure/evidence/composer-audit.json"
+  },
+  {
+    "id": "RR-34",
+    "initial": "CONFIRMED",
+    "action": "Checked official versions/dependency tree; Exment6.2.15 requires Laravel10; latest compatible framework/mail/mime/email-validator already installed",
+    "test_result": "Safe upstream framework requires12.60+; root/Exment/laravel-admin/Passport/collective constraints prevent compatible update; no forced major update",
+    "final_status": "BLOCKED",
+    "evidence": "readiness-closure/evidence/upstream-versions.json"
+  },
+  {
+    "id": "RR-42",
+    "initial": "NEEDS FIX",
+    "action": "New timestamped private snapshot; SHA256; restore into owned scratch DB; compare87 tables counts/data checksums/DDL and CHECK TABLE; remove scratch",
+    "test_result": "BACKUP VERIFIED at capture, source unchanged during verification; later metadata difference recorded separately",
+    "final_status": "RESOLVED",
+    "evidence": "readiness-closure/evidence/backup-verification.json"
+  }
+]

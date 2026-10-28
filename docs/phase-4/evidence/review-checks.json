@@ -1,0 +1,29 @@
+{
+  "pint": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "composer_validate": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "platform": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "composer_audit": {
+    "status": "FAIL",
+    "exit_code": 1,
+    "exception": "RR-30/RR-34 user-accepted local-only; no suppression; public release blocked"
+  },
+  "exment_requirements": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "checked_at_utc": "2026-10-28T12:13:43.981041+00:00",
+  "javascript_tests": {
+    "status": "PASS",
+    "tests": 5,
+    "command": "Node24 --test tests/js/product-picker.test.js"
+  }
+}
