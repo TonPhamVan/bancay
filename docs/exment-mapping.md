@@ -2,7 +2,7 @@
 
 Đây là baseline thiết kế Phase 1. Các mục "Phase 2/planned" bên dưới ghi trạng thái tại thời điểm foundation; implementation hiện tại xem [Exment Admin](exment-admin.md) và [báo cáo Phase 2](phase-2-report.md).
 
-Stack tạm: Exment **6.2.15**, theo chỉ định người dùng. [Architecture/risk decision](architecture.md). Exment đã install/initialize và login HTTP local thành công; **chưa xây CRUD nghiệp vụ Phase 2**.
+Stack tạm: Exment **6.2.15**, theo chỉ định người dùng. [Architecture/risk decision](architecture.md). Ở thời điểm Phase1 chỉ install/initialize/login; **hiện Phase2 CRUD đã có** và cross-phase integration PASS. Bảng planned giữ làm historical mapping; current forms/permissions ở exment-admin.md.
 
 ## Integration boundary đã chọn
 
@@ -34,7 +34,7 @@ All CRUD/search/filter/workflow/import entries marked Phase 2/planned are **mapp
 
 ## Authorization foundation
 
-Abilities: catalog.manage, commerce.manage, customers.manage, content.manage, settings.manage. They default deny; presently only native Exment system administrators pass. Phase 2 may extend this using verified Exment plugin/role permission APIs without inventing duplicate role records. UI hiding is never a guard. Requests derive actor ID from authenticated LoginUser; customer association is server-side, not a submitted foreign key.
+Abilities: catalog.manage, commerce.manage, customers.manage, content.manage, settings.manage. They default deny; at Phase1 only native administrators passed. Current Phase2 verified native direct-membership role bridge supports least-privilege presets; see permissions.md, no duplicate identity/role store. UI hiding is never a guard. Requests derive actor ID from authenticated LoginUser; customer association is server-side, not a submitted foreign key.
 
 Exment's generated Laravel-admin duplicate auth/home routes were removed from app/Admin/routes.php; native Exment routes own login/dashboard. The extension bootstrap is app/Exment/bootstrap.php. Platform configuration remains in Exment tables; public store configuration is the separate whitelisted settings table because its audience/permissions differ.
 
@@ -45,3 +45,5 @@ Forms must call application Actions; grids may read native models with explicit 
 Text fields như customer name/note/SKU phải được escape theo HTML context khi render grids/Blade; không dùng raw HTML display cho dữ liệu request/import. Chỉ content được sanitizer cho phép mới render rich text. Domain storage không pre-escape text rồi gây double encoding.
 
 **Known risk:** v6/Laravel 10 dependency audit remains FAIL. Phase 2 is ready for local work with risks, not deployment. Before v7 upgrade, recheck plugin registration, LoginUser schema/guard and installation migrations; do not assume API compatibility from a release announcement alone.
+
+Current readiness supersedes old local-only planning: [review](risk-review-report.md), [register](risk-register.md). Full110 PHP tests/656 assertions PASS; Phase4 NOT READY until named security/browser blockers close.

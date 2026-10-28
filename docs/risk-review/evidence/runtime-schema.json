@@ -1,0 +1,47 @@
+{
+    "environment": "local",
+    "php": "8.3.36",
+    "php_int_size": 8,
+    "laravel": "10.50.4",
+    "exment": "v6.2.15",
+    "domain_tables_checked": 17,
+    "column_fk_index_changes": [],
+    "added_checks": [
+        {
+            "name": "items_money_domain_check",
+            "expression": "`unit_price` <= 9223372036854775807 and `subtotal` <= 9223372036854775807"
+        },
+        {
+            "name": "orders_money_domain_check",
+            "expression": "`subtotal` <= 9223372036854775807 and `discount_amount` <= 9223372036854775807 and `shipping_fee` <= 9223372036854775807 and `total` <= 9223372036854775807"
+        },
+        {
+            "name": "variants_money_domain_check",
+            "expression": "`pricing_type` = 'CONTACT' and `price` is null and `sale_price` is null or `pricing_type` = 'FIXED' and `price` is not null and `price` > 0 and `price` <= 9223372036854775807 and (`sale_price` is null or `sale_price` > 0 and `sale_price` <= `price`)"
+        }
+    ],
+    "debug": false,
+    "mail_driver": "log",
+    "guard_drivers": {
+        "admin": "session",
+        "adminapi": "passport",
+        "api": "passport",
+        "publicform": "publicformtoken"
+    },
+    "guard_classes": {
+        "admin": "Illuminate\\Auth\\SessionGuard",
+        "publicform": "Illuminate\\Auth\\RequestGuard"
+    },
+    "unavailable_guards": {
+        "adminapi": "Cannot instantiate with current local configuration; no keys generated.",
+        "api": "Cannot instantiate with current local configuration; no keys generated."
+    },
+    "instantiated_top_level_token_guard": false,
+    "public_form_guard_extends_token_guard": true,
+    "exment_api": false,
+    "outside_api": false,
+    "session_driver": "file",
+    "cache_driver": "file",
+    "indexable": false,
+    "migration_applied": true
+}

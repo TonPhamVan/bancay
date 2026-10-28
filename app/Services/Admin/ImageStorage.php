@@ -2,7 +2,11 @@
 
 namespace App\Services\Admin;
 
+use App\Models\Setting;
+use App\Rules\PublicImagePath;
 use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
@@ -10,6 +14,39 @@ use Illuminate\Validation\ValidationException;
 
 final class ImageStorage
 {
+    /** Post-commit housekeeping must never undo a successfully committed image replacement. */
+    public function deleteIfUnused(string $path): void
+    {
+        try {
+            if (Validator::make(['path' => $path], ['path' => [new PublicImagePath]])->fails()) {
+                return;
+            }
+            foreach (['product_images' => 'path', 'categories' => 'image', 'article_categories' => 'image',
+                'articles' => 'image', 'banners' => 'image'] as $table => $column) {
+                if (DB::table($table)->where($column, $path)->exists()) {
+                    return;
+                }
+            }
+            if (Setting::where('key', 'logo')->value('value') === $path) {
+                return;
+            }
+            if (! Storage::disk('public')->delete($path)) {
+                $this->cleanupDeferred($path);
+            }
+        } catch (\Throwable) {
+            $this->cleanupDeferred($path);
+        }
+    }
+
+    private function cleanupDeferred(string $path): void
+    {
+        try {
+            Log::warning('store.image.cleanup_deferred', ['path_hash' => hash('sha256', $path)]);
+        } catch (\Throwable) {
+            // Logging is also best-effort after commit; it cannot roll back the saved record.
+        }
+    }
+
     public function store(UploadedFile $file, string $folder): string
     {
         if (! in_array($folder, ['products', 'categories', 'articles', 'banners', 'settings'], true)) {

@@ -1,4 +1,4 @@
-# Legacy → New Mapping — Phase 1
+# Legacy → New Mapping — reviewed before Phase 4
 
 Nguồn: [Phase 0 database](phase-0/database.md), [business rules](phase-0/business-rules.csv), [mapping](phase-0/legacy-new-mapping.csv), [scope](phase-0/migration-scope.md), [SEO](phase-0/seo.md). Đây là **thiết kế transformation**, không phải importer đã chạy. New DB chỉ có dữ liệu giả.
 
@@ -15,9 +15,9 @@ Product/category/article/article-category/customer/order dùng legacy_id riêng 
 | tblsanpham.id | products.legacy_id | Cấp products.id mới; upsert theo legacy_id trong importer sau; không dùng title/SKU để đoán identity |
 | title | products.name | Preserve text có kiểm encoding/length; không silently truncate |
 | alias | products.slug + URL mapping | Normalize unique ASCII slug; khi trùng/rỗng suffix deterministic theo legacy ID; lưu exact old alias/path ở migration manifest |
-| cid | products.category_id | Resolve qua categories.legacy_id; IDs7/10→cid32 đang orphan, cần review category ẩn/correction có provenance; không gán random public category |
+| cid | products.category_id | Resolve qua categories.legacy_id; IDs7/10→cid32 orphan: mặc định quarantine, không ghi product cho đến khi có correction/category ẩn được duyệt có provenance; không gán random public category |
 | sapo/content | short_description/description | Sanitize HTML, rewrite local media bằng file map; giữ raw original ngoài new public content |
-| status / vip | publication status / featured | status1→PUBLISHED chỉ khi đã chốt publication policy; status0/NULL→DRAFT hoặc ARCHIVED được đối soát; featured theo flag, không suy diễn popularity |
+| status / vip | publication status / featured | Import lần đầu luôn DRAFT, published_at=NULL; giữ nguyên status/vip trong private manifest. Chỉ publish sau đối soát và ngày hiệu lực được duyệt; featured không suy diễn popularity |
 | created_at | created_at | UNIX timestamp + timezone đúng; không gọi đó là first published_at nếu không có bằng chứng |
 | meta_title/meta_des | meta_title/meta_description | Fallback tên nếu rỗng theo rule được giữ; meta_key chỉ archive/REVIEW, không thêm field chỉ để copy keyword cũ |
 | image[] | product_images rows | Giữ thứ tự, chọn ảnh chính rõ; folder upload/sp/{mY(original_created_at)}/; validate file, generated safe path, alt theo approved text |
@@ -28,7 +28,7 @@ Product/category/article/article-category/customer/order dùng legacy_id riêng 
 
 ### Price policy (VND integer)
 
-Không dùng float hoặc ép kiểu chuỗi có separators. Với simple product:
+Không dùng float. Parse digits theo rule grouping đã xác minh trước khi ép int; mọi amount trong 0..9223372036854775807 và tổng/nhân phải kiểm overflow. Không bỏ dấu phân cách tùy ý. Với simple product:
 
 - `giale > giaban > 0`: FIXED, price=giale, sale_price=giaban.
 - `giaban > 0` và giale=0 hoặc giale<=giaban: FIXED, price=giaban, sale_price=NULL; giữ inconsistent comparison-price source trong exception report nếu cần.
@@ -57,8 +57,8 @@ Simple products tạo một variant không option, không lưu pricing trên Pro
 | tblchuyenmuc | article_categories | name/alias/discription/image/parent/menu/thutu/meta_title/meta_des/status; giữ article tree đã có dữ liệu |
 | tblbaiviet | articles | title/alias/sapo/content/image/cid; menu/featured/view_count; created_at chỉ recorded date (edit cũ có thể đã ghi đè) |
 | Missing SEO fields | New SEO fields nullable/fallback | Schema legacy article/product-category không có meta fields mà controller đọc; không fabricate values như dữ liệu đã xác minh |
-| Publication | status + published_at | Publish mới cần ngày hiệu lực được chốt khi staging/cutover; không gọi ngày import là first publish lịch sử |
-| tblbanner/tblslider | banners | namespace legacy_source; home_slider/a0→sidebar_top/a1→sidebar_bottom/a4→bottom positions; giữ category scope/priority/sort/hidden flags; starts/ends NULL nếu không có nguồn |
+| Publication | status + published_at | Ban đầu DRAFT, published_at=NULL cho product/category/article/article-category; ngày hiệu lực mới chỉ đặt sau duyệt, không gọi đó là first publish lịch sử |
+| tblbanner/tblslider | banners | namespace legacy_source; tblslider→home_slider; tblbanner a0/a1→sidebar, a4→content_bottom. Giữ original slot trong private manifest và sort ổn định theo slot+thutu+legacy ID; category scope không được bỏ. Ban đầu INACTIVE; unknown slot quarantine. starts/ends NULL nếu không có nguồn |
 | tblfooter | settings / environment | Approved public name/logo/contact/address/social/SEO text; không import executable analytics HTML; SMTP/keys vào private environment |
 | Upload paths | public disk paths | Mapping ở [Phase 0 files](phase-0/files.md); 6 missing references cần exception/approved placeholder; 2.113 files thiếu DB reference không được tự xóa |
 
@@ -79,3 +79,14 @@ Một tblorder row → một historical Order + một OrderItem nếu được d
 Thiết kế dry-run bắt buộc: read-only nguồn → transformation plan → validation/quarantine → mapping/count/file/URL report, **không DB writes hoặc storage writes trong dry-run**. Real import sau này dùng transaction/chunks, unique legacy references và idempotency; log metadata/error codes, không log credentials/PII. Source old URL mapping không bị thay bằng new IDs một cách suy đoán.
 
 Phase 1 không có command `legacy:migrate-*`, không cấu hình production legacy connection, không chạy dữ liệu thật. Mapping này là đầu vào để xây tooling đúng scope Phase 4; các CSV Phase 0 vẫn giữ nguyên làm evidence.
+
+## Review contract 28/10/2026 — design only
+
+- SKU uniqueness theo collation DB, gồm khác hoa/thường. Reserve toàn bộ candidate SKU trước writes; fallback BC-L{id}-S / BC-L{id}-V{index+1} deterministic. Nếu fallback đụng một mã nguồn hợp lệ hoặc tổ hợp duplicate: quarantine cả conflict group và báo identity; không overwrite/suffix ngẫu nhiên. Giữ source SKU và row index gốc trong private manifest.
+- History orders/customer/admin import mặc định OFF; chỉ nhận scope được duyệt riêng ở Phase4. Invalid historical amounts/quantity giữ trong private archive và quarantine; không đưa vào live paid tables. 0→NEW/1→CONFIRMED là policy do người dùng cho chủ động thiết kế, không chứng nhận trạng thái lịch sử.
+- 6 missing media references: preserve original mapping, quarantine publication hoặc dùng approved fallback; không đánh dấu file đã khôi phục. Không xóa 2.113 files thiếu DB reference. Nhận ảnh dùng chung phải tuân thủ reference checks; import chạy cô lập/maintenance để tránh reference race với cleanup admin.
+- Banner positions trên khớp config/website.php; sidebar/content_bottom chưa được render ở mọi public placement hiện tại. Giữ INACTIVE đến Phase5 xác nhận vị trí; không đổi semantics thành hero hoặc bỏ category scope.
+- Mọi entity có exact old URL/alias riêng trong manifest; generic resolver hiện tại không chứng minh 201 URL đã migrated. Query-string/encoding/collision parity phải kiểm trong Phase4/5.
+- Source read-only → dry-run không writes → mapping/quarantine/count/price/stock/file/URL reconciliation → approved rehearsal → rerun idempotency → backup/rollback rehearsal. Đây là acceptance contract cho tooling sau, chưa có importer, transformer hay actual import trong task review.
+
+Current readiness và risk statuses: [risk review](risk-review-report.md), [register](risk-register.md).

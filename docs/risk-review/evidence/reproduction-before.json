@@ -1,0 +1,17 @@
+{
+  "tests": 6,
+  "assertions": 6,
+  "errors": 0,
+  "failures": 6,
+  "skipped": 0,
+  "cases": [
+    "test_database_rejects_null_fixed_price_even_when_validation_is_bypassed",
+    "test_database_rejects_variant_money_outside_php_integer_domain",
+    "test_database_rejects_order_money_outside_php_integer_domain",
+    "test_database_rejects_item_money_outside_php_integer_domain",
+    "test_replacing_category_image_preserves_file_used_by_product",
+    "test_deleting_one_image_reference_preserves_another_products_image"
+  ],
+  "baseline": "b574d19",
+  "method": "Real MariaDB bancay_test; four DB integrity and two shared-media failures; raw logs private."
+}

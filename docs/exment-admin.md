@@ -1,6 +1,6 @@
 # Exment Admin — Phase 2
 
-Triển khai local ngày 28/10/2026. Đọc [báo cáo Phase 2](phase-2-report.md), [yêu cầu gốc](phase-2/request.md) và [mapping Phase 1](exment-mapping.md). Stack tạm Exment 6.2.15/Laravel 10; các dependency risks của Phase 1 vẫn áp dụng, production bị chặn.
+Triển khai local ngày 28/10/2026. Đọc [báo cáo Phase 2](phase-2-report.md), [yêu cầu gốc](phase-2/request.md) và [mapping Phase 1](exment-mapping.md). Stack tạm Exment 6.2.15/Laravel 10; current dependency applicability xem [review](risk-review/dependency-assessment.md); production bị chặn. Native CRUD/upload/role bridge đã kiểm lại110-test suite.
 
 ## Cài đặt / truy cập
 
@@ -67,4 +67,10 @@ CSV product/inventory/order/customer có UTF-8 BOM, whitelist columns, neutraliz
 
 ## Giới hạn rõ ràng
 
-Không storefront/cart/checkout/customer auth, API riêng, gateway, shipping API, voucher/review, multi-warehouse, full import hoặc deployment. Settings không giữ secrets. Chưa kiểm thử production, scale sau import, malware scanning, browser matrix hay cơ chế backup hosting. V7 cần kiểm lại plugin registration/guard/schema/password/permissions/errors/audit/migrations và chạy cả regression suite.
+Scope Phase2 riêng không gồm storefront/cart/checkout; các flow guest này đã có ở Phase3 và test xuyên phase. Customer auth, API riêng, gateway/shipping API, voucher/review, multi-warehouse, full import và deployment vẫn chưa triển khai. Settings không giữ secrets. Chưa kiểm thử production, scale sau import, malware scanning, browser matrix hay cơ chế backup hosting. V7 cần kiểm lại plugin registration/guard/schema/password/permissions/errors/audit/migrations và chạy cả regression suite.
+
+## Risk review hiện tại
+
+Shared-media cleanup sau commit hiện gọi ImageStorage.deleteIfUnused, giữ path còn reference ở product/category/article-category/article/banner/logo (gồm archived product images), chỉ dọn last ref. Cleanup/log lỗi giữ orphan để xử lý sau, không xóa ảnh mới đã commit. Tests có actual commit fault injection. [Register RR-16/17/27](risk-register.md), [cross-phase test](../tests/Feature/RiskReviewIntegrationTest.php).
+
+Admin→category/product/options/variants/price/stock→guest checkout→admin snapshot/status PASS;100000→catalog150000 giữ snapshot100000;stock10/order2 reserve2 và cancel release đúng1lần. Fresh browser review BLOCKED vì provider, không giả screenshots mới. Current Phase4 NOT READY; xem [final report](risk-review-report.md).

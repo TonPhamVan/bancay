@@ -1,0 +1,16 @@
+{
+  "github": {
+    "tag_name": "v6.2.15",
+    "published_at": "2026-10-09T04:14:08Z",
+    "html_url": "https://github.com/exceedone/exment/releases/tag/v6.2.15",
+    "prerelease": false
+  },
+  "packagist_latest": {
+    "version": "v6.2.15",
+    "laravel_constraint": "^10.34.0"
+  },
+  "sources": [
+    "https://api.github.com/repos/exceedone/exment/releases/latest",
+    "https://repo.packagist.org/p2/exceedone/exment.json"
+  ]
+}

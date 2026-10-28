@@ -4,7 +4,7 @@ Một Laravel modular monolith cho một cửa hàng. **Phase 3 Blade storefront
 
 Stack đang khóa: **Laravel 10.50.4 / Exment 6.2.15 / PHP 8.3.36 / MariaDB 10.11**. Tạm dùng Exment v6 theo chỉ định; nâng v7/Laravel 12 khi có release và yêu cầu cập nhật riêng.
 
-**PHASE 4 STATUS: READY WITH RISKS — isolated local migration work when requested.** Composer audit còn dependency findings gồm critical/high; Laravel 10 hết security support. **Không deploy production** với baseline hiện tại. [Risk/ADR](docs/architecture.md), [audit hiện tại](docs/phase-3/evidence/composer-audit.json).
+**PHASE 4 STATUS: NOT READY.** Risk review đã sửa money CHECK/shared-image cleanup,110 PHP tests/656 assertions +5JS PASS. Còn High email dependency remediation và fresh browser verification BLOCKED; Composer audit vẫn FAIL. Critical TokenGuard riêng exact code là false positive đã có proof. **Không deploy production / không tự bắt đầu Phase4.** [Final review](docs/risk-review-report.md), [41-risk register](docs/risk-register.md).
 
 ## Tài liệu
 

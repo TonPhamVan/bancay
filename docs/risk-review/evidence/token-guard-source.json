@@ -1,0 +1,12 @@
+{
+  "official_source": "https://raw.githubusercontent.com/laravel/framework/v10.50.4/src/Illuminate/Auth/TokenGuard.php",
+  "locked_version": "v10.50.4",
+  "local_sha256": "8aa06a3b840d573800577fd3225a467ea9fcb0d05a95a2cb09635f2ebbc7be01",
+  "official_sha256": "8aa06a3b840d573800577fd3225a467ea9fcb0d05a95a2cb09635f2ebbc7be01",
+  "byte_identical": true,
+  "checks": [
+    "user(): is_string($token) before provider lookup",
+    "validate(): reject non-string credentials before provider lookup"
+  ],
+  "vendor_modified": false
+}

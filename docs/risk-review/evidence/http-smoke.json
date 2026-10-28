@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "check": "/",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "/san-pham",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "/san-pham/monstera-chau-dat-nung-demo",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "/gio-hang",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "/bai-viet",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "/lien-he",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "guest_api_token_does_not_bypass_native_session",
+      "redirected_to_login": true
+    },
+    {
+      "check": "guest_api_token_does_not_bypass_native_session",
+      "redirected_to_login": true
+    },
+    {
+      "check": "guest_api_token_does_not_bypass_native_session",
+      "redirected_to_login": true
+    },
+    {
+      "check": "missing_csrf:/gio-hang",
+      "status": 419,
+      "expected": 419
+    },
+    {
+      "check": "missing_csrf:/thanh-toan",
+      "status": 419,
+      "expected": 419
+    },
+    {
+      "check": "/admin/plugins/bancay_dashboard",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "/admin/plugins/bancay_catalog/products",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "/admin/plugins/bancay_orders/orders",
+      "status": 200,
+      "expected": 200
+    }
+  ],
+  "status": "PASS",
+  "body_exported": false,
+  "credentials_exported": false
+}

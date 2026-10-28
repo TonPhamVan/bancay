@@ -1,12 +1,14 @@
 # Phase 3 — Frontend Blade Development
 
+> **Current review 28/10/2026:** [Risk review](risk-review-report.md) và [41-risk register](risk-register.md) là kết luận hiện tại.110 PHP tests/656 assertions +5JS PASS; bổ sung3 money CHECKs và reference-aware image cleanup. TokenGuard advisory FALSE POSITIVE cho exact checked code; Composer audit vẫn FAIL với High email finding chưa remediation. Fresh browser run BLOCKED. **PHASE 4 STATUS: NOT READY**. Các counts/readiness/evidence của phase riêng bên dưới giữ làm lịch sử, không phải approval hiện tại.
+
 Ngày kiểm chứng: **28/10/2026**. Nhánh làm việc: `feature/develop`, baseline Phase2 `e1cdb4b`. Phạm vi **local test với dữ liệu tổng hợp**. [Yêu cầu nguyên bản](phase-3/request.md); [Master Plan nguyên byte](master-plan.md).
 
 ## 1. Executive Summary
 
 Đã xây public storefront bằng Blade/Alpine/Tailwind trong cùng Laravel/Exment app: home, category, search, product/gallery/options, guest cart, checkout, session-owned order success, articles/category và contact. Core flow đã chạy trên browser desktop và mobile, tạo hai đơn tổng hợp đúng snapshot/stock reservation. **96 PHP tests /556 assertions PASS**,5 Node tests PASS; admin Phase1/2 regression PASS.
 
-Phase3 hoàn tất trong local test scope; không có functional blocker đã biết cho core guest checkout. **Production BLOCKED:** dependency audit của baseline v6 còn critical/high và stack cũ. Không import legacy toàn bộ, không staging deployment, không đổi DNS/hosting/production. Phase4 chỉ READY WITH RISKS cho công việc migration được chỉ định tiếp theo.
+Phase3 hoàn tất trong local test scope; không có functional blocker đã biết cho core guest checkout. **Production BLOCKED:** dependency audit FAIL và stack cũ; High email chưa được remediation; Critical TokenGuard đã được review lại là false positive cho exact code. Không import legacy toàn bộ, không staging deployment, không đổi DNS/hosting/production. Readiness Phase4 được review mới thay thế bằng NOT READY; xem mục26 và risk register.
 
 ## 2. Phase 2 Inputs Used
 
@@ -78,7 +80,7 @@ Title/description/canonical/OG, BreadcrumbList/Product/AggregateOffer/Article/Or
 
 CSRF thực tế419, binding/validation, escaped metadata/settings/contact/snapshots, sanitized rich HTML, reject price/ownership tampering, stock recheck và session-scoped success. Public image path validated+file-exists; chỉ xuất storage URL/fallback. Safe HTTP/HTTPS outbound links, no arbitrary next redirect. DebugOFF; custom404/500 không xuất internal path/SQL/credential. HTTP private,no-store tránh lưu cache cart/PII. Không tạo thêm privileged UI accounts; credential local-admin giữ nguyên/private.
 
-**Composer audit vẫn FAIL:**6 advisory entries /2 packages (`firebase/php-jwt`:1, `laravel/framework`:5), có critical/high; laravelcollective/html abandoned. npm audit0 vulnerabilities. Không tắt policy/thêm ignores hoặc coi risk exception là fix. [Audit Composer](phase-3/evidence/composer-audit.json), [npm](phase-3/evidence/npm-audit.json). Production BLOCKED cho tới upgrade/audit lại và các release gates. Không có penetration test/CSP audit/WCAG certification ở Phase3.
+**Composer audit vẫn FAIL:**6 advisory entries /2 packages (`firebase/php-jwt`:1, `laravel/framework`:5), version metadata có Critical/High; current exact-code applicability xem [review](risk-review/dependency-assessment.md). laravelcollective/html abandoned. npm audit0 vulnerabilities. Không tắt policy/thêm ignores hoặc coi risk exception là fix. [Audit Composer](phase-3/evidence/composer-audit.json), [npm](phase-3/evidence/npm-audit.json). Production BLOCKED cho tới upgrade/audit lại và các release gates. Không có penetration test/CSP audit/WCAG certification ở Phase3.
 
 ## 18. Performance
 
@@ -129,22 +131,18 @@ Nguồn kiểm chứng dưới [phase-3/evidence](phase-3/evidence/verification.
 
 ## 24. Risks
 
-Dependency critical/high vẫn là production blocker hiện hữu. Staging/cross-browser/device/penetration/load tests chưa có. Shipping/payment/customer account/verification chưa implement theo scope. Pending token retention và reservation expiry chưa tự động; admin phải quản lý NEW orders/stock. File sessions/locks chỉ phù hợp single-instance đã test. Synthetic images/content không xác nhận sản phẩm bán thật. Hosting/DirectAdmin/cron/DNS/SSL backup bổ sung vẫn **DEFERRED BY USER — “backup sau”**; không hỏi lại hoặc tự lấy backup hosting.
+Current dependency findings xem RR-29–34: TokenGuard false positive có test/hash proof; High email chưa remediation và maintenance stack vẫn là blocker. Không gọi mọi advisory là exploit đã chứng minh. Staging/cross-browser/device/penetration/load tests chưa có. Shipping/payment/customer account/verification chưa implement theo scope. Pending token retention và reservation expiry chưa tự động; admin phải quản lý NEW orders/stock. File sessions/locks chỉ phù hợp single-instance đã test. Synthetic images/content không xác nhận sản phẩm bán thật. Hosting/DirectAdmin/cron/DNS/SSL backup bổ sung vẫn **DEFERRED BY USER — “backup sau”**; không hỏi lại hoặc tự lấy backup hosting.
 
 ## 25. Technical Debt
 
 Nâng Exment7/Laravel12 theo chỉ định riêng và kiểm compatibility/audit/auth/migrations/services lại; fine-grained admin abilities; shared lock/session trước scaling; expiry/retention/stock ledger; authenticated order recovery; real shipping policy; richer editor/content accessibility; image srcset/CDN/cache invalidation; full browser/assistive-tech/CSP/performance audit. Import tooling, quarantine/sanitization, slug/media mapping và SEO validation thuộc Phase4/5. Không đưa wishlist/voucher/reviews/payments/marketplace vào Phase3.
 
-## 26. Phase 4 Readiness
+## 26. Phase 4 Readiness — superseded by consolidation review
 
-Master Plan Phase4 là **Data Migration**. Frontend có public scopes/routes/storage và domain/order invariants để đối soát dữ liệu import. Không có functional blocker Phase3 ngăn thiết kế/chạy rehearsal migration **cô lập, private, khi được người dùng chỉ định**. Không tự bắt đầu Phase4.
+Phase3 từng ghi READY WITH RISKS cho isolated local rehearsal; đó là quyết định lịch sử, không còn current authorization. Review mới theo yêu cầu chặt hơn đã sửa confirmed money/media defects và kiểm110 tests/656 assertions +5JS PASS. [Full review](risk-review-report.md), [register](risk-register.md).
 
-Điều kiện khi thực hiện Phase4: kiểm lại source/SQL/media artifacts và mapping Phase0/1; snapshot DB mới trước rehearsal; migrate catalog/content theo legacy_id và unique slug, giữ hidden statuses; không gọi live CreateOrder cho lịch sử cũ; đối soát counts/prices/options/images/SEO, quarantine bản ghi lỗi và chuẩn bị rollback. Phase4 thiết lập mappings/import; Phase5 đối soát đầy đủ redirects/security/browser/performance. Backup/cutover/audit gates cho production vẫn chưa đạt; không đưa dữ liệu thật ra endpoint public với baseline dependency hiện tại.
+**Blockers hiện tại:** RR-30/RR-34 compatible supported remediation cho High email dependency advisory; RR-28 fresh desktop/mobile core browser verification (provider lỗi trước navigation). TokenGuard riêng exact Laravel10.50.4 đã xác minh false positive; không dùng điều đó để đánh dấu Composer audit PASS. Production vẫn BLOCKED.
 
-```text
-PHASE 4 STATUS:
-READY WITH RISKS (ISOLATED LOCAL MIGRATION WORK ONLY, WHEN REQUESTED)
+Legacy mapping đã chốt safe defaults/quarantine; actual importer, dry-run/count/idempotency/rollback và201 old URL verification là scope Phase4/5 sau khi được chỉ định, chưa chạy trong review. Hosting backup vẫn hoãn theo người dùng.
 
-PRODUCTION DEPLOYMENT:
-BLOCKED — Exment v6/Laravel10 dependency advisories; release/security/backup gates remain
-```
+PHASE 4 STATUS: NOT READY

@@ -70,7 +70,7 @@ final class RecordEditor
                     $model = app(CategoryTreeService::class)->move($model, $parent === null ? null : (int) $parent);
                 }
                 if (isset($data['image']) && $oldImage && $oldImage !== $data['image']) {
-                    DB::afterCommit(fn () => Storage::disk('public')->delete($oldImage));
+                    DB::afterCommit(fn () => app(ImageStorage::class)->deleteIfUnused($oldImage));
                 }
 
                 return $model;
@@ -98,7 +98,7 @@ final class RecordEditor
                 $path = $model->image;
                 $model->delete(); // FK RESTRICT applies to category children/products/articles/banners.
                 if ($path) {
-                    DB::afterCommit(fn () => Storage::disk('public')->delete($path));
+                    DB::afterCommit(fn () => app(ImageStorage::class)->deleteIfUnused($path));
                 }
             }
         });

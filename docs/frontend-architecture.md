@@ -55,3 +55,9 @@ Setup mới qua `scripts/setup-local.sh` đã gồm asset build; không tự see
 ## Giới hạn
 
 Session/cache file phù hợp một local instance. Nếu scale nhiều instance cần shared session và distributed lock store được kiểm chứng, không chỉ đổi SESSION_DRIVER. Chưa có customer account, lookup qua OTP, payment, shipping API, voucher, review, full import, production publish. Pending checkout token hết hiệu lực sau30 phút; chưa có job dọn token/retention hoặc reservation expiry. Các mục này nằm backlog, không được coi là đã triển khai.
+
+## Cross-phase risk review hiện tại
+
+Core services/routes/views giữ nguyên; new cross-phase HTTP test tạo catalog bằng native admin rồi order từ guest và đọc/cancel bằng admin. Giá snapshot100000 không đổi sau catalog150000;physical10/reserved2 sau qty2, cancel→10/0. Shared image replacement không làm mất file của public product khác. DB thêm3 money CHECKs additive, không đổi17 domain table columns/FKs/indexes hoặc checkout_attempts.
+
+Full110 PHP/656 assertions +5JS PASS; native/public real HTTP/CSRF smoke PASS. Fresh browser desktop/mobile **MANUAL TEST REQUIRED/BLOCKED** do provider lỗi trước navigation; Phase3 screenshots chỉ là historical. Composer audit FAIL, TokenGuard riêng false positive có proof; High email còn blocker. [Final review](risk-review-report.md), [register](risk-register.md). **PHASE 4 STATUS: NOT READY**.

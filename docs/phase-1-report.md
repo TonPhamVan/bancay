@@ -1,12 +1,14 @@
 # Phase 1 — Foundation & Database Design
 
+> **Current review 28/10/2026:** [Risk review](risk-review-report.md) và [41-risk register](risk-register.md) là kết luận hiện tại.110 PHP tests/656 assertions +5JS PASS; bổ sung3 money CHECKs và reference-aware image cleanup. TokenGuard advisory FALSE POSITIVE cho exact checked code; Composer audit vẫn FAIL với High email finding chưa remediation. Fresh browser run BLOCKED. **PHASE 4 STATUS: NOT READY**. Các counts/readiness/evidence của phase riêng bên dưới giữ làm lịch sử, không phải approval hiện tại.
+
 Ngày: 27/10/2026, Asia/Saigon. Phạm vi theo [request](phase-1/request.md); Master Plan và evidence Phase 0 giữ nguyên. **Tạm dùng Exment v6 theo chỉ định người dùng; v7/Laravel 12 là công việc cập nhật riêng khi có release.**
 
 ## 1. Executive Summary
 
 Đã xây một Laravel application mới với Exment 6.2.15, Laravel 10.50.4, PHP 8.3.36 và MariaDB 10.11 local. Có 17 bảng nghiệp vụ, models/relationships, validation/actions/services, ERD, Exment mapping và legacy mapping. Không xây storefront, cart/checkout UI, payment/shipping integration hoặc chạy import dữ liệu thật.
 
-Migrations đã kiểm tra từ DB trống, full rollback và migrate lại. Exment local login/dashboard hoạt động. **Dependency audit vẫn FAIL**, gồm critical/high advisories của framework v10; exception chỉ dành cho nền v6 local được yêu cầu. Chưa đủ điều kiện staging/public deployment.
+Migrations đã kiểm tra từ DB trống, full rollback và migrate lại. Exment local login/dashboard hoạt động. **Dependency audit vẫn FAIL**, version metadata gồm critical/high; applicability hiện tại xem risk review; exception chỉ dành cho nền v6 local được yêu cầu. Chưa đủ điều kiện staging/public deployment.
 
 ## 2. Phase 0 Inputs Used
 
@@ -62,7 +64,7 @@ Normalized option/value/pivot, một value mỗi option/variant và unique combi
 
 ## 15. Inventory Design
 
-Một stock row/SKU; available=physical-reserved. Order mới reserve dưới lock; cancellation release; shipping trừ physical và reserved; returned không auto restock. Adjustment không giảm dưới reserved. Đây là use case foundation, chưa warehouse/ledger/expiry jobs/checkout concurrency load test.
+Một stock row/SKU; available=physical-reserved. Order mới reserve dưới lock; cancellation release; shipping trừ physical và reserved; returned không auto restock. Adjustment không giảm dưới reserved. Đây là use case foundation, chưa warehouse/ledger/expiry jobs; real two-process concurrency đã được kiểm ở Phase2/3 và review, sustained load vẫn NOT TESTED.
 
 ## 16. Order Design
 
@@ -96,19 +98,19 @@ Kết quả machine-readable: [tests.json](phase-1/evidence/tests.json), [HTTP s
 
 Không MD5 mới, không raw globals/user-input SQL; fillable/validation/authorization; secrets sinh riêng ngoài Git; CSRF/session standard; HTML sanitizer và image-path foundation; no duplicate auth. API business routes chưa mở; admin bind localhost, debug OFF, SMTP log-only. App email rules reject CR/LF; đây không phải patch loại bỏ các framework advisories.
 
-**NOT TESTED:** penetration test, browser UX/responsive, upload MIME pipeline (chưa có uploader), production security headers/TLS/proxy/SMTP, sustained concurrent load. Production và legacy data không bị sửa.
+**Historical Phase1 NOT TESTED:** upload/browser UX sau đó được Phase2/3 kiểm; hiện upload regression PASS, fresh review browser BLOCKED. Penetration test, production security headers/TLS/proxy/SMTP và sustained concurrent load vẫn NOT TESTED. Production và legacy data không bị sửa.
 
 ## 22. Risks
 
-Exment 6 kéo Laravel 10 hết support và6 advisory entries/2 packages, có critical/high; deployment BLOCKED. Người dùng đã chỉ định stack này tạm thời trước v7. Cần xác minh release/upgrade/audit khi cập nhật; không hứa v7 tự động giải quyết mọi dependency issue.
+Exment6/Laravel10 có6 advisory entries/2 packages; review hiện tại xác minh TokenGuard false positive, High email còn mở; deployment BLOCKED. Người dùng đã chỉ định stack này tạm thời trước v7. Cần xác minh release/upgrade/audit khi cập nhật; không hứa v7 tự động giải quyết mọi dependency issue.
 
-Legacy exceptions và backup hosting còn mở như Phase 0. New schema nghiêm ngặt nên không nhận mọi historical row lỗi; phải quarantine/đối soát ở Phase 4. Granular role mapping, real asset validation và future checkout abuse controls chưa là chức năng hoàn chỉnh của Phase 1.
+Legacy exceptions và backup hosting còn mở như Phase 0. New schema nghiêm ngặt nên không nhận mọi historical row lỗi; phải quarantine/đối soát ở Phase 4. Các giới hạn Phase1 về role bridge/upload/checkout đã được Phase2/3 xử lý ở core scope; debt chi tiết hiện tại xem risk register.
 
 ## 23. Technical Debt
 
 Nợ tạm có chủ đích: v6/Laravel 10 compatibility và abandoned transitive package; constraints/local setup gắn MariaDB; auth/history actor có coupling nhỏ với Exment. Không fork vendor để che advisory. Reservation expiration, returned-goods inspection/restock, shipping pricing, customer accounts và real import tooling thuộc phase sau. Config Exment overrides giữ nhỏ để giảm upgrade conflicts.
 
-Files tạo/sửa: Laravel skeleton/config/composer lock, app domain/actions/models/requests/commands, one native domain migration + vendor base migration, factories/seeders/tests, Docker/setup scripts, architecture/database/mapping/report docs, README/AGENTS/gitignore. Phase 0 backup/evidence và Master Plan không bị sửa; root changes chưa commit.
+Files tạo/sửa: Laravel skeleton/config/composer lock, app domain/actions/models/requests/commands, one native domain migration + vendor base migration, factories/seeders/tests, Docker/setup scripts, architecture/database/mapping/report docs, README/AGENTS/gitignore. Phase 0 backup/evidence và Master Plan không bị sửa; đây là file inventory lịch sử khi kết thúc Phase1; phase commits đã tồn tại, review changes được đóng gói trong commit riêng.
 
 ## 24. Phase 2 Readiness
 

@@ -60,7 +60,7 @@ final class ProductImages
             if ($image->is_primary) {
                 $product->images()->first()?->update(['is_primary' => true]);
             }
-            DB::afterCommit(fn () => Storage::disk('public')->delete($path));
+            DB::afterCommit(fn () => app(ImageStorage::class)->deleteIfUnused($path));
         });
     }
 }

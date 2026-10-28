@@ -28,7 +28,7 @@ final class SettingsEditor
                     $old = Setting::where('key', 'logo')->value('value');
                     app(SetPublicSetting::class)->execute('logo', $path);
                     if ($old) {
-                        DB::afterCommit(fn () => Storage::disk('public')->delete($old));
+                        DB::afterCommit(fn () => app(ImageStorage::class)->deleteIfUnused($old));
                     }
                 }
             });

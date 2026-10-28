@@ -1,5 +1,7 @@
 # Phase 2 — Exment Admin Development
 
+> **Current review 28/10/2026:** [Risk review](risk-review-report.md) và [41-risk register](risk-register.md) là kết luận hiện tại.110 PHP tests/656 assertions +5JS PASS; bổ sung3 money CHECKs và reference-aware image cleanup. TokenGuard advisory FALSE POSITIVE cho exact checked code; Composer audit vẫn FAIL với High email finding chưa remediation. Fresh browser run BLOCKED. **PHASE 4 STATUS: NOT READY**. Các counts/readiness/evidence của phase riêng bên dưới giữ làm lịch sử, không phải approval hiện tại.
+
 Báo cáo ngày **28/10/2026, Asia/Saigon**. Scope theo [yêu cầu Phase 2 nguyên bản](phase-2/request.md). Các kết quả local ở [evidence](phase-2/evidence); không phải chứng nhận production.
 
 ## 1. Executive Summary
@@ -76,7 +78,7 @@ Tất cả forms validate phía server trong reusable services/actions; browser 
 
 Native session auth+CSRF; per-module Gates và scoped child ownership; removed LoginUser/profile revokes existing store session. Store error handler trả đúng HTTP status. Blade text escape; rich content purifier. Native operation audit redact JSON password/token structurally. CSV no-store/private, formula neutralization; export PII không public. Files runtime/credentials/backups ngoài Git.
 
-Critical/High upstream dependency findings **vẫn được ghi nhận, chưa sửa**: xem audit hiện tại tại [composer audit](phase-2/evidence/composer-audit.json) và baseline [ADR](architecture.md). Chỉ localhost, không đánh dấu audit PASS hoặc tắt policy/ignore để che lỗi. Không kiểm thử khai thác production.
+Version-based Critical/High findings được giữ trong evidence lịch sử; current applicability/TokenGuard false positive/High email blocker xem [risk assessment](risk-review/dependency-assessment.md). Audit lịch sử tại [composer audit](phase-2/evidence/composer-audit.json) và baseline [ADR](architecture.md). Chỉ localhost, không đánh dấu audit PASS hoặc tắt policy/ignore để che lỗi. Không kiểm thử khai thác production.
 
 ## 16. Automated Tests
 

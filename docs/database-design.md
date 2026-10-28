@@ -162,3 +162,11 @@ Chống cycle/self-parent bằng CategoryTreeService có ordered row locks. FK c
 - Generated nullable unique keys bảo vệ primary image/default address mà vẫn cho nhiều rows không-primary/non-default. Không cần partial indexes hoặc triggers riêng.
 
 Schema mới đã được chạy từ DB trống, rollback toàn bộ (gồm vendor migrations) và migrate lại trên MariaDB thật trong tests. [Test report](phase-1-report.md) ghi bằng chứng và giới hạn. Chưa benchmark/query-plan trên dữ liệu thật; việc đó thuộc Phase 5 sau import staging.
+
+## Integrity review 28/10/2026
+
+Migration additive2026_10_28_000002_harden_money_domain_checks thêm3 CHECKs: variants_money_domain_check (FIXED explicit price IS NOT NULL, positive<=9223372036854775807; saleNULL hoặcpositive<=price; CONTACT cả2NULL), orders_money_domain_check và items_money_domain_check (money<=signed64max). Unsigned SQL BIGINT rộng hơn PHP64-bit int nên CHECK bảo vệ đường bypass/import; không đổi column type, PK, FKs, indexes hoặc old migrations.
+
+Preflight cả3 tables trước ANY DDL, lỗi chỉ count, không tự sửa data. Down drop3 checks mới; MariaDB DDL không hoàn toàn transactional. Existing-data upgrade/down/up/preflight-invalid/no-partial-checks, max boundary và full fresh/rollback/remigrate PASS. Operational local đã migrate sau private dump; dump mới restore riêng NOT TESTED. [Runtime schema](risk-review/evidence/runtime-schema.json), [tests](risk-review/evidence/tests.json), [review](risk-review-report.md).17 domain tables columns/FKs/indexes giữ nguyên, checkout_attempts technical có từ Phase3.
+
+Legacy mapping dùng DRAFT/INACTIVE defaults và quarantine, không làm yếu live constraints để nhận historical rows lỗi. **PHASE 4 STATUS: NOT READY** theo blockers trong [register](risk-register.md); database regression PASS không phải security/browser approval.

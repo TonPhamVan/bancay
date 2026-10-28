@@ -1,0 +1,6 @@
+{
+  "file": "private before-hardening.sql",
+  "bytes": 246182,
+  "sha256": "f519293b9406883979df15aed6e716a7214374ba880fa438fbb5ce0d006a7ac8",
+  "restore_test": "NOT TESTED - captured local safety snapshot, not a production backup certification"
+}

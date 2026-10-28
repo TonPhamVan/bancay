@@ -1,4 +1,6 @@
-# Kiến trúc foundation — Phase 1
+# Kiến trúc — Phases 1–3, reviewed before Phase4
+
+> **Current review 28/10/2026:** [Risk review](risk-review-report.md) và [41-risk register](risk-register.md) là kết luận hiện tại.110 PHP tests/656 assertions +5JS PASS; bổ sung3 money CHECKs và reference-aware image cleanup. TokenGuard advisory FALSE POSITIVE cho exact checked code; Composer audit vẫn FAIL với High email finding chưa remediation. Fresh browser run BLOCKED. **PHASE 4 STATUS: NOT READY**. Các counts/readiness/evidence của phase riêng bên dưới giữ làm lịch sử, không phải approval hiện tại.
 
 Ngày quyết định: 27/10/2026 (Asia/Saigon). Đầu vào: [Master Plan](master-plan.md), [Phase 0](phase-0.md), [yêu cầu Phase 1](phase-1/request.md). Phase 0 cho phép tiếp tục ở trạng thái READY WITH RISKS; không thay đổi hoặc nhập dữ liệu legacy vào ứng dụng mới.
 
@@ -6,7 +8,7 @@ Ngày quyết định: 27/10/2026 (Asia/Saigon). Đầu vào: [Master Plan](mast
 
 Tạm dùng **Exment 6.2.15 + Laravel 10.50.4 + PHP 8.3.36**, theo chỉ định người dùng dùng v6 rồi cập nhật v7/Laravel 12 khi có release và yêu cầu riêng. Constraint của [Exment v6.2.15](https://github.com/exceedone/exment/blob/v6.2.15/composer.json) yêu cầu PHP ^8.2 và Laravel ^10.34. Composer lock cố định toàn bộ bản cài thực tế; không dùng nhánh dev của v7.
 
-Laravel 10 đã hết security support từ 04/02/2025 theo [Laravel support policy](https://laravel.com/docs/10.x/releases). Composer strict resolution bị chặn; đã dùng ngoại lệ `--no-security-blocking` trong bước resolve/khóa dependency local cho stack v6 được yêu cầu. Không thêm audit ignore hoặc tắt policy vào composer.json. Constraint Exment `~6.2.15` chỉ cho patch của dòng6.2; composer.lock cố định6.2.15. [Audit đã lưu](phase-1/evidence/composer-audit.json) vẫn FAIL với 6 entries trên 2 packages, gồm Laravel critical/high advisories và một advisory trùng nội dung qua hai IDs. Không coi local test PASS là security audit PASS.
+Laravel 10 đã hết security support từ 04/02/2025 theo [Laravel support policy](https://laravel.com/docs/10.x/releases). Composer strict resolution bị chặn; đã dùng ngoại lệ `--no-security-blocking` trong bước resolve/khóa dependency local cho stack v6 được yêu cầu. Không thêm audit ignore hoặc tắt policy vào composer.json. Constraint Exment `~6.2.15` chỉ cho patch của dòng6.2; composer.lock cố định6.2.15. [Audit đã lưu](phase-1/evidence/composer-audit.json) vẫn FAIL với 6 entries trên 2 packages, version metadata gồm Critical/High và một CRLF advisory trùng IDs. Review exact code xác minh TokenGuard false positive; High email chưa remediation. [Per-advisory evidence](risk-review/dependency-assessment.md). Không coi local test PASS là security audit PASS.
 
 **Chỉ cho phát triển local, bind 127.0.0.1. Production deployment BLOCKED** đến khi xử lý các advisories và xác minh stack được hỗ trợ. Debug OFF, session auth, không public API nghiệp vụ, không SMTP thật; những lựa chọn này thu hẹp bề mặt nhưng không xóa advisory upstream. Không patch vendor hoặc tự đổi framework ngoài yêu cầu v6.
 
@@ -48,11 +50,11 @@ docker/                 local runtime and isolated DB test initialization
 tests/                  real MariaDB migration/domain tests + pure unit tests
 ```
 
-Models giữ relationships/casts và vài guard nhỏ cho immutable history/snapshots. Không thêm repository/interface layers chưa có nhu cầu. Customer/Content hiện có models/schema; tạo Actions riêng khi triển khai use cases của phase sau, không sinh empty interfaces.
+Models giữ relationships/casts và vài guard nhỏ cho immutable history/snapshots. Không thêm repository/interface layers chưa có nhu cầu. Customer/Content đã có Phase2 application services +Phase3 public reads; không sinh empty interfaces. HTTP writes gọi services/actions có validation/authorization; Blade chỉ nhận DTO.
 
 ## Những quyết định nghiệp vụ foundation
 
-- **Money:** integer VND, không float; sale nullable và <= price. CONTACT là giá chưa xác định: price/sale NULL, không checkout miễn phí. Arithmetic kiểm tra overflow.
+- **Money:** integer VND, không float; sale nullable và <= price. CONTACT là giá chưa xác định: price/sale NULL, không checkout miễn phí. Arithmetic kiểm tra overflow; migration2026_10_28_000002 enforce DB money<=9223372036854775807, FIXED price explicit non-NULL. PHP64-bit được kiểm; preflight trước DDL, giữ migrations cũ.
 - **Variants:** option/value/pivot tables normalized; lựa chọn một value mỗi option; unique combination fingerprint theo sorted value IDs; DB composite FKs bảo vệ ownership. Backend giới hạn thực thi tối đa 10 options, không hard-code option1/option2; hiện seed/demo kiểm chứng 2 groups/4 variants.
 - **Inventory:** một row/variant; quantity là hàng vật lý, reserved_quantity là phần giữ cho đơn. Available=quantity-reserved. Lock rows trong transaction; xử lý IDs tăng dần. NEW reserve; CANCELLED trước shipping release; SHIPPING giảm physical và reserved; RETURNED không tự restock khi chưa kiểm tra hàng trả. Chưa có multi-warehouse/ledger/ERP.
 - **Orders:** use case tạo đơn tối thiểu với giá từ server; discount/shipping=0, không voucher/gateway/checkout UI. Guest được hỗ trợ; customer association chỉ từ trusted Customer object, không từ customer_id do client gửi. Snapshot item không thay theo catalog; history append-only. Không có public order HTTP route trong Phase 1.
@@ -67,7 +69,7 @@ Timezone Asia/Ho_Chi_Minh (+07); locale vi, fallback en; Exment UI en tạm th�
 
 Cache/session=file; queue=sync và mail=log, chưa chạy worker/email. Log=daily/info; Exment request/SQL debug tắt. New public settings chỉ whitelist text/logo/contact/social/SEO; không chứa password, API keys hoặc analytics script. SMTP credentials ép dùng environment thay Exment settings UI.
 
-`.env` và password local được sinh ngẫu nhiên, giữ ngoài Git; không ghi giá trị vào report. Upload foundation chỉ có path rule, chưa có HTTP uploader: Phase 2 phải kiểm MIME/size/dimensions, generated filename, path containment, policy và nonexecutable storage. Không coi kiểm path là đủ cho upload security.
+`.env` và password local được sinh ngẫu nhiên, giữ ngoài Git; không ghi giá trị vào report. Uploader Phase2 hiện kiểm MIME/size/dimensions, decode/re-encode WebP, server-generated path và owner policy. Review thêm ImageStorage.deleteIfUnused kiểm product/category/article-category/article/banner/logo references trước cleanup; post-commit cleanup/log failure không undo save. Không thêm media registry; concurrent import phải maintenance/isolation, production storage execution rules vẫn cần kiểm Phase5/6.
 
 Laravel CSRF/session middleware được giữ; local HTTP dùng Secure=false và HttpOnly/SameSite Lax. Staging/production HTTPS phải bật Secure và review proxy/session settings trước release. Không dùng Compose này như cấu hình production.
 
