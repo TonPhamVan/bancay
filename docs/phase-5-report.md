@@ -1,3 +1,5 @@
+> Latest [release recheck](release-readiness/recheck-54a0a2f/report.md): 164 PHP/1062 assertions, 5 JS, 47 browser, 24 responsive and 13-step E2E PASS; audit 0; P6-B07 offline recovery validation fixed. PHASE 6 STATUS: NOT READY because P5-B01/P5-B02/P5-B03 still require production backup/CI3 recovery, actual DirectAdmin profile and final-source/freeze/candidate proof. Counts/evidence below are historical and preserved. No cutover.
+
 > Latest release-blocker review: [report](release-readiness-report.md), [blockers](release-readiness/blockers.csv), [matrix](release-readiness-report.md#17-release-readiness-matrix).158 PHP/1054 assertions +5JS,47 branded browser cases,24 responsive,13-step E2E PASS;audit0. Added tested portable native-view restore,offline order delta,DirectAdmin cron andinfo-level inventory logging. P5-B01/02/03 remain BLOCKER for current hosting/final-source proof. Earlier Phase5 counts below are historical. PHASE6 NOT READY.
 
 # Phase 5 — SEO, Security, Testing & Final Hardening

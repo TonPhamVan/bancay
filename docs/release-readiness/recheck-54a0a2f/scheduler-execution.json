@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "QA clone/log mail only;not DirectAdmin cron installation",
+  "commands": {
+    "exment:schedule": {
+      "status": "PASS",
+      "exit_code": 0
+    },
+    "exment:safetywatch": {
+      "status": "PASS",
+      "exit_code": 0
+    }
+  }
+}

@@ -1,3 +1,5 @@
+> Current [release recheck](release-readiness/recheck-54a0a2f/report.md): PHASE 6 NOT READY, unchanged P5-B01/02/03 actual production backup/profile/final-source gates. [Prepared target facts](release-readiness/recheck-54a0a2f/target-profile.json) remain incomplete; DirectAdmin was confirmed without a profile. Fresh native commands/preflight/logging and local backup/window recovery PASS, not remote deployment approval. P6-B07 makes offline ledger reject changed financial/contact snapshots and inconsistent live histories; imported history is archive-only. No final production migration/cutover in this review.
+
 > Native scheduling requirement:queue=sync needs no worker,but exment:schedule(hourly) andexment:safetywatch(minutely) require an owning-user cron every minute. Use deployment/directadmin/scheduler.sh with verified absolute PHP/release paths andprivate rotated logs. Both commands executed on isolated QA;actual DirectAdmin cron not installed here. LOG_LEVEL=info is required to retain inventory audit.
 
 # Phase 6 production runbook — prepared, NOT authorized to execute

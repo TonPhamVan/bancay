@@ -1,0 +1,86 @@
+[
+  {
+    "source": "scripts/release-readiness/checks.py",
+    "source_sha256": "36b2f41e63f6cc55677b989bbf0da43700ab381ed1e2bb712c07d5bdf8b80445",
+    "prepared_path": "legacy-private/release-recheck/checks.py",
+    "prepared_sha256": "9350ea8a86e849024d79a555888bdb5ad758226e92b12c67c27b0dd8697bfa78",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/security_review.py",
+    "source_sha256": "03cb6446958fc7463552d95dd1fdafdeadf1d326119650b779fa0463b7c72ebd",
+    "prepared_path": "legacy-private/release-recheck/security_review.py",
+    "prepared_sha256": "703024ea19875b04c890318f6b60aa4eb77d83762830b660f586fee09b7f960d",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/seo.py",
+    "source_sha256": "a84cbbaff24dec5bbbb96fd695801a1d8c74e5e9aaa60435089387dd8b89cccf",
+    "prepared_path": "legacy-private/release-recheck/seo.py",
+    "prepared_sha256": "9daf3e2be14b51804b47c51281ad940060450bab6e56b9baedea774da6869500",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/browser_acceptance.cjs",
+    "source_sha256": "1d69df0125876041d460d86ac582e50040b4a11d2ea3a73fd529d1f2f25901cc",
+    "prepared_path": "legacy-private/release-recheck/browser_acceptance.cjs",
+    "prepared_sha256": "746ddebfebbf25563630cd87903c0f01677a3a0e75b87496bbe79e77a25a1ebf",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/verify_ui.py",
+    "source_sha256": "5300735ac30eeb29422c69e7da4bf920ee3899396439cf9cecff16608e16faa2",
+    "prepared_path": "legacy-private/release-recheck/verify_ui.py",
+    "prepared_sha256": "21d7d848fae968de08a5a86efa73999f09e85730a5e339f4109ae429dab1cdb1",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/responsive.cjs",
+    "source_sha256": "a60b9bf277fbaec8a8e2495d827289c52b01707565fc9ef1ca8f375a79ab8f2e",
+    "prepared_path": "legacy-private/release-recheck/responsive.cjs",
+    "prepared_sha256": "2cfa81f83e0954f09e54c1ca2884d139d773536f9ac3afd390bfb841e19f9bc2",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/admin-e2e.cjs",
+    "source_sha256": "a0a21644b1bba3859d919684358606d12920cf02d150abe3879155ea066c301e",
+    "prepared_path": "legacy-private/release-recheck/admin-e2e.cjs",
+    "prepared_sha256": "e04dcf56f20d9a77cfdea258b5258cc03afab8c86cf2fbacf428ff07822c6e74",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/security-http.cjs",
+    "source_sha256": "251dbd9ca184050f7ed377e319f885d23dc71edd3e0e7c5f4d68d97d7248e09a",
+    "prepared_path": "legacy-private/release-recheck/security-http.cjs",
+    "prepared_sha256": "4f5406e660cb34b0282251eafabb6a3450ec2e4cd93729bd585d2ff6cfd934e1",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/checkpoint.py",
+    "source_sha256": "f934fe227a7022d55c77e84f72967362249657cb098b015a6b5d9a2569e92eaf",
+    "prepared_path": "legacy-private/release-recheck/checkpoint.py",
+    "prepared_sha256": "3842ccdfce53a0a56b8b87e31c75ed537b9338df750d8c077a58116a7041bdfa",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/recover_window.py",
+    "source_sha256": "21db673c80d3025eee0aab0d74c3034059a35a9dc27696fa41cc910a40e354c6",
+    "prepared_path": "legacy-private/release-recheck/recover_window.py",
+    "prepared_sha256": "4cda88de25c4407b61dc46265b5b290ff19fa282ca97d070aed06a281593ea58",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/code_checkpoint.py",
+    "source_sha256": "cf3d2f3105334bf8bef798389b7509a45587734aa79b45762a160815510e7718",
+    "prepared_path": "legacy-private/release-recheck/code_checkpoint.py",
+    "prepared_sha256": "e6ffc1efa47dfa1cfa2a8bc39f14c1bb220a1463075fa59ce541d049a7e93f04",
+    "change": "evidence/raw-log destination only; same test cases"
+  },
+  {
+    "source": "scripts/release-readiness/performance.php",
+    "source_sha256": "84f0be2f26c38a4a9620badc70889baabaca2c527bcea195f4778923ea2e033a",
+    "prepared_path": "legacy-private/release-recheck/performance.php",
+    "prepared_sha256": "84f0be2f26c38a4a9620badc70889baabaca2c527bcea195f4778923ea2e033a",
+    "change": "evidence/raw-log destination only; same test cases"
+  }
+]

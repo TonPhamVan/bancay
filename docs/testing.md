@@ -1,3 +1,5 @@
+> Current [release recheck](release-readiness/recheck-54a0a2f/report.md#12-regression-results): [164 PHP/1062 assertions](release-readiness/recheck-54a0a2f/tests.json), 5 JS, 47 browser, 24 responsive, 13-step E2E, 5 security HTTP PASS. Six new recovery-delta tests cover five reproduced rejection cases and valid customer FK SET NULL. Safari/iOS and physical Android NOT TESTED; mobile viewport emulation is explicit. Original test evidence/counts below are historical. Production gates remain P5-B01/02/03.
+
 > Latest [release review](release-readiness-report.md):158 PHP/1054 assertions,0 errors/failures/skips;5JS,47 browser,24 responsive,13-step E2E and5 security HTTP cases PASS.9 new ledger/view-restore tests plus actual98-table post-window restore/ledger reproduction;see release-readiness/evidence. Earlier149-test checkpoint remains historical,not overwritten.
 
 # Phase 5 — QA and evidence

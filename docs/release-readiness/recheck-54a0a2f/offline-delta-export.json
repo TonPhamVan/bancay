@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "exports": [
+    {
+      "status": "PASS",
+      "orders": 2,
+      "sha256": "d29ecb2337ad71fb1f346234d8e052f4b1aedbe9febe8ba8a9679f1045a842c3",
+      "automatic_writes": false
+    },
+    {
+      "status": "PASS",
+      "orders": 2,
+      "sha256": "d29ecb2337ad71fb1f346234d8e052f4b1aedbe9febe8ba8a9679f1045a842c3",
+      "automatic_writes": false
+    }
+  ],
+  "byte_identical_repeat": true,
+  "database_connection_required": false,
+  "source_writes": false
+}

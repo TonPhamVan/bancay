@@ -1,3 +1,5 @@
+> Current [release recheck](release-readiness/recheck-54a0a2f/report.md#11-rollback-verification), [window restore](release-readiness/recheck-54a0a2f/window-restore.json): 98 tables + 2 views and identical offline ledger PASS. P6-B07 fixed: existing order financial/contact/identity snapshots are immutable; nullable customer FK may change without contact loss; latest status and appended live transition chain must match. Imported history always KEEP_IMPORTED_HISTORY_DO_NOT_FULFILL_OR_RESTOCK. 12 delta tests/22 assertions PASS; invalid input aborts export and retains raw artifacts. Actual production CI3 routing/restore/final-source proof remains BLOCKED. Earlier rehearsal evidence below is historical.
+
 # Phase 6 rollback plan — prepared, production rehearsal BLOCKED
 
 > Latest [blocker review](release-readiness-report.md):local post-window backup/98-table restore+native-view rebuild+offline recovery ledger PASS. Actual DirectAdmin routing/CI3 runtime remains unverified. Detailed evidence: [window restore](release-readiness/evidence/window-restore.json), [ledger guards](release-readiness/evidence/delta-guards.json). No production action performed.

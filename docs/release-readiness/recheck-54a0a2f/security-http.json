@@ -1,0 +1,28 @@
+{
+  "at_utc": "2026-10-29T02:53:59.079Z",
+  "cases": [
+    {
+      "case": "login_rotates_session_cookie_http_only_same_site",
+      "status": "PASS",
+      "secure_cookie": false,
+      "reason": "local HTTP; production template requires Secure=true"
+    },
+    {
+      "case": "actual_http_missing_csrf_is_419",
+      "status": "PASS"
+    },
+    {
+      "case": "native_avatar_fake_php_image_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "fresh_session_cannot_read_public_or_admin_order",
+      "status": "PASS"
+    },
+    {
+      "case": "logout_invalidates_old_authenticated_cookie",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

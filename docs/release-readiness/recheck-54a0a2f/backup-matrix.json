@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Supplied snapshot and fresh local combined checkpoint; not final production release artifact approval",
+  "legacy_source_zip": {
+    "filename": "bancay.zip",
+    "size_bytes": 587368474,
+    "sha256": "6085c236432301c537e4e1488d06022bfcaf92a42ca49d32e9b81daadd52b48a",
+    "artifact_mtime_utc": "2026-10-27T13:38:14.378679+00:00",
+    "verified_at_utc": "2026-10-29T02:53:05.636463+00:00",
+    "crc_all_entries": "PASS",
+    "public_html_files": 3321
+  },
+  "legacy_upload_backup": {
+    "same_zip_sha256": "6085c236432301c537e4e1488d06022bfcaf92a42ca49d32e9b81daadd52b48a",
+    "upload_files": 1843,
+    "crc": "PASS"
+  },
+  "legacy_database_sql": {
+    "filename": "caybonmua_db.sql",
+    "size_bytes": 1762723,
+    "sha256": "10d71369e8ae83826aae625b007afe75931eb8c1e22b133081ebc8d9e7879f9c",
+    "artifact_mtime_utc": "2026-10-27T13:52:34.215187+00:00",
+    "verified_at_utc": "2026-10-29T02:53:06.039239+00:00",
+    "restore": "PASS",
+    "tables": 12,
+    "rows": 980,
+    "counts_and_data_checksums_match_source": true,
+    "source_unchanged": true,
+    "scratch_removed": true
+  },
+  "new_database": {
+    "proof": "backup-verification.json",
+    "status": "BACKUP VERIFIED"
+  },
+  "new_media": {
+    "filename": "public-media.tar.gz",
+    "size_bytes": 115464002,
+    "sha256": "54321022d1f91b2aa06856dfc6c784cf596b3494a3679560dbb9c734fdbb158e",
+    "artifact_mtime_utc": "2026-10-29T02:53:01.987316+00:00",
+    "verified_at_utc": "2026-10-29T02:53:06.124183+00:00",
+    "restore": "PASS",
+    "files": 787,
+    "all_file_hashes_match": true,
+    "source_unchanged": true
+  },
+  "code_and_assets": {
+    "filename": "code-and-built-assets.tar.gz",
+    "size_bytes": 11057345,
+    "sha256": "7478aade0375736caf79e9b6b51b9d92b887fb503b2bceb9cc460dcc929a49f5",
+    "artifact_mtime_utc": "2026-10-29T02:53:05.103563+00:00",
+    "verified_at_utc": "2026-10-29T02:53:06.131475+00:00",
+    "source_files": 1229
+  },
+  "production_freshness": "NOT VERIFIED: no current DirectAdmin export/freeze receipt",
+  "directadmin_config_backup": "NOT PROVIDED; user confirmed no target profile",
+  "private_checkpoint_directory": "legacy-private/release-readiness/checkpoint-20261029T025248Z",
+  "no_production_actions": true
+}

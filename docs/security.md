@@ -1,3 +1,5 @@
+> Current [release recheck](release-readiness/recheck-54a0a2f/report.md#6-security-fixes): P6-B07 offline recovery validation RESOLVED; immutable existing order/contact snapshots and live workflow history now checked; imported history never instructs fulfillment/restock. Composer/npm audit 0; 164 PHP tests and 5 actual HTTP security cases PASS. [Current source scan](release-readiness/recheck-54a0a2f/source-security.json). Actual DirectAdmin TLS/private-path/upload execution/core config unverified under P5-B02. Older evidence below is historical.
+
 > Latest [release review](release-readiness-report.md):fresh audits0;LOG_LEVEL=info now preserves inventory audit events;production-mode controlled500/info logging PASS. Offline recovery path/SHA/no-overwrite guards andnative derived-view maintenance guard tested. DirectAdmin profile absent,so actual host hardening remains P5-B02. No dependencies changed in this review.
 
 # Phase 5 — Security assessment

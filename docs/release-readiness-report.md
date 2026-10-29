@@ -1,3 +1,5 @@
+> Superseding [recheck of commit 54a0a2f](release-readiness/recheck-54a0a2f/report.md), [blockers](release-readiness/recheck-54a0a2f/blockers.csv), [matrix](release-readiness/recheck-54a0a2f/readiness-matrix.csv): P6-B07 offline ledger validation fixed; 164 PHP/1062 assertions + 5 JS, 47 browser/24 responsive/13-step E2E PASS. Local restore verified. PHASE 6 STATUS: NOT READY; the same three external production gates remain open. The review below is the preserved earlier checkpoint, not current test counts.
+
 # Production Release Readiness — Blocker Verification & Remediation
 
 Ngày29/10/2026,Asia/Saigon. Không Production Cutover/DNS/docroot switch/CI3 disable/final production migration. User xác nhận target DirectAdmin nhưng chưa có hồ sơ. [Blocker register](release-readiness/blockers.csv), [56-risk register](release-readiness/evidence/risk-register.json), [verification](release-readiness/evidence/verification.json).

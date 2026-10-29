@@ -1,0 +1,19 @@
+Area,Status,Evidence,Release Blocking
+Architecture,PASS,Typed relational domains;scoped CLI only,No
+Database,PASS,main.json;stage.json;window-restore.json,No
+Migration,PASS,Supplied snapshot:reconciliation.json,P5-B03 final source
+Exment Admin,PASS,tests.json;admin-frontend-e2e.json,No
+Product/Variant,PASS,tests.json;browser-acceptance.json,No
+Inventory,PASS,rollback-rehearsal.json;tests.json,No
+Order,PASS,rollback-rehearsal.json;offline-delta-export.json,No
+Cart/Checkout,PASS,tests.json;browser-acceptance.json;security-http.json,No
+Security,PASS,Application audit0/guards;actual host pending,P5-B02
+SEO,PASS,seo.json201/221 local,P5-B02 ingress
+Browser,PASS,Chrome/Edge/mobile viewport47;Safari/iOS unavailable,No baseline failure
+Responsive,PASS,responsive.json24,No
+Performance,PASS,performance.json8 local pages,No
+Email,N/A,No core order/admin notification;native reset SMTP NOT TESTED,Not automatic core blocker
+Queue/Cron,PASS,sync/native commands tested;actual installation pending,P5-B02
+Backup,FAIL,Supplied/local VERIFIED;current production proof absent,P5-B01
+Rollback,FAIL,Data-delta verified;real CI3/routing/final source absent,P5-B01/P5-B03
+Production Runbook,FAIL,Prepared DirectAdmin template;target facts absent,P5-B02/P5-B03

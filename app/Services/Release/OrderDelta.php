@@ -3,6 +3,7 @@
 namespace App\Services\Release;
 
 use App\Domain\Commerce\Money;
+use App\Domain\Commerce\OrderStatus;
 
 /** Read-only recovery ledger. Never applies writes to Laravel or CI3. Contains private order data. */
 final class OrderDelta
@@ -40,9 +41,44 @@ final class OrderDelta
             if ($old === $order && $histories === $oldHistories) {
                 continue;
             }
+            if ($old) {
+                // Status/updated_at may advance; commercial/contact snapshots must not be rewritten.
+                // customer_id is intentionally excluded: its FK may become NULL without changing contact snapshots.
+                foreach (['order_number', 'legacy_id', 'legacy_status', 'is_legacy', 'customer_name', 'customer_email',
+                    'customer_phone', 'shipping_address', 'shipping_note', 'currency', 'subtotal',
+                    'discount_amount', 'shipping_fee', 'total', 'created_at'] as $field) {
+                    if (($old[$field] ?? null) !== ($order[$field] ?? null)) {
+                        throw new \LogicException('Existing order snapshot changed; retain raw backups for investigation.');
+                    }
+                }
+            }
             $items = array_values(array_filter($window['order_items'], fn ($r) => (int) $r['order_id'] === (int) $id));
             if (! $items || ! $histories) {
                 throw new \LogicException('Recovery order needs items and history.');
+            }
+            $latest = collect($histories)->sortBy('id')->last();
+            if (($latest['to_status'] ?? null) !== $order['status']) {
+                throw new \LogicException('Recovery order status does not match its latest history.');
+            }
+            if (! $order['is_legacy']) {
+                $previousStatus = $old['status'] ?? null;
+                $knownHistories = array_fill_keys(array_column($oldHistories, 'id'), true);
+                foreach (collect($histories)->sortBy('id') as $history) {
+                    if (isset($knownHistories[$history['id']])) {
+                        continue;
+                    }
+                    $next = OrderStatus::tryFrom($history['to_status'] ?? '');
+                    $valid = $next !== null && ($history['from_status'] ?? null) === $previousStatus
+                        && ($previousStatus === null ? $next === OrderStatus::New
+                            : (OrderStatus::tryFrom($previousStatus)?->canTransitionTo($next) ?? false));
+                    if (! $valid) {
+                        throw new \LogicException('Invalid live workflow history in recovery window.');
+                    }
+                    $previousStatus = $next->value;
+                }
+                if ($previousStatus !== $order['status']) {
+                    throw new \LogicException('Recovery status change has no matching appended history.');
+                }
             }
             $subtotal = 0;
             foreach ($items as $item) {
@@ -61,7 +97,7 @@ final class OrderDelta
             $reference = hash('sha256', $baseline['lineage'].'|'.$order['order_number']);
             $ledger[] = ['reference' => $reference, 'change' => $old ? 'UPDATED_EXISTING' : 'NEW_IN_WINDOW',
                 'order' => $order, 'items' => $items, 'history' => $histories,
-                'operator_action' => match ($order['status']) {
+                'operator_action' => $order['is_legacy'] ? 'KEEP_IMPORTED_HISTORY_DO_NOT_FULFILL_OR_RESTOCK' : match ($order['status']) {
                     'CANCELLED' => 'KEEP_CANCELLED_DO_NOT_FULFILL',
                     'SHIPPING', 'COMPLETED', 'RETURNED' => 'RECONCILE_DISPATCH_AND_PHYSICAL_STOCK_DO_NOT_FULFILL_TWICE',
                     'NEW', 'CONFIRMED', 'PACKING' => 'REVIEW_AND_FULFILL_ONCE_USING_REFERENCE',

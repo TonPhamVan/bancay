@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Current dirty-worktree code+assets checkpoint,not production deployment approval",
+  "filename": "code-and-built-assets-20261029T030711Z.tar.gz",
+  "size_bytes": 11065551,
+  "sha256": "82607e8df2ee15e96735e2f1ac76237a71b8509b9878e65786522425fa059352",
+  "created_at_utc": "2026-10-29T03:07:13.366999+00:00",
+  "source_files": 1236,
+  "required_entrypoints": [
+    "artisan",
+    "composer.json",
+    "composer.lock",
+    "package.json",
+    "package-lock.json",
+    ".env.production.example",
+    "public/index.php",
+    "public/.htaccess"
+  ],
+  "all_archive_member_hashes_match": true,
+  "private_data_excluded": true,
+  "includes_guarded_native_view_command": true,
+  "private_manifest": "legacy-private/release-readiness/checkpoint-20261029T025248Z/code-manifest-20261029T030711Z.json"
+}

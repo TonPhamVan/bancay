@@ -1,0 +1,742 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-29T03:33:42.953277+00:00",
+  "meaning": "Local evidence consistent; actual production gates remain blocked",
+  "checks": [
+    {
+      "check": "main",
+      "status": "PASS"
+    },
+    {
+      "check": "stage",
+      "status": "PASS"
+    },
+    {
+      "check": "migration-seo",
+      "status": "PASS"
+    },
+    {
+      "check": "reconciliation",
+      "status": "PASS"
+    },
+    {
+      "check": "performance",
+      "status": "PASS"
+    },
+    {
+      "check": "seo",
+      "status": "PASS"
+    },
+    {
+      "check": "browser-acceptance",
+      "status": "PASS"
+    },
+    {
+      "check": "browser-data-verification",
+      "status": "PASS"
+    },
+    {
+      "check": "responsive",
+      "status": "PASS"
+    },
+    {
+      "check": "admin-frontend-e2e",
+      "status": "PASS"
+    },
+    {
+      "check": "security-http",
+      "status": "PASS"
+    },
+    {
+      "check": "rollback-rehearsal",
+      "status": "PASS"
+    },
+    {
+      "check": "offline-delta-export",
+      "status": "PASS"
+    },
+    {
+      "check": "delta-guards",
+      "status": "PASS"
+    },
+    {
+      "check": "window-restore",
+      "status": "PASS"
+    },
+    {
+      "check": "backup-matrix",
+      "status": "PASS"
+    },
+    {
+      "check": "code-checkpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "production-config-preflight",
+      "status": "PASS"
+    },
+    {
+      "check": "logging",
+      "status": "PASS"
+    },
+    {
+      "check": "scheduler-execution",
+      "status": "PASS"
+    },
+    {
+      "check": "source-preservation",
+      "status": "PASS"
+    },
+    {
+      "check": "source-security",
+      "status": "PASS"
+    },
+    {
+      "check": "164 PHP/1062 assertions, no failures/errors/skips",
+      "status": "PASS"
+    },
+    {
+      "check": "12 recovery delta tests",
+      "status": "PASS"
+    },
+    {
+      "check": "reproduced defect fixed",
+      "status": "PASS"
+    },
+    {
+      "check": "checks-php.json",
+      "status": "PASS"
+    },
+    {
+      "check": "checks-assets.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Composer 0",
+      "status": "PASS"
+    },
+    {
+      "check": "npm 0",
+      "status": "PASS"
+    },
+    {
+      "check": "201 redirects/221 targets",
+      "status": "PASS"
+    },
+    {
+      "check": "actual direct redirects",
+      "status": "PASS"
+    },
+    {
+      "check": "47 branded browser cases",
+      "status": "PASS"
+    },
+    {
+      "check": "browser runtime clean",
+      "status": "PASS"
+    },
+    {
+      "check": "24 responsive cases",
+      "status": "PASS"
+    },
+    {
+      "check": "13-step admin/public/admin E2E",
+      "status": "PASS"
+    },
+    {
+      "check": "5 actual security HTTP cases",
+      "status": "PASS"
+    },
+    {
+      "check": "fresh backup SHA/size",
+      "status": "PASS"
+    },
+    {
+      "check": "all 98 primary base tables unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "98-table/2-view restore and offline ledger",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed code/assets match current source",
+      "status": "PASS"
+    },
+    {
+      "check": "sealed archive SHA/size",
+      "status": "PASS"
+    },
+    {
+      "check": "Master Plan original bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input exists: docs/release-readiness/evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "historical evidence preserved under Git attributes: docs/release-readiness/evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input exists: docs/phase-5/evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "historical evidence preserved under Git attributes: docs/phase-5/evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "all 57 risk statuses explicit",
+      "status": "PASS"
+    },
+    {
+      "check": "exact 3 blocking risk records",
+      "status": "PASS"
+    },
+    {
+      "check": "3 external release blockers",
+      "status": "PASS"
+    },
+    {
+      "check": "4 confirmed fixes resolved",
+      "status": "PASS"
+    },
+    {
+      "check": "owned QA/restore DBs removed",
+      "status": "PASS"
+    },
+    {
+      "check": "temporary DB grants revoked",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:blockers.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:blockers.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:baseline.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:target-profile.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:risk-register.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:delta-reproduction.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:delta-guards.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:collector-provenance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:code-checkpoint.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:main.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:stage.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:source-preservation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:security-http.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:source-security.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:migration-seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:browser-acceptance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:responsive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:rollback-rehearsal.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:backup-matrix.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:backup-verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:code-checkpoint.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:window-restore.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:offline-delta-export.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:../../rollback-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:../../production-runbook.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:tests.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:checks-assets.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:checks-php.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:composer-audit.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:npm-audit.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:performance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:admin-frontend-e2e.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:manual-matrix.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:browser-data-verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:risk-register.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness/recheck-54a0a2f/report.md:readiness-matrix.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/recheck-54a0a2f/report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/recheck-54a0a2f/blockers.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/recheck-54a0a2f/readiness-matrix.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/blockers.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/risk-register.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/baseline.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/main.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/stage.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/source-security.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/rollback-rehearsal.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/backup-matrix.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/window-restore.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/offline-delta-export.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/window-restore.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/delta-guards.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/checks-php.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/checks-assets.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/admin-frontend-e2e.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/manual-matrix.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/browser-data-verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/release-readiness-report.md:release-readiness/evidence/performance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:release-readiness/recheck-54a0a2f/report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:release-readiness-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:release-readiness/blockers.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:release-readiness-report.md#17-release-readiness-matrix",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/readiness.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/risk-register.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/inputs.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/baseline.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/integrity-main.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/integrity-staging.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/combined-preservation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:seo.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/migration-seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:security.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/e2e-database.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/tests.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/clean-install.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/functional-matrix.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/admin-frontend-e2e.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/browser-acceptance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/browser-data-verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/responsive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/evidence/performance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:performance.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:production-runbook.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:phase-5/manual-review.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:production-runbook.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/phase-5-report.md:rollback-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:release-readiness/recheck-54a0a2f/report.md#6-security-fixes",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:release-readiness/recheck-54a0a2f/source-security.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:release-readiness-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:phase-5/evidence/tests.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:phase-5/evidence/security-http.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:phase-5/evidence/composer-audit.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:phase-5/evidence/source-security.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:phase-5/evidence/composer-audit-before.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/security.md:phase-5/evidence/dependency-change.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/testing.md:release-readiness/recheck-54a0a2f/report.md#12-regression-results",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/testing.md:release-readiness/recheck-54a0a2f/tests.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/testing.md:release-readiness-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/testing.md:phase-5-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/testing.md:phase-5/evidence/tests.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/testing.md:phase-5/functional-matrix.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/seo.md:release-readiness/recheck-54a0a2f/report.md#7-seo-fixes",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/seo.md:release-readiness/recheck-54a0a2f/seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/seo.md:release-readiness/recheck-54a0a2f/migration-seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/seo.md:release-readiness-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/seo.md:phase-5/evidence/seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/seo.md:phase-5/evidence/legacy-url-map.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/seo.md:phase-5/evidence/migration-seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/production-runbook.md:release-readiness/recheck-54a0a2f/report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/production-runbook.md:release-readiness/recheck-54a0a2f/target-profile.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/production-runbook.md:release-readiness-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/production-runbook.md:release-readiness/directadmin.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/production-runbook.md:../.env.production.example",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/production-runbook.md:rollback-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/rollback-plan.md:release-readiness/recheck-54a0a2f/report.md#11-rollback-verification",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/rollback-plan.md:release-readiness/recheck-54a0a2f/window-restore.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/rollback-plan.md:release-readiness-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/rollback-plan.md:release-readiness/evidence/window-restore.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/rollback-plan.md:release-readiness/evidence/delta-guards.json",
+      "status": "PASS"
+    },
+    {
+      "check": "doc link: docs/rollback-plan.md:production-runbook.md",
+      "status": "PASS"
+    },
+    {
+      "check": "git whitespace",
+      "status": "PASS"
+    }
+  ],
+  "source_files": 235,
+  "phase6_status": "NOT READY",
+  "remaining_blockers": [
+    "P5-B01",
+    "P5-B02",
+    "P5-B03"
+  ]
+}

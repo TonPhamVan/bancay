@@ -1,0 +1,90 @@
+[
+  {
+    "path": "docs/master-plan.md",
+    "sha256": "cc7bd8e17698ac25f04ee531c346c89378ec053bd934621b57e764c3d20f4a85"
+  },
+  {
+    "path": "docs/phase-0.md",
+    "sha256": "07b2c7bb901b841e5c52d5e40fb22faad1bf4b85f8330c56e4ffc3a07520cd86"
+  },
+  {
+    "path": "docs/phase-1-report.md",
+    "sha256": "d793e447b93d5f14cc3f01bda6520b14c0b5b19984624a7769b11eab54645edb"
+  },
+  {
+    "path": "docs/phase-2-report.md",
+    "sha256": "776b744ac5bbb5827192b834050f925d3600a749a0bf2af5c8fd1612b434c8cf"
+  },
+  {
+    "path": "docs/phase-3-report.md",
+    "sha256": "787957d2e84922fc4801a189e2a42e67b570f21f1a3ec99d382357d3f7a7948d"
+  },
+  {
+    "path": "docs/risk-review-report.md",
+    "sha256": "b7eb3c22483f77a6d94757f011318e7c69f86cfcc27ae6f97060ec99992f82c8"
+  },
+  {
+    "path": "docs/phase-4-report.md",
+    "sha256": "d1eb4a5d56762bf80d05bbf195b90091b9fa1326b24952fb69879f9ce09a727d"
+  },
+  {
+    "path": "docs/phase-5-report.md",
+    "sha256": "29f7c00f3d53a827414c9c7c8c702fa22c6840eccd3f4dc39395bd17573653ac"
+  },
+  {
+    "path": "docs/release-readiness-report.md",
+    "sha256": "ae34ef15a49bf5936600616121ed72814c7d8a64fb3ed070e8e3a8fcdee4d49a"
+  },
+  {
+    "path": "docs/release-readiness/readiness-matrix.csv",
+    "sha256": "4151a2d79393e280bf0af7fb58a1ab7d57d74ae0dd1d7b41b82b382cc4a1a966"
+  },
+  {
+    "path": "docs/release-readiness/evidence/risk-register.json",
+    "sha256": "32401e3edb6abb3a9e7d1ba8704ae61225a23cc0a35f51ab121d95a4e065186f"
+  },
+  {
+    "path": "docs/security.md",
+    "sha256": "688536c8fe962295b089361ef5d624c27bfdbe9750afe17045f258f72f5615f2"
+  },
+  {
+    "path": "docs/seo.md",
+    "sha256": "aee8bf26e151553f61f1bd293cf4c04148509410bef7dc9753448b04db6a426d"
+  },
+  {
+    "path": "docs/testing.md",
+    "sha256": "1e15a344459222e39f57fcb4bdfccd8da0a86984d26c6373e6948c23c26a51d6"
+  },
+  {
+    "path": "docs/release-readiness/evidence/tests.json",
+    "sha256": "4d9536a8528ebd80abdf40e4b981734c6afc15f9c0b620ec2257e519dea22134"
+  },
+  {
+    "path": "docs/release-readiness/evidence/browser-acceptance.json",
+    "sha256": "6c00d26cebd2d475c2d766b7766caa75109140007c7fcea6dad5a0896b166dff"
+  },
+  {
+    "path": "docs/release-readiness/evidence/responsive.json",
+    "sha256": "09ae6c25cf9318102a070561fcad248e938134888a26388cc5716968934bf621"
+  },
+  {
+    "path": "docs/release-readiness/evidence/reconciliation.json",
+    "sha256": "e42d7736f6a1ad868f333e7921ba9e726c5e4ddbcfb62f1f31dadbee17ca7b44"
+  },
+  {
+    "path": "docs/production-runbook.md",
+    "sha256": "8cc7b79f59e9842f416da8587da1528660ada99f9f740ddc8b19ccf919327171"
+  },
+  {
+    "path": "docs/rollback-plan.md",
+    "sha256": "5bf5f20701c8cc528dd420712c2cd77e65f7c276d897c83b931e25b2359731a8"
+  },
+  {
+    "path": "docs/release-readiness/evidence/backup-matrix.json",
+    "sha256": "5ac34ef762afa2455e71801f13507810c008cc73d56f42edd20e75f3e5cc43a8"
+  },
+  {
+    "path": "docs/release-readiness/evidence/verification.json",
+    "sha256": "bf728b089533bb89b827238c476c5a89dbf2368bbfe5f2c2de213d622a636366"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "at_utc": "2026-10-29T02:53:45.710Z",
+  "cases": [
+    {
+      "case": "native_admin_login",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_create_category",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_create_product",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_upload_product_image",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_create_options",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_generate_variants",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_set_price_and_activate_variant",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_set_stock",
+      "status": "PASS"
+    },
+    {
+      "case": "frontend_category_product_select_variant_cart_checkout",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_open_order_verify_snapshot",
+      "status": "PASS"
+    },
+    {
+      "case": "admin_change_status_verify_history",
+      "status": "PASS"
+    },
+    {
+      "case": "catalog_changes_do_not_change_order_snapshot",
+      "status": "PASS"
+    },
+    {
+      "case": "cancel_releases_reservation_and_append_history",
+      "status": "PASS"
+    }
+  ],
+  "fixture": {
+    "slug": "phase5-e2e-1793242425710",
+    "category_id": 15,
+    "product_id": 122,
+    "variant_id": 143,
+    "order_number": "BC-01M62S82ZFW4Q4TZ9XQQZTMSY7",
+    "order_id": 262
+  },
+  "console_errors": [],
+  "page_errors": [],
+  "status": "PASS"
+}

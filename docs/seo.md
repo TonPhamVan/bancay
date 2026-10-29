@@ -1,3 +1,5 @@
+> Current [release recheck](release-readiness/recheck-54a0a2f/report.md#7-seo-fixes): [201 actual legacy redirects / 221 sitemap targets](release-readiness/recheck-54a0a2f/seo.json) and [201 source meta comparisons](release-readiness/recheck-54a0a2f/migration-seo.json) PASS; no SEO source fix needed. Local canonical/robots/sitemap/assets verified; actual production ingress/HTTPS/APP_URL still P5-B02. Prior scan evidence below is preserved.
+
 > Latest [release review](release-readiness-report.md):fresh201 redirects/221 targets andsource metadata/assets checks PASS on current build. No SEO rewrite needed. Actual DirectAdmin ingress/HTTPS normalization remains unverified;no DNS/cutover. Prior snapshot evidence below preserved.
 
 # Phase 5 — SEO preservation

@@ -1,0 +1,13 @@
+Area,Case,Result,Evidence
+Admin,Login/role/direct URL,PASS,browser-acceptance.json;security-http.json;tests.json
+Product,CRUD/images,PASS,admin-frontend-e2e.json;tests.json
+Variant,Default/1option/2options/inactive/no active SKU,PASS,tests.json;browser-acceptance.json
+Inventory,10/order2/cancel/ship/replay,PASS,rollback-rehearsal.json;tests.json
+Order,Workflow/100k->150k immutable snapshot/history,PASS,rollback-rehearsal.json;admin-frontend-e2e.json
+Frontend,Product/category/search/article/gallery,PASS,browser-acceptance.json;seo.json
+Cart,Add/update/remove/tampering,PASS,browser-acceptance.json;tests.json
+Checkout,Create/idempotency/IDOR,PASS,tests.json;admin-frontend-e2e.json;security-http.json
+SEO,201 actual301/221 target200/meta/canonical/assets,PASS,seo.json
+Mobile,Chrome viewport checkout,PASS,browser-acceptance.json;responsive.json
+Safari/iOS,Native device/browser,NOT TESTED,No device/runtime;not substituted with emulation
+Production,DirectAdmin target,BLOCKED,User confirmed profile absent

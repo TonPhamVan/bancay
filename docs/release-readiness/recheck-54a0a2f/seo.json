@@ -1,0 +1,5546 @@
+{
+  "at_utc": "2026-10-29T02:56:03.642962+00:00",
+  "redirects": [
+    {
+      "entity": "Product",
+      "legacy_id": 4,
+      "legacy_url": "/cay-bang-singapore-01-sp4.html",
+      "new_url": "/san-pham/cay-bang-singapore-01-legacy-4",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-bang-singapore-01-legacy-4",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 5,
+      "legacy_url": "/cay-kim-ngan-01-sp5.html",
+      "new_url": "/san-pham/cay-kim-ngan-01-legacy-5",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-kim-ngan-01-legacy-5",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 6,
+      "legacy_url": "/cay-tung-bong-lai-01-sp6.html",
+      "new_url": "/san-pham/cay-tung-bong-lai-01-legacy-6",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-tung-bong-lai-01-legacy-6",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 7,
+      "legacy_url": "/cay-phu-quy-01-sp7.html",
+      "new_url": "/san-pham/cay-phu-quy-01-legacy-7",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-phu-quy-01-legacy-7",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 8,
+      "legacy_url": "/cay-cam-nhung-01-sp8.html",
+      "new_url": "/san-pham/cay-cam-nhung-01-legacy-8",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-cam-nhung-01-legacy-8",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 9,
+      "legacy_url": "/cay-lan-to-yen-01-sp9.html",
+      "new_url": "/san-pham/cay-lan-to-yen-01-legacy-9",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-lan-to-yen-01-legacy-9",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 10,
+      "legacy_url": "/cay-luoi-ho-01-sp10.html",
+      "new_url": "/san-pham/cay-luoi-ho-01-legacy-10",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-luoi-ho-01-legacy-10",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 11,
+      "legacy_url": "/cay-sao-bien-01-sp11.html",
+      "new_url": "/san-pham/cay-sao-bien-01-legacy-11",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-sao-bien-01-legacy-11",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 12,
+      "legacy_url": "/cay-kim-tien-size-l-sp12.html",
+      "new_url": "/san-pham/cay-kim-tien-size-l-legacy-12",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-kim-tien-size-l-legacy-12",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 13,
+      "legacy_url": "/cay-hanh-phuc-01-sp13.html",
+      "new_url": "/san-pham/cay-hanh-phuc-01-legacy-13",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hanh-phuc-01-legacy-13",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 14,
+      "legacy_url": "/hoa-giay-thai-3-mau-sp14.html",
+      "new_url": "/san-pham/hoa-giay-thai-3-mau-legacy-14",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/hoa-giay-thai-3-mau-legacy-14",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 16,
+      "legacy_url": "/cay-dua-can-sp16.html",
+      "new_url": "/san-pham/cay-dua-can-legacy-16",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-dua-can-legacy-16",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 17,
+      "legacy_url": "/cay-diem-chau-sp17.html",
+      "new_url": "/san-pham/cay-diem-chau-legacy-17",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-diem-chau-legacy-17",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 18,
+      "legacy_url": "/cay-ngoc-ngan-phu-quy-mix-dola-thuong-xuan-sp18.html",
+      "new_url": "/san-pham/cay-ngoc-ngan-phu-quy-mix-dola-thuong-xuan-legacy-18",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-ngoc-ngan-phu-quy-mix-dola-thuong-xuan-legacy-18",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 19,
+      "legacy_url": "/cay-lan-tim-treo-ban-cong-sp19.html",
+      "new_url": "/san-pham/cay-lan-tim-treo-ban-cong-legacy-19",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-lan-tim-treo-ban-cong-legacy-19",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 20,
+      "legacy_url": "/cay-do-la-treo-ban-cong-sp20.html",
+      "new_url": "/san-pham/cay-do-la-treo-ban-cong-legacy-20",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-do-la-treo-ban-cong-legacy-20",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 21,
+      "legacy_url": "/cay-hoa-leo-huynh-de-sp21.html",
+      "new_url": "/san-pham/cay-hoa-leo-huynh-de-legacy-21",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-leo-huynh-de-legacy-21",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 22,
+      "legacy_url": "/cay-thanh-tu-sp22.html",
+      "new_url": "/san-pham/cay-thanh-tu-legacy-22",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-thanh-tu-legacy-22",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 23,
+      "legacy_url": "/cuc-indo-treo-ban-cong-sp23.html",
+      "new_url": "/san-pham/cuc-indo-treo-ban-cong-legacy-23",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cuc-indo-treo-ban-cong-legacy-23",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 24,
+      "legacy_url": "/cay-lan-hoang-duong-leo-gian-sp24.html",
+      "new_url": "/san-pham/cay-lan-hoang-duong-leo-gian-legacy-24",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-lan-hoang-duong-leo-gian-legacy-24",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 26,
+      "legacy_url": "/cay-hoa-leo-su-quan-tu-sp26.html",
+      "new_url": "/san-pham/cay-hoa-leo-su-quan-tu-legacy-26",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-leo-su-quan-tu-legacy-26",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 28,
+      "legacy_url": "/cay-mai-tieu-thu-sp28.html",
+      "new_url": "/san-pham/cay-mai-tieu-thu-legacy-28",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-mai-tieu-thu-legacy-28",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 29,
+      "legacy_url": "/cay-hoa-ngoc-nu-sp29.html",
+      "new_url": "/san-pham/cay-hoa-ngoc-nu-legacy-29",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-ngoc-nu-legacy-29",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 30,
+      "legacy_url": "/cay-hanh-phuc-hang-bui-sp30.html",
+      "new_url": "/san-pham/cay-hanh-phuc-hang-bui-legacy-30",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hanh-phuc-hang-bui-legacy-30",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 31,
+      "legacy_url": "/cay-trau-ba-cot-size-lon-sp31.html",
+      "new_url": "/san-pham/cay-trau-ba-cot-size-lon-legacy-31",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-trau-ba-cot-size-lon-legacy-31",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 32,
+      "legacy_url": "/cay-thiet-moc-lan-1-than-l3-sp32.html",
+      "new_url": "/san-pham/cay-thiet-moc-lan-1-than-l3-legacy-32",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-thiet-moc-lan-1-than-l3-legacy-32",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 33,
+      "legacy_url": "/cay-thiet-moc-lan-1-than-l2-sp33.html",
+      "new_url": "/san-pham/cay-thiet-moc-lan-1-than-l2-legacy-33",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-thiet-moc-lan-1-than-l2-legacy-33",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 35,
+      "legacy_url": "/kim-ngan-xoan-noi-that-sp35.html",
+      "new_url": "/san-pham/kim-ngan-xoan-noi-that-legacy-35",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/kim-ngan-xoan-noi-that-legacy-35",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 36,
+      "legacy_url": "/kim-ngan-noi-that-sp36.html",
+      "new_url": "/san-pham/kim-ngan-noi-that-legacy-36",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/kim-ngan-noi-that-legacy-36",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 37,
+      "legacy_url": "/trau-ba-cot-hang-vip-1-sp37.html",
+      "new_url": "/san-pham/trau-ba-cot-hang-vip-1-legacy-37",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/trau-ba-cot-hang-vip-1-legacy-37",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 38,
+      "legacy_url": "/cay-hoa-trang-nguyen-sp38.html",
+      "new_url": "/san-pham/cay-hoa-trang-nguyen-legacy-38",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-trang-nguyen-legacy-38",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 39,
+      "legacy_url": "/cay-hoa-mai-dia-thao-sp39.html",
+      "new_url": "/san-pham/cay-hoa-mai-dia-thao-legacy-39",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-mai-dia-thao-legacy-39",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 40,
+      "legacy_url": "/cay-do-quyen-sp40.html",
+      "new_url": "/san-pham/cay-do-quyen-legacy-40",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-do-quyen-legacy-40",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 41,
+      "legacy_url": "/cay-ot-ngu-sac-sp41.html",
+      "new_url": "/san-pham/cay-ot-ngu-sac-legacy-41",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-ot-ngu-sac-legacy-41",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 43,
+      "legacy_url": "/cay-cuc-ngu-sac-1-than-sp43.html",
+      "new_url": "/san-pham/cay-cuc-ngu-sac-1-than-legacy-43",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-cuc-ngu-sac-1-than-legacy-43",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 44,
+      "legacy_url": "/cay-cuc-ngu-sac-tim-sp44.html",
+      "new_url": "/san-pham/cay-cuc-ngu-sac-tim-legacy-44",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-cuc-ngu-sac-tim-legacy-44",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 45,
+      "legacy_url": "/cay-kim-tien-sp45.html",
+      "new_url": "/san-pham/cay-kim-tien-legacy-45",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-kim-tien-legacy-45",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 46,
+      "legacy_url": "/hoa-giay-leo-gian-sp46.html",
+      "new_url": "/san-pham/hoa-giay-leo-gian-legacy-46",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/hoa-giay-leo-gian-legacy-46",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 47,
+      "legacy_url": "/cay-phat-tai-nui-sp47.html",
+      "new_url": "/san-pham/cay-phat-tai-nui-legacy-47",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-phat-tai-nui-legacy-47",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 48,
+      "legacy_url": "/cay-hanh-phuc-size-lon-sp48.html",
+      "new_url": "/san-pham/cay-hanh-phuc-size-lon-legacy-48",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hanh-phuc-size-lon-legacy-48",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 49,
+      "legacy_url": "/cay-truc-bach-hop-sp49.html",
+      "new_url": "/san-pham/cay-truc-bach-hop-legacy-49",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-truc-bach-hop-legacy-49",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 50,
+      "legacy_url": "/cay-hoa-long-den-sp50.html",
+      "new_url": "/san-pham/cay-hoa-long-den-legacy-50",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-long-den-legacy-50",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 51,
+      "legacy_url": "/cay-hoa-muoi-gio-sp51.html",
+      "new_url": "/san-pham/cay-hoa-muoi-gio-legacy-51",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-muoi-gio-legacy-51",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 52,
+      "legacy_url": "/cay-hoa-dau-biec.-sp52.html",
+      "new_url": "/san-pham/cay-hoa-dau-biec-legacy-52",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-dau-biec-legacy-52",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 53,
+      "legacy_url": "/cay-vang-anh-la-dom-sp53.html",
+      "new_url": "/san-pham/cay-vang-anh-la-dom-legacy-53",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-vang-anh-la-dom-legacy-53",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 54,
+      "legacy_url": "/cay-chum-ot-cao-1m5-2m-sp54.html",
+      "new_url": "/san-pham/cay-chum-ot-cao-1m5-2m-legacy-54",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-chum-ot-cao-1m5-2m-legacy-54",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 55,
+      "legacy_url": "/kim-ngan-than-lon-vip-02-sp55.html",
+      "new_url": "/san-pham/kim-ngan-than-lon-vip-02-legacy-55",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/kim-ngan-than-lon-vip-02-legacy-55",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 56,
+      "legacy_url": "/hong-leo-hp-cao-2m-sp56.html",
+      "new_url": "/san-pham/hong-leo-hp-cao-2m-legacy-56",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/hong-leo-hp-cao-2m-legacy-56",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 57,
+      "legacy_url": "/hanh-phuc-dk-15-20cm-sp57.html",
+      "new_url": "/san-pham/hanh-phuc-dk-15-20cm-legacy-57",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/hanh-phuc-dk-15-20cm-legacy-57",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 58,
+      "legacy_url": "/hong-co-sapa-bui-sp58.html",
+      "new_url": "/san-pham/hong-co-sapa-bui-legacy-58",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/hong-co-sapa-bui-legacy-58",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 59,
+      "legacy_url": "/hong-co-sapa-1-than-sp59.html",
+      "new_url": "/san-pham/hong-co-sapa-1-than-legacy-59",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/hong-co-sapa-1-than-legacy-59",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 60,
+      "legacy_url": "/hoa-hong-do-viet-sp60.html",
+      "new_url": "/san-pham/hoa-hong-do-viet-legacy-60",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/hoa-hong-do-viet-legacy-60",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 61,
+      "legacy_url": "/hong-ngoai-pas-de-deux-sp61.html",
+      "new_url": "/san-pham/hong-ngoai-pas-de-deux-legacy-61",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/hong-ngoai-pas-de-deux-legacy-61",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 62,
+      "legacy_url": "/truc-quan-tu-1m5-1m8-sp62.html",
+      "new_url": "/san-pham/truc-quan-tu-1m5-1m8-legacy-62",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/truc-quan-tu-1m5-1m8-legacy-62",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 63,
+      "legacy_url": "/cay-mai-xanh-thai-cao-50cm-sp63.html",
+      "new_url": "/san-pham/cay-mai-xanh-thai-cao-50cm-legacy-63",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-mai-xanh-thai-cao-50cm-legacy-63",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 67,
+      "legacy_url": "/cay-van-nien-thanh-sp67.html",
+      "new_url": "/san-pham/cay-van-nien-thanh-legacy-67",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-van-nien-thanh-legacy-67",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 68,
+      "legacy_url": "/cay-buom-dem-sp68.html",
+      "new_url": "/san-pham/cay-buom-dem-legacy-68",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-buom-dem-legacy-68",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 69,
+      "legacy_url": "/cay-muong-nhat.-sp69.html",
+      "new_url": "/san-pham/cay-muong-nhat-legacy-69",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-muong-nhat-legacy-69",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 70,
+      "legacy_url": "/cay-la-gam-sp70.html",
+      "new_url": "/san-pham/cay-la-gam-legacy-70",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-la-gam-legacy-70",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 71,
+      "legacy_url": "/cay-tia-to-nhat.-sp71.html",
+      "new_url": "/san-pham/cay-tia-to-nhat-legacy-71",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-tia-to-nhat-legacy-71",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 72,
+      "legacy_url": "/cay-hoa-lan-re-quat.-sp72.html",
+      "new_url": "/san-pham/cay-hoa-lan-re-quat-legacy-72",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-lan-re-quat-legacy-72",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 73,
+      "legacy_url": "/cay-ngoc-ngan-sp73.html",
+      "new_url": "/san-pham/cay-ngoc-ngan-legacy-73",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-ngoc-ngan-legacy-73",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 74,
+      "legacy_url": "/cay-huong-thao-sp74.html",
+      "new_url": "/san-pham/cay-huong-thao-legacy-74",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-huong-thao-legacy-74",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 75,
+      "legacy_url": "/cay-hoa-oai-huong-sp75.html",
+      "new_url": "/san-pham/cay-hoa-oai-huong-legacy-75",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-oai-huong-legacy-75",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 76,
+      "legacy_url": "/cay-lan-chi-treo.-sp76.html",
+      "new_url": "/san-pham/cay-lan-chi-treo-legacy-76",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-lan-chi-treo-legacy-76",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 77,
+      "legacy_url": "/cay-o-go-gan-do-sp77.html",
+      "new_url": "/san-pham/cay-o-go-gan-do-legacy-77",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-o-go-gan-do-legacy-77",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 78,
+      "legacy_url": "/cay-dua-agao.-sp78.html",
+      "new_url": "/san-pham/cay-dua-agao-legacy-78",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-dua-agao-legacy-78",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 79,
+      "legacy_url": "/cay-dua-van-phat.-sp79.html",
+      "new_url": "/san-pham/cay-dua-van-phat-legacy-79",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-dua-van-phat-legacy-79",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 80,
+      "legacy_url": "/cay-hoa-cuc-mat-troi.-sp80.html",
+      "new_url": "/san-pham/cay-hoa-cuc-mat-troi-legacy-80",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-cuc-mat-troi-legacy-80",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 81,
+      "legacy_url": "/cay-hoa-rau-meo-sp81.html",
+      "new_url": "/san-pham/cay-hoa-rau-meo-legacy-81",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-rau-meo-legacy-81",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 82,
+      "legacy_url": "/cay-bach-thien-huong-size-lon.-sp82.html",
+      "new_url": "/san-pham/cay-bach-thien-huong-size-lon-legacy-82",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-bach-thien-huong-size-lon-legacy-82",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 83,
+      "legacy_url": "/cay-huynh-lien.-sp83.html",
+      "new_url": "/san-pham/cay-huynh-lien-legacy-83",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-huynh-lien-legacy-83",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 84,
+      "legacy_url": "/cay-hoan-kiem-sp84.html",
+      "new_url": "/san-pham/cay-hoan-kiem-legacy-84",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoan-kiem-legacy-84",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 85,
+      "legacy_url": "/cay-buom-hong-sp85.html",
+      "new_url": "/san-pham/cay-buom-hong-legacy-85",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-buom-hong-legacy-85",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 86,
+      "legacy_url": "/cay-anh-duong-sp86.html",
+      "new_url": "/san-pham/cay-anh-duong-legacy-86",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-anh-duong-legacy-86",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 87,
+      "legacy_url": "/cay-hoa-dam-but-thai.-sp87.html",
+      "new_url": "/san-pham/cay-hoa-dam-but-thai-legacy-87",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-dam-but-thai-legacy-87",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 88,
+      "legacy_url": "/cay-kim-dong-vang-sp88.html",
+      "new_url": "/san-pham/cay-kim-dong-vang-legacy-88",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-kim-dong-vang-legacy-88",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 89,
+      "legacy_url": "/cay-ngoc-but.-sp89.html",
+      "new_url": "/san-pham/cay-ngoc-but-legacy-89",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-ngoc-but-legacy-89",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 90,
+      "legacy_url": "/cay-duong-xi-sp90.html",
+      "new_url": "/san-pham/cay-duong-xi-legacy-90",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-duong-xi-legacy-90",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 91,
+      "legacy_url": "/cay-hong-anh-sp91.html",
+      "new_url": "/san-pham/cay-hong-anh-legacy-91",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hong-anh-legacy-91",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 92,
+      "legacy_url": "/cay-hoa-ngoc-nu.-sp92.html",
+      "new_url": "/san-pham/cay-hoa-ngoc-nu-legacy-92",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-ngoc-nu-legacy-92",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 93,
+      "legacy_url": "/cay-hoa-8-gio.-sp93.html",
+      "new_url": "/san-pham/cay-hoa-8-gio-legacy-93",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-8-gio-legacy-93",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 94,
+      "legacy_url": "/cay-nhat-mat-huong.-sp94.html",
+      "new_url": "/san-pham/cay-nhat-mat-huong-legacy-94",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-nhat-mat-huong-legacy-94",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 95,
+      "legacy_url": "/cay-hoa-cam-tu-cau-nhat.-sp95.html",
+      "new_url": "/san-pham/cay-hoa-cam-tu-cau-nhat-legacy-95",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-cam-tu-cau-nhat-legacy-95",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 96,
+      "legacy_url": "/cay-cuc-la-nham.-sp96.html",
+      "new_url": "/san-pham/cay-cuc-la-nham-legacy-96",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-cuc-la-nham-legacy-96",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 97,
+      "legacy_url": "/cay-thu-hai-duong.-sp97.html",
+      "new_url": "/san-pham/cay-thu-hai-duong-legacy-97",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-thu-hai-duong-legacy-97",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 98,
+      "legacy_url": "/cay-hoa-violet-nhat-giong-f1-du-mau-sp98.html",
+      "new_url": "/san-pham/cay-hoa-violet-nhat-giong-f1-du-mau-legacy-98",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hoa-violet-nhat-giong-f1-du-mau-legacy-98",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 100,
+      "legacy_url": "/cay-truc-hawai-sp100.html",
+      "new_url": "/san-pham/cay-truc-hawai-legacy-100",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-truc-hawai-legacy-100",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 101,
+      "legacy_url": "/cay-trau-ba-de-vuong-sp101.html",
+      "new_url": "/san-pham/cay-trau-ba-de-vuong-legacy-101",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-trau-ba-de-vuong-legacy-101",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 102,
+      "legacy_url": "/cay-tuong-vi-hoa-tuong-vi--sp102.html",
+      "new_url": "/san-pham/cay-tuong-vi-hoa-tuong-vi-legacy-102",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-tuong-vi-hoa-tuong-vi-legacy-102",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 103,
+      "legacy_url": "/cay-phat-tai-nui-sp103.html",
+      "new_url": "/san-pham/cay-phat-tai-nui-legacy-103",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-phat-tai-nui-legacy-103",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 104,
+      "legacy_url": "/cay-luoi-ho-sp104.html",
+      "new_url": "/san-pham/cay-luoi-ho-legacy-104",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-luoi-ho-legacy-104",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 105,
+      "legacy_url": "/cay-dai-phu-gia-sp105.html",
+      "new_url": "/san-pham/cay-dai-phu-gia-legacy-105",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-dai-phu-gia-legacy-105",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 106,
+      "legacy_url": "/cay-bach-ma-hoang-tu-sp106.html",
+      "new_url": "/san-pham/cay-bach-ma-hoang-tu-legacy-106",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-bach-ma-hoang-tu-legacy-106",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 107,
+      "legacy_url": "/cay-cau-tieu-tram-sp107.html",
+      "new_url": "/san-pham/cay-cau-tieu-tram-legacy-107",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-cau-tieu-tram-legacy-107",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 108,
+      "legacy_url": "/cay-vay-rong-sp108.html",
+      "new_url": "/san-pham/cay-vay-rong-legacy-108",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-vay-rong-legacy-108",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 109,
+      "legacy_url": "/cay-ngu-gia-bi-sp109.html",
+      "new_url": "/san-pham/cay-ngu-gia-bi-legacy-109",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-ngu-gia-bi-legacy-109",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 110,
+      "legacy_url": "/12111-sp110.html",
+      "new_url": "/san-pham/12111-legacy-110",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/12111-legacy-110",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 111,
+      "legacy_url": "/cay-trau-ba-chan-vit-sp111.html",
+      "new_url": "/san-pham/cay-trau-ba-chan-vit-legacy-111",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-trau-ba-chan-vit-legacy-111",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 112,
+      "legacy_url": "/cay-trau-ba-nam-my-cay-monstera-sp112.html",
+      "new_url": "/san-pham/cay-trau-ba-nam-my-cay-monstera-legacy-112",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-trau-ba-nam-my-cay-monstera-legacy-112",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 113,
+      "legacy_url": "/ffff-sp113.html",
+      "new_url": "/san-pham/ffff-legacy-113",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/ffff-legacy-113",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 114,
+      "legacy_url": "/chau-cay-mix-sp114.html",
+      "new_url": "/san-pham/chau-cay-mix-legacy-114",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/chau-cay-mix-legacy-114",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 115,
+      "legacy_url": "/chau-cay-mix-%202-sp115.html",
+      "new_url": "/san-pham/chau-cay-mix-2-legacy-115",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/chau-cay-mix-2-legacy-115",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 116,
+      "legacy_url": "/1-sp116.html",
+      "new_url": "/san-pham/1-legacy-116",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/1-legacy-116",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 117,
+      "legacy_url": "/cay-luoi-ho-mix-4-loai-chau-su-bat-trang-sp117.html",
+      "new_url": "/san-pham/cay-luoi-ho-mix-4-loai-chau-su-bat-trang-legacy-117",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-luoi-ho-mix-4-loai-chau-su-bat-trang-legacy-117",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 118,
+      "legacy_url": "/%5Bmau-1%5D-cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-sp118.html",
+      "new_url": "/san-pham/mau-1-cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-118",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/mau-1-cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-118",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 119,
+      "legacy_url": "/cay-luoi-ho-mix-4-loai-chau-xi-mang.-sp119.html",
+      "new_url": "/san-pham/cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-119",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-119",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 120,
+      "legacy_url": "/cay-luoi-ho-mix-4-loai-chau-xi-mang.-sp120.html",
+      "new_url": "/san-pham/cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-120",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-120",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 121,
+      "legacy_url": "/cay-chuoi-re-quat-mix-5-loai-chau-xi-mang-sp121.html",
+      "new_url": "/san-pham/cay-chuoi-re-quat-mix-5-loai-chau-xi-mang-legacy-121",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-chuoi-re-quat-mix-5-loai-chau-xi-mang-legacy-121",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 122,
+      "legacy_url": "/cay-thiet-moc-lan-mix-5-loai-chau-xi-mang-sp122.html",
+      "new_url": "/san-pham/cay-thiet-moc-lan-mix-5-loai-chau-xi-mang-legacy-122",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-thiet-moc-lan-mix-5-loai-chau-xi-mang-legacy-122",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 123,
+      "legacy_url": "/cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-sp123.html",
+      "new_url": "/san-pham/cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-123",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-123",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 124,
+      "legacy_url": "/cay-kim-tien-size-m-ke-go-decor-cao-cap.-sp124.html",
+      "new_url": "/san-pham/cay-kim-tien-size-m-ke-go-decor-cao-cap-legacy-124",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-kim-tien-size-m-ke-go-decor-cao-cap-legacy-124",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 125,
+      "legacy_url": "/cay-luoi-ho-ke-go-decor-cao-cap.-sp125.html",
+      "new_url": "/san-pham/cay-luoi-ho-ke-go-decor-cao-cap-legacy-125",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-luoi-ho-ke-go-decor-cao-cap-legacy-125",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 126,
+      "legacy_url": "/cay-hanh-phuc-bui-ke-go-decor-cao-cap.-sp126.html",
+      "new_url": "/san-pham/cay-hanh-phuc-bui-ke-go-decor-cao-cap-legacy-126",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hanh-phuc-bui-ke-go-decor-cao-cap-legacy-126",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Product",
+      "legacy_id": 127,
+      "legacy_url": "/cay-hanh-phuc-hai-tang.-sp127.html",
+      "new_url": "/san-pham/cay-hanh-phuc-hai-tang-legacy-127",
+      "status_code": 301,
+      "destination": "http://localhost:8000/san-pham/cay-hanh-phuc-hai-tang-legacy-127",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Category",
+      "legacy_id": 33,
+      "legacy_url": "/cay-canh-noi-that-dm33.html",
+      "new_url": "/danh-muc/cay-canh-noi-that-legacy-33",
+      "status_code": 301,
+      "destination": "http://localhost:8000/danh-muc/cay-canh-noi-that-legacy-33",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Category",
+      "legacy_id": 34,
+      "legacy_url": "/cay-mini-de-ban-dm34.html",
+      "new_url": "/danh-muc/cay-mini-de-ban-legacy-34",
+      "status_code": 301,
+      "destination": "http://localhost:8000/danh-muc/cay-mini-de-ban-legacy-34",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Category",
+      "legacy_id": 35,
+      "legacy_url": "/cay-bui-ngoai-that-dm35.html",
+      "new_url": "/danh-muc/cay-bui-ngoai-that-legacy-35",
+      "status_code": 301,
+      "destination": "http://localhost:8000/danh-muc/cay-bui-ngoai-that-legacy-35",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Category",
+      "legacy_id": 36,
+      "legacy_url": "/cay-hoa-leo-dm36.html",
+      "new_url": "/danh-muc/cay-hoa-leo-legacy-36",
+      "status_code": 301,
+      "destination": "http://localhost:8000/danh-muc/cay-hoa-leo-legacy-36",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Category",
+      "legacy_id": 37,
+      "legacy_url": "/cay-treo-ban-cong-dm37.html",
+      "new_url": "/danh-muc/cay-treo-ban-cong-legacy-37",
+      "status_code": 301,
+      "destination": "http://localhost:8000/danh-muc/cay-treo-ban-cong-legacy-37",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Category",
+      "legacy_id": 38,
+      "legacy_url": "/cay-hoa-hong-dm38.html",
+      "new_url": "/danh-muc/cay-hoa-hong-legacy-38",
+      "status_code": 301,
+      "destination": "http://localhost:8000/danh-muc/cay-hoa-hong-legacy-38",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Category",
+      "legacy_id": 39,
+      "legacy_url": "/cay-tham-ngoai-that-dm39.html",
+      "new_url": "/danh-muc/cay-tham-ngoai-that-legacy-39",
+      "status_code": 301,
+      "destination": "http://localhost:8000/danh-muc/cay-tham-ngoai-that-legacy-39",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Category",
+      "legacy_id": 41,
+      "legacy_url": "/phu-kien-trang-tri-dm41.html",
+      "new_url": "/danh-muc/phu-kien-trang-tri-legacy-41",
+      "status_code": 301,
+      "destination": "http://localhost:8000/danh-muc/phu-kien-trang-tri-legacy-41",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 12,
+      "legacy_url": "/tuoi-quy-dau-1993-hop-cay-gi-de-mang-lai-tai-loc-may-man.-bv12.html",
+      "new_url": "/bai-viet/tuoi-quy-dau-1993-hop-cay-gi-de-mang-lai-tai-loc-may-man-legacy-12",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/tuoi-quy-dau-1993-hop-cay-gi-de-mang-lai-tai-loc-may-man-legacy-12",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 13,
+      "legacy_url": "/tuoi-nham-than-1992-trong-cay-gi-tren-ban-lam-viec-la-hop-phong-thuy-nhat--bv13.html",
+      "new_url": "/bai-viet/tuoi-nham-than-1992-trong-cay-gi-tren-ban-lam-viec-la-hop-phong-thuy-nhat-legacy-13",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/tuoi-nham-than-1992-trong-cay-gi-tren-ban-lam-viec-la-hop-phong-thuy-nhat-legacy-13",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 14,
+      "legacy_url": "/chon-cay-mini-phu-hop-nhat-voi-tuoi-at-hoi-1995-nam-2020-bv14.html",
+      "new_url": "/bai-viet/chon-cay-mini-phu-hop-nhat-voi-tuoi-at-hoi-1995-nam-2020-legacy-14",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/chon-cay-mini-phu-hop-nhat-voi-tuoi-at-hoi-1995-nam-2020-legacy-14",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 15,
+      "legacy_url": "/1996-binh-ty-de-cay-gi-tren-ban-lam-viec-la-tot-cho-phong-thuy-nhat--bv15.html",
+      "new_url": "/bai-viet/1996-binh-ty-de-cay-gi-tren-ban-lam-viec-la-tot-cho-phong-thuy-nhat-legacy-15",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/1996-binh-ty-de-cay-gi-tren-ban-lam-viec-la-tot-cho-phong-thuy-nhat-legacy-15",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 16,
+      "legacy_url": "/hoa-dau-biec-cung-tac-dung-ngan-ngua-benh-ung-thu-hieu-qua.-bv16.html",
+      "new_url": "/bai-viet/hoa-dau-biec-cung-tac-dung-ngan-ngua-benh-ung-thu-hieu-qua-legacy-16",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/hoa-dau-biec-cung-tac-dung-ngan-ngua-benh-ung-thu-hieu-qua-legacy-16",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 17,
+      "legacy_url": "/nguoi-menh-hoa-nen-chon-cay-nhu-the-nao-cho-phu-hop-bv17.html",
+      "new_url": "/bai-viet/nguoi-menh-hoa-nen-chon-cay-nhu-the-nao-cho-phu-hop-legacy-17",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nguoi-menh-hoa-nen-chon-cay-nhu-the-nao-cho-phu-hop-legacy-17",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 18,
+      "legacy_url": "/nguoi-menh-kim-nen-trong-cay-gi-trong-nha-de-mang-lai-tai-loc-va-may-man-bv18.html",
+      "new_url": "/bai-viet/nguoi-menh-kim-nen-trong-cay-gi-trong-nha-de-mang-lai-tai-loc-va-may-man-legacy-18",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nguoi-menh-kim-nen-trong-cay-gi-trong-nha-de-mang-lai-tai-loc-va-may-man-legacy-18",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 19,
+      "legacy_url": "/nguoi-menh-thuy-trong-cay-gi-de-gap-nhieu-may-man-thinh-vuong-bv19.html",
+      "new_url": "/bai-viet/nguoi-menh-thuy-trong-cay-gi-de-gap-nhieu-may-man-thinh-vuong-legacy-19",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nguoi-menh-thuy-trong-cay-gi-de-gap-nhieu-may-man-thinh-vuong-legacy-19",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 20,
+      "legacy_url": "/nguoi-menh-moc-hop-cay-gi-trong-nha-de-mang-lai-may-man-tai-loc-bv20.html",
+      "new_url": "/bai-viet/nguoi-menh-moc-hop-cay-gi-trong-nha-de-mang-lai-may-man-tai-loc-legacy-20",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nguoi-menh-moc-hop-cay-gi-trong-nha-de-mang-lai-may-man-tai-loc-legacy-20",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 21,
+      "legacy_url": "/nguoi-menh-tho-nen-trong-cay-gi-thi-phu-hop-bv21.html",
+      "new_url": "/bai-viet/nguoi-menh-tho-nen-trong-cay-gi-thi-phu-hop-legacy-21",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nguoi-menh-tho-nen-trong-cay-gi-thi-phu-hop-legacy-21",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 22,
+      "legacy_url": "/cay-luoi-ho-sansevieria-trifasciata-giup-thanh-loc-khong-khi-tranh-van-xui.-bv22.html",
+      "new_url": "/bai-viet/cay-luoi-ho-sansevieria-trifasciata-giup-thanh-loc-khong-khi-tranh-van-xui-legacy-22",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cay-luoi-ho-sansevieria-trifasciata-giup-thanh-loc-khong-khi-tranh-van-xui-legacy-22",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 23,
+      "legacy_url": "/cay-hanh-phuc-radermachera-sinica-cung-nhung-y-nghia-vo-cung-dac-biet.-bv23.html",
+      "new_url": "/bai-viet/cay-hanh-phuc-radermachera-sinica-cung-nhung-y-nghia-vo-cung-dac-biet-legacy-23",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cay-hanh-phuc-radermachera-sinica-cung-nhung-y-nghia-vo-cung-dac-biet-legacy-23",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 24,
+      "legacy_url": "/dac-diem-va-cach-cham-soc-cay-tung-bong-lai-podocarpus-maccrophyllus.-bv24.html",
+      "new_url": "/bai-viet/dac-diem-va-cach-cham-soc-cay-tung-bong-lai-podocarpus-maccrophyllus-legacy-24",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/dac-diem-va-cach-cham-soc-cay-tung-bong-lai-podocarpus-maccrophyllus-legacy-24",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 25,
+      "legacy_url": "/nhung-loi-ich-bat-ngo-khi-trong-cay-bang-singapore-ficus-lyrata-trong-nha.-bv25.html",
+      "new_url": "/bai-viet/nhung-loi-ich-bat-ngo-khi-trong-cay-bang-singapore-ficus-lyrata-trong-nha-legacy-25",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nhung-loi-ich-bat-ngo-khi-trong-cay-bang-singapore-ficus-lyrata-trong-nha-legacy-25",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 26,
+      "legacy_url": "/y-nghia-cua-cay-kim-ngan-trong-doi-song.-bv26.html",
+      "new_url": "/bai-viet/y-nghia-cua-cay-kim-ngan-trong-doi-song-legacy-26",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/y-nghia-cua-cay-kim-ngan-trong-doi-song-legacy-26",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 27,
+      "legacy_url": "/top-nhung-loai-cay-co-hoa-trang-tri-ban-cong-dep-an-tuong.-bv27.html",
+      "new_url": "/bai-viet/top-nhung-loai-cay-co-hoa-trang-tri-ban-cong-dep-an-tuong-legacy-27",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/top-nhung-loai-cay-co-hoa-trang-tri-ban-cong-dep-an-tuong-legacy-27",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 28,
+      "legacy_url": "/nhung-loai-cay-va-hoa-thich-hop-trang-tri-cho-ban-cong-san-vuon-them-ruc-ro.-bv28.html",
+      "new_url": "/bai-viet/nhung-loai-cay-va-hoa-thich-hop-trang-tri-cho-ban-cong-san-vuon-them-ruc-ro-legacy-28",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nhung-loai-cay-va-hoa-thich-hop-trang-tri-cho-ban-cong-san-vuon-them-ruc-ro-legacy-28",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 29,
+      "legacy_url": "/top-nhung-loai-hoa-trong-ban-cong-dep-hut-mat-nguoi-nhin.-bv29.html",
+      "new_url": "/bai-viet/top-nhung-loai-hoa-trong-ban-cong-dep-hut-mat-nguoi-nhin-legacy-29",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/top-nhung-loai-hoa-trong-ban-cong-dep-hut-mat-nguoi-nhin-legacy-29",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 30,
+      "legacy_url": "/tuoi-giap-tuat-1994-hop-trong-cay-gi-bv30.html",
+      "new_url": "/bai-viet/tuoi-giap-tuat-1994-hop-trong-cay-gi-legacy-30",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/tuoi-giap-tuat-1994-hop-trong-cay-gi-legacy-30",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 31,
+      "legacy_url": "/thiet-moc-lan-loai-cay-mang-lai-nhieu-tai-loc-cho-gia-chu-caybonmua.vn.-bv31.html",
+      "new_url": "/bai-viet/thiet-moc-lan-loai-cay-mang-lai-nhieu-tai-loc-cho-gia-chu-caybonmuavn-legacy-31",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/thiet-moc-lan-loai-cay-mang-lai-nhieu-tai-loc-cho-gia-chu-caybonmuavn-legacy-31",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 32,
+      "legacy_url": "/nhung-loai-cay-thich-hop-de-trong-wc-thanh-loc-khong-khi.-bv32.html",
+      "new_url": "/bai-viet/nhung-loai-cay-thich-hop-de-trong-wc-thanh-loc-khong-khi-legacy-32",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nhung-loai-cay-thich-hop-de-trong-wc-thanh-loc-khong-khi-legacy-32",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 33,
+      "legacy_url": "/y-nghia-cua-cay-van-nien-thanh-trong-doi-song-bv33.html",
+      "new_url": "/bai-viet/y-nghia-cua-cay-van-nien-thanh-trong-doi-song-legacy-33",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/y-nghia-cua-cay-van-nien-thanh-trong-doi-song-legacy-33",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 34,
+      "legacy_url": "/tuoi-dinh-suu-trong-cay-gi-mang-lai-may-man-tai-loc.-bv34.html",
+      "new_url": "/bai-viet/tuoi-dinh-suu-trong-cay-gi-mang-lai-may-man-tai-loc-legacy-34",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/tuoi-dinh-suu-trong-cay-gi-mang-lai-may-man-tai-loc-legacy-34",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 35,
+      "legacy_url": "/y-nghia-cua-cay-mai-tieu-thu.-bv35.html",
+      "new_url": "/bai-viet/y-nghia-cua-cay-mai-tieu-thu-legacy-35",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/y-nghia-cua-cay-mai-tieu-thu-legacy-35",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 36,
+      "legacy_url": "/dai-phu-gia-voi-nhung-y-nghia-dac-biet.-bv36.html",
+      "new_url": "/bai-viet/dai-phu-gia-voi-nhung-y-nghia-dac-biet-legacy-36",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/dai-phu-gia-voi-nhung-y-nghia-dac-biet-legacy-36",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 37,
+      "legacy_url": "/goi-y-mot-so-loai-cay-trang-tri-noi-that-dep.-bv37.html",
+      "new_url": "/bai-viet/goi-y-mot-so-loai-cay-trang-tri-noi-that-dep-legacy-37",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/goi-y-mot-so-loai-cay-trang-tri-noi-that-dep-legacy-37",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 38,
+      "legacy_url": "/y-nghia-cua-cay-bach-ma-hoang-tu.-bv38.html",
+      "new_url": "/bai-viet/y-nghia-cua-cay-bach-ma-hoang-tu-legacy-38",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/y-nghia-cua-cay-bach-ma-hoang-tu-legacy-38",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 39,
+      "legacy_url": "/y-nghia-phong-thuy-cua-cay-van-loc.-bv39.html",
+      "new_url": "/bai-viet/y-nghia-phong-thuy-cua-cay-van-loc-legacy-39",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/y-nghia-phong-thuy-cua-cay-van-loc-legacy-39",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 40,
+      "legacy_url": "/nhung-dieu-can-biet-ve-cay-ngoc-ngan.-bv40.html",
+      "new_url": "/bai-viet/nhung-dieu-can-biet-ve-cay-ngoc-ngan-legacy-40",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nhung-dieu-can-biet-ve-cay-ngoc-ngan-legacy-40",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 41,
+      "legacy_url": "/dac-diem-va-cach-cham-soc-cay-bach-thuy-tien.-bv41.html",
+      "new_url": "/bai-viet/dac-diem-va-cach-cham-soc-cay-bach-thuy-tien-legacy-41",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/dac-diem-va-cach-cham-soc-cay-bach-thuy-tien-legacy-41",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 42,
+      "legacy_url": "/y-nghia-phong-thuy-cua-cay-hong-mon.-bv42.html",
+      "new_url": "/bai-viet/y-nghia-phong-thuy-cua-cay-hong-mon-legacy-42",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/y-nghia-phong-thuy-cua-cay-hong-mon-legacy-42",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 43,
+      "legacy_url": "/thong-tin-ve-cay-duoi-phuong.-bv43.html",
+      "new_url": "/bai-viet/thong-tin-ve-cay-duoi-phuong-legacy-43",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/thong-tin-ve-cay-duoi-phuong-legacy-43",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 44,
+      "legacy_url": "/cach-cham-soc-cay-do-quyen-truoc-va-sau-tet.-bv44.html",
+      "new_url": "/bai-viet/cach-cham-soc-cay-do-quyen-truoc-va-sau-tet-legacy-44",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cach-cham-soc-cay-do-quyen-truoc-va-sau-tet-legacy-44",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 45,
+      "legacy_url": "/khong-gian-xanh-cho-to-am-cua-ban-bv45.html",
+      "new_url": "/bai-viet/khong-gian-xanh-cho-to-am-cua-ban-legacy-45",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/khong-gian-xanh-cho-to-am-cua-ban-legacy-45",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 46,
+      "legacy_url": "/top-5-loai-cay-lon-de-trong-duoc-su-dung-nhieu-trong-trang-tri-noi-that.-bv46.html",
+      "new_url": "/bai-viet/top-5-loai-cay-lon-de-trong-duoc-su-dung-nhieu-trong-trang-tri-noi-that-legacy-46",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/top-5-loai-cay-lon-de-trong-duoc-su-dung-nhieu-trong-trang-tri-noi-that-legacy-46",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 47,
+      "legacy_url": "/nhung-dieu-can-biet-ve-cay-lan-re-quat-caybonmua.vn-bv47.html",
+      "new_url": "/bai-viet/nhung-dieu-can-biet-ve-cay-lan-re-quat-caybonmuavn-legacy-47",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nhung-dieu-can-biet-ve-cay-lan-re-quat-caybonmuavn-legacy-47",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 48,
+      "legacy_url": "/top-nhung-loai-cay-than-go-ma-ban-nen-co-trong-nha.-bv48.html",
+      "new_url": "/bai-viet/top-nhung-loai-cay-than-go-ma-ban-nen-co-trong-nha-legacy-48",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/top-nhung-loai-cay-than-go-ma-ban-nen-co-trong-nha-legacy-48",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 49,
+      "legacy_url": "/cuc-hot-5-loai-hoa-ban-cong-ruc-ro-ch%E1%BB%8Bu-duoc-nang-nong-bv49.html",
+      "new_url": "/bai-viet/cuc-hot-5-loai-hoa-ban-cong-ruc-ro-chiu-duoc-nang-nong-legacy-49",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cuc-hot-5-loai-hoa-ban-cong-ruc-ro-chiu-duoc-nang-nong-legacy-49",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 50,
+      "legacy_url": "/nhung-loai-cay-mang-lai-may-man-tai-loc-cho-nguoi-tuoi-thin-%28mau-thin-1988%29-bv50.html",
+      "new_url": "/bai-viet/nhung-loai-cay-mang-lai-may-man-tai-loc-cho-nguoi-tuoi-thin-mau-thin-1988-legacy-50",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nhung-loai-cay-mang-lai-may-man-tai-loc-cho-nguoi-tuoi-thin-mau-thin-1988-legacy-50",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 51,
+      "legacy_url": "/ly-do-khien-cay-de-ban-cua-ban-bi-chet-cach-cham-soc-cay-de-ban-cuc-ki-don-gian-bv51.html",
+      "new_url": "/bai-viet/ly-do-khien-cay-de-ban-cua-ban-bi-chet-cach-cham-soc-cay-de-ban-cuc-ki-don-gian-legacy-51",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/ly-do-khien-cay-de-ban-cua-ban-bi-chet-cach-cham-soc-cay-de-ban-cuc-ki-don-gian-legacy-51",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 52,
+      "legacy_url": "/ly-do-cay-kim-tien-cua-ban-hay-chet.-cach-de-cay-kim-tien-ra-hoa-nhieu-loc-bv52.html",
+      "new_url": "/bai-viet/ly-do-cay-kim-tien-cua-ban-hay-chet-cach-de-cay-kim-tien-ra-hoa-nhieu-loc-legacy-52",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/ly-do-cay-kim-tien-cua-ban-hay-chet-cach-de-cay-kim-tien-ra-hoa-nhieu-loc-legacy-52",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 53,
+      "legacy_url": "/ly-do-cay-luoi-ho-de-ban-cua-ban-lai-chet-la-gi-cach-cham-soc-cay-luoi-ho-de-cay-luon-xanh-tot.-bv53.html",
+      "new_url": "/bai-viet/ly-do-cay-luoi-ho-de-ban-cua-ban-lai-chet-la-gi-cach-cham-soc-cay-luoi-ho-de-cay-luon-xanh-tot-legacy-53",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/ly-do-cay-luoi-ho-de-ban-cua-ban-lai-chet-la-gi-cach-cham-soc-cay-luoi-ho-de-cay-luon-xanh-tot-legacy-53",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 54,
+      "legacy_url": "/mach-ban-cach-cham-soc-cay-tung-bong-lai-de-cay-xanh-tot-cho-nhieu-may-man-tai-loc-bv54.html",
+      "new_url": "/bai-viet/mach-ban-cach-cham-soc-cay-tung-bong-lai-de-cay-xanh-tot-cho-nhieu-may-man-tai-loc-legacy-54",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/mach-ban-cach-cham-soc-cay-tung-bong-lai-de-cay-xanh-tot-cho-nhieu-may-man-tai-loc-legacy-54",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 55,
+      "legacy_url": "/nhung-ly-do-khien-cay-huong-thao-bi-den-rung-la.-cach-cham-soc-cay-huong-thao-mau-ra-hoa-dep.-bv55.html",
+      "new_url": "/bai-viet/nhung-ly-do-khien-cay-huong-thao-bi-den-rung-la-cach-cham-soc-cay-huong-thao-mau-ra-hoa-dep-legacy-55",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/nhung-ly-do-khien-cay-huong-thao-bi-den-rung-la-cach-cham-soc-cay-huong-thao-mau-ra-hoa-dep-legacy-55",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 56,
+      "legacy_url": "/mach-%20cach-cat-tia-cay-huong-thao-tan-tron-xinh-xan-bv56.html",
+      "new_url": "/bai-viet/mach-cach-cat-tia-cay-huong-thao-tan-tron-xinh-xan-legacy-56",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/mach-cach-cat-tia-cay-huong-thao-tan-tron-xinh-xan-legacy-56",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 57,
+      "legacy_url": "/thay-phong-thuy-mach-ban%3A-lua-chon-cay-kim-tien-thu-tai-loc-cho-quan-coffee-cua-ban--bv57.html",
+      "new_url": "/bai-viet/thay-phong-thuy-mach-ban-lua-chon-cay-kim-tien-thu-tai-loc-cho-quan-coffee-cua-ban-legacy-57",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/thay-phong-thuy-mach-ban-lua-chon-cay-kim-tien-thu-tai-loc-cho-quan-coffee-cua-ban-legacy-57",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 58,
+      "legacy_url": "/meo-chon-cay-treo-cho-quan-ca-phe-phong-cach-nhat-2021-bv58.html",
+      "new_url": "/bai-viet/meo-chon-cay-treo-cho-quan-ca-phe-phong-cach-nhat-2021-legacy-58",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/meo-chon-cay-treo-cho-quan-ca-phe-phong-cach-nhat-2021-legacy-58",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 59,
+      "legacy_url": "/voi-nhung-loai-cay-nay-quan-ca-phe-cua-cua-ban-se-tro-nen-ruc-ro-day-suc-song-bv59.html",
+      "new_url": "/bai-viet/voi-nhung-loai-cay-nay-quan-ca-phe-cua-cua-ban-se-tro-nen-ruc-ro-day-suc-song-legacy-59",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/voi-nhung-loai-cay-nay-quan-ca-phe-cua-cua-ban-se-tro-nen-ruc-ro-day-suc-song-legacy-59",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 60,
+      "legacy_url": "/top-10-mau-vuon-dung-cho-ban-cong-cua-ban-dep-me-ly-bv60.html",
+      "new_url": "/bai-viet/top-10-mau-vuon-dung-cho-ban-cong-cua-ban-dep-me-ly-legacy-60",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/top-10-mau-vuon-dung-cho-ban-cong-cua-ban-dep-me-ly-legacy-60",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 61,
+      "legacy_url": "/%5Bsieu-hot%5D-5-loai-cay-ra-hoa-quanh-nam-phu-hop-voi-moi-thiet-ke-ban-cong-bv61.html",
+      "new_url": "/bai-viet/sieu-hot-5-loai-cay-ra-hoa-quanh-nam-phu-hop-voi-moi-thiet-ke-ban-cong-legacy-61",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/sieu-hot-5-loai-cay-ra-hoa-quanh-nam-phu-hop-voi-moi-thiet-ke-ban-cong-legacy-61",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 63,
+      "legacy_url": "/cach-cham-soc-cay-cam-tu-cau-nhat-lun-giup-cay-tuoi-tot.-bv63.html",
+      "new_url": "/bai-viet/cach-cham-soc-cay-cam-tu-cau-nhat-lun-giup-cay-tuoi-tot-legacy-63",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cach-cham-soc-cay-cam-tu-cau-nhat-lun-giup-cay-tuoi-tot-legacy-63",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 64,
+      "legacy_url": "/ky-thuat-cham-cay-hoa-dua-can-de-cay-ra-hoa-quanh-nam-luon-sai-hoa-cho-gia-chu-bv64.html",
+      "new_url": "/bai-viet/ky-thuat-cham-cay-hoa-dua-can-de-cay-ra-hoa-quanh-nam-luon-sai-hoa-cho-gia-chu-legacy-64",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/ky-thuat-cham-cay-hoa-dua-can-de-cay-ra-hoa-quanh-nam-luon-sai-hoa-cho-gia-chu-legacy-64",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 65,
+      "legacy_url": "/ly-do-cay-nhat-mat-huong-%28sen-thom%29-cua-ban-bi-rung-la-vang-la-den-than-bv65.html",
+      "new_url": "/bai-viet/ly-do-cay-nhat-mat-huong-sen-thom-cua-ban-bi-rung-la-vang-la-den-than-legacy-65",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/ly-do-cay-nhat-mat-huong-sen-thom-cua-ban-bi-rung-la-vang-la-den-than-legacy-65",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 66,
+      "legacy_url": "/vi-sao-cay-truc-quan-tu-nha-ban-lai-vang-la.-cach-khac-phuc-don-gian-cuu-truc-quan-tu-bv66.html",
+      "new_url": "/bai-viet/vi-sao-cay-truc-quan-tu-nha-ban-lai-vang-la-cach-khac-phuc-don-gian-cuu-truc-quan-tu-legacy-66",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/vi-sao-cay-truc-quan-tu-nha-ban-lai-vang-la-cach-khac-phuc-don-gian-cuu-truc-quan-tu-legacy-66",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 67,
+      "legacy_url": "/cach-cat-tia-cay-cam-tu-cau-nhat-giup-cay-ra-bong-hoa-to-dep.-bv67.html",
+      "new_url": "/bai-viet/cach-cat-tia-cay-cam-tu-cau-nhat-giup-cay-ra-bong-hoa-to-dep-legacy-67",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cach-cat-tia-cay-cam-tu-cau-nhat-giup-cay-ra-bong-hoa-to-dep-legacy-67",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 68,
+      "legacy_url": "/cac-benh-thuong-gap-o-cay-huong-thao-rosemary-va-cach-xu-ly-bv68.html",
+      "new_url": "/bai-viet/cac-benh-thuong-gap-o-cay-huong-thao-rosemary-va-cach-xu-ly-legacy-68",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cac-benh-thuong-gap-o-cay-huong-thao-rosemary-va-cach-xu-ly-legacy-68",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 69,
+      "legacy_url": "/cac-benh-thuong-gap-tren-cay-cam-tu-cau-ma-ban-nen-biet.-bv69.html",
+      "new_url": "/bai-viet/cac-benh-thuong-gap-tren-cay-cam-tu-cau-ma-ban-nen-biet-legacy-69",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cac-benh-thuong-gap-tren-cay-cam-tu-cau-ma-ban-nen-biet-legacy-69",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 70,
+      "legacy_url": "/so-sanh-giong-cam-tu-cau-o-viet-nam-va-giong-cam-tu-cau-nhat-lun-bv70.html",
+      "new_url": "/bai-viet/so-sanh-giong-cam-tu-cau-o-viet-nam-va-giong-cam-tu-cau-nhat-lun-legacy-70",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/so-sanh-giong-cam-tu-cau-o-viet-nam-va-giong-cam-tu-cau-nhat-lun-legacy-70",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 71,
+      "legacy_url": "/huong-dan-cham-soc-cay-bach-tuyet-mai-tai-nha-don-gian-hieu-qua-bv71.html",
+      "new_url": "/bai-viet/huong-dan-cham-soc-cay-bach-tuyet-mai-tai-nha-don-gian-hieu-qua-legacy-71",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/huong-dan-cham-soc-cay-bach-tuyet-mai-tai-nha-don-gian-hieu-qua-legacy-71",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 72,
+      "legacy_url": "/ky-thuat-trong-cay-dau-biec-don-gian-hieu-qua-tai-nha-bv72.html",
+      "new_url": "/bai-viet/ky-thuat-trong-cay-dau-biec-don-gian-hieu-qua-tai-nha-legacy-72",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/ky-thuat-trong-cay-dau-biec-don-gian-hieu-qua-tai-nha-legacy-72",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 73,
+      "legacy_url": "/cach-cham-soc-cay-hoa-diem-chau-cho-hoa-no-ruc-ro-quanh-nam-bv73.html",
+      "new_url": "/bai-viet/cach-cham-soc-cay-hoa-diem-chau-cho-hoa-no-ruc-ro-quanh-nam-legacy-73",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/cach-cham-soc-cay-hoa-diem-chau-cho-hoa-no-ruc-ro-quanh-nam-legacy-73",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 74,
+      "legacy_url": "/o-viet-nam-hien-co-bao-nhieu-loai-lavender-pho-bien-cach-phan-loai-cay-lavender.-bv74.html",
+      "new_url": "/bai-viet/o-viet-nam-hien-co-bao-nhieu-loai-lavender-pho-bien-cach-phan-loai-cay-lavender-legacy-74",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/o-viet-nam-hien-co-bao-nhieu-loai-lavender-pho-bien-cach-phan-loai-cay-lavender-legacy-74",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 75,
+      "legacy_url": "/ky-thuat-cham-soc-cay-lavender-cuc-ki-don-gian-tai-nha-bv75.html",
+      "new_url": "/bai-viet/ky-thuat-cham-soc-cay-lavender-cuc-ki-don-gian-tai-nha-legacy-75",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/ky-thuat-cham-soc-cay-lavender-cuc-ki-don-gian-tai-nha-legacy-75",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 76,
+      "legacy_url": "/ky-thuat-cham-cay-cuc-la-nham-de-cay-luon-xanh-tot-va-ra-hoa-quanh-nam-bv76.html",
+      "new_url": "/bai-viet/ky-thuat-cham-cay-cuc-la-nham-de-cay-luon-xanh-tot-va-ra-hoa-quanh-nam-legacy-76",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/ky-thuat-cham-cay-cuc-la-nham-de-cay-luon-xanh-tot-va-ra-hoa-quanh-nam-legacy-76",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 77,
+      "legacy_url": "/tai-nghiem-dich-vu-thiet-ke-24h-free-cua-caybonmua.vn-bv77.html",
+      "new_url": "/bai-viet/tai-nghiem-dich-vu-thiet-ke-24h-free-cua-caybonmuavn-legacy-77",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/tai-nghiem-dich-vu-thiet-ke-24h-free-cua-caybonmuavn-legacy-77",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 78,
+      "legacy_url": "/bi-quyet-giup-cay-huong-thao-song-tot-tai-mien-bac.-bv78.html",
+      "new_url": "/bai-viet/bi-quyet-giup-cay-huong-thao-song-tot-tai-mien-bac-legacy-78",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/bi-quyet-giup-cay-huong-thao-song-tot-tai-mien-bac-legacy-78",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "Article",
+      "legacy_id": 79,
+      "legacy_url": "/gia-the-trong-cay-huong-thao-giup-cay-phat-trien-manh-bv79.html",
+      "new_url": "/bai-viet/gia-the-trong-cay-huong-thao-giup-cay-phat-trien-manh-legacy-79",
+      "status_code": 301,
+      "destination": "http://localhost:8000/bai-viet/gia-the-trong-cay-huong-thao-giup-cay-phat-trien-manh-legacy-79",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 7,
+      "legacy_url": "/cay-phong-thuy-cm7.html",
+      "new_url": "/chuyen-muc/cay-phong-thuy-legacy-7",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/cay-phong-thuy-legacy-7",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 8,
+      "legacy_url": "/san-pham-cm8.html",
+      "new_url": "/chuyen-muc/san-pham-legacy-8",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/san-pham-legacy-8",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 9,
+      "legacy_url": "/kien-thuc-ve-cay-cm9.html",
+      "new_url": "/chuyen-muc/kien-thuc-ve-cay-legacy-9",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/kien-thuc-ve-cay-legacy-9",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 10,
+      "legacy_url": "/dich-vu-cm10.html",
+      "new_url": "/chuyen-muc/dich-vu-legacy-10",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/dich-vu-legacy-10",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 11,
+      "legacy_url": "/chinh-sach-bao-hanh-cm11.html",
+      "new_url": "/chuyen-muc/chinh-sach-bao-hanh-legacy-11",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/chinh-sach-bao-hanh-legacy-11",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 12,
+      "legacy_url": "/meo-hay-ve-cay-cm12.html",
+      "new_url": "/chuyen-muc/meo-hay-ve-cay-legacy-12",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/meo-hay-ve-cay-legacy-12",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 13,
+      "legacy_url": "/du-an-da-thuc-hien-cm13.html",
+      "new_url": "/chuyen-muc/du-an-da-thuc-hien-legacy-13",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/du-an-da-thuc-hien-legacy-13",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 14,
+      "legacy_url": "/trang-tri-ban-cong-cm14.html",
+      "new_url": "/chuyen-muc/trang-tri-ban-cong-legacy-14",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/trang-tri-ban-cong-legacy-14",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 15,
+      "legacy_url": "/trang-tri-san-vuon-cm15.html",
+      "new_url": "/chuyen-muc/trang-tri-san-vuon-legacy-15",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/trang-tri-san-vuon-legacy-15",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 16,
+      "legacy_url": "/cach-cham-soc-cay-cm16.html",
+      "new_url": "/chuyen-muc/cach-cham-soc-cay-legacy-16",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/cach-cham-soc-cay-legacy-16",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    },
+    {
+      "entity": "ArticleCategory",
+      "legacy_id": 17,
+      "legacy_url": "/trang-tri-van-phong-cm17.html",
+      "new_url": "/chuyen-muc/trang-tri-van-phong-legacy-17",
+      "status_code": 301,
+      "destination": "http://localhost:8000/chuyen-muc/trang-tri-van-phong-legacy-17",
+      "target_status": 200,
+      "chain_hops": 1,
+      "tracking_removed": true,
+      "status": "PASS"
+    }
+  ],
+  "pages": [
+    {
+      "path": "/san-pham/cay-bang-singapore-01-legacy-4",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-bang-singapore-01-legacy-4",
+      "title_sha256": "6e8def1e2601bdb9e98143fb4d94b48301733d8d049b16a7a68f5eeaf79612e0",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-kim-ngan-01-legacy-5",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-kim-ngan-01-legacy-5",
+      "title_sha256": "22d5d319d2c5b7fff35bf12175484c4ca8e87e6d90a9824d6ceec117341a861e",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-tung-bong-lai-01-legacy-6",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-tung-bong-lai-01-legacy-6",
+      "title_sha256": "98fb4a4221b85c35612d595af22996a490cf8205f5828b50557ea70a3de4adcf",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-phu-quy-01-legacy-7",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-phu-quy-01-legacy-7",
+      "title_sha256": "1cc0d040be96cde776b600f29c84b637dc593c9ed8882d7e8f4cb74d41dd8b3d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-cam-nhung-01-legacy-8",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-cam-nhung-01-legacy-8",
+      "title_sha256": "c180de3607454392d808013e4f886913e4b9e99b2022084ecf527aa1deced5d3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-lan-to-yen-01-legacy-9",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-lan-to-yen-01-legacy-9",
+      "title_sha256": "82da14911c4655e590e38aa2603c217912aa46b89dfb17e93b588e18680a3dea",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-luoi-ho-01-legacy-10",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-luoi-ho-01-legacy-10",
+      "title_sha256": "6b7acf7eb225e07a9ea260cfb734f85c095ef14fd6dcfccb23adee30449ec9b4",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-sao-bien-01-legacy-11",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-sao-bien-01-legacy-11",
+      "title_sha256": "6238643a7e34ac9fa6573b5c8592daf238345504c016779026b32fe1effb2127",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-kim-tien-size-l-legacy-12",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-kim-tien-size-l-legacy-12",
+      "title_sha256": "4ebc1455a7cd2fc60012d3e7ba0668598559a95f2d151323e561e5b175770eb2",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hanh-phuc-01-legacy-13",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hanh-phuc-01-legacy-13",
+      "title_sha256": "2319928eb83077ee6c17bd5d9d0c9e0a773fd643fd37ddb2a2ffb6949bcdffba",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/hoa-giay-thai-3-mau-legacy-14",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/hoa-giay-thai-3-mau-legacy-14",
+      "title_sha256": "7e9134b9eec601004229a19ae3d78338845546591d9287ed4616d0e46dbae225",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-dua-can-legacy-16",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-dua-can-legacy-16",
+      "title_sha256": "c0d2e01f4a24a43eadac7aaf189a2594dce97d6fe0b96bab994f6943e53c54ef",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-diem-chau-legacy-17",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-diem-chau-legacy-17",
+      "title_sha256": "f61f23405cca77e7f732b5dde8b925a1829ce631b6d232565dbd08833e097654",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-ngoc-ngan-phu-quy-mix-dola-thuong-xuan-legacy-18",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-ngoc-ngan-phu-quy-mix-dola-thuong-xuan-legacy-18",
+      "title_sha256": "b54aef1057d0a03a39ce67454d5d902daf2e37c24526d9191beef2bb546d22e6",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-lan-tim-treo-ban-cong-legacy-19",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-lan-tim-treo-ban-cong-legacy-19",
+      "title_sha256": "e61ffdc1b9d8626ec3c5bfbaa42bfc6273ac19f1e9169e0d6b71fdc804b16ba4",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-do-la-treo-ban-cong-legacy-20",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-do-la-treo-ban-cong-legacy-20",
+      "title_sha256": "70a66aefc34421c1b8dbd84ae32c3a796b5b34adacecd4c84d55cd0fb42ba181",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-leo-huynh-de-legacy-21",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-leo-huynh-de-legacy-21",
+      "title_sha256": "607c5a1f67477e3711af461e616515bf3bbf4076d3378fc67c156886a817bdca",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-thanh-tu-legacy-22",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-thanh-tu-legacy-22",
+      "title_sha256": "66664564bb6369ce06e1289bf07c330b93c306778c95576b75ba1537548816cb",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cuc-indo-treo-ban-cong-legacy-23",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cuc-indo-treo-ban-cong-legacy-23",
+      "title_sha256": "3c9a593b3a0cc2e60a1f7b786571095aae2d4fdab9e90e0813e9cb8eacd460ff",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-lan-hoang-duong-leo-gian-legacy-24",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-lan-hoang-duong-leo-gian-legacy-24",
+      "title_sha256": "0bba1768b25b77fb3fb29397dc7de15935795101f18462e1979f26b66be939a8",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-leo-su-quan-tu-legacy-26",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-leo-su-quan-tu-legacy-26",
+      "title_sha256": "d76bb9bd0e8c42f0f2ba96ff5dad305db50a67b8229d906b88f18ba4df5b224c",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-mai-tieu-thu-legacy-28",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-mai-tieu-thu-legacy-28",
+      "title_sha256": "f37051ed1f913b67802a6fbfaeb010e84f1c7eec533be764ced1efc811eee861",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-ngoc-nu-legacy-29",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-ngoc-nu-legacy-29",
+      "title_sha256": "21d754897016f7187e65f8184a1ef0a20dc1e5f504bc16710b8c56cca5f9ea8f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hanh-phuc-hang-bui-legacy-30",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hanh-phuc-hang-bui-legacy-30",
+      "title_sha256": "d9f9e38c4195eeeefe0481b867b5aec7af0383341d875971dc1d44b9a6fc99c3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-trau-ba-cot-size-lon-legacy-31",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-trau-ba-cot-size-lon-legacy-31",
+      "title_sha256": "5efe419cbb0dc77124bb0389d8760dae5201723d2d6015fc1050e2f186f9fd1e",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-thiet-moc-lan-1-than-l3-legacy-32",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-thiet-moc-lan-1-than-l3-legacy-32",
+      "title_sha256": "a9971c6bb6dea9b5b7243dff8de8df85dbcb3e7d0e2370c23d449824b473c4f8",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-thiet-moc-lan-1-than-l2-legacy-33",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-thiet-moc-lan-1-than-l2-legacy-33",
+      "title_sha256": "8f8d89c387b421030ca1fdc3c35a891f2806b010032e03bec2ab8f1aac28113e",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/kim-ngan-xoan-noi-that-legacy-35",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/kim-ngan-xoan-noi-that-legacy-35",
+      "title_sha256": "441c47150b1c7fbd8ef349d393a02cc4d8efd3472d76d60935b96d189eff7627",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/kim-ngan-noi-that-legacy-36",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/kim-ngan-noi-that-legacy-36",
+      "title_sha256": "f977cf35dca9320375862919044a270b724b1076765a3eff15377ec4c25af400",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/trau-ba-cot-hang-vip-1-legacy-37",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/trau-ba-cot-hang-vip-1-legacy-37",
+      "title_sha256": "5efe419cbb0dc77124bb0389d8760dae5201723d2d6015fc1050e2f186f9fd1e",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-trang-nguyen-legacy-38",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-trang-nguyen-legacy-38",
+      "title_sha256": "ea471ddf04c68f56c754e0c4e351c941d2898f8a1fef76abb42d43dcb811097d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-mai-dia-thao-legacy-39",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-mai-dia-thao-legacy-39",
+      "title_sha256": "40ba7fa1d5236dfd26dfb85e9fde1b72cee483278dc08f1f96c50fe193b957bc",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-do-quyen-legacy-40",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-do-quyen-legacy-40",
+      "title_sha256": "f18105ec259e39c5822943fa924c5af2e1a09b06e6a1bb29b69dba97547b6171",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-ot-ngu-sac-legacy-41",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-ot-ngu-sac-legacy-41",
+      "title_sha256": "d8ef5562725aed6d058531aa845d67f2ba8cec3a7afecdc5d058c937d6378eff",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-cuc-ngu-sac-1-than-legacy-43",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-cuc-ngu-sac-1-than-legacy-43",
+      "title_sha256": "3ff0448ae11af18b29e850cba21c495f262e2b2693db7bdcc44bd4ccfed510d4",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-cuc-ngu-sac-tim-legacy-44",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-cuc-ngu-sac-tim-legacy-44",
+      "title_sha256": "5eafeb8802caa03b3b61ec707dde44a5ab623c40d82be4b49b0476016b81ba56",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-kim-tien-legacy-45",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-kim-tien-legacy-45",
+      "title_sha256": "526cc9b631fcd2570d680a10ecf9edd3c718af7d456694f7708865fa09240d7a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/hoa-giay-leo-gian-legacy-46",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/hoa-giay-leo-gian-legacy-46",
+      "title_sha256": "62fbc15616f64c8ef7ebb155e28e7b4d8c86505f4b45ad50c3eae90e97317566",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-phat-tai-nui-legacy-47",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-phat-tai-nui-legacy-47",
+      "title_sha256": "05e948b2ef908cc7b0bb01ee586ac83462d1c26f41d6786ece4d59cead863119",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hanh-phuc-size-lon-legacy-48",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hanh-phuc-size-lon-legacy-48",
+      "title_sha256": "6c594b7e7469b618c77847f60f298bf53ecaa5e566b59d58ba3badea02d076a3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-truc-bach-hop-legacy-49",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-truc-bach-hop-legacy-49",
+      "title_sha256": "b65bc39459167a995500001456eb9e4941a696e9c719e52e1a5ccafae2344dc3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-long-den-legacy-50",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-long-den-legacy-50",
+      "title_sha256": "38076ba414bfd7b22719a30a641b9f8ad8ee9598821a19df3c080a85dfb35814",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-muoi-gio-legacy-51",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-muoi-gio-legacy-51",
+      "title_sha256": "a66d8b6849bf9fcdb684026c0b1bd0ee9f48c6165cd11cbc1c2376a34f2d78df",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-dau-biec-legacy-52",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-dau-biec-legacy-52",
+      "title_sha256": "e81920c7b23d2ed3995c82b748d0618bce3a42cbcac3057d2ce6ad93d1c7f7fb",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-vang-anh-la-dom-legacy-53",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-vang-anh-la-dom-legacy-53",
+      "title_sha256": "6356eaeb1f3ef77b39a417439a6f3a7b541e027562cf4f746df4d4c442835018",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-chum-ot-cao-1m5-2m-legacy-54",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-chum-ot-cao-1m5-2m-legacy-54",
+      "title_sha256": "685a77880ad6e9286272f730e03bbeb15dc55ff70cf389b607f907f930bcac75",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/kim-ngan-than-lon-vip-02-legacy-55",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/kim-ngan-than-lon-vip-02-legacy-55",
+      "title_sha256": "e468a8fc0adb3fe3945b286f9bde56a2650f14ffc39c96f2c78614e7a0d5ed9e",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/hong-leo-hp-cao-2m-legacy-56",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/hong-leo-hp-cao-2m-legacy-56",
+      "title_sha256": "fef9d7e63697bc03b05b58b9680ee991624cde74106c29c193f7807b5b0b6d2a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/hanh-phuc-dk-15-20cm-legacy-57",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/hanh-phuc-dk-15-20cm-legacy-57",
+      "title_sha256": "bd61ad4300f752b2520d73ea2f0357389d93f695d76e36cfcf8e84a746ad80e9",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/hong-co-sapa-bui-legacy-58",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/hong-co-sapa-bui-legacy-58",
+      "title_sha256": "5c607ba095ed580b53920231f61b0357aa193204203a965bd7583f3f8616811b",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/hong-co-sapa-1-than-legacy-59",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/hong-co-sapa-1-than-legacy-59",
+      "title_sha256": "37a686f0fad6785031ded1a4c9a2fcfb741773fb1e7995f56fe118805dc92acb",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/hoa-hong-do-viet-legacy-60",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/hoa-hong-do-viet-legacy-60",
+      "title_sha256": "f2ef349f48fbf6cb562dd774e971e32263c107ee9966a9f8b909883f68bca216",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/hong-ngoai-pas-de-deux-legacy-61",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/hong-ngoai-pas-de-deux-legacy-61",
+      "title_sha256": "aec278920be88ea3d22fa7a28382ce8aa02b51b1eee8492359044781be37f39c",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/truc-quan-tu-1m5-1m8-legacy-62",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/truc-quan-tu-1m5-1m8-legacy-62",
+      "title_sha256": "0445022deea81735f7f677796d984a6978bcb9a8f02d2ae357e02f26a26eaeb4",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-mai-xanh-thai-cao-50cm-legacy-63",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-mai-xanh-thai-cao-50cm-legacy-63",
+      "title_sha256": "acf2757ac7ad4d26b58d5bc4ca99d14a4b9ffbf27389b229e799e9f996242d12",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-van-nien-thanh-legacy-67",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-van-nien-thanh-legacy-67",
+      "title_sha256": "4fc86edf2b0068799469f2831ff9dc4f55982b110f92c1dcc6d8bab9c7a8b488",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-buom-dem-legacy-68",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-buom-dem-legacy-68",
+      "title_sha256": "0b4c7a0e9e693b8f0144279c35b536e7dd47038dac97ae016c20be3e59f0db4f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-muong-nhat-legacy-69",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-muong-nhat-legacy-69",
+      "title_sha256": "0485a85e14b35cc963ed19a057948e3f9684ea3e9dcae0c82ce710e29f939f09",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-la-gam-legacy-70",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-la-gam-legacy-70",
+      "title_sha256": "6948a3797134af565e234bb268c16e6852ccddd3589358891fb587c89837384d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-tia-to-nhat-legacy-71",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-tia-to-nhat-legacy-71",
+      "title_sha256": "4dd0d0659d4769da6e4e4bf355cd7273a621ab02f9ce418b9dcb93840544cb4f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-lan-re-quat-legacy-72",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-lan-re-quat-legacy-72",
+      "title_sha256": "0e7ff6206a90c71d79e3b90f555deca9ace1c10d91d06e71553d27a45193c9f4",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-ngoc-ngan-legacy-73",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-ngoc-ngan-legacy-73",
+      "title_sha256": "3f18a296e865148c60e99e4fcf3cfb7a4e1f6dc879eea52a500a278e6c7d8dfd",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-huong-thao-legacy-74",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-huong-thao-legacy-74",
+      "title_sha256": "f9e30fa66fd92200086be62180101255cabe4ec0b44f19c30ade11d793538b80",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-oai-huong-legacy-75",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-oai-huong-legacy-75",
+      "title_sha256": "f895381eb295c84c2d933f7f4f3b123a60cfdaa827e8eea9c1eb8a97bea05f3d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-lan-chi-treo-legacy-76",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-lan-chi-treo-legacy-76",
+      "title_sha256": "d418c0a49dfe03fd654a97c901b5342849330e598e4adfc7daf25a874d3fe270",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-o-go-gan-do-legacy-77",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-o-go-gan-do-legacy-77",
+      "title_sha256": "bfcc1cb1d0ab161b71056188b65614e34061fe47cee1da8b5b134ecbcba57887",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-dua-agao-legacy-78",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-dua-agao-legacy-78",
+      "title_sha256": "76d13f62fcce3a31186d6fc2eb5b48dfc1bfce871265385aa6bec1b9b36d62be",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-dua-van-phat-legacy-79",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-dua-van-phat-legacy-79",
+      "title_sha256": "8dc849fca7d20511e4923ca03b557f373783606262662dbd3764ee464ed2d712",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-cuc-mat-troi-legacy-80",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-cuc-mat-troi-legacy-80",
+      "title_sha256": "abb718103b5fada0ffa187b63a88129c5ea4a9e98e585143f22398daea9bd894",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-rau-meo-legacy-81",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-rau-meo-legacy-81",
+      "title_sha256": "2f65ee73c2ee0bcb688cc9e16eec43d2075f5f47405dd8c090be12413207fdc5",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-bach-thien-huong-size-lon-legacy-82",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-bach-thien-huong-size-lon-legacy-82",
+      "title_sha256": "931ec8c9c4588b9952dd731445680a4b2a237a76a1133b2ff1b3323d0bd558ca",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-huynh-lien-legacy-83",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-huynh-lien-legacy-83",
+      "title_sha256": "2d6c0348d596b765c67f1dcc2c1aec983f908fe27454770e28b674154b3774d0",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoan-kiem-legacy-84",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoan-kiem-legacy-84",
+      "title_sha256": "4dc528bb27f74a445b531c891681684f75a92cde1aac8a6fce755b124f5f4207",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-buom-hong-legacy-85",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-buom-hong-legacy-85",
+      "title_sha256": "eecc053ab952c02759f20ba8367b20c9e0ced8d1012520b718d012d18b9ca800",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-anh-duong-legacy-86",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-anh-duong-legacy-86",
+      "title_sha256": "8a406a19b54213298fe583b26f3227805bdddcafee2e503dda2d2ddfe59a73ea",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-dam-but-thai-legacy-87",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-dam-but-thai-legacy-87",
+      "title_sha256": "cf1a5e54370735c8b54ae34ee562001c2d62b927c9afe714b1ff6766a852e084",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-kim-dong-vang-legacy-88",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-kim-dong-vang-legacy-88",
+      "title_sha256": "fa6c68e62f2c095ae7967d05bbe4d33d7a3b667b72b271db2ad2df08cead64d5",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-ngoc-but-legacy-89",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-ngoc-but-legacy-89",
+      "title_sha256": "7bde3893ea239918782beba5ca1cb28d858b6deac11f217cbf9c34157cdea1cb",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-duong-xi-legacy-90",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-duong-xi-legacy-90",
+      "title_sha256": "b2072aae1f9dccd8e8fc1213ff2572f5071c4870e98b56744038c51c03892764",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hong-anh-legacy-91",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hong-anh-legacy-91",
+      "title_sha256": "43896c6059965501271b521e365d8d24b6ebe5a006b530b22534d222fb142b7a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-ngoc-nu-legacy-92",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-ngoc-nu-legacy-92",
+      "title_sha256": "aa2869c883b1a42abe780f22bed363155354d4f969d2eb1a872804dda37e44bf",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-8-gio-legacy-93",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-8-gio-legacy-93",
+      "title_sha256": "d3be72456f595dc6f6370362fa1244aaa44d018557c672dc51f201ce5cee88f8",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-nhat-mat-huong-legacy-94",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-nhat-mat-huong-legacy-94",
+      "title_sha256": "c75488c42211f95fed95610f66a0adcd45d4b1f7e5aa4c1dabad9201c435b7da",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-cam-tu-cau-nhat-legacy-95",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-cam-tu-cau-nhat-legacy-95",
+      "title_sha256": "a150c844e93903b96ed537dc69f2628d2afa1b49fcd25dbcdf5697837d264847",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-cuc-la-nham-legacy-96",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-cuc-la-nham-legacy-96",
+      "title_sha256": "8e780d3741a6df07db23785b1f1ec3fe744006df78f92d747396f76758710416",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-thu-hai-duong-legacy-97",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-thu-hai-duong-legacy-97",
+      "title_sha256": "b6931951e1a30d293311f2f6959621bcda93be1adefe2c26238b7c23ca3b73fd",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hoa-violet-nhat-giong-f1-du-mau-legacy-98",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hoa-violet-nhat-giong-f1-du-mau-legacy-98",
+      "title_sha256": "778092898785cd23d0563f5723e0ab6038d1622bc93ba8f3033dd3b1ea551b0e",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-truc-hawai-legacy-100",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-truc-hawai-legacy-100",
+      "title_sha256": "a3b4802a1ae7c5e4ce4b2c6b09c98902eae33ef9eed3beae0fa6d7959dcee863",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-trau-ba-de-vuong-legacy-101",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-trau-ba-de-vuong-legacy-101",
+      "title_sha256": "8de6aeb99f0a79cbc8beb4662ad9f574e2e8f71c4bd3dd558f3fd39af19758b3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-tuong-vi-hoa-tuong-vi-legacy-102",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-tuong-vi-hoa-tuong-vi-legacy-102",
+      "title_sha256": "a98a0cd20cfa43824c553b564d6cc21a601d98faecfdea3c859a1a70b4254801",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-phat-tai-nui-legacy-103",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-phat-tai-nui-legacy-103",
+      "title_sha256": "6fd283af105f9fe44199597dcfba354034b932507e7b4394a8aac2bcc5819308",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-luoi-ho-legacy-104",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-luoi-ho-legacy-104",
+      "title_sha256": "28f58853af4b2d896f5a16cd7e10ef5e45da2c25ad21eefc1f13574774c1348a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-dai-phu-gia-legacy-105",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-dai-phu-gia-legacy-105",
+      "title_sha256": "fc3fe0b3af01063cf0e9177efe5285517baef61ee64395327cf31dfeacd245f7",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-bach-ma-hoang-tu-legacy-106",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-bach-ma-hoang-tu-legacy-106",
+      "title_sha256": "4366c2bb88bb85f146ba1ee9a42ba7646b4e07ec592334617ceaa22a1d59c2e6",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-cau-tieu-tram-legacy-107",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-cau-tieu-tram-legacy-107",
+      "title_sha256": "1ca25f2e7ba84f52a688b40e026297e8625274df6a094cd53339a39908bd57e2",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-vay-rong-legacy-108",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-vay-rong-legacy-108",
+      "title_sha256": "ea4566fb576cd00656e5fa9986c300a3494e9b4ce35c595f28705c7d3e5a5870",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-ngu-gia-bi-legacy-109",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-ngu-gia-bi-legacy-109",
+      "title_sha256": "0a31f8189ee8007547448bd99925fd2206d44ed9427322c56f349f7537ae9636",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/12111-legacy-110",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/12111-legacy-110",
+      "title_sha256": "106ca1b823ceb804d7c014a5019632a780f7ce32c7a8737abe41de56f2037c7d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-trau-ba-chan-vit-legacy-111",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-trau-ba-chan-vit-legacy-111",
+      "title_sha256": "d98dbbafddb1d615c25d4920c13e1dc4576e3a2832a09a8f3a1dd76b7cb92661",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-trau-ba-nam-my-cay-monstera-legacy-112",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-trau-ba-nam-my-cay-monstera-legacy-112",
+      "title_sha256": "fe24463537b2e862921bfe660a2e94285e9fa9b63ebb2b12dcaec5ff27493b1f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/ffff-legacy-113",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/ffff-legacy-113",
+      "title_sha256": "54861dbd9763f64887854ea22c2de89435f5b1917f8079ad719f8990563ae919",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/chau-cay-mix-legacy-114",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/chau-cay-mix-legacy-114",
+      "title_sha256": "ffc0d2c400bbacf0c847df66818cc6664308868bb1818848a6e37895084d0404",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/chau-cay-mix-2-legacy-115",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/chau-cay-mix-2-legacy-115",
+      "title_sha256": "2c25571e65d0f5264927bda315c338b6841c0da62044e696d31cd68e2997c2d1",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/1-legacy-116",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/1-legacy-116",
+      "title_sha256": "5348306fb2174c7390cf458da107fa3f168252984f124de85f3ed9c509c310b9",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-luoi-ho-mix-4-loai-chau-su-bat-trang-legacy-117",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-luoi-ho-mix-4-loai-chau-su-bat-trang-legacy-117",
+      "title_sha256": "af4cba928f84d737ddc5f3b58e6f50cfb713ea09232020d6840b5e4a009c00fe",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/mau-1-cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-118",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/mau-1-cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-118",
+      "title_sha256": "54aa5f12e66f9f073d009f95a70fb0b916a84343bab16e90316277ea15bf6f7b",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-119",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-119",
+      "title_sha256": "937353fa112ac495726aea263ac2edaa650ea0ffded50ec34669e3207ca36119",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-120",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-120",
+      "title_sha256": "801583ec7da1831392e66fc6ee785066d9c1f08d0182a0d9a2d4c0ecb8b09ef2",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-chuoi-re-quat-mix-5-loai-chau-xi-mang-legacy-121",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-chuoi-re-quat-mix-5-loai-chau-xi-mang-legacy-121",
+      "title_sha256": "b0d9b9b6b79e0ae20ece8db91d332a24772ecf3598431de96fc1cef7f4df2cdf",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-thiet-moc-lan-mix-5-loai-chau-xi-mang-legacy-122",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-thiet-moc-lan-mix-5-loai-chau-xi-mang-legacy-122",
+      "title_sha256": "b69296f2484ec9e490c10c64713fcdd7a20dd56fa3be30ea98eab639ad0a4543",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-123",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-123",
+      "title_sha256": "eae42c5d2e0b981c8b79755b38b270b1f32fa9126b313cece460c58a6c018919",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-kim-tien-size-m-ke-go-decor-cao-cap-legacy-124",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-kim-tien-size-m-ke-go-decor-cao-cap-legacy-124",
+      "title_sha256": "d63ac8c16a441e56506a9ce0ac7f1afc633cb324973a127cad883d60e25b3b49",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-luoi-ho-ke-go-decor-cao-cap-legacy-125",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-luoi-ho-ke-go-decor-cao-cap-legacy-125",
+      "title_sha256": "726ad1861f626ca9f92ab285b452fb3783653be1d17a6f39095ad80c9ad23e80",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hanh-phuc-bui-ke-go-decor-cao-cap-legacy-126",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hanh-phuc-bui-ke-go-decor-cao-cap-legacy-126",
+      "title_sha256": "aa31eca60e03c4ad5c383f4f765146f5b7dd70994deb2d2dd07d007e0bf3133a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/cay-hanh-phuc-hai-tang-legacy-127",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/cay-hanh-phuc-hai-tang-legacy-127",
+      "title_sha256": "1f2388d92d18c1b0606a38cceb78ea4ad6ba2ed587412a34ae679917c5fc40ba",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-canh-noi-that-legacy-33",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-canh-noi-that-legacy-33",
+      "title_sha256": "c408c213aa861934acd0bc99525c8988482b3c1d19e0c1739dc2b26aca4ad4ae",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-mini-de-ban-legacy-34",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-mini-de-ban-legacy-34",
+      "title_sha256": "2e0d0d499c07a0d8c4e9885fa0d8bba4382f3ef68ed7befb6a652abe690d8472",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-bui-ngoai-that-legacy-35",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-bui-ngoai-that-legacy-35",
+      "title_sha256": "e28b61489c5b6ee7db21b7b4fc7e889f9fd40fe6928f93fe370eb9457193111f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-hoa-leo-legacy-36",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-hoa-leo-legacy-36",
+      "title_sha256": "254d2e207b3e8de56dcdbfeac70d4a1716789e3afe463f55dbad5537fe0011be",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-treo-ban-cong-legacy-37",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-treo-ban-cong-legacy-37",
+      "title_sha256": "0ad2ad74c135f436182cd0f4fbce62a0fd8e284084a44dfc84159a4b815afcb5",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-hoa-hong-legacy-38",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-hoa-hong-legacy-38",
+      "title_sha256": "5e5c37f4b420d1032a99962ed79f8a9bb89e575c30eed2baaf978bf71db397d7",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-tham-ngoai-that-legacy-39",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-tham-ngoai-that-legacy-39",
+      "title_sha256": "e691f2be3e4d36ddf6b44453d6c8dbdf05548a7070ddba5055f2eeb2ce4efb28",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/phu-kien-trang-tri-legacy-41",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/phu-kien-trang-tri-legacy-41",
+      "title_sha256": "80cd949247f907e889ccb13d8e0d9a2f8a6c0e321d735ddf378e7b82bb0925ad",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/tuoi-quy-dau-1993-hop-cay-gi-de-mang-lai-tai-loc-may-man-legacy-12",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/tuoi-quy-dau-1993-hop-cay-gi-de-mang-lai-tai-loc-may-man-legacy-12",
+      "title_sha256": "e2f47ab73b266d55957d54bd5756d03a7770e0d96355435d861617999064f87d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/tuoi-nham-than-1992-trong-cay-gi-tren-ban-lam-viec-la-hop-phong-thuy-nhat-legacy-13",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/tuoi-nham-than-1992-trong-cay-gi-tren-ban-lam-viec-la-hop-phong-thuy-nhat-legacy-13",
+      "title_sha256": "4b1cb6db7d1bfd2d0ffe327dace62759006e08d7696e61f0e456d6f304dbdd58",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/chon-cay-mini-phu-hop-nhat-voi-tuoi-at-hoi-1995-nam-2020-legacy-14",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/chon-cay-mini-phu-hop-nhat-voi-tuoi-at-hoi-1995-nam-2020-legacy-14",
+      "title_sha256": "f062eb9e70bd30bf9b9093d8f4779b8b6834f75eb9641172fc29d95c4828c5a1",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/1996-binh-ty-de-cay-gi-tren-ban-lam-viec-la-tot-cho-phong-thuy-nhat-legacy-15",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/1996-binh-ty-de-cay-gi-tren-ban-lam-viec-la-tot-cho-phong-thuy-nhat-legacy-15",
+      "title_sha256": "218255661480ee2d90b5fcd3a352f617829e928baa50512602612119928db785",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/hoa-dau-biec-cung-tac-dung-ngan-ngua-benh-ung-thu-hieu-qua-legacy-16",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/hoa-dau-biec-cung-tac-dung-ngan-ngua-benh-ung-thu-hieu-qua-legacy-16",
+      "title_sha256": "22a42a46847f77e95637472ed310b255a819d175313056b9cca8a96f7ae32f11",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nguoi-menh-hoa-nen-chon-cay-nhu-the-nao-cho-phu-hop-legacy-17",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nguoi-menh-hoa-nen-chon-cay-nhu-the-nao-cho-phu-hop-legacy-17",
+      "title_sha256": "150edd49e058ed0f9548cd165ae532ab91cf055f6d8229bf85d1996b79ac08f7",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nguoi-menh-kim-nen-trong-cay-gi-trong-nha-de-mang-lai-tai-loc-va-may-man-legacy-18",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nguoi-menh-kim-nen-trong-cay-gi-trong-nha-de-mang-lai-tai-loc-va-may-man-legacy-18",
+      "title_sha256": "896043c3a77aa6f2176d1dff382ca7f5d2b17d8de989bcb4208362c17b74d1eb",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nguoi-menh-thuy-trong-cay-gi-de-gap-nhieu-may-man-thinh-vuong-legacy-19",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nguoi-menh-thuy-trong-cay-gi-de-gap-nhieu-may-man-thinh-vuong-legacy-19",
+      "title_sha256": "9d2c7ed6911b7f2af4c028a8af430570c36e358f77f95718d10ed13866a63f39",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nguoi-menh-moc-hop-cay-gi-trong-nha-de-mang-lai-may-man-tai-loc-legacy-20",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nguoi-menh-moc-hop-cay-gi-trong-nha-de-mang-lai-may-man-tai-loc-legacy-20",
+      "title_sha256": "cc485d73f9324f49e1243b3c0b96481415da2a1a504ff02d036fa3f7d5beb02d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nguoi-menh-tho-nen-trong-cay-gi-thi-phu-hop-legacy-21",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nguoi-menh-tho-nen-trong-cay-gi-thi-phu-hop-legacy-21",
+      "title_sha256": "86c34feffdfc5c08157a1715a168f161038f8008b8c27e3aa974313cebbc3c32",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cay-luoi-ho-sansevieria-trifasciata-giup-thanh-loc-khong-khi-tranh-van-xui-legacy-22",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cay-luoi-ho-sansevieria-trifasciata-giup-thanh-loc-khong-khi-tranh-van-xui-legacy-22",
+      "title_sha256": "3684ae0ab107cc4ae8ca4397aa85c392d8a2e0d2f0c0e1c3d82fd6337a27adc3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cay-hanh-phuc-radermachera-sinica-cung-nhung-y-nghia-vo-cung-dac-biet-legacy-23",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cay-hanh-phuc-radermachera-sinica-cung-nhung-y-nghia-vo-cung-dac-biet-legacy-23",
+      "title_sha256": "9ccaeda2a707784f87dcf2a976426433c318762c43ea3cc48a02068cb942499f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/dac-diem-va-cach-cham-soc-cay-tung-bong-lai-podocarpus-maccrophyllus-legacy-24",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/dac-diem-va-cach-cham-soc-cay-tung-bong-lai-podocarpus-maccrophyllus-legacy-24",
+      "title_sha256": "673c0c8924911c30af07b6f54d821e027ed1a3e54a410d8522f134b2f82aff9c",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nhung-loi-ich-bat-ngo-khi-trong-cay-bang-singapore-ficus-lyrata-trong-nha-legacy-25",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nhung-loi-ich-bat-ngo-khi-trong-cay-bang-singapore-ficus-lyrata-trong-nha-legacy-25",
+      "title_sha256": "5d5c97a031b5a83afde27faa7fa459664295878fdebaa42f0dcbac19583a6482",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/y-nghia-cua-cay-kim-ngan-trong-doi-song-legacy-26",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/y-nghia-cua-cay-kim-ngan-trong-doi-song-legacy-26",
+      "title_sha256": "035b63a959b65cd5bddee2709f5806408298b06cfa8390b8342c87702b961375",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/top-nhung-loai-cay-co-hoa-trang-tri-ban-cong-dep-an-tuong-legacy-27",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/top-nhung-loai-cay-co-hoa-trang-tri-ban-cong-dep-an-tuong-legacy-27",
+      "title_sha256": "9afef07afeaf24b5e1186899c6b49ac36b199ac8b4f50b1b8a9fc79b57941ba0",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nhung-loai-cay-va-hoa-thich-hop-trang-tri-cho-ban-cong-san-vuon-them-ruc-ro-legacy-28",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nhung-loai-cay-va-hoa-thich-hop-trang-tri-cho-ban-cong-san-vuon-them-ruc-ro-legacy-28",
+      "title_sha256": "1313e3fccffcbca8cc0bb032ea4651670e22d984e347b4d7fbf358a0b0a2f6bc",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/top-nhung-loai-hoa-trong-ban-cong-dep-hut-mat-nguoi-nhin-legacy-29",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/top-nhung-loai-hoa-trong-ban-cong-dep-hut-mat-nguoi-nhin-legacy-29",
+      "title_sha256": "44c9273d9d35b7e25a2dd9371c2bc21a3e39e54ab03de09a562be7fbae69bd81",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/tuoi-giap-tuat-1994-hop-trong-cay-gi-legacy-30",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/tuoi-giap-tuat-1994-hop-trong-cay-gi-legacy-30",
+      "title_sha256": "af51e128be5bb2dc10f2fe928dc0b63a208988a7b1d4da82a8e19965ece9c284",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/thiet-moc-lan-loai-cay-mang-lai-nhieu-tai-loc-cho-gia-chu-caybonmuavn-legacy-31",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/thiet-moc-lan-loai-cay-mang-lai-nhieu-tai-loc-cho-gia-chu-caybonmuavn-legacy-31",
+      "title_sha256": "ec664fa1a4dba88506f7f78ae249551982c00374f8e052e3a37816a2227eff90",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nhung-loai-cay-thich-hop-de-trong-wc-thanh-loc-khong-khi-legacy-32",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nhung-loai-cay-thich-hop-de-trong-wc-thanh-loc-khong-khi-legacy-32",
+      "title_sha256": "4fbfab8d0bde82e79bfefecbbe94af027e8a881406b8e2d58071215e6faa34e7",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/y-nghia-cua-cay-van-nien-thanh-trong-doi-song-legacy-33",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/y-nghia-cua-cay-van-nien-thanh-trong-doi-song-legacy-33",
+      "title_sha256": "b302dfd374f0740ad3a47812053f6b9c0eda74a8646ba4149450b747580eafe5",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/tuoi-dinh-suu-trong-cay-gi-mang-lai-may-man-tai-loc-legacy-34",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/tuoi-dinh-suu-trong-cay-gi-mang-lai-may-man-tai-loc-legacy-34",
+      "title_sha256": "057a602aa19a5dbe66a285444753188994e68e1573d6bcbbc9907a733c059267",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/y-nghia-cua-cay-mai-tieu-thu-legacy-35",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/y-nghia-cua-cay-mai-tieu-thu-legacy-35",
+      "title_sha256": "190a56ca17945cf802c3bfd834e50ee016acb185c9166a718b1730408f1fdd1e",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/dai-phu-gia-voi-nhung-y-nghia-dac-biet-legacy-36",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/dai-phu-gia-voi-nhung-y-nghia-dac-biet-legacy-36",
+      "title_sha256": "56c515aab23595c0d902a823d96b00f36d810431b60f240098e475cd9de9c99a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/goi-y-mot-so-loai-cay-trang-tri-noi-that-dep-legacy-37",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/goi-y-mot-so-loai-cay-trang-tri-noi-that-dep-legacy-37",
+      "title_sha256": "c2cf2ec73364f34e18a2640218100770a491fc09b70f38ff7dda368bc9b56bba",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/y-nghia-cua-cay-bach-ma-hoang-tu-legacy-38",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/y-nghia-cua-cay-bach-ma-hoang-tu-legacy-38",
+      "title_sha256": "6d09f53aef913be13279fb9b6e3220f2e63d6a444acef691ac6d232f8cb00180",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/y-nghia-phong-thuy-cua-cay-van-loc-legacy-39",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/y-nghia-phong-thuy-cua-cay-van-loc-legacy-39",
+      "title_sha256": "ebe5c2af5c574619c260fe68765dc320f6b04dc14cb2ccd41e08e7cc0dd5b17f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nhung-dieu-can-biet-ve-cay-ngoc-ngan-legacy-40",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nhung-dieu-can-biet-ve-cay-ngoc-ngan-legacy-40",
+      "title_sha256": "4a327a20ba9d123b4e0f3ddc91adabcfd877d0af30ee76663c960b77c5650f0f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/dac-diem-va-cach-cham-soc-cay-bach-thuy-tien-legacy-41",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/dac-diem-va-cach-cham-soc-cay-bach-thuy-tien-legacy-41",
+      "title_sha256": "4c6ee2fb63d4eb174b93e92bf384065e033ae330990833718dc602f622d23a3a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/y-nghia-phong-thuy-cua-cay-hong-mon-legacy-42",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/y-nghia-phong-thuy-cua-cay-hong-mon-legacy-42",
+      "title_sha256": "34f94b29416ee016c77622482ad0baea06b34a6aed2d0dd1715f9849514315e3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/thong-tin-ve-cay-duoi-phuong-legacy-43",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/thong-tin-ve-cay-duoi-phuong-legacy-43",
+      "title_sha256": "857dc0cb7e0f5714ccaf2f31d909b66d1c457f2e1360d3568c4561626e695e0b",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cach-cham-soc-cay-do-quyen-truoc-va-sau-tet-legacy-44",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cach-cham-soc-cay-do-quyen-truoc-va-sau-tet-legacy-44",
+      "title_sha256": "6bd48c9370935ff1460acd2a36825b82332215ced7dbec6a9b084588c469fcac",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/khong-gian-xanh-cho-to-am-cua-ban-legacy-45",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/khong-gian-xanh-cho-to-am-cua-ban-legacy-45",
+      "title_sha256": "4d590b12a773cccc4ad6cb638ae2599cb92e2f8792acdd4d59a4eaa41d667756",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/top-5-loai-cay-lon-de-trong-duoc-su-dung-nhieu-trong-trang-tri-noi-that-legacy-46",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/top-5-loai-cay-lon-de-trong-duoc-su-dung-nhieu-trong-trang-tri-noi-that-legacy-46",
+      "title_sha256": "63505b5368c67cfd22f226cb0b48cd29098dd09e4ebde677edb60b623ef2ccf6",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nhung-dieu-can-biet-ve-cay-lan-re-quat-caybonmuavn-legacy-47",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nhung-dieu-can-biet-ve-cay-lan-re-quat-caybonmuavn-legacy-47",
+      "title_sha256": "c19a7b6d4150b30c879528fdce75151c8696b34a78995388c7cc78ee8583727c",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/top-nhung-loai-cay-than-go-ma-ban-nen-co-trong-nha-legacy-48",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/top-nhung-loai-cay-than-go-ma-ban-nen-co-trong-nha-legacy-48",
+      "title_sha256": "89430168bcaa7d468101105045bc3da3ad00a9f7a3826ecd2b4acd77218cc26a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cuc-hot-5-loai-hoa-ban-cong-ruc-ro-chiu-duoc-nang-nong-legacy-49",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cuc-hot-5-loai-hoa-ban-cong-ruc-ro-chiu-duoc-nang-nong-legacy-49",
+      "title_sha256": "670edbac9baef7770ddf19289ee1f6f9dd2e9521439609307ac10daa72b4d53b",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nhung-loai-cay-mang-lai-may-man-tai-loc-cho-nguoi-tuoi-thin-mau-thin-1988-legacy-50",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nhung-loai-cay-mang-lai-may-man-tai-loc-cho-nguoi-tuoi-thin-mau-thin-1988-legacy-50",
+      "title_sha256": "65905232178f80de0c318653a837e88c87cab5a5a641cddddf2eae1a97e07198",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/ly-do-khien-cay-de-ban-cua-ban-bi-chet-cach-cham-soc-cay-de-ban-cuc-ki-don-gian-legacy-51",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/ly-do-khien-cay-de-ban-cua-ban-bi-chet-cach-cham-soc-cay-de-ban-cuc-ki-don-gian-legacy-51",
+      "title_sha256": "af7600523dbfd4bdc36fd13e57fcec2a1facff2ef4fdb55f370755d6cf99b82d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/ly-do-cay-kim-tien-cua-ban-hay-chet-cach-de-cay-kim-tien-ra-hoa-nhieu-loc-legacy-52",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/ly-do-cay-kim-tien-cua-ban-hay-chet-cach-de-cay-kim-tien-ra-hoa-nhieu-loc-legacy-52",
+      "title_sha256": "b1d3a1fed8ea656e346193196c2c0f656dad48a5eae1d532ec6b8576a399e456",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/ly-do-cay-luoi-ho-de-ban-cua-ban-lai-chet-la-gi-cach-cham-soc-cay-luoi-ho-de-cay-luon-xanh-tot-legacy-53",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/ly-do-cay-luoi-ho-de-ban-cua-ban-lai-chet-la-gi-cach-cham-soc-cay-luoi-ho-de-cay-luon-xanh-tot-legacy-53",
+      "title_sha256": "01f67628040e20651f7ac108d6d8232ce2d6d06e1b20267fb2cc7c57b3ee2ca5",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/mach-ban-cach-cham-soc-cay-tung-bong-lai-de-cay-xanh-tot-cho-nhieu-may-man-tai-loc-legacy-54",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/mach-ban-cach-cham-soc-cay-tung-bong-lai-de-cay-xanh-tot-cho-nhieu-may-man-tai-loc-legacy-54",
+      "title_sha256": "58928585a79fb5bd2489f97b3913110ee7ce8f518174b516135df7f53b89c81f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/nhung-ly-do-khien-cay-huong-thao-bi-den-rung-la-cach-cham-soc-cay-huong-thao-mau-ra-hoa-dep-legacy-55",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/nhung-ly-do-khien-cay-huong-thao-bi-den-rung-la-cach-cham-soc-cay-huong-thao-mau-ra-hoa-dep-legacy-55",
+      "title_sha256": "eb2997080925c192738cf4b0c18cd8cc09528eb3645d97e699e073d57333b68a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/mach-cach-cat-tia-cay-huong-thao-tan-tron-xinh-xan-legacy-56",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/mach-cach-cat-tia-cay-huong-thao-tan-tron-xinh-xan-legacy-56",
+      "title_sha256": "c8576b04b3e6e5dc0bfea384023cf9e482aa535c651f1e75bf8d6ae86da2b300",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/thay-phong-thuy-mach-ban-lua-chon-cay-kim-tien-thu-tai-loc-cho-quan-coffee-cua-ban-legacy-57",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/thay-phong-thuy-mach-ban-lua-chon-cay-kim-tien-thu-tai-loc-cho-quan-coffee-cua-ban-legacy-57",
+      "title_sha256": "d6d58824cddb727abddd70cae0ebd3ab13b8e821c5628cf226bf730ba671c077",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/meo-chon-cay-treo-cho-quan-ca-phe-phong-cach-nhat-2021-legacy-58",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/meo-chon-cay-treo-cho-quan-ca-phe-phong-cach-nhat-2021-legacy-58",
+      "title_sha256": "673cc82786230d0f3c800401afb882dcc30b77d1c277e59d83d5eaf0ddce0ffa",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/voi-nhung-loai-cay-nay-quan-ca-phe-cua-cua-ban-se-tro-nen-ruc-ro-day-suc-song-legacy-59",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/voi-nhung-loai-cay-nay-quan-ca-phe-cua-cua-ban-se-tro-nen-ruc-ro-day-suc-song-legacy-59",
+      "title_sha256": "9d649ac0778fcdcbb3ea3b53a63cd81d15a3e57a7a256754c71ac102f5151e8c",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/top-10-mau-vuon-dung-cho-ban-cong-cua-ban-dep-me-ly-legacy-60",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/top-10-mau-vuon-dung-cho-ban-cong-cua-ban-dep-me-ly-legacy-60",
+      "title_sha256": "f30cf6fe9ef9309a5d13fd62565f1d1b44373837609012d8e30bdbf763487917",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/sieu-hot-5-loai-cay-ra-hoa-quanh-nam-phu-hop-voi-moi-thiet-ke-ban-cong-legacy-61",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/sieu-hot-5-loai-cay-ra-hoa-quanh-nam-phu-hop-voi-moi-thiet-ke-ban-cong-legacy-61",
+      "title_sha256": "845a87ff5e95f3b176ca9d96d7bf78447b0a2fa95ae593dcb1673253cb007397",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cach-cham-soc-cay-cam-tu-cau-nhat-lun-giup-cay-tuoi-tot-legacy-63",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cach-cham-soc-cay-cam-tu-cau-nhat-lun-giup-cay-tuoi-tot-legacy-63",
+      "title_sha256": "2d58d10e196ebf992a491fb56cd1af639260359b44867474b59fe4293bfce756",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/ky-thuat-cham-cay-hoa-dua-can-de-cay-ra-hoa-quanh-nam-luon-sai-hoa-cho-gia-chu-legacy-64",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/ky-thuat-cham-cay-hoa-dua-can-de-cay-ra-hoa-quanh-nam-luon-sai-hoa-cho-gia-chu-legacy-64",
+      "title_sha256": "14c71683e72fd50e31893ddd5ddc4a31148800bad1d36742dae80ce36317d67b",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/ly-do-cay-nhat-mat-huong-sen-thom-cua-ban-bi-rung-la-vang-la-den-than-legacy-65",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/ly-do-cay-nhat-mat-huong-sen-thom-cua-ban-bi-rung-la-vang-la-den-than-legacy-65",
+      "title_sha256": "6d18a62cc125905eef02feef3c6b61f820e8c8a73c1740d9e3d5404b2a98b2d7",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/vi-sao-cay-truc-quan-tu-nha-ban-lai-vang-la-cach-khac-phuc-don-gian-cuu-truc-quan-tu-legacy-66",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/vi-sao-cay-truc-quan-tu-nha-ban-lai-vang-la-cach-khac-phuc-don-gian-cuu-truc-quan-tu-legacy-66",
+      "title_sha256": "b3fa391ef2c7f95dbc76c597e9b431acd73bb4c03adc27ba69195ff1ab9e98ea",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cach-cat-tia-cay-cam-tu-cau-nhat-giup-cay-ra-bong-hoa-to-dep-legacy-67",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cach-cat-tia-cay-cam-tu-cau-nhat-giup-cay-ra-bong-hoa-to-dep-legacy-67",
+      "title_sha256": "626b9c0ab9aa244f7384889567522007f852ec0d18efbadd94b0ef6d8bfb0378",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cac-benh-thuong-gap-o-cay-huong-thao-rosemary-va-cach-xu-ly-legacy-68",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cac-benh-thuong-gap-o-cay-huong-thao-rosemary-va-cach-xu-ly-legacy-68",
+      "title_sha256": "9a3bb68dbee6f3058522219e5b95d6b90c71e16f8c94cab32260199d44ea9f29",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cac-benh-thuong-gap-tren-cay-cam-tu-cau-ma-ban-nen-biet-legacy-69",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cac-benh-thuong-gap-tren-cay-cam-tu-cau-ma-ban-nen-biet-legacy-69",
+      "title_sha256": "354c0b801c4d63760107e6d10d9f7c86d8dddd1dab6ea010b6d5e6491d09a843",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/so-sanh-giong-cam-tu-cau-o-viet-nam-va-giong-cam-tu-cau-nhat-lun-legacy-70",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/so-sanh-giong-cam-tu-cau-o-viet-nam-va-giong-cam-tu-cau-nhat-lun-legacy-70",
+      "title_sha256": "bdbb2af3e7fafd17d2267e218abcb1defd83ce03306c53f9e59924d1c27c77ad",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/huong-dan-cham-soc-cay-bach-tuyet-mai-tai-nha-don-gian-hieu-qua-legacy-71",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/huong-dan-cham-soc-cay-bach-tuyet-mai-tai-nha-don-gian-hieu-qua-legacy-71",
+      "title_sha256": "6b2fe7e1cb0871c71e9c778e75d663a253c2a22abadd1911e094675d7675c66f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/ky-thuat-trong-cay-dau-biec-don-gian-hieu-qua-tai-nha-legacy-72",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/ky-thuat-trong-cay-dau-biec-don-gian-hieu-qua-tai-nha-legacy-72",
+      "title_sha256": "917e85ca89f229ebdb457b3bae72dc7004fc617a9f44782229b1ebda2ee185c5",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cach-cham-soc-cay-hoa-diem-chau-cho-hoa-no-ruc-ro-quanh-nam-legacy-73",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cach-cham-soc-cay-hoa-diem-chau-cho-hoa-no-ruc-ro-quanh-nam-legacy-73",
+      "title_sha256": "444c283f4eba51285e3a0616272156d3a807c80049732536473435cad4e6a7b0",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/o-viet-nam-hien-co-bao-nhieu-loai-lavender-pho-bien-cach-phan-loai-cay-lavender-legacy-74",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/o-viet-nam-hien-co-bao-nhieu-loai-lavender-pho-bien-cach-phan-loai-cay-lavender-legacy-74",
+      "title_sha256": "ef5fa39cec9602123a3ee4c4eb063dde24ca4edd6aab4f6d12f63053d358aa4e",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/ky-thuat-cham-soc-cay-lavender-cuc-ki-don-gian-tai-nha-legacy-75",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/ky-thuat-cham-soc-cay-lavender-cuc-ki-don-gian-tai-nha-legacy-75",
+      "title_sha256": "9a1a95b4a31c3f9fda9632620ccb01ed8a537674209d0e2640f9d04346a4881a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/ky-thuat-cham-cay-cuc-la-nham-de-cay-luon-xanh-tot-va-ra-hoa-quanh-nam-legacy-76",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/ky-thuat-cham-cay-cuc-la-nham-de-cay-luon-xanh-tot-va-ra-hoa-quanh-nam-legacy-76",
+      "title_sha256": "063fb397c49d139e8f652402122d216ae8039d8273749671417cc7e892cd0b8d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/tai-nghiem-dich-vu-thiet-ke-24h-free-cua-caybonmuavn-legacy-77",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/tai-nghiem-dich-vu-thiet-ke-24h-free-cua-caybonmuavn-legacy-77",
+      "title_sha256": "adaaddde0b96d3c89d058d036e708d129327bc048097e5cdd4bcfd212936ddd3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/bi-quyet-giup-cay-huong-thao-song-tot-tai-mien-bac-legacy-78",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/bi-quyet-giup-cay-huong-thao-song-tot-tai-mien-bac-legacy-78",
+      "title_sha256": "091a02123d9c11822732714f3062d51cc2fc89eaae2adcf43c84059d65033e20",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/gia-the-trong-cay-huong-thao-giup-cay-phat-trien-manh-legacy-79",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/gia-the-trong-cay-huong-thao-giup-cay-phat-trien-manh-legacy-79",
+      "title_sha256": "242e0b1b945f943bc278c829c482a7d86e94cbe4fb70cace4e15bc45af2b5006",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/cay-phong-thuy-legacy-7",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/cay-phong-thuy-legacy-7",
+      "title_sha256": "80e3e0030daacf9c10133f18c9386a3a68e7df91bff0ea71c0fcea91696b653b",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/san-pham-legacy-8",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/san-pham-legacy-8",
+      "title_sha256": "4cb0ce16929adb375ccd2ccf595578b15cceeddaa89b9635680041fb5f6f4834",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/kien-thuc-ve-cay-legacy-9",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/kien-thuc-ve-cay-legacy-9",
+      "title_sha256": "3edd9346b1bd513bc7122d054ba1bdf88c00ba66360d62a423fbb14501b2bf77",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/dich-vu-legacy-10",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/dich-vu-legacy-10",
+      "title_sha256": "1185c121916c3b4d54a3da0e4d640a82268e68120060797defe7c432af6b65dd",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/chinh-sach-bao-hanh-legacy-11",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/chinh-sach-bao-hanh-legacy-11",
+      "title_sha256": "495cf11881abf3cdc5073484f5e71efbd219af8d4798afc3e57b2f06b0857386",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/meo-hay-ve-cay-legacy-12",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/meo-hay-ve-cay-legacy-12",
+      "title_sha256": "79f938459ed03bd7900d5182731ff94281ec4060903b2dbd733811cd9e636365",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/du-an-da-thuc-hien-legacy-13",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/du-an-da-thuc-hien-legacy-13",
+      "title_sha256": "a09d1048d45c082491a52c2df24608993925a6950a59a147e0a242d2d5407bc6",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/trang-tri-ban-cong-legacy-14",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/trang-tri-ban-cong-legacy-14",
+      "title_sha256": "89d1826d12f60c38f2b0e19fd6fe7712567213ee03135a3af1455b782261ae1d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/trang-tri-san-vuon-legacy-15",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/trang-tri-san-vuon-legacy-15",
+      "title_sha256": "8a430ef561fa97ec939c047db19f9c369b1ce1418123a055640939c5d851475f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/cach-cham-soc-cay-legacy-16",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/cach-cham-soc-cay-legacy-16",
+      "title_sha256": "0b5c0f528c25e6e98a59a870ef76560da804ae0613d59950dd7fed227019f89f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/trang-tri-van-phong-legacy-17",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/trang-tri-van-phong-legacy-17",
+      "title_sha256": "d823bde2128663076796a603b004817e6eb200c6cbcbd657a60af135bc21f201",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/",
+      "title_sha256": "fb031c217dc07234e806b7ad8974107212223a225982214342853af0f6fac07d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "Organization"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham",
+      "title_sha256": "5b893361bdd59d506ec57898776f664203f557fe3e5679d3febb5f05a36d8c29",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet",
+      "title_sha256": "60c5471af52e279a7b2bd7dff1d8eeae19c95dfd7825c5e6f51d2617587f3ed2",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/lien-he",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/lien-he",
+      "title_sha256": "43b05fdad2e5aa6933b11316eabdd88b1547a177d62514f1de7009d9d7f417a4",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/demo-plants",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/demo-plants",
+      "title_sha256": "4f96dc45e54eb6b3f8cd05448c24653f50820f5876401a646c699e6f7a661c31",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-trong-nha-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-trong-nha-demo",
+      "title_sha256": "5248a93f799e46701325ebc5e8495b1425bc98d4dbd02d3c022a2000c37a2768",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-de-ban-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-de-ban-demo",
+      "title_sha256": "1369133ff5af20c88583a949c178159e7a3c60ea2862160545f93d4c084b228f",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/cay-la-kieng-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/cay-la-kieng-demo",
+      "title_sha256": "8f5785e4d5d6c3588d5166fe51ec3cd02945fec52f46a1a53cb3565b1516a3f0",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/danh-muc/goc-xanh-lam-qua-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/danh-muc/goc-xanh-lam-qua-demo",
+      "title_sha256": "0f04a96c59e65ca709da52882b1287852f76a8bb653c77479cdfb0a508138568",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/quia-similique-nemo-eius-et-voluptatem-pariatur-eos-alias",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/quia-similique-nemo-eius-et-voluptatem-pariatur-eos-alias",
+      "title_sha256": "863fe74519337cd8b177476b1fe938b31f64940469c198b4616c098cc9604108",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/chuyen-muc/cham-cay-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/chuyen-muc/cham-cay-demo",
+      "title_sha256": "5fb0202e5560ddd62494452e88e71a37318ec4099c2a8a4bf3f7506b82abdbe5",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/demo-greenhome",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/demo-greenhome",
+      "title_sha256": "a946c31e0ec716e4ae83693c7c9833f80eb045a8e9a8e1eea6cbb775c75cdd8a",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/monstera-chau-dat-nung-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/monstera-chau-dat-nung-demo",
+      "title_sha256": "267d81461978c547b5cad3f9b2f9d347b3e4fa038625056769dc3653c8e4966d",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/kim-tien-chau-gom-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/kim-tien-chau-gom-demo",
+      "title_sha256": "2418a3624a66d759cd521a6e3806c4baa2e682fc62593a0e502116c5856f0c70",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/monstera-goc-nang-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/monstera-goc-nang-demo",
+      "title_sha256": "02a7d565bbb022541b95a2c32c60acae4cfd92ddb7e7699cd5fad9c56518fb39",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/san-pham/kim-tien-ban-lam-viec-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/san-pham/kim-tien-ban-lam-viec-demo",
+      "title_sha256": "d5aea61fafb56d254e148f3c93789cd6f3cf15cb56c0ff2a6091a364a1850abc",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Product"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/possimus-repellat-est-quia-rerum-nesciunt-quibusdam-deserunt-sit",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/possimus-repellat-est-quia-rerum-nesciunt-quibusdam-deserunt-sit",
+      "title_sha256": "e5f2763e1c4761780d5cb5c9a2a6c030b5b9e23500eee94def992a7231531d80",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/mot-goc-xanh-ben-cua-so-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/mot-goc-xanh-ben-cua-so-demo",
+      "title_sha256": "654d6c9e42cb80cda9ee45e68574217a21177bb0028def9b6d4b918187ff9fe3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/lang-nghe-chiec-la-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/lang-nghe-chiec-la-demo",
+      "title_sha256": "9a740776bc694871e1dd6d9ec864d294c70150823126bc2b8758f2ea9a6e0cc3",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    },
+    {
+      "path": "/bai-viet/cham-kim-tien-demo",
+      "status": "PASS",
+      "canonical": "http://localhost:8000/bai-viet/cham-kim-tien-demo",
+      "title_sha256": "dc3cce3302c9968c2a0c12e8c8d02b2051e81cacc94fdd778a425a59065e2f84",
+      "description_present": true,
+      "h1": 1,
+      "schemas": [
+        "BreadcrumbList",
+        "Article"
+      ],
+      "missing_alt": 0,
+      "missing_dimensions": 0
+    }
+  ],
+  "failures": [],
+  "sitemap": {
+    "status_code": 200,
+    "urls": 221,
+    "unique": 221,
+    "private_urls": []
+  },
+  "link_asset_scan": {
+    "unique_internal_links": 213,
+    "unique_assets": 761,
+    "broken": [],
+    "redirecting": []
+  },
+  "negative_http": {
+    "/removed-sp999999.html": {
+      "actual": 404,
+      "expected": 404,
+      "status": "PASS"
+    },
+    "/genuinely-removed-page": {
+      "actual": 404,
+      "expected": 404,
+      "status": "PASS"
+    },
+    "/san-pham/no-such-product": {
+      "actual": 404,
+      "expected": 404,
+      "status": "PASS"
+    },
+    "/old-dm33.html?page=1": {
+      "actual": 301,
+      "expected": 301,
+      "status": "PASS"
+    },
+    "/tim-kiem?q=%27%20OR%201%3D1%20--": {
+      "actual": 200,
+      "expected": 200,
+      "status": "PASS"
+    },
+    "/san-pham?page=2": {
+      "actual": 200,
+      "expected": 200,
+      "status": "PASS"
+    },
+    "/bai-viet?page=2": {
+      "actual": 200,
+      "expected": 200,
+      "status": "PASS"
+    },
+    "/san-pham?page=100000": {
+      "actual": 200,
+      "expected": 200,
+      "status": "PASS"
+    }
+  },
+  "robots": {
+    "status": 200,
+    "body": "User-agent: *\nDisallow: /\n",
+    "staging_index_blocked": true
+  },
+  "counts_by_entity": {
+    "Product": 115,
+    "Category": 8,
+    "Article": 67,
+    "ArticleCategory": 11
+  },
+  "status": "PASS"
+}

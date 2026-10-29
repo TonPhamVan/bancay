@@ -1,0 +1,20 @@
+{
+  "status": "BLOCKED",
+  "provided_profile": false,
+  "missing_facts": [
+    "verified_web_server_mode",
+    "verified_php83_cli",
+    "verified_php_web_version",
+    "new_candidate_application_directory",
+    "new_candidate_public_document_root",
+    "legacy_document_root_snapshot",
+    "database_server_version",
+    "candidate_database_name",
+    "certificate_and_https_evidence",
+    "scheduler_entry_evidence",
+    "production_backup_restore_receipt",
+    "final_source_freeze_receipt",
+    "smtp_delivery_evidence"
+  ],
+  "live_host_contacted": false
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Disposable clone only; no final migration, traffic switch or CI3 writes",
+  "orders_in_window": 2,
+  "initial_stock": 10,
+  "order_quantity": 2,
+  "after_order": {
+    "physical": 10,
+    "reserved": 2,
+    "available": 8
+  },
+  "old_snapshot_price": 100000,
+  "catalog_changed_price": 150000,
+  "cancel": {
+    "physical": 10,
+    "reserved": 0,
+    "duplicate_rejected": true
+  },
+  "shipped_order": {
+    "unit_price": 150000,
+    "total": 300000,
+    "physical": 8,
+    "reserved": 0
+  },
+  "delta_deterministic": true,
+  "ledger_sha256": "23c1d50ca19b9fbe387767eb576d303cdd5fcf4b734dd0de3c387315598c33a2",
+  "private_artifacts": [
+    "baseline-fc3777eeab.json",
+    "window-fc3777eeab.json",
+    "recovery-ledger-fc3777eeab.json"
+  ],
+  "automatic_ci3_writes": false,
+  "real_orders_in_source_modified": false,
+  "operator_requirement": "Match stable recovery reference before manual fulfillment; reconcile dispatched quantities before reopening CI3 writes"
+}

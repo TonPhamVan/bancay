@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-29T02:46:23.614921+00:00",
+  "before_commit": "54a0a2f95c447943fcc57d8d66c69512f3e92bce",
+  "before": {
+    "exit_code": 1,
+    "status": "CONFIRMED"
+  },
+  "scope": "Offline recovery-ledger validator;does not indicate broken live CreateOrder",
+  "cases": [
+    "existing totals changed with balancing appended item",
+    "existing contact snapshot changed",
+    "order status inconsistent with latest history"
+  ],
+  "after": {
+    "status": "PASS",
+    "exit_code": 0,
+    "all_delta_cases": 12
+  },
+  "additional_before": {
+    "status": "CONFIRMED",
+    "failed_cases": 2,
+    "cases": [
+      "illegal/mismatched live history transition",
+      "imported history marked for live fulfillment"
+    ]
+  }
+}
