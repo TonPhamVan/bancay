@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./fonts.css";
+@source "../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/tailwind.blade.php";
 @source "../views/layouts";
 @source "../views/components";
 @source "../views/home";

@@ -1,0 +1,9 @@
+# Local homepage banner — 29/10/2026
+
+The user requested a finished banner after identifying two visible test fixtures. A new Onegarden homepage promotion uses the versioned WebP asset at `public/storefront/onegarden-home-banner.webp` (2172×724, 148222 bytes). The image is AI-generated editorial plant imagery, not a photograph of a catalog product. Live Blade text supplies the store name, headline and shop link, keeping them accessible and accurate when branding changes.
+
+Generation mode: built-in imagegen. Final prompt: “Premium, believable wide lifestyle photograph for a Vietnamese indoor plant shop. Warm home interior with ivory wall, natural wood and healthy monstera, snake plant and pothos in ceramic pots; keep the left 45% open for live text; soft morning light, forest green and warm neutral colors. No text, logos, watermark, people, fake products or flat green background.” The original PNG remains in Codex generated images; the selected optimized WebP is in the project.
+
+The existing synthetic and UI test banner rows (IDs 1 and 2) on **local main `bancay` only** were changed from `ACTIVE` to `INACTIVE`; neither row nor image was deleted. The existing Phase 3 hero row (ID 3) remains active. Prior values and the exact local change receipt are private at `legacy-private/ui-fixes/banner-fixture-deactivation.json`. No staging, source legacy or production DB change.
+
+Verification: production Vite build passed; homepage HTTP 200 contains the new image and live copy, excludes both test banner names; image HTTP 200; StorefrontTest 30 tests/244 assertions passed. In-app browser visual checks showed the complete new banner at narrow and desktop widths. Restore the two fixture statuses from the private receipt if a QA scenario needs them again. Phase 6 release readiness is unchanged.

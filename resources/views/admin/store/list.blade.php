@@ -46,5 +46,5 @@
 @if($entity === 'inventory')<td>{{ $row->quantity }}</td><td>{{ $row->reserved_quantity }}</td><td>{{ $row->available() }}</td>@else<td>{{ $row->status->value }}</td>@endif
 <td>{{ in_array($entity,['orders','customers']) ? $row->created_at : $row->updated_at }}</td><td><a href="{{ R::url($module,$entity.'/'.$row->id) }}">Xem</a>@if(!in_array($entity,['orders','inventory'])) · <a href="{{ R::url($module,$entity.'/'.$row->id.'/edit') }}">Sửa</a>@endif</td></tr>
 @empty<tr><td colspan="10">Chưa có dữ liệu phù hợp.</td></tr>@endforelse
-</tbody></table>{{ $rows->links() }}</div>
+</tbody></table>{{ $rows->links('pagination::bootstrap-5') }}</div>
 @endsection

@@ -10,6 +10,6 @@
 @endforeach
 <details><summary>Thêm địa chỉ</summary>@include('admin.store.address-form', ['address'=>null])</details></section>
 @if($orders !== null)<section class="store-card"><h3>Lịch sử đơn hàng</h3><table><thead><tr><th>Mã đơn</th><th>Trạng thái</th><th>Tổng</th><th>Ngày đặt</th></tr></thead><tbody>
-@forelse($orders as $order)<tr><td><a href="{{ R::url('orders','orders/'.$order->id) }}">{{ $order->order_number }}</a></td><td>{{ $order->status->value }}</td><td>{{ \App\Support\IntegerDisplay::format($order->total) }}</td><td>{{ $order->created_at }}</td></tr>@empty<tr><td colspan="4">Chưa có đơn được liên kết với hồ sơ.</td></tr>@endforelse</tbody></table>{{ $orders->links() }}</section>@endif
+@forelse($orders as $order)<tr><td><a href="{{ R::url('orders','orders/'.$order->id) }}">{{ $order->order_number }}</a></td><td>{{ $order->status->value }}</td><td>{{ \App\Support\IntegerDisplay::format($order->total) }}</td><td>{{ $order->created_at }}</td></tr>@empty<tr><td colspan="4">Chưa có đơn được liên kết với hồ sơ.</td></tr>@endforelse</tbody></table>{{ $orders->links('pagination::bootstrap-5') }}</section>@endif
 <section class="store-card">@include('admin.store.remove', ['deleteUrl'=>R::url('customers','customers/'.$record->id), 'deleteLabel'=>'Ngưng hoạt động khách hàng'])</section>
 @endsection

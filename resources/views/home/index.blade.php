@@ -17,6 +17,17 @@
 <section class="wrap section"><div class="section-head"><div><p class="eyebrow">Những người bạn xanh</p><h2 class="section-title mt-3">Một chiếc cây, nhiều yêu thương.</h2></div><a href="{{ route('store.products.index') }}" class="text-link">Xem cửa hàng <x-store.icon name="arrow" :size="17"/></a></div><div class="card-grid">@forelse($featured as $item)<x-store.product-card :product="$item"/>@empty<p class="text-stone-500 col-span-full py-8">Cửa hàng đang chuẩn bị những người bạn xanh mới. Hẹn bạn quay lại sớm.</p>@endforelse</div></section>
 <section class="bg-sage mt-16 sm:mt-24"><div class="wrap grid md:grid-cols-2 gap-8 md:gap-16 items-center py-12 sm:py-16"><div><p class="eyebrow">Để ngày thường thêm dễ thương</p><h2 class="font-display text-4xl sm:text-5xl leading-tight mt-4">Không cần cả khu vườn.<br>Chỉ cần một <em>góc xanh.</em></h2></div><div class="max-w-md"><p class="text-stone-600 text-sm leading-7">Một chậu cây bên bàn làm việc. Một tán lá dưới nắng sớm. Những điều nhỏ bé giúp bạn tìm lại nhịp sống dịu dàng của mình.</p><a href="{{ route('store.articles.index') }}" class="text-link mt-6">Cùng học cách chăm cây <x-store.icon name="arrow" :size="17"/></a></div></div></section>
 @foreach($banners->skip(1)->concat($secondary) as $banner)<a href="{{ $banner['link'] }}" class="wrap block mt-10"><img src="{{ $banner['image'] }}" alt="{{ $banner['name'] }}" loading="lazy" width="1200" height="600" class="w-full max-h-80 object-cover rounded-xl"></a>@endforeach
+<section class="wrap mt-10" aria-label="Khám phá cây xanh tại {{ $store['name'] }}">
+<a href="{{ route('store.products.index') }}" class="group relative block min-h-[260px] overflow-hidden rounded-2xl bg-[#eee8da] sm:min-h-[340px]">
+<img src="{{ asset('storefront/onegarden-home-banner.webp') }}" alt="" loading="lazy" width="2172" height="724" class="absolute inset-0 h-full w-full object-cover object-[70%_center] sm:object-center">
+<span aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-[#faf7ee]/95 via-[#faf7ee]/80 to-[#faf7ee]/10 sm:from-[#faf7ee]/90 sm:via-[#faf7ee]/45 sm:to-transparent"></span>
+<div class="relative flex min-h-[260px] max-w-xl flex-col justify-center px-7 py-8 text-forest sm:min-h-[340px] sm:px-14">
+<span class="text-xs font-semibold uppercase tracking-[.2em]">{{ $store['name'] }}</span>
+<h2 class="mt-4 font-display text-3xl leading-tight sm:text-5xl">Mang thiên nhiên<br>vào nhà</h2>
+<span class="mt-6 inline-flex w-fit items-center gap-2 border-b border-forest pb-1 text-sm font-semibold">Khám phá cây xanh <span aria-hidden="true">↗</span></span>
+</div>
+</a>
+</section>
 @if($latest->isNotEmpty())<section class="wrap section"><div class="section-head"><div><p class="eyebrow">Mới ghé vườn</p><h2 class="section-title mt-3">Thêm xanh cho ngày mới.</h2></div><a href="{{ route('store.products.index', ['sort' => 'newest']) }}" class="text-link">Xem cây mới <x-store.icon name="arrow" :size="17"/></a></div><div class="card-grid">@foreach($latest as $item)<x-store.product-card :product="$item"/>@endforeach</div></section>@endif
 @if($articles->isNotEmpty())<section class="wrap section"><div class="section-head"><div><p class="eyebrow">Nhật ký khu vườn</p><h2 class="section-title mt-3">Chuyện của lá.</h2></div><a href="{{ route('store.articles.index') }}" class="text-link">Đọc thêm <x-store.icon name="arrow" :size="17"/></a></div><div class="grid md:grid-cols-3 gap-8">@foreach($articles as $item)<x-store.article-card :article="$item"/>@endforeach</div></section>@endif
 @endsection
