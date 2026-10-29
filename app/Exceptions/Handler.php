@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use App\Http\Middleware\SecurityHeaders;
 use Exceedone\Exment\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Foundation\Exceptions\Handler as LaravelHandler;
@@ -19,10 +20,10 @@ class Handler extends ExceptionHandler
                 trim(config('admin.route.prefix'), '/').'/plugins/bancay_*/*')
             || $exception instanceof AuthorizationException
             || ($exception instanceof HttpExceptionInterface && $exception->getStatusCode() === 403)) {
-            return (new LaravelHandler(app()))->render($request, $exception);
+            return SecurityHeaders::apply((new LaravelHandler(app()))->render($request, $exception));
         }
 
-        return parent::render($request, $exception);
+        return SecurityHeaders::apply(parent::render($request, $exception));
     }
 
     /**

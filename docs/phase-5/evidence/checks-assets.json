@@ -1,0 +1,18 @@
+{
+  "npm-ci": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "npm-test": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "npm-build": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "npm-audit": {
+    "status": "PASS",
+    "exit_code": 0
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "at_utc": "2026-10-29T00:39:06.139989+00:00",
+  "source_files": 564,
+  "copied_vendor": false,
+  "copied_node_modules": false,
+  "copied_initialized_database": false,
+  "steps": [
+    {
+      "step": "composer-install",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "vendor-publish",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "foundation-install",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "initialize-admin",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "configure-admin",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "storage-link",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "npm-ci",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "production-assets",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "route-cache",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "config-cache",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "blade-cache",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "http-smoke",
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "base_table_count": 97,
+  "view_count": 2,
+  "native_table_names": [
+    "base_info",
+    "comment",
+    "document",
+    "information",
+    "line_flex_template",
+    "line_send_log",
+    "mail_send_log",
+    "mail_template",
+    "organization",
+    "safety_check_answer",
+    "safety_check_event",
+    "user"
+  ],
+  "main_native_table_names": [
+    "base_info",
+    "comment",
+    "document",
+    "information",
+    "line_flex_template",
+    "line_send_log",
+    "mail_send_log",
+    "mail_template",
+    "organization",
+    "safety_check_answer",
+    "safety_check_event",
+    "system_logs",
+    "user"
+  ],
+  "domain_schema_differences": [],
+  "qa_database_removed": true,
+  "credentials_retained_private": true
+}

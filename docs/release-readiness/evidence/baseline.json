@@ -1,0 +1,8 @@
+{
+  "commit": "da70bd4aa22d9827649b27fd7585cdcfb8fb7ad0",
+  "dirty_status": " M .gitignore\n M AGENTS.md\n M README.md\n M app/Exceptions/Handler.php\n M app/Http/Controllers/Frontend/ArticleController.php\n M app/Http/Controllers/Frontend/CatalogController.php\n M app/Http/Controllers/Frontend/LegacyRedirectController.php\n M app/Http/Kernel.php\n M app/Http/Middleware/AdminOperationLog.php\n M app/Http/Middleware/TrustHosts.php\n M app/Services/Storefront/Catalog.php\n M composer.lock\n M docs/risk-register.md\n D public/robots.txt\n M resources/views/home/index.blade.php\n M resources/views/layouts/store.blade.php\n M resources/views/products/show.blade.php\n M routes/web.php\n?? .env.production.example\n?? app/Http/Controllers/Frontend/DiscoveryController.php\n?? app/Http/Middleware/SecurityHeaders.php\n?? app/Services/Release/\n?? app/Services/Storefront/ContentHtml.php\n?? docs/performance.md\n?? docs/phase-5-report.md\n?? docs/phase-5/\n?? docs/production-runbook.md\n?? docs/release-readiness/\n?? docs/rollback-plan.md\n?? docs/security.md\n?? docs/seo.md\n?? docs/testing.md\n?? scripts/phase5/\n?? tests/Feature/Phase5HardeningTest.php\n?? tests/Feature/Phase5SecurityTest.php\n?? tests/Feature/ReleaseOrderDeltaTest.php\n",
+  "target": "DirectAdmin",
+  "target_profile_available": false,
+  "user_confirmation": "DirectAdmin, chưa có hồ sơ",
+  "original_phase5_verification_sha256": "b8047a56d8efc17c109f5fc356270ca01a68725503db35942b02534060b60f83"
+}

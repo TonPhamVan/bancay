@@ -2,6 +2,7 @@
 /.env
 /.env.*
 !/.env.example
+!/.env.production.example
 /auth.json
 
 # Private legacy inputs and backups; store original artifacts outside Git.

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "qa_only": true,
+  "snapshot_unit_price": 123000,
+  "quantity": 2,
+  "total": 246000,
+  "current_catalog_price": 200000,
+  "physical_stock": 10,
+  "reserved_after_cancel": 0,
+  "history": [
+    "NEW",
+    "CONFIRMED",
+    "CANCELLED"
+  ],
+  "main_orders": 258,
+  "staging_orders": 255,
+  "checked_at_utc": "2026-10-29T00:39:47.891442+00:00",
+  "order_id": 262,
+  "variant_id": 143
+}

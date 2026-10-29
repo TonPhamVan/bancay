@@ -1,0 +1,271 @@
+{
+  "status": "PASS",
+  "meaning": "evidence and local verification consistent; not production approval",
+  "checked_at_utc": "2026-10-29T00:47:25.247654+00:00",
+  "checks": [
+    {
+      "check": "baseline commit unchanged; Phase5 uncommitted",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/master-plan.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-0.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-1-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-2-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-3-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/risk-review-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-4-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-4/evidence/review-reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/exment-v7/evidence/reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-0/seo.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-0/evidence/seo-urls.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-0/security.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/architecture.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/database-design.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/frontend-architecture.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/ui-mapping-report.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/ui-mapping/evidence/tests.json",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/ui-mapping/evidence/browser-acceptance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/exment-v7/evidence/risk-register.json",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-4/review-application.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/phase-4/review-decisions.md",
+      "status": "PASS"
+    },
+    {
+      "check": "historical input preserved:docs/legacy-migration.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Master Plan exact original",
+      "status": "PASS"
+    },
+    {
+      "check": "integrity-main.json",
+      "status": "PASS"
+    },
+    {
+      "check": "integrity-staging.json",
+      "status": "PASS"
+    },
+    {
+      "check": "reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "migration-seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "combined-preservation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-preservation.json",
+      "status": "PASS"
+    },
+    {
+      "check": "seo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "performance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "clean-install.json",
+      "status": "PASS"
+    },
+    {
+      "check": "browser-acceptance.json",
+      "status": "PASS"
+    },
+    {
+      "check": "browser-data-verification.json",
+      "status": "PASS"
+    },
+    {
+      "check": "admin-frontend-e2e.json",
+      "status": "PASS"
+    },
+    {
+      "check": "security-http.json",
+      "status": "PASS"
+    },
+    {
+      "check": "responsive.json",
+      "status": "PASS"
+    },
+    {
+      "check": "e2e-database.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source-security.json",
+      "status": "PASS"
+    },
+    {
+      "check": "full149/1033 regression",
+      "status": "PASS"
+    },
+    {
+      "check": "checks-php.json",
+      "status": "PASS"
+    },
+    {
+      "check": "checks-assets.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Composer0 advisories/abandoned",
+      "status": "PASS"
+    },
+    {
+      "check": "npm0 vulnerabilities",
+      "status": "PASS"
+    },
+    {
+      "check": "single compatible patch only",
+      "status": "PASS"
+    },
+    {
+      "check": "201 redirects and221 sitemap targets",
+      "status": "PASS"
+    },
+    {
+      "check": "all crawled image dimensions present",
+      "status": "PASS"
+    },
+    {
+      "check": "24 responsive cases",
+      "status": "PASS"
+    },
+    {
+      "check": "47 branded browser cases",
+      "status": "PASS"
+    },
+    {
+      "check": "no runtime errors:chrome-desktop",
+      "status": "PASS"
+    },
+    {
+      "check": "no runtime errors:edge-desktop",
+      "status": "PASS"
+    },
+    {
+      "check": "no runtime errors:chrome-mobile-viewport",
+      "status": "PASS"
+    },
+    {
+      "check": "13 continuous admin/frontend/admin steps",
+      "status": "PASS"
+    },
+    {
+      "check": "5 actual security HTTP cases",
+      "status": "PASS"
+    },
+    {
+      "check": "private backup artifact exists and SHA256 matches",
+      "status": "PASS"
+    },
+    {
+      "check": "local98-table backup/restore verified",
+      "status": "PASS"
+    },
+    {
+      "check": "clean17 domain schemas match;owned DB removed",
+      "status": "PASS"
+    },
+    {
+      "check": "exact3 production blockers recorded",
+      "status": "PASS"
+    },
+    {
+      "check": "open risks have owner/action/evidence/test/target",
+      "status": "PASS"
+    },
+    {
+      "check": "report not claiming production readiness",
+      "status": "PASS"
+    },
+    {
+      "check": "production template secure placeholders",
+      "status": "PASS"
+    },
+    {
+      "check": "historical evidence not overwritten",
+      "status": "PASS"
+    },
+    {
+      "check": "git whitespace",
+      "status": "PASS"
+    }
+  ],
+  "source_files": 226,
+  "phase6_status": "NOT READY",
+  "release_blockers": [
+    "P5-B01",
+    "P5-B02",
+    "P5-B03"
+  ],
+  "no_production_cutover": true
+}

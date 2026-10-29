@@ -1,0 +1,21 @@
+{
+  "hosting_panel": "DirectAdmin",
+  "canonical_origin": "https://bancay.vn",
+  "verified_web_server_mode": null,
+  "verified_php83_cli": null,
+  "verified_php_web_version": null,
+  "new_candidate_application_directory": null,
+  "new_candidate_public_document_root": null,
+  "legacy_document_root_snapshot": null,
+  "database_server_version": null,
+  "candidate_database_name": null,
+  "verified_proxy_ips": [],
+  "certificate_and_https_evidence": null,
+  "private_web_php_log_paths": [],
+  "scheduler_entry_evidence": null,
+  "production_backup_restore_receipt": null,
+  "final_source_freeze_receipt": null,
+  "smtp_required_for_core_checkout": false,
+  "smtp_delivery_evidence": null,
+  "note": "No secrets. Null means NOT VERIFIED, not an approved default. No cutover action is executed by this file."
+}

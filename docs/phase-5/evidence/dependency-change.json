@@ -1,0 +1,7 @@
+[
+  {
+    "package": "symfony/mime",
+    "before": "v7.4.19",
+    "after": "v7.4.22"
+  }
+]

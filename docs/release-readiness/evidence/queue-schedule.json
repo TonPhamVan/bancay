@@ -1,0 +1,1 @@
+{"queue":"sync","mail":"log","scheduler":[{"command":"'\/usr\/local\/bin\/php' 'artisan' exment:schedule","expression":"0 * * * *"},{"command":"'\/usr\/local\/bin\/php' 'artisan' exment:safetywatch","expression":"* * * * *"}]}

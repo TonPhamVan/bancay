@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "existing_ledger_overwrite_rejected": true,
+  "checksum_mismatch_rejected": true,
+  "public_output_rejected": true,
+  "existing_artifact_unchanged": true
+}

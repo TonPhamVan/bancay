@@ -1,0 +1,34 @@
+{
+  "pint-format": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "php-tests": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "pint": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "composer-validate": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "platform": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "exment-requirements": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "composer-audit": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "blade-compile": {
+    "exit_code": 0,
+    "status": "PASS"
+  }
+}

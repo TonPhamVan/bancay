@@ -1,0 +1,411 @@
+{
+  "dataset": "QA clone of combined catalog plus synthetic browser fixtures",
+  "measurement": "warm in-process HTTP kernel+Blade+MariaDB; excludes TCP/assets/browser; five samples per page",
+  "pages": {
+    "Home": {
+      "path": "/",
+      "samples": [
+        {
+          "http_status": 200,
+          "elapsed_ms": 36.64,
+          "queries": 17,
+          "db_ms": 9.12,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 37679
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 18.96,
+          "queries": 17,
+          "db_ms": 5.16,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 37679
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 18.43,
+          "queries": 17,
+          "db_ms": 5.15,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 37679
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 16.58,
+          "queries": 17,
+          "db_ms": 4.59,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 37679
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 21.1,
+          "queries": 17,
+          "db_ms": 6.17,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 37679
+        }
+      ],
+      "median_ms": 18.96,
+      "max_queries": 17,
+      "last_query_shapes": {
+        "select `value`, `key` from `settings` where `key` in (?, ?, ?, ?, ?, ?, ?, ?, ?)": 1,
+        "select * from `categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `article_categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `products` where `status` = ? and `published_at` is not null and `published_at` <= ? and `category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) and `featured` = ? and `products`.`deleted_at` is null order by `id` desc limit 4": 1,
+        "select * from `product_images` where `product_images`.`product_id` in (117, 118, 119, 120) order by `sort_order` asc": 1,
+        "select * from `categories` where `categories`.`id` in (7)": 1,
+        "select * from `product_variants` where `product_variants`.`product_id` in (117, 118, 119, 120) and `status` = ?": 1,
+        "select * from `inventories` where `inventories`.`product_variant_id` in (137, 138, 139, 140, 141)": 1,
+        "select * from `products` where `status` = ? and `published_at` is not null and `published_at` <= ? and `category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) and `products`.`deleted_at` is null order by `id` desc limit 4": 1,
+        "select * from `product_images` where `product_images`.`product_id` in (119, 120, 121, 122) order by `sort_order` asc": 1,
+        "select * from `categories` where `categories`.`id` in (7, 15)": 1,
+        "select * from `product_variants` where `product_variants`.`product_id` in (119, 120, 121, 122) and `status` = ?": 1,
+        "select * from `inventories` where `inventories`.`product_variant_id` in (139, 140, 141, 142, 143)": 1,
+        "select * from `banners` where `position` = ? and `status` = ? and (`starts_at` is null or `starts_at` <= ?) and (`ends_at` is null or `ends_at` >= ?) and (`category_id` is null) order by `priority` desc, `sort_order` asc, `id` desc limit 24": 2,
+        "select * from `articles` where `status` = ? and `published_at` is not null and `published_at` <= ? and `article_category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) order by `id` desc limit 3": 1,
+        "select * from `article_categories` where `article_categories`.`id` in (5, 12)": 1
+      }
+    },
+    "Category": {
+      "path": "/danh-muc/cay-mini-de-ban-legacy-34",
+      "samples": [
+        {
+          "http_status": 200,
+          "elapsed_ms": 41.28,
+          "queries": 11,
+          "db_ms": 7.53,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 54242
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 19.44,
+          "queries": 11,
+          "db_ms": 3.41,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 54242
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 18.34,
+          "queries": 11,
+          "db_ms": 2.81,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 54242
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 19.2,
+          "queries": 11,
+          "db_ms": 3.49,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 54242
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 21.19,
+          "queries": 11,
+          "db_ms": 3.74,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 54242
+        }
+      ],
+      "median_ms": 19.44,
+      "max_queries": 11,
+      "last_query_shapes": {
+        "select `value`, `key` from `settings` where `key` in (?, ?, ?, ?, ?, ?, ?, ?, ?)": 1,
+        "select * from `categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `article_categories` order by `sort_order` asc, `id` asc": 1,
+        "select count(*) as aggregate from `products` where `status` = ? and `published_at` is not null and `published_at` <= ? and `category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) and `category_id` in (?) and `products`.`deleted_at` is null": 1,
+        "select * from `products` where `status` = ? and `published_at` is not null and `published_at` <= ? and `category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) and `category_id` in (?) and `products`.`deleted_at` is null order by `featured` desc, `id` desc limit 24 offset 0": 1,
+        "select * from `product_images` where `product_images`.`product_id` in (7, 8, 9, 10, 11, 12, 14, 66) order by `sort_order` asc": 1,
+        "select * from `categories` where `categories`.`id` in (8)": 1,
+        "select * from `product_variants` where `product_variants`.`product_id` in (7, 8, 9, 10, 11, 12, 14, 66) and `status` = ?": 1,
+        "select * from `inventories` where `inventories`.`product_variant_id` in (23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 86)": 1,
+        "select * from `banners` where `position` = ? and `status` = ? and (`starts_at` is null or `starts_at` <= ?) and (`ends_at` is null or `ends_at` >= ?) and (`category_id` is null or `category_id` = ?) order by `priority` desc, `sort_order` asc, `id` desc limit 24": 2
+      }
+    },
+    "Product": {
+      "path": "/san-pham/cay-bang-singapore-01-legacy-4",
+      "samples": [
+        {
+          "http_status": 200,
+          "elapsed_ms": 20.46,
+          "queries": 20,
+          "db_ms": 5.59,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 38395
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 17.51,
+          "queries": 20,
+          "db_ms": 4.34,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 38395
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 19.43,
+          "queries": 20,
+          "db_ms": 5.21,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 38395
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 19.31,
+          "queries": 20,
+          "db_ms": 5.4,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 38395
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 18.89,
+          "queries": 20,
+          "db_ms": 5.52,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 38395
+        }
+      ],
+      "median_ms": 19.31,
+      "max_queries": 20,
+      "last_query_shapes": {
+        "select `value`, `key` from `settings` where `key` in (?, ?, ?, ?, ?, ?, ?, ?, ?)": 1,
+        "select * from `categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `article_categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `products` where `status` = ? and `published_at` is not null and `published_at` <= ? and `category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) and `slug` = ? and `products`.`deleted_at` is null limit 1": 1,
+        "select * from `product_images` where `product_images`.`product_id` in (7) order by `sort_order` asc": 1,
+        "select * from `categories` where `categories`.`id` in (8)": 2,
+        "select * from `product_variants` where `product_variants`.`product_id` in (7) and `status` = ?": 1,
+        "select * from `inventories` where `inventories`.`product_variant_id` in (23, 24, 25, 26)": 1,
+        "select * from `product_options` where `product_options`.`product_id` in (7) order by `sort_order` asc": 1,
+        "select * from `product_option_values` where `product_option_values`.`product_option_id` in (12, 13) order by `sort_order` asc": 1,
+        "select `product_option_values`.*, `product_variant_values`.`product_variant_id` as `pivot_product_variant_id`, `product_variant_values`.`product_option_value_id` as `pivot_product_option_value_id`, `product_variant_values`.`product_option_id` as `pivot_product_option_id`, `product_variant_values`.`product_id` as `pivot_product_id` from `product_option_values` inner join `product_variant_values` on `product_option_values`.`id` = `product_variant_values`.`product_option_value_id` where `product_variant_values`.`product_variant_id` in (23, 24, 25, 26)": 1,
+        "select * from `product_options` where `product_options`.`id` in (12, 13)": 1,
+        "select * from `product_images` where `product_images`.`id` in (14, 15, 16, 17)": 1,
+        "select * from `products` where `status` = ? and `published_at` is not null and `published_at` <= ? and `category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) and `category_id` = ? and `products`.`id` != ? and `products`.`deleted_at` is null limit 4": 1,
+        "select * from `product_images` where `product_images`.`product_id` in (8, 10, 11, 14) order by `sort_order` asc": 1,
+        "select * from `product_variants` where `product_variants`.`product_id` in (8, 10, 11, 14) and `status` = ?": 1,
+        "select * from `inventories` where `inventories`.`product_variant_id` in (27, 28, 30, 31, 34)": 1,
+        "select * from `banners` where `position` = ? and `status` = ? and (`starts_at` is null or `starts_at` <= ?) and (`ends_at` is null or `ends_at` >= ?) and (`category_id` is null or `category_id` = ?) order by `priority` desc, `sort_order` asc, `id` desc limit 24": 2
+      }
+    },
+    "Search": {
+      "path": "/tim-kiem?q=CB-3",
+      "samples": [
+        {
+          "http_status": 200,
+          "elapsed_ms": 20.21,
+          "queries": 9,
+          "db_ms": 9.87,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14494
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 10.93,
+          "queries": 9,
+          "db_ms": 3.11,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14494
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 10.47,
+          "queries": 9,
+          "db_ms": 2.91,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14494
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 11.15,
+          "queries": 9,
+          "db_ms": 3.35,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14494
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 10.39,
+          "queries": 9,
+          "db_ms": 2.94,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14494
+        }
+      ],
+      "median_ms": 10.93,
+      "max_queries": 9,
+      "last_query_shapes": {
+        "select `value`, `key` from `settings` where `key` in (?, ?, ?, ?, ?, ?, ?, ?, ?)": 1,
+        "select * from `categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `article_categories` order by `sort_order` asc, `id` asc": 1,
+        "select count(*) as aggregate from `products` where `status` = ? and `published_at` is not null and `published_at` <= ? and `category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) and (`name` like ? or exists (select * from `product_variants` where `products`.`id` = `product_variants`.`product_id` and `status` = ? and `sku` like ?)) and `products`.`deleted_at` is null": 1,
+        "select * from `products` where `status` = ? and `published_at` is not null and `published_at` <= ? and `category_id` in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) and (`name` like ? or exists (select * from `product_variants` where `products`.`id` = `product_variants`.`product_id` and `status` = ? and `sku` like ?)) and `products`.`deleted_at` is null order by `featured` desc, `id` desc limit 24 offset 0": 1,
+        "select * from `product_images` where `product_images`.`product_id` in (7) order by `sort_order` asc": 1,
+        "select * from `categories` where `categories`.`id` in (8)": 1,
+        "select * from `product_variants` where `product_variants`.`product_id` in (7) and `status` = ?": 1,
+        "select * from `inventories` where `inventories`.`product_variant_id` in (23, 24, 25, 26)": 1
+      }
+    },
+    "Cart": {
+      "path": "/gio-hang",
+      "samples": [
+        {
+          "http_status": 200,
+          "elapsed_ms": 10.75,
+          "queries": 9,
+          "db_ms": 2.03,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14969
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 10.76,
+          "queries": 9,
+          "db_ms": 2.81,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14969
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 9.18,
+          "queries": 9,
+          "db_ms": 2.14,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14969
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 9.88,
+          "queries": 9,
+          "db_ms": 2.44,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14969
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 9.21,
+          "queries": 9,
+          "db_ms": 2.02,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 14969
+        }
+      ],
+      "median_ms": 9.88,
+      "max_queries": 9,
+      "last_query_shapes": {
+        "select `value`, `key` from `settings` where `key` in (?, ?, ?, ?, ?, ?, ?, ?, ?)": 1,
+        "select * from `categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `article_categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `product_variants` where `id` in (?)": 1,
+        "select * from `products` where `products`.`id` in (7) and `products`.`deleted_at` is null": 1,
+        "select * from `product_images` where `product_images`.`product_id` in (7) order by `sort_order` asc": 1,
+        "select * from `inventories` where `inventories`.`product_variant_id` in (25)": 1,
+        "select `product_option_values`.*, `product_variant_values`.`product_variant_id` as `pivot_product_variant_id`, `product_variant_values`.`product_option_value_id` as `pivot_product_option_value_id`, `product_variant_values`.`product_option_id` as `pivot_product_option_id`, `product_variant_values`.`product_id` as `pivot_product_id` from `product_option_values` inner join `product_variant_values` on `product_option_values`.`id` = `product_variant_values`.`product_option_value_id` where `product_variant_values`.`product_variant_id` in (25)": 1,
+        "select * from `product_options` where `product_options`.`id` in (12, 13)": 1
+      }
+    },
+    "Checkout": {
+      "path": "/thanh-toan",
+      "samples": [
+        {
+          "http_status": 200,
+          "elapsed_ms": 14.11,
+          "queries": 10,
+          "db_ms": 3.18,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 16058
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 10.81,
+          "queries": 10,
+          "db_ms": 2.78,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 16058
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 11.11,
+          "queries": 10,
+          "db_ms": 2.64,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 16058
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 9.08,
+          "queries": 10,
+          "db_ms": 2,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 16058
+        },
+        {
+          "http_status": 200,
+          "elapsed_ms": 9.78,
+          "queries": 10,
+          "db_ms": 2.06,
+          "slow_queries_over_100ms": 0,
+          "html_bytes": 16058
+        }
+      ],
+      "median_ms": 10.81,
+      "max_queries": 10,
+      "last_query_shapes": {
+        "select `value`, `key` from `settings` where `key` in (?, ?, ?, ?, ?, ?, ?, ?, ?)": 1,
+        "select * from `categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `article_categories` order by `sort_order` asc, `id` asc": 1,
+        "select * from `product_variants` where `id` in (?)": 1,
+        "select * from `products` where `products`.`id` in (7) and `products`.`deleted_at` is null": 1,
+        "select * from `product_images` where `product_images`.`product_id` in (7) order by `sort_order` asc": 1,
+        "select * from `inventories` where `inventories`.`product_variant_id` in (25)": 1,
+        "select `product_option_values`.*, `product_variant_values`.`product_variant_id` as `pivot_product_variant_id`, `product_variant_values`.`product_option_value_id` as `pivot_product_option_value_id`, `product_variant_values`.`product_option_id` as `pivot_product_option_id`, `product_variant_values`.`product_id` as `pivot_product_id` from `product_option_values` inner join `product_variant_values` on `product_option_values`.`id` = `product_variant_values`.`product_option_value_id` where `product_variant_values`.`product_variant_id` in (25)": 1,
+        "select * from `product_options` where `product_options`.`id` in (12, 13)": 1,
+        "select * from `checkout_attempts` where `token_hash` = ? limit 1": 1
+      }
+    }
+  },
+  "query_plans": {
+    "products": [
+      {
+        "table": "products",
+        "type": "ref",
+        "possible_keys": "products_browse_index,products_status_published_at_index",
+        "key": "products_browse_index",
+        "rows": "8"
+      }
+    ],
+    "variants": [
+      {
+        "table": "product_variants",
+        "type": "ref",
+        "possible_keys": "product_variants_product_id_combination_key_unique,product_variants_product_id_legacy_variant_index_unique,product_variants_product_id_status_index",
+        "key": "product_variants_product_id_status_index",
+        "rows": "4"
+      }
+    ],
+    "orders": [
+      {
+        "table": "orders",
+        "type": "index",
+        "possible_keys": null,
+        "key": "PRIMARY",
+        "rows": "25"
+      }
+    ],
+    "customer_order_count": [
+      {
+        "table": "orders",
+        "type": "ref",
+        "possible_keys": "orders_customer_id_created_at_index",
+        "key": "orders_customer_id_created_at_index",
+        "rows": "1"
+      }
+    ]
+  },
+  "status": "PASS"
+}

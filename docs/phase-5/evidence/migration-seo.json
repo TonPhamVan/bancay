@@ -1,0 +1,2269 @@
+{
+  "records": [
+    {
+      "entity": "products",
+      "legacy_id": 4,
+      "title_sha256": "b11ede6a652de547a5aaadfff48185d426a7b11f2d36b3e9cca567f47af62eeb",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 5,
+      "title_sha256": "5a82746ed6525cd2ba172b7125e88d59c191cebee54c875225f3ed364cecd721",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 6,
+      "title_sha256": "b6fb6066562edb238ee92904a652e24a5963d2381b946fd2a856469eb48d9045",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 7,
+      "title_sha256": "fdaea42be59dbec91df28f2317797c767ead8968ef9059e4f140b09bfa968538",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 8,
+      "title_sha256": "dfc7d4c0b5026cdd3219ff5359b6b392b4c65263f6380c8ee42b309d8fb3c052",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 9,
+      "title_sha256": "5dab1c712d579e50d19fa01ed2793041ecd99d90d85ea9706c1c0c5783ab0e9c",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 10,
+      "title_sha256": "24f50c193e78c18a526f4a11f45ba820bec5d7ab1323e24c4c7030e4de71e756",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 11,
+      "title_sha256": "7876c8e9840ff6c3df34d6ba60e6ab5ac281f14d869aa9c0b56e6099d4ce097b",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 12,
+      "title_sha256": "572cc8277b48925a26d3afa8bd370818c56d30a70670880d7ac549439c9ef8e3",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 13,
+      "title_sha256": "e7986f96ec90bbb91b2351329212080f95f9d9a6eb844739170a92f455756616",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 14,
+      "title_sha256": "3063d65cf7c47b4a3f77421d7647c9946a25754d5b24d16906e26edef2ba2944",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 16,
+      "title_sha256": "8f5e67122e7250c39588d46648aa8d39a610c8d3a197873c38522910925bef72",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 17,
+      "title_sha256": "2bfbc9dfb57ecf50afe3ef11446412ef2d34c4702e52490f9baacbda041e1a8e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 18,
+      "title_sha256": "7dabe18a4d0be4b3e08691f403c9072238a3e53fb81dc01e515f4677df0b4d9b",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 19,
+      "title_sha256": "aa5142f19c2088608655c9f1cfc2c3d5008e8c694e1e7d8d5a9c88521f153469",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 20,
+      "title_sha256": "0ebab98c1336ea3b5c34a548d1ebd34df64a7334abbbe7b23e9c96c0b93d3f53",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 21,
+      "title_sha256": "1ca7e790b8790bfd514716ede2b709dac03c10a217dad18b556f71b3845a3af4",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 22,
+      "title_sha256": "07c6646a94404de59ebe47b84050645fbe60ed01025dcbfe1a8a2a364ef81e4d",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 23,
+      "title_sha256": "6b99a4a92341266cc396f3547daedb24e5692c2af0b4330358720c5f61a733a8",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 24,
+      "title_sha256": "9881eef165b673bf9126341443a87a85b8b35d5970cd1e76d0928ee75b8bc2ae",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 26,
+      "title_sha256": "887868e0d988854727c35a9629015a28ba59910e999f6de8ef8a27cea30ab09c",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 28,
+      "title_sha256": "37243c114934cf7a5ecf9b69a91075ce7ab61e7442c208d408963ae9b44bad8b",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 29,
+      "title_sha256": "9ff4ed666946abddab112ff21bb60e13939a970f2c762830341b2a5f6f878170",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 30,
+      "title_sha256": "da89f3a8a00dcf029eecbfb2a1110ac5f1d927ad8b09ec1af7acd3fe4f29720b",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 31,
+      "title_sha256": "1e6d5c336c02e2e9862e61efc5a27c0574f1dafd24a1e16908792b117668017c",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 32,
+      "title_sha256": "abc86ae0c13e3c7bbe463d9c3d513ffccd39de8b77959fbb8af1e4fefb971467",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 33,
+      "title_sha256": "24d6007c789941c610321b9ab9ea2b95e7c9ac1e2459a2b967ddc046a011acb4",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 35,
+      "title_sha256": "98c13ca109388b1eca8aaaa09651449e970abc9978ffe32af8a57b514c322181",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 36,
+      "title_sha256": "d5254037b160ada582fc64f419be1cb0e5261a65ba377d7fd37bff954f60b5d6",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 37,
+      "title_sha256": "c1663550809f314ceb39eaca1f0399641cfce7ea5c0895a2eda8ed9691d7ba30",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 38,
+      "title_sha256": "c646f720f8bb9997001871de960e03ef9207ee77f437ae56a710b01ac6b7414d",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 39,
+      "title_sha256": "4e5b0ea3662668223f64106c7e456bc50a4b17a6053577913fe24b3dd3ba6c6a",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 40,
+      "title_sha256": "cbab3f35958e178a2997952be8b181b90db5bf5b29507c09728197d89bba4114",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 41,
+      "title_sha256": "9af8e38f4f3f6da50921f67a59662be777bf311d7e557b6e0afb9e7db91ca45c",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 43,
+      "title_sha256": "97792a69ce265cc750646572b04f54a93e01b4ac8ffe6a92cf1614bb6cdf3308",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 44,
+      "title_sha256": "ad312c08f9b8efd3740e85b21779d49838d0add6fcab415b4ad494269fd7dffd",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 45,
+      "title_sha256": "03b612e662b1d17a5bd6b76c8fd4f28e0afd579daf3ecf984423707f458a319b",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 46,
+      "title_sha256": "3e121c2bd95fd0b39420ffa0b9b790b51cf3ada6659353039ea6269aedc158d5",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 47,
+      "title_sha256": "1c76fca662a910c8023ee942846e637b10032b381a178000845348bbd4fd6742",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 48,
+      "title_sha256": "b36e7e78bd1b7ccb6ee02a6ac2167fe0f15838cc77d998fbdf75d6f787519111",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 49,
+      "title_sha256": "4d467b50166be5d1814295c77dbff57744e16620a8661d8e200b26defe1c7f40",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 50,
+      "title_sha256": "2c66449dae9c087879fe2580a1bf6f7d5cb5091489d22f18fafa4a9bbcafb6e7",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 51,
+      "title_sha256": "cd5d601c2e6fe0b8fb2132dc55ef45d1bf1de9c48cadd4e4d34e5de93f11cf2f",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 52,
+      "title_sha256": "d2876fa290f8f40d01f6d2895353bfba5798f578842700d271ab31da5d8d608b",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 53,
+      "title_sha256": "07dd4890a84536acd6c6832bf5319cd7a641acf872612e694f49870ec0e7d33e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 54,
+      "title_sha256": "58452dc4db38a6d8c602b91be5983edceea43bb2cea379d0e8ef2eff9ffb34b1",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 55,
+      "title_sha256": "8448a65570bffbaa8560981de240c81169342763c1336bf57027190f1948e517",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 56,
+      "title_sha256": "87789837f4b9f9d486c236c5357cb6c6e48177abafa9cc6f0a2a1125b6d70364",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 57,
+      "title_sha256": "f997c2ee7e5e9d5a74cf9dccfa744f7b40624dce790b8185e08ed94114b92780",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 58,
+      "title_sha256": "33eecb7e0519abc032127dd2680a4ab02cf3fbca06c4aee0ecd06e508ce3f897",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 59,
+      "title_sha256": "c054f5f8acf5d79f15209d200572ecdeb7ac1dd9615a93382468b6061514d71d",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 60,
+      "title_sha256": "a7e1608ab1429b743c033296a2e1726e6fdd91f3bdf3a9a7e768a0d591d49e99",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 61,
+      "title_sha256": "991c07c42d990d3c466c4820c93374fe44fbac0467acb900186b66fcb9d43f40",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 62,
+      "title_sha256": "7bcf8866ff959074a45a49218898a7d246a28bf39fdcfb64c13cd79fa5847843",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 63,
+      "title_sha256": "82fa9775753af9f45f3b2f1476c4e40edf4f9ce1ef2207294d2e61678663dec5",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 67,
+      "title_sha256": "655dcabc9d5772dbd1188ee49544300c98fa041f60fe43d964a9c9f057d99200",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 68,
+      "title_sha256": "02b7fe7b97eaffaebe92ef3a5108a319c171e877fe5990968e11027f23e037a3",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 69,
+      "title_sha256": "cdb3b5fe04cc464aff1ecb8d03f1b5033c84889cd25607839addd8f0f366e945",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 70,
+      "title_sha256": "03dab52518a39d6b2c9d075377a589742b77d8351a0af52c514a92b6065a514e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 71,
+      "title_sha256": "e22a84bfb0eb704513040ff4c6484ccb46dad6b1bc5d1a8399955ce8e7189558",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 72,
+      "title_sha256": "ac0e2b71cd029dd40060f2033b0903d8e602fd4a7289b404805c0ef4a4c79434",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 73,
+      "title_sha256": "131849c33220676819010d05d59acdd221fd9aad975f78296226a645fab66b32",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 74,
+      "title_sha256": "6083f65d8f7fa270dba3735b9401912e7b9cc20527dbf2675f188c3faa53504e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 75,
+      "title_sha256": "b656073a442852a1c99878a3aa9b79c13d987089bb3cc6cd0a966255b20a7b16",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 76,
+      "title_sha256": "adf49a5be0d5605ae3eda9ff8324c1714c3f2d2d586dc724a8fcf41b96e717f3",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 77,
+      "title_sha256": "f01be6dafd6a2c5d04e45ddf164a3071886ef3d7ff13ff7d99a00b1e156c35cc",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 78,
+      "title_sha256": "4f5b3d2fe409543604e4a100f37b5b5f73ab906086a8694cae1b80bd89ae25ea",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 79,
+      "title_sha256": "399a90372218ce1e1012aee96e0dc08a9a3a8513d25d9700a7b25cbc4aefa01e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 80,
+      "title_sha256": "b7a04ae52b8d522b7ccb9d5d5f230f575c712ebb05278714a4421f5bb488efcb",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 81,
+      "title_sha256": "d6848b9114f1452580977271cdb7480450c5edd4023675005292e68710faeb5d",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 82,
+      "title_sha256": "7989bd0cf366717f9b53124465f6bfbb55a8205b6e2999d91b4cb89218326eb9",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 83,
+      "title_sha256": "69fe3bc47726ca192aab73b6081832daf5d8c62ed7fea02932985e14baeb1150",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 84,
+      "title_sha256": "4edcda9d3036026db22adf8a6ce4a6b9ba83e380fbf04f45e7fe3fc354cd6423",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 85,
+      "title_sha256": "9c3d5b2138db73be617f569b587f184c35eb90db6d2400e83063685c665db6be",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 86,
+      "title_sha256": "c560ef2a6c260e0709e890a02aaacace954f3bd130645edde1fde1309cf6340f",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 87,
+      "title_sha256": "00d7908b0d51b0e42d04e38f447b93b4dad490d2663dbb099410c4e8e4da0914",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 88,
+      "title_sha256": "dc6a5ce56c732ae0344f15ec87df26427222ae3795742ff67e0e9ffe8ffbe9fd",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 89,
+      "title_sha256": "fb8008c190cc7bda963a98c17a1abe83d508f05497e164dbdc66b95d93305421",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 90,
+      "title_sha256": "5561054b47cba03d51af190697c4fe44d88585dd7a5835b198084c8fc7cb4d32",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 91,
+      "title_sha256": "d0971c0e73b48d0e936924e8bdda79740484d914c7f063e3580d305268d65530",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 92,
+      "title_sha256": "800a4062e3c5d6376bb08d327f91130450331d8080166ea1b2d5ba07226387eb",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 93,
+      "title_sha256": "0a00733eb264a5957681144a6e7e34ca0ff345d18e6cbeebf8d9b57fddea2b7c",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 94,
+      "title_sha256": "6070b7c8ce217264533d43695e387c6fd42fa3b74e118cd4c6e12eaaa7c694d0",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 95,
+      "title_sha256": "3602b84f1bea50d64f717bc5d9d302b5b6628790e20c554f77770dee1aec9310",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 96,
+      "title_sha256": "dc075f5fffdca951b6026db8b25f16b91cd9e453e521492324f0687e79db7bb0",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 97,
+      "title_sha256": "602c7f0d35ea8b89cf8e97cca79b254a180c09c36e1c15df6501fd92ad798f1e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 98,
+      "title_sha256": "7e056187163e62291f1c73a60c05b74296025cc98915a9f70bd69f58680078ea",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 100,
+      "title_sha256": "ce039d5943424b64721b3c5f4e434043ec5e95e275ea66bada2f41b489233ddd",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 101,
+      "title_sha256": "8de6aeb99f0a79cbc8beb4662ad9f574e2e8f71c4bd3dd558f3fd39af19758b3",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 102,
+      "title_sha256": "9a7b71fb70e3a646b5408a1536fa7b0546b0b14ae9674b3ed823d1c18a915269",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 103,
+      "title_sha256": "6fd283af105f9fe44199597dcfba354034b932507e7b4394a8aac2bcc5819308",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 104,
+      "title_sha256": "28f58853af4b2d896f5a16cd7e10ef5e45da2c25ad21eefc1f13574774c1348a",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 105,
+      "title_sha256": "c8003182a8c615214258ce36b58b2698d8ec711e90f0d9416bf9519313ec709e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 106,
+      "title_sha256": "4366c2bb88bb85f146ba1ee9a42ba7646b4e07ec592334617ceaa22a1d59c2e6",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 107,
+      "title_sha256": "1ca25f2e7ba84f52a688b40e026297e8625274df6a094cd53339a39908bd57e2",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 108,
+      "title_sha256": "a010f8246080abf838eebae02655d181831264907d61a49eeebac29a1146b035",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 109,
+      "title_sha256": "0a31f8189ee8007547448bd99925fd2206d44ed9427322c56f349f7537ae9636",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 110,
+      "title_sha256": "106ca1b823ceb804d7c014a5019632a780f7ce32c7a8737abe41de56f2037c7d",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 111,
+      "title_sha256": "dfd1f0c2072068509d1be99c69ad97a80c7ebc19856b75fc7e8b7c3569afd191",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 112,
+      "title_sha256": "cb9815c76814893baf0cecee7dcc37a079907d5f2972789447613b353b3d4728",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 113,
+      "title_sha256": "f29a448b780745bf2e10667f46c442b102e75e76a46a1fff969641866225ab56",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 114,
+      "title_sha256": "ffc0d2c400bbacf0c847df66818cc6664308868bb1818848a6e37895084d0404",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 115,
+      "title_sha256": "ffc0d2c400bbacf0c847df66818cc6664308868bb1818848a6e37895084d0404",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 116,
+      "title_sha256": "5348306fb2174c7390cf458da107fa3f168252984f124de85f3ed9c509c310b9",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 117,
+      "title_sha256": "b32ad4f157036bf70c41ae3c1a5cf3032b279ed15cb954c7b3464079c47bc7c3",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 118,
+      "title_sha256": "f7a50087762ca8353fd7da2bce6ac463dd9b54ee5117b4010a2c38d46f26d109",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 119,
+      "title_sha256": "51d37e03f8578b3657ba6d3dd959e9ffed1131e51e915289742eb1405f545b4e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 120,
+      "title_sha256": "fccd39e0ba299715827e92f63d6fef328dbe27106bb25e28dd430920ea9e7e5c",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 121,
+      "title_sha256": "2854df1bd469a9e0838f70fd151a147fba6d6f46bda19883fb1787bb3117cb69",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 122,
+      "title_sha256": "3413c61ed782d806cd2fc586ca86d2b0cfe812246c5427c444f0f6adeba18297",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 123,
+      "title_sha256": "e35ff9aa3e1b5be82fb3dd7b83116510e3825a3ce1cd59d6103b229941f35010",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 124,
+      "title_sha256": "af2dede0bac313e58a1e6ca74f509d518d5c9d54d0082f789eefed56a4308dea",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 125,
+      "title_sha256": "75b36595bb285601d8883b158388ad765273c5a93a30bb5f3a0ab67cfbb1c7d7",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 126,
+      "title_sha256": "ee8514d4ed5ff9566259bf36b4f4c4b560e7245082f14a934b9cbd8dfb7731b4",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "products",
+      "legacy_id": 127,
+      "title_sha256": "f3f1f456248ad4b918fa92147bd6d99a4c136431a2ff2b304bcdaaf270b2eb33",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 12,
+      "title_sha256": "c6323264df9856e124f8fb743bafe6476358d154295cc70157e41f22c6ee4556",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 13,
+      "title_sha256": "3462ab6706a2b6eec1ffc4457b2516d8ae976637642a8ecba47af95775b2b2fe",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 14,
+      "title_sha256": "7e5730aa9534172b9b1ba911637105a6a15be5cd8eb2dc1c6a362ca24b270018",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 15,
+      "title_sha256": "726dec821f8c69858d0519655a0909ed96876ac122e3f907056c27abbb570fc8",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 16,
+      "title_sha256": "d6a03754e9b81b20c6d4f7ceb0841e1a0c23b0d283805b409e3df854db197f05",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 17,
+      "title_sha256": "5cc6e2ad9cbba140c7008c16c1d5fb13df0a7d1c4d617f6b9d67f62884d8546b",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 18,
+      "title_sha256": "2cf0752270b78d33774f49ba31e4b4efd6e9997a22ec0c212c716704df6f1588",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 19,
+      "title_sha256": "b7b994b30496845dbec81ba877107cbf47b85546d8d5f05d71d335ddd2149163",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 20,
+      "title_sha256": "178391991851bcfe477e2736588c5c9cb1aac29e938352c8e61ec21fc98f0b81",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 21,
+      "title_sha256": "63fab223b756ab5a045b0ba32f430e39c374fd7344a6dddb16657ae312a6fb96",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 22,
+      "title_sha256": "e7d3c1753e85bc6303174ecb534c3b897ec6fb7d2c4d6224f558537181f416f0",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 23,
+      "title_sha256": "1d4044288ed720ba1fdc54ac592439cbabaaa9ebee10874d745d15d64bed7c75",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 24,
+      "title_sha256": "9bf8a69de0a27c110d90ed510034b2a37865b5efb518c869b48ce9ebabb6ac2e",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 25,
+      "title_sha256": "aa9190778e9068fe19ba3cbaed5d67e8c591a00d00a70644a530962751d50ee7",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 26,
+      "title_sha256": "25a0f2b03e4d1245247571fbf8e14166a3e88f0d5d9606bbd4b29c5c0e372c13",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 27,
+      "title_sha256": "957446410246997f54295f5e9c6cf08d198f3dedd8b16f925001aa29792c4e7f",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 28,
+      "title_sha256": "82c40d7aa9db3b64f1082b2cc313b7f162ee693057977706566b2960a2474121",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 29,
+      "title_sha256": "687074a3bd3333c6a8d4bdd85c79288e863d942105f59cfc5ded742f9dea1900",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 30,
+      "title_sha256": "6a84296e78cbafd29fa2c1a7bd05781fe5ca447ddd8bb8d9c9753e1de94c3074",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 31,
+      "title_sha256": "ef3654f80ea3729e2ccc062b3f68064dd8a9f5da190bfb890f1cee5799c578c4",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 32,
+      "title_sha256": "d4956c84d1d2903bbe5d44ae8f4d3d10a6a6ed1ba181646358579e9f078d4760",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 33,
+      "title_sha256": "ac7e77b8535d50e443de43fef12a84b61f8f8a4fe8740a687ed1f62a807de536",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 34,
+      "title_sha256": "9372c59f23565b9d4a13ef0eae251e452e2816f77f688204d46ba87ae97654fd",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 35,
+      "title_sha256": "aab44ef2304e999995e37560f696e197d9dd7cb43f57b302175eddbee82628ba",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 36,
+      "title_sha256": "9c220c2b88ca05160b373f5ebc7a118387a98ae1240cc8d067864c54fb5bc31f",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 37,
+      "title_sha256": "062dfb44f1d5ed8278bdd72ee1cb4751b1133feb354bdcc008953ac2e43012f6",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 38,
+      "title_sha256": "bc876aa8e531f4d92934231b420207863be34eba7dccca0375bab08e56804b1f",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 39,
+      "title_sha256": "100cafe556008d547f37990f352c8d718f101bd68d045e270ecf0702545e4587",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 40,
+      "title_sha256": "1837bb4659de9f7445e7ef140d3d6fb5c018eb85f072018a392ffbc4bf8c97d3",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 41,
+      "title_sha256": "a9fa280eae139fc18abe282864ac212d1b2ab89a6436498ed0499ea6a60560b2",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 42,
+      "title_sha256": "964bfe0ee25f871d4a260575ff7178f95811087ebdc0c4147653752a44bc43d3",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 43,
+      "title_sha256": "4e011f731ef51fcd1f6a37e70e0c1ec84aafb4e20fe9d2bc6d8dd23d15c71e85",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 44,
+      "title_sha256": "1f258786facdb6657301a73fd48d424e6a7cf36e3b820ed3741f0a46d3ec6757",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 45,
+      "title_sha256": "b22d2c5c8fc30e63a890826c595b8f615930cbb9d201c7a393ba4a31b14aa133",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 46,
+      "title_sha256": "0e27df218b7b2801f37bc370593b9726e3c7d4d851e3f16ceb9f95e14fa01852",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 47,
+      "title_sha256": "38c5d27bcdcc8658ee06896ae9ca34223c84108efa1ff791bcd1c2c2356bb0ca",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 48,
+      "title_sha256": "d1e5f6d2750332bda41c2b3011b1bfd525488698ff533bd427e4fe69e1366a3f",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 49,
+      "title_sha256": "b4158a72daa45da18e2fd654888e0f40d1c3b7cd257ad654f4e3223ddc320498",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 50,
+      "title_sha256": "c38bbd751d7da5615be9b0cd328d2d5fdda1e011c37211e81505bdb0c3268c64",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 51,
+      "title_sha256": "d73438a605fdcb2111e9c09ef64dc0355a33d2f5665de8cb1bca4b9f77fc39a9",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 52,
+      "title_sha256": "396d6f173af5663d91bef898713409caa713dea62cf638e615ac5813c5bd0dc1",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 53,
+      "title_sha256": "ec1c8ab085793233839447e096500305dfae8540c1a461a3eca1bc43e2a2fbfd",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 54,
+      "title_sha256": "ca89d38e7b62e306fc69d0b9cfe5f7d6b97fbba132be9778fd3eb095fb5606a2",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 55,
+      "title_sha256": "1a6c7496869576de192d244f3ea2a85f6e2980e61ed6b0cf112b7294805aa9f9",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 56,
+      "title_sha256": "2ca4818e8857c1426e122cb1e5dea13da7956e61bad1df4025173aafc36d07ba",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 57,
+      "title_sha256": "05a394d77ddfc1f3cedb165e7a80131d3b55558c6ffacb3cd4858ab25460a2f5",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 58,
+      "title_sha256": "6bd8cc500c2d4dec015a56d0bacfa2fa47c87cedc746d8ab04d6fc461b4839d5",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 59,
+      "title_sha256": "8f7c843b8d7ee96240221068f832f5d663c72150a0c8fed8746314b2ebbdb1e6",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 60,
+      "title_sha256": "4a17f81f2ac5a08478be6fe0e3041b6e6078bb177c15bae09a3fa108981f6066",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 61,
+      "title_sha256": "77946d9265fdee20e69763a1c22b2823f56fa9af0ec69768540109f41133a058",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 63,
+      "title_sha256": "2a8af75226c85d565b08f4290b088deb5ad98e870ba6a7cf12c3b9aa33b63943",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 64,
+      "title_sha256": "025823e1384a83c79c02f094b489826f95856207141a2958e8d16a7af7f6ce3a",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 65,
+      "title_sha256": "12157bc4300f0ff121edd600149e514de1a7ee3b197751f77a40d3563b9f94fe",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 66,
+      "title_sha256": "85c98fcf15e6bb5b211a54882dbdf9f027c31035f669b795cca19c2f76a31345",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 67,
+      "title_sha256": "29ca1e595f528f7d09c04279c688436ec28f20e93fe06a5172c9d7889bed7a98",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 68,
+      "title_sha256": "0efbf051407f12f259d30f93c7d144804e73acf21797d511525fc6efd6792fdd",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 69,
+      "title_sha256": "28904dc1a4af57332aef036b327a990613fe05d8eed7f3da0487eee2f17f0298",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 70,
+      "title_sha256": "12823f8fa89b84fe2711a0ea4ca184173f7c403d77fc087d65ddf4f1f2182d7a",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 71,
+      "title_sha256": "83b253f31a1d505d18d985771fabed6c107f39a12f9caa7a7bff4d92b3a21ae9",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 72,
+      "title_sha256": "1df3e068f7d08d16bf845bbd2c5af336437ed69ba28e13df289e8b5c316edc1e",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 73,
+      "title_sha256": "8367944f11aeb625b6756f5f0a6a20c3b21790e0e68923c48febcfc746964600",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 74,
+      "title_sha256": "b8355ef0c0787aa1016d3d42b11c322355dbaab3c2856e247be403c4b022d2da",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 75,
+      "title_sha256": "4d03d6ed984562a0c422a263bdff87b60ff7714e37ee569f4de603d171b6fd3e",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 76,
+      "title_sha256": "ee01f7455a9c9617b95404d81feeb311e8ac54259f121aa472afb746aa12c8fe",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 77,
+      "title_sha256": "539a6cb2034b29e8534107fa2e84ac4ba63b276c9eb5a6bbd7235d7dc8ab94c4",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 78,
+      "title_sha256": "9b8c57be5335f770f13ea1e9577bfc7927c14aa296ba8dc18bee9c611583f4b8",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "articles",
+      "legacy_id": 79,
+      "title_sha256": "144d83c6f22544b3130f3a80f5bd504b01a1195d630273b508a97d4d94d61da7",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "categories",
+      "legacy_id": 33,
+      "title_sha256": "facd239ead6655f858426833d01ca0e02c780b33a290f6b9eeb7d98fbc65ab0c",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "categories",
+      "legacy_id": 34,
+      "title_sha256": "b41bd86a4f4f4983503023fb65aff49aea932a5878185c45c77606e47c9b0b02",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "categories",
+      "legacy_id": 35,
+      "title_sha256": "bc5cc70c093ff6d0ff7954d36331afc04c7770923035aa5411db605c27fd0dfc",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "categories",
+      "legacy_id": 36,
+      "title_sha256": "3e4aaae500de08c7c417838b638973436b156138ed01edbdee973ec9c5bb1223",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "categories",
+      "legacy_id": 37,
+      "title_sha256": "a37bf29e0b5db953caee44fc2351feee2247e16f3b71a55b7cfeec0c8423d662",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "categories",
+      "legacy_id": 38,
+      "title_sha256": "8486be9c94f68cb5ec1567b375bfd6f2028f3756d8ba2ca7019d5714270718df",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "categories",
+      "legacy_id": 39,
+      "title_sha256": "4bf63f44978a1dd3c909884595c7e91ec119ca8659c275004083d517d83b5a94",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "categories",
+      "legacy_id": 41,
+      "title_sha256": "e40a9ee1b782ee971b3e71701bfc3fcb89c671a8d2d35463cc8d0b5a3b2c8d0d",
+      "checks": {
+        "title": true,
+        "slug": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 7,
+      "title_sha256": "d40b954cff2b24d1702b825dfe6fa86953e990bdb14b28eb7b78c9a9ba6387f0",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 8,
+      "title_sha256": "5da22756040d4bea3bd6c76a20f5a9bc890f0f6901da058459e65392fc6c361e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 9,
+      "title_sha256": "5a66fccb80072569e5f66d4236eff128416f34f1a09880148d871b5fcc2d23cf",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 10,
+      "title_sha256": "a3472d426cd54fd7023190a8bcfbc91f1a7394fc203c1d124f0e73fe13283580",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 11,
+      "title_sha256": "a5bdceb2603ca9e87abc8742b36597a2e04c823c834e34090a62ec25cd59bd7a",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 12,
+      "title_sha256": "e91aa2c44097030e6646c4245993895631f1ae09d1c3038a907120739cae837e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 13,
+      "title_sha256": "9e137d79acb609be07d3534144d1ae0bc4bb862fb948ae8fcd92f45f0f08fa46",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 14,
+      "title_sha256": "cb037b6b4688f6df00038d3776391e447f79807b9de982220395b7a3ead484ed",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 15,
+      "title_sha256": "695d0bb04ab29de1d32b8a2e3b28da56ed3fcc7fbd7a82a2e64237aa3472047e",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 16,
+      "title_sha256": "483974e146f6d5b712cf9fddbc751edc6d84748394cadad8d6e01f94c9643bb2",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    },
+    {
+      "entity": "article_categories",
+      "legacy_id": 17,
+      "title_sha256": "2b880c498e63e35b5534cd634db72c4c89be3f93d2bcff32ad68bfe1db260879",
+      "checks": {
+        "title": true,
+        "slug": true,
+        "meta_title": true,
+        "meta_description": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "mismatches": [],
+  "policy": "Full title/slug/meta comparison; categories/articles without original meta use documented fallbacks. Image conversion/aliases checked by full staging reconciliation and unchanged copied media hashes.",
+  "status": "PASS"
+}

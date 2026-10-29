@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "manifest_entries": [
+    "resources/css/store.css",
+    "resources/fonts/lora-italic-latin.woff2",
+    "resources/fonts/lora-italic-vietnamese.woff2",
+    "resources/fonts/lora-normal-latin.woff2",
+    "resources/fonts/lora-normal-vietnamese.woff2",
+    "resources/js/store.js"
+  ],
+  "assets": [
+    {
+      "file": "public/build/assets/lora-italic-latin-DBI-iqMr.woff2",
+      "bytes": 40772,
+      "gzip_bytes": 40661,
+      "sha256": "d824d807d4d832d12c87932d0b8ec1314dcfd502157a56dee6bb04cf8a3768ae"
+    },
+    {
+      "file": "public/build/assets/lora-italic-vietnamese-BGkqizij.woff2",
+      "bytes": 9344,
+      "gzip_bytes": 9367,
+      "sha256": "3acfc1db6992c092405884cf12763e512e21229cc040a1eea94549869006736a"
+    },
+    {
+      "file": "public/build/assets/lora-normal-latin-BiLcIKcI.woff2",
+      "bytes": 37788,
+      "gzip_bytes": 37719,
+      "sha256": "ddb8c66035104e233fc024669183aad3738b6daa16deee2ebb1241bd0f98ace1"
+    },
+    {
+      "file": "public/build/assets/lora-normal-vietnamese-CfJ7gtf3.woff2",
+      "bytes": 8992,
+      "gzip_bytes": 9015,
+      "sha256": "98c22de85f6e83bcd6ae1a443e12e256fbc8de7142bec4f76b059f8ff9c2797e"
+    },
+    {
+      "file": "public/build/assets/store-CMSKoBRP.js",
+      "bytes": 55403,
+      "gzip_bytes": 19306,
+      "sha256": "1e4604e8bc94e31481efff079dc8247cbe6c0eb32f24fe39f366d23754cbbe43"
+    },
+    {
+      "file": "public/build/assets/store-DOYnChNc.css",
+      "bytes": 38394,
+      "gzip_bytes": 7691,
+      "sha256": "ba016b1da83d1d97205f31ab23dde3b0c8104ae440517cea71ff194e8309ffbd"
+    }
+  ]
+}

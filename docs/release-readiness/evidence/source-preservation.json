@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "main98_base_tables_equal_fresh_backup": true,
+  "main17_domain_tables_unchanged": true,
+  "main_orders": 258,
+  "staging_orders": 255,
+  "all_original_demo_and_migrated_preserved": true,
+  "sql_auxiliary_objects": {
+    "bancay": {
+      "views": 2,
+      "triggers": 0,
+      "routines": 0,
+      "events": 0
+    },
+    "bancay_phase4_ui": {
+      "views": 2,
+      "triggers": 0,
+      "routines": 0,
+      "events": 0
+    }
+  },
+  "no_production_connection_or_cutover": true
+}

@@ -5,12 +5,15 @@ use App\Http\Controllers\Frontend\CartController;
 use App\Http\Controllers\Frontend\CatalogController;
 use App\Http\Controllers\Frontend\CheckoutController;
 use App\Http\Controllers\Frontend\ContactController;
+use App\Http\Controllers\Frontend\DiscoveryController;
 use App\Http\Controllers\Frontend\LegacyRedirectController;
 use App\Http\Middleware\StorefrontContext;
 use Illuminate\Support\Facades\Route;
 
 // Operational health endpoint is independent of public storefront presentation.
 Route::get('/health', fn () => response()->json(['status' => 'ok']))->name('health');
+Route::get('/robots.txt', [DiscoveryController::class, 'robots'])->name('store.robots');
+Route::get('/sitemap.xml', [DiscoveryController::class, 'sitemap'])->name('store.sitemap');
 
 Route::middleware(StorefrontContext::class)->name('store.')->group(function () {
     Route::get('/', [CatalogController::class, 'home'])->name('home');

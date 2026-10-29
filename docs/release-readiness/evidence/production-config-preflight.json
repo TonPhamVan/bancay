@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "scope": "Read-only runtime/configuration preflight; does not verify DirectAdmin, certificate, backups, release data or cron installation",
+  "checks": [
+    {
+      "id": "production_environment",
+      "status": "PASS"
+    },
+    {
+      "id": "debug_disabled",
+      "status": "PASS"
+    },
+    {
+      "id": "https_origin",
+      "status": "PASS"
+    },
+    {
+      "id": "app_key_present",
+      "status": "PASS"
+    },
+    {
+      "id": "secure_httponly_lax_session",
+      "status": "PASS"
+    },
+    {
+      "id": "database_config_present",
+      "status": "PASS"
+    },
+    {
+      "id": "queue_supported_single_instance",
+      "status": "PASS"
+    },
+    {
+      "id": "no_legacy_runtime_import",
+      "status": "PASS"
+    },
+    {
+      "id": "daily_info_inventory_audit",
+      "status": "PASS"
+    },
+    {
+      "id": "private_storage_writable",
+      "status": "PASS"
+    },
+    {
+      "id": "public_storage_link",
+      "status": "PASS"
+    },
+    {
+      "id": "php_supported",
+      "status": "PASS"
+    },
+    {
+      "id": "required_extensions",
+      "status": "PASS"
+    },
+    {
+      "id": "native_scheduler_discovered",
+      "status": "PASS"
+    }
+  ],
+  "mail_transport": "log",
+  "smtp_delivery": "NOT TESTED",
+  "scheduled_commands": [
+    {
+      "command": "'/usr/local/bin/php' 'artisan' exment:schedule",
+      "expression": "0 * * * *"
+    },
+    {
+      "command": "'/usr/local/bin/php' 'artisan' exment:safetywatch",
+      "expression": "* * * * *"
+    }
+  ]
+}

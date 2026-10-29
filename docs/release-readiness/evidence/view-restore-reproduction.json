@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "before": {
+    "restore": "FAIL confirmed",
+    "error_code": 1054,
+    "cause": "Source-qualified workflow column in native view SELECT",
+    "raw_dump_sha256": "05440089c252159405b70053dfdcd27b9ccd9e80efcaa99132831052a1ffc067"
+  },
+  "after": {
+    "restore": "PASS",
+    "evidence": "window-restore.json",
+    "base_tables": 98,
+    "regenerated_views": 2
+  },
+  "scratch_removed": true,
+  "original_vendor_and_data_not_modified": true
+}

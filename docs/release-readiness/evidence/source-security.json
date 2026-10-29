@@ -1,0 +1,132 @@
+{
+  "current_text_files": 627,
+  "historical_text_blobs": 493,
+  "history_commits": 8,
+  "rules": [
+    "private_key",
+    "github_token",
+    "aws_access_key",
+    "env_secret_value"
+  ],
+  "current_findings": [],
+  "historical_findings": [],
+  "rotation_required": false,
+  "raw_output_sql_inventory": [
+    {
+      "path": "app/Services/Storefront/Catalog.php",
+      "line": 75,
+      "sha256": "eb7a5af0aef7eaa3ef18799528f450e454b81a88e08ee0fd8d28c6e3f962b4bc",
+      "kind": "raw_sql"
+    },
+    {
+      "path": "app/Services/Storefront/Catalog.php",
+      "line": 77,
+      "sha256": "42f546455ced65af18b5144e99eb99052f79487af4c8c4d52cae8ea71fdf13da",
+      "kind": "raw_sql"
+    },
+    {
+      "path": "app/Services/Admin/StoreQueries.php",
+      "line": 98,
+      "sha256": "54adacb04d67cfa90b0de0fb2bc7683737abf9a75868b6a16e7afde19ddeecc2",
+      "kind": "raw_sql"
+    },
+    {
+      "path": "resources/views/articles/show.blade.php",
+      "line": 3,
+      "sha256": "d5f85df31af23e33cc2e3b011a2bfb54e338dcafce65bfca3fc811df7514d3f3",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/layouts/store.blade.php",
+      "line": 9,
+      "sha256": "fd46ae6c83214ff7f875fecb162eb57e0c4ff29901523492ba41ccf91b104aaf",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/products/show.blade.php",
+      "line": 8,
+      "sha256": "667f14066c8d7b259a152d1c9d9cf822949ceb8ed53abe4983accd22b97de471",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/products/show.blade.php",
+      "line": 16,
+      "sha256": "dfb621e74ec9f9e7bcc87b4502a0b223d8624ef20bad683e9792de572553004a",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/products/index.blade.php",
+      "line": 3,
+      "sha256": "2e7893e09b7b002892267604b7d9b71a165bb6609f4972eb85031d61f864b4cd",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/admin/store/form.blade.php",
+      "line": 20,
+      "sha256": "3600951634509f653d64537c3315adb0ef1bdae800db9d5dbe37b7ae5f96b3d8",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/admin/store/form.blade.php",
+      "line": 23,
+      "sha256": "217bfede9c8d18753c5e98ec80dcfd16921c70e34209f79af67b00fffed261fa",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/admin/store/settings.blade.php",
+      "line": 8,
+      "sha256": "babd13c5244383b5df490f07504c75b2aa4ff99f5c002908f459d7e1bcb1222a",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/vendor/admin/partials/sidebar.blade.php",
+      "line": 2,
+      "sha256": "44e882f4da806bd82f5ca3dfc1dc1402053fca8a89c628a7ae5ea4163e011a71",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/vendor/admin/partials/footer.blade.php",
+      "line": 13,
+      "sha256": "2f39389e8bb9f238ef88206b1a638a43d92046e1543fb52d82ec5094c0265161",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/vendor/admin/partials/header.blade.php",
+      "line": 7,
+      "sha256": "fa0324df06e3ae76231855d4818c13c8f5f5ac15ee333113974faace2788d8b9",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/vendor/admin/partials/header.blade.php",
+      "line": 9,
+      "sha256": "85a8c204d75aaa9c6a78bd8018263f4b90f560444c8962b08ae708f4cff063de",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/vendor/admin/partials/header.blade.php",
+      "line": 19,
+      "sha256": "119d1f82a63171d4ebcbbef0a64746cb536f4d7bb199886050884651de445448",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/vendor/admin/partials/header.blade.php",
+      "line": 25,
+      "sha256": "66a33998633a329100f4139b6369c721e9ea00c17c11408530c71a06f849442d",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/vendor/admin/partials/header.blade.php",
+      "line": 43,
+      "sha256": "a715efa74817c3a9d359d0de93595467babf096f0cd349198cd5a83054dd949e",
+      "kind": "raw_blade"
+    },
+    {
+      "path": "resources/views/vendor/admin/form/embeds.blade.php",
+      "line": 8,
+      "sha256": "f30713c812d56e2d255e4e13a674bef96635cfffc47f5edba0b0c27141724674",
+      "kind": "raw_blade"
+    }
+  ],
+  "status": "PASS",
+  "limitations": "Narrow known-pattern scan, not exhaustive credential discovery. Private env/backups/logs excluded from publication and kept ignored."
+}

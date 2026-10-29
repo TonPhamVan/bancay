@@ -1,0 +1,11 @@
+item,count,conclusion,action,evidence
+"Product7,10",2,RESOLVED,Legacy category33 applied,docs/phase-4/review-application.md
+"Articles29,31,48,70",4,RESOLVED,Legacy article-category9 applied,docs/phase-4/review-application.md
+"Articles63,67,69",3,RESOLVED,Legacy article-category16 applied,docs/phase-4/review-application.md
+Invalid historical orders,493,DROP,Excluded operational history; original archive retained; user approved,docs/phase-4/review-decisions.md
+Ambiguous banners,2,DROP,Retain source archive; no inferred category/placement,docs/phase-4/review-decisions.md
+Legacy admins,2,DROP,No MD5/privilege inference; native identity retained,docs/phase-4/review-decisions.md
+Recovered media refs,5,RESOLVED,Approved aliases verified; no duplicate gallery creation,docs/phase-4/evidence/media-waiver.json
+Article52 missing image,1,ACCEPTED,User explicitly waived recovery; retain fallback,docs/phase-4/evidence/media-waiver.json
+Legacy URL targets,201,RESOLVED,Actual mapped301 and200 verified,docs/phase-5/evidence/seo.json
+Production-visible final dataset,1,BLOCKER,P5-B03; Data Owner/Release Lead; no loss on current snapshot,docs/production-runbook.md

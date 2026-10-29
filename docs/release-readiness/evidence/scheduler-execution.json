@@ -1,0 +1,14 @@
+{
+  "scope": "Isolated clone with log mail; not DirectAdmin cron installation",
+  "commands": {
+    "exment:schedule": {
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    "exment:safetywatch": {
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "path": "docs/master-plan.md",
+    "sha256": "cc7bd8e17698ac25f04ee531c346c89378ec053bd934621b57e764c3d20f4a85",
+    "bytes": 12470
+  },
+  {
+    "path": "docs/phase-0.md",
+    "sha256": "07b2c7bb901b841e5c52d5e40fb22faad1bf4b85f8330c56e4ffc3a07520cd86",
+    "bytes": 11777
+  },
+  {
+    "path": "docs/phase-1-report.md",
+    "sha256": "d793e447b93d5f14cc3f01bda6520b14c0b5b19984624a7769b11eab54645edb",
+    "bytes": 12583
+  },
+  {
+    "path": "docs/phase-2-report.md",
+    "sha256": "776b744ac5bbb5827192b834050f925d3600a749a0bf2af5c8fd1612b434c8cf",
+    "bytes": 14388
+  },
+  {
+    "path": "docs/phase-3-report.md",
+    "sha256": "787957d2e84922fc4801a189e2a42e67b570f21f1a3ec99d382357d3f7a7948d",
+    "bytes": 20175
+  },
+  {
+    "path": "docs/risk-review-report.md",
+    "sha256": "b7eb3c22483f77a6d94757f011318e7c69f86cfcc27ae6f97060ec99992f82c8",
+    "bytes": 17433
+  },
+  {
+    "path": "docs/phase-4-report.md",
+    "sha256": "d1eb4a5d56762bf80d05bbf195b90091b9fa1326b24952fb69879f9ce09a727d",
+    "bytes": 13286
+  },
+  {
+    "path": "docs/phase-4/evidence/review-reconciliation.json",
+    "sha256": "e42d7736f6a1ad868f333e7921ba9e726c5e4ddbcfb62f1f31dadbee17ca7b44",
+    "bytes": 1441
+  },
+  {
+    "path": "docs/exment-v7/evidence/reconciliation.json",
+    "sha256": "e42d7736f6a1ad868f333e7921ba9e726c5e4ddbcfb62f1f31dadbee17ca7b44",
+    "bytes": 1441
+  },
+  {
+    "path": "docs/phase-0/seo.md",
+    "sha256": "699d116e162dcccb11ec7f15bea86311ce94492a58698343b81aa19175d1baa2",
+    "bytes": 5582
+  },
+  {
+    "path": "docs/phase-0/evidence/seo-urls.csv",
+    "sha256": "23cdce258d1b27e4184b7aad39f9222a0ec617f2d5b44be73e2506dbc45a0b66",
+    "bytes": 41154
+  },
+  {
+    "path": "docs/phase-0/security.md",
+    "sha256": "aa172a54f2a4f9879221e7ce36904cc533404e7dbb52a0fc1c48f567f386158e",
+    "bytes": 9813
+  },
+  {
+    "path": "docs/architecture.md",
+    "sha256": "9071fa86588bc2087e8d7e1531a7fefb910a4aa76e963030ebb2a6226bce1128",
+    "bytes": 11265
+  },
+  {
+    "path": "docs/database-design.md",
+    "sha256": "b5d07b7b9ff5d590c0e614f1914852e18e8e61664c3cd034319ccc03e45e87fe",
+    "bytes": 12743
+  },
+  {
+    "path": "docs/frontend-architecture.md",
+    "sha256": "7ad2e8e10a76a2b64efcdc74ebe7685b7e9708b2647cf7fc7f0ecedec5bad069",
+    "bytes": 8193
+  },
+  {
+    "path": "docs/ui-mapping-report.md",
+    "sha256": "c06db9f749ac730e7638945607c304d36a6bf8ad42048ef99ac468e4a58ef0d5",
+    "bytes": 9066
+  },
+  {
+    "path": "docs/ui-mapping/evidence/tests.json",
+    "sha256": "92f84824d071ba11ef781b47088bb4714ff7db2234f0a9eca5f3ea4f86ff4619",
+    "bytes": 141
+  },
+  {
+    "path": "docs/ui-mapping/evidence/browser-acceptance.json",
+    "sha256": "4533b912b5392ce34f92695e330eccb20629d032de0651a14a976ca2e66c56af",
+    "bytes": 6142
+  },
+  {
+    "path": "docs/exment-v7/evidence/risk-register.json",
+    "sha256": "f7b298c28e977b065c95e0c8ea3a46debdabe24dc429961912ea6211a7c310fd",
+    "bytes": 31868
+  },
+  {
+    "path": "docs/phase-4/review-application.md",
+    "sha256": "215d319733747fd2fc7fb0fe1c351b98931a7c062b1719315ee6c46958d93756",
+    "bytes": 8408
+  },
+  {
+    "path": "docs/phase-4/review-decisions.md",
+    "sha256": "09a726ae5366d3adadb033db7ab28e31b5023c32810075756e6db2e07bafa375",
+    "bytes": 3212
+  },
+  {
+    "path": "docs/legacy-migration.md",
+    "sha256": "a145d6b09cd7bc225f77872e1d21106454094dee3ab7fb731fca9470150d256d",
+    "bytes": 4689
+  }
+]

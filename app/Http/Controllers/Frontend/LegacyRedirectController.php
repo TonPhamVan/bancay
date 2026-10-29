@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 final class LegacyRedirectController extends Controller
 {
-    public function __invoke(Catalog $catalog, string $legacy)
+    public function __invoke(Request $request, Catalog $catalog, string $legacy)
     {
         abort_unless(preg_match('/-(sp|dm|bv|cm)([0-9]{1,18})\.html\z/u', $legacy, $match), 404);
         $id = (int) $match[2];
@@ -21,7 +21,15 @@ final class LegacyRedirectController extends Controller
         abort_unless($target, 404);
         $route = ['sp' => 'store.products.show', 'dm' => 'store.categories.show', 'bv' => 'store.articles.show', 'cm' => 'store.article-categories.show'][$match[1]];
 
-        return redirect(route($route, $target->slug, false), 301);
+        $parameters = ['slug' => $target->slug];
+        if (in_array($match[1], ['dm', 'cm'], true)) {
+            $data = $request->validate(['page' => ['nullable', 'integer', 'min:0', 'max:99999']]);
+            if (isset($data['page']) && (int) $data['page'] > 0) {
+                $parameters['page'] = (int) $data['page'] + 1;
+            }
+        }
+
+        return redirect(route($route, $parameters, false), 301);
     }
 
     public function listing(Request $request)

@@ -1,0 +1,26 @@
+case,status,evidence,scope
+Admin Login,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Category CRUD,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Product CRUD,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Product Images,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Variant,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Inventory,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Order Admin,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Order Workflow,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Customer,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Article Admin,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Banner,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Settings,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Home,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Category,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Search,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Product Detail,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Variant Selector,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Cart,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Checkout,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Order Success,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Article Public,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Contact,PASS,tests.json;browser-acceptance.json;admin-frontend-e2e.json;responsive.json,"Local automated and/or real browser; Contact is settings-only, no send form"
+Safari/iOS,NOT TESTED,No runtime/device,Production/external boundary
+SMTP/reset delivery on production,NOT TESTED,No target/SMTP configured,Production/external boundary
+Production backup/rollback,NOT TESTED,User-deferred hosting exports; P5-B01,Production/external boundary

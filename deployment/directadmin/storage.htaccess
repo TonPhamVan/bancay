@@ -1,0 +1,6 @@
+# Only for an Apache-compatible DirectAdmin target with AllowOverride enabled and verified.
+# Place in the NEW release public-storage directory. Never overwrite legacy upload configuration.
+Options -Indexes -ExecCGI
+<FilesMatch "(?i)\.(php[0-9]*|phtml|pht|phar|cgi|pl|py|sh)(\.|$)">
+    Require all denied
+</FilesMatch>

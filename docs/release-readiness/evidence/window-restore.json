@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Local synthetic order-window dump restored to owned scratch; no production/CI3 writes",
+  "timestamp_utc": "2026-10-29T01:37:41.443246+00:00",
+  "filename": "order-window-portable-20261029_013735.sql",
+  "size_bytes": 2178464,
+  "sha256": "0f0e53900fc0ba96cb95ecc6f66165ee4dc66c25b744d82d183390127ac1caae",
+  "tables": 98,
+  "counts_data_schema_match": true,
+  "source_qa_unchanged": true,
+  "restored_snapshot_exact": true,
+  "offline_ledger_identical_to_live_qa_export": true,
+  "ledger_sha256": "9d6afd0844f6727b96540f7b5edb6958226bf026110a79a9c5b6bea8e09e1170",
+  "derived_views_rebuilt": 2,
+  "original_view_definitions_archived": true,
+  "view_portability_fix": "Base-table-only portable dump plus guarded native view rebuild; no data SQL rewrite",
+  "new_window_orders": 2,
+  "original_main_untouched": true,
+  "scratch_and_reader_removed": true
+}

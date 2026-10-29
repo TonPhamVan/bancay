@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": {
+    "http500": true,
+    "error_logged": true,
+    "inventory_info_level_logged": true,
+    "internal_details_hidden": true,
+    "no_password_in_response": true
+  },
+  "scope": "Ephemeral in-process route in isolated QA; no route added to application",
+  "response_body_sha256": "9ccac06820c6ba63369ed0bb9ab10905bbc436ccef31d661f3beea855361c8d4"
+}

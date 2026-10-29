@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "qa_database_removed": true,
+  "qa_db_account_revoked": true,
+  "clean_install_databases_accounts_removed": true,
+  "primary_and_source_containers_preserved": true,
+  "private_artifacts_preserved": true
+}

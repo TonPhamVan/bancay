@@ -118,7 +118,7 @@ final class Catalog
                     $q->orWhere('category_id', $category);
                 }
             })
-            ->orderByDesc('priority')->orderBy('sort_order')->orderByDesc('id')->limit(6)->get()
+            ->orderByDesc('priority')->orderBy('sort_order')->orderByDesc('id')->limit(24)->get()
             ->map(fn ($b) => ['name' => $b->name, 'image' => $this->display->image($b->image),
                 'link' => $this->safeLink($b->link) ?? route('store.products.index', [], false)]);
     }
@@ -130,6 +130,11 @@ final class Catalog
         }
 
         return $url;
+    }
+
+    public function bannerSlots(?int $category = null): array
+    {
+        return ['sidebar' => $this->banners('sidebar', $category), 'content_bottom' => $this->banners('content_bottom', $category)];
     }
 
     public function breadcrumbs(?int $categoryId, bool $articles = false): array

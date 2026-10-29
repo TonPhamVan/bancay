@@ -1,0 +1,308 @@
+{
+  "at_utc": "2026-10-29T01:19:05.822Z",
+  "browser": "installed Chrome",
+  "environments": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "cases": [
+        {
+          "page": "Home",
+          "status": "PASS",
+          "width": 1440,
+          "scroll": 1440,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Category",
+          "status": "PASS",
+          "width": 1440,
+          "scroll": 1440,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Product",
+          "status": "PASS",
+          "width": 1440,
+          "scroll": 1440,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Cart",
+          "status": "PASS",
+          "width": 1440,
+          "scroll": 1440,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Checkout",
+          "status": "PASS",
+          "width": 1440,
+          "scroll": 1440,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Article",
+          "status": "PASS",
+          "width": 1440,
+          "scroll": 1440,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        }
+      ],
+      "console_errors": [],
+      "failed_network": []
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "cases": [
+        {
+          "page": "Home",
+          "status": "PASS",
+          "width": 768,
+          "scroll": 768,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Category",
+          "status": "PASS",
+          "width": 768,
+          "scroll": 768,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Product",
+          "status": "PASS",
+          "width": 768,
+          "scroll": 768,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Cart",
+          "status": "PASS",
+          "width": 768,
+          "scroll": 768,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Checkout",
+          "status": "PASS",
+          "width": 768,
+          "scroll": 768,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Article",
+          "status": "PASS",
+          "width": 768,
+          "scroll": 768,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        }
+      ],
+      "console_errors": [],
+      "failed_network": []
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "cases": [
+        {
+          "page": "Home",
+          "status": "PASS",
+          "width": 390,
+          "scroll": 390,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Category",
+          "status": "PASS",
+          "width": 390,
+          "scroll": 390,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Product",
+          "status": "PASS",
+          "width": 390,
+          "scroll": 390,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Cart",
+          "status": "PASS",
+          "width": 390,
+          "scroll": 390,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Checkout",
+          "status": "PASS",
+          "width": 390,
+          "scroll": 390,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Article",
+          "status": "PASS",
+          "width": 390,
+          "scroll": 390,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        }
+      ],
+      "console_errors": [],
+      "failed_network": []
+    },
+    {
+      "name": "narrow",
+      "width": 320,
+      "height": 740,
+      "cases": [
+        {
+          "page": "Home",
+          "status": "PASS",
+          "width": 320,
+          "scroll": 320,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Category",
+          "status": "PASS",
+          "width": 320,
+          "scroll": 320,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Product",
+          "status": "PASS",
+          "width": 320,
+          "scroll": 320,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Cart",
+          "status": "PASS",
+          "width": 320,
+          "scroll": 320,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Checkout",
+          "status": "PASS",
+          "width": 320,
+          "scroll": 320,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        },
+        {
+          "page": "Article",
+          "status": "PASS",
+          "width": 320,
+          "scroll": 320,
+          "missing_alt": 0,
+          "broken_visible_images": 0,
+          "unnamed_visible_buttons": 0,
+          "unlabelled_visible_inputs": 0,
+          "h1": 1
+        }
+      ],
+      "console_errors": [],
+      "failed_network": []
+    }
+  ],
+  "safari_ios": "NOT TESTED: no Safari/iOS runtime or physical device",
+  "status": "PASS"
+}

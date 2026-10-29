@@ -4,9 +4,9 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Services\Storefront\Catalog;
+use App\Services\Storefront\ContentHtml;
 use App\Services\Storefront\Seo;
 use Illuminate\Http\Request;
-use Mews\Purifier\Facades\Purifier;
 
 final class ArticleController extends Controller
 {
@@ -40,7 +40,7 @@ final class ArticleController extends Controller
         $crumbs = $this->catalog->breadcrumbs($article->article_category_id, true);
         $crumbs[] = ['name' => $article->title, 'url' => route('store.articles.show', $slug, false)];
         $seo = $this->seo->article($article, $crumbs);
-        $contentHtml = Purifier::clean($article->content ?? '');
+        $contentHtml = app(ContentHtml::class)->render($article->content ?? '');
         $image = $this->catalog->display->image($article->image);
         $related = $this->catalog->articles()->where('article_category_id', $article->article_category_id)->whereKeyNot($article->id)->limit(3)->get()->map(fn ($a) => $this->catalog->display->articleCard($a));
 

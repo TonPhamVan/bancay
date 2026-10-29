@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "main_all98_base_tables_unchanged_from_backup": true,
+  "main_all17_domain_unchanged": true,
+  "main_orders": 258,
+  "stage_orders": 255,
+  "main_and_stage_identities_preserved": true,
+  "note": "Native views are not BASE TABLES; fresh install UUIDs vary by design. No Phase5 application migration."
+}

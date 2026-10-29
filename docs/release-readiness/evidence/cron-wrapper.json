@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "correct_argv_and_workdir": true,
+  "missing_paths_rejected": true,
+  "production_cron_installed": false
+}

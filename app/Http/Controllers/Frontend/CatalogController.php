@@ -4,10 +4,10 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Services\Storefront\Catalog;
+use App\Services\Storefront\ContentHtml;
 use App\Services\Storefront\Seo;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
-use Mews\Purifier\Facades\Purifier;
 
 final class CatalogController extends Controller
 {
@@ -57,9 +57,9 @@ final class CatalogController extends Controller
         if ($category->meta_title) {
             $seo['title'] = $category->meta_title;
         }
-        $description = Purifier::clean($category->description ?? '');
+        $description = app(ContentHtml::class)->render($category->description ?? '');
 
-        return view('products.index', ['products' => $products, 'title' => $category->name, 'seo' => $seo, 'filters' => $filters,
+        return view('products.index', ['pageBanners' => $this->catalog->bannerSlots($category->id), 'products' => $products, 'title' => $category->name, 'seo' => $seo, 'filters' => $filters,
             'category' => $category, 'description' => $description, 'children' => $this->catalog->categories()->where('parent_id', $category->id), 'crumbs' => $crumbs]);
     }
 
@@ -74,7 +74,8 @@ final class CatalogController extends Controller
         $related = $this->catalog->products()->where('category_id', $product->category_id)->whereKeyNot($product->id)->limit(4)->get()->map(fn ($p) => $this->catalog->display->card($p));
 
         return view('products.show', compact('product', 'picker', 'crumbs', 'seo', 'gallery', 'related') + [
-            'shortHtml' => Purifier::clean($product->short_description ?? ''), 'contentHtml' => Purifier::clean($product->description ?? '')]);
+            'pageBanners' => $this->catalog->bannerSlots($product->category_id),
+            'shortHtml' => app(ContentHtml::class)->render($product->short_description ?? ''), 'contentHtml' => app(ContentHtml::class)->render($product->description ?? '')]);
     }
 
     public function filters(Request $request): array

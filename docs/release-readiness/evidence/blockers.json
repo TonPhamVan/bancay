@@ -1,0 +1,74 @@
+[
+  {
+    "id": "P5-B01",
+    "area": "Backup/Rollback",
+    "severity": "High",
+    "description": "Current coherent production/DirectAdmin backup and real CI3 routing/restore evidence absent",
+    "verification": "PARTIALLY RESOLVED",
+    "status": "BLOCKER",
+    "evidence": "backup-matrix.json;backup-verification.json;window-restore.json",
+    "impact": "Local snapshot recovery is verified; live production recovery cannot be certified",
+    "required_fix": "Hosting Operator supplies current SQL/files/config/cron/DNS/SSL backup receipt and exact old-routing recovery procedure",
+    "verification_to_close": "SHA256/size/timestamps;isolated CI3 restore/runtime smoke and routing rollback rehearsal against provided profile"
+  },
+  {
+    "id": "P5-B02",
+    "area": "Deployment/Configuration/Security",
+    "severity": "High",
+    "description": "DirectAdmin confirmed but no target profile",
+    "verification": "PARTIALLY RESOLVED",
+    "status": "BLOCKER",
+    "evidence": "production-config-preflight.json;logging.json;scheduler-execution.json;docs/release-readiness/directadmin.md",
+    "impact": "PHP/web stack,public docroot,TLS/proxy/cookies,storage no-execution,actual cron/log paths unverified",
+    "required_fix": "Complete secret-free DirectAdmin profile and provision a restricted candidate under separate hostname/IP when authorized",
+    "verification_to_close": "Actual platform/config/HTTPS/private-file/upload/cron/logging/access smoke;no DNS change needed"
+  },
+  {
+    "id": "P5-B03",
+    "area": "Migration/Rollback",
+    "severity": "High",
+    "description": "Final-source freshness/freeze/release-dataset receipt unavailable;existing importer SKIP-only",
+    "verification": "PARTIALLY RESOLVED",
+    "status": "BLOCKER",
+    "evidence": "rollback-rehearsal.json;offline-delta-export.json;window-restore.json;backup-matrix.json",
+    "impact": "Cannot prove last legacy writes/changed existing IDs are represented by current snapshot",
+    "required_fix": "Fresh consistent source/freeze plan and final combined-candidate provenance;preserve approved demo/exclusions;review changed rows rather than SKIP overwrite",
+    "verification_to_close": "Final-source counts/hash/changed-row reconciliation;isolated candidate restore/core E2E/rollback ledger with exact source receipt;no final production migration in this task"
+  },
+  {
+    "id": "P6-B04",
+    "area": "Configuration",
+    "severity": "Medium",
+    "description": "Native Exment scheduler omitted from prior operational instructions",
+    "verification": "NEEDS FIX",
+    "status": "RESOLVED",
+    "evidence": "docs/release-readiness/evidence/queue-schedule.json;scheduler-execution.json;cron-wrapper.json",
+    "impact": "Confirmed issue fixed/rehearsed locally; actual DirectAdmin setup remains P5-B02",
+    "required_fix": "Discover hourly exment:schedule/minutely exment:safetywatch;provide guarded DirectAdmin cron wrapper;test both native commands on QA.",
+    "verification_to_close": "Completed;see fresh evidence"
+  },
+  {
+    "id": "P6-B05",
+    "area": "Security",
+    "severity": "Medium",
+    "description": "Production warning log threshold suppresses inventory info audit events",
+    "verification": "NEEDS FIX",
+    "status": "RESOLVED",
+    "evidence": "docs/release-readiness/evidence/logging.json;production-config-preflight.json",
+    "impact": "Confirmed issue fixed/rehearsed locally; actual DirectAdmin setup remains P5-B02",
+    "required_fix": "Set production template LOG_LEVEL=info;controlled error/info probe verifies recording and response redaction.",
+    "verification_to_close": "Completed;see fresh evidence"
+  },
+  {
+    "id": "P6-B06",
+    "area": "Backup",
+    "severity": "High",
+    "description": "Raw workflow views after scheduler fail restore to a different DB with ERROR1054",
+    "verification": "NEEDS FIX",
+    "status": "RESOLVED",
+    "evidence": "docs/release-readiness/evidence/window-restore.json;tests.json",
+    "impact": "Confirmed issue fixed/rehearsed locally; actual DirectAdmin setup remains P5-B02",
+    "required_fix": "Use base-table-only portable dump;archive original2 view definitions;rebuild native derived views using guarded command;verify all98 tables and offline ledger after restore.",
+    "verification_to_close": "Completed;see fresh evidence"
+  }
+]
