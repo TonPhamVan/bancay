@@ -3,8 +3,10 @@
 namespace App\Admin;
 
 use App\Actions\Catalog\CreateVariant;
+use App\Actions\Catalog\UpdateVariantMatrix;
 use App\Actions\Commerce\ChangeOrderStatus;
 use App\Domain\Commerce\OrderStatus;
+use App\Http\Requests\UpdateVariantMatrixRequest;
 use App\Models\ArticleCategory;
 use App\Models\Category;
 use App\Models\Setting;
@@ -15,6 +17,7 @@ use App\Services\Admin\RecordEditor;
 use App\Services\Admin\SettingsEditor;
 use App\Services\Admin\StockAdjustment;
 use App\Services\Admin\StoreQueries;
+use App\Services\Admin\VariantMatrix;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Log;
@@ -121,8 +124,9 @@ final class StoreController
         $record = $definition['model']::findOrFail($this->id($id));
         if ($entity === 'products') {
             $record->load(['category', 'images', 'options.values', 'variants.optionValues', 'variants.inventory']);
+            $matrixRows = app(VariantMatrix::class)->rows($record);
 
-            return view('admin.store.product', compact('module', 'entity', 'definition', 'record'));
+            return view('admin.store.product', compact('module', 'entity', 'definition', 'record', 'matrixRows'));
         }
         if ($entity === 'orders') {
             $record->load(['items', 'statusHistories.actor.base_user']);
@@ -155,6 +159,12 @@ final class StoreController
             $input = request()->all();
             if ($entity === 'products') {
                 switch ($command) {
+                    case 'variant-matrix':
+                        $validated = app(UpdateVariantMatrixRequest::class)->validated();
+                        $updated = app(UpdateVariantMatrix::class)->execute($record, $validated, \Exment::user()->id);
+
+                        return response()->json(['message' => "Đã lưu $updated SKU.", 'updated' => $updated,
+                            'rows' => app(VariantMatrix::class)->rows($record->fresh())]);
                     case 'upload': app(ProductImages::class)->upload($record, request()->file('images', []));
                         break;
                     case 'image': app(ProductImages::class)->update($record, $this->id(request('image_id')), $input);

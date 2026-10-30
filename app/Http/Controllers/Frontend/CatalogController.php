@@ -17,15 +17,16 @@ final class CatalogController extends Controller
     {
         $featured = $this->catalog->products()->where('featured', true)->latest('id')->limit(4)->get()->map(fn ($p) => $this->catalog->display->card($p));
         $latest = $this->catalog->products()->latest('id')->limit(4)->get()->map(fn ($p) => $this->catalog->display->card($p));
-        $categories = $this->catalog->categories()->where('featured', true)->take(4)->map(fn ($c) => [
+        $categories = $this->catalog->orderedCategories()->where('featured', true)->take(4)->map(fn ($c) => [
             'name' => $c->name, 'url' => route('store.categories.show', $c->slug, false), 'image' => $this->catalog->display->image($c->image)]);
         $banners = $this->catalog->banners('home_slider');
         $secondary = $this->catalog->banners('home_secondary');
+        $departments = $this->catalog->departmentBlocks();
         $articles = $this->catalog->articles()->latest('id')->limit(3)->get()->map(fn ($a) => $this->catalog->display->articleCard($a));
         $seo = $this->seo->page('Góc xanh của bạn', '/');
         $seo['structured'][] = ['@context' => 'https://schema.org', '@type' => 'Organization', 'name' => $this->catalog->layout()['name'], 'url' => $this->seo->absolute('/')];
 
-        return view('home.index', compact('featured', 'latest', 'categories', 'banners', 'secondary', 'articles', 'seo'));
+        return view('home.index', compact('featured', 'latest', 'categories', 'banners', 'secondary', 'departments', 'articles', 'seo'));
     }
 
     public function index(Request $request)
@@ -58,9 +59,11 @@ final class CatalogController extends Controller
             $seo['title'] = $category->meta_title;
         }
         $description = app(ContentHtml::class)->render($category->description ?? '');
+        $descriptionPreview = $this->catalog->display->excerpt($description);
 
         return view('products.index', ['pageBanners' => $this->catalog->bannerSlots($category->id), 'products' => $products, 'title' => $category->name, 'seo' => $seo, 'filters' => $filters,
-            'category' => $category, 'description' => $description, 'children' => $this->catalog->categories()->where('parent_id', $category->id), 'crumbs' => $crumbs]);
+            'category' => $category, 'description' => $description, 'descriptionPreview' => $descriptionPreview,
+            'children' => $this->catalog->categories()->where('parent_id', $category->id), 'crumbs' => $crumbs]);
     }
 
     public function show(string $slug)

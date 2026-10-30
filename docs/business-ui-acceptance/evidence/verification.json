@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "review_sections": 22,
+  "review_cases": 30,
+  "pass": 26,
+  "release_decision": "NOT READY",
+  "high_gaps": [
+    "BA-G01",
+    "BA-G02",
+    "BA-G04"
+  ],
+  "responsive_observations": 12,
+  "runtime_application_source_unchanged": true,
+  "evidence_links_exist": true,
+  "qa_cleanup_verified": true,
+  "main_native_log_difference_recorded": true,
+  "python_syntax": "PASS",
+  "php_syntax": "PASS",
+  "collector_pint": "PASS after formatting"
+}

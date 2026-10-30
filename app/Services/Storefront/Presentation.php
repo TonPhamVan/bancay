@@ -10,10 +10,19 @@ use App\Rules\PublicImagePath;
 use App\Support\IntegerDisplay;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
 
 final class Presentation
 {
     private array $imageUrls = [];
+
+    public function excerpt(string $html, int $limit = 220): string
+    {
+        $text = preg_replace('#</(?:p|div|h[1-6]|li)>|<br\s*/?>#i', ' ', $html);
+        $text = html_entity_decode(strip_tags($text), ENT_QUOTES | ENT_HTML5, 'UTF-8');
+
+        return Str::limit(Str::squish($text), $limit);
+    }
 
     public static function money(int|string $amount): string
     {

@@ -1,0 +1,182 @@
+{
+  "docs/business-ui-acceptance/request.md": {
+    "bytes": 19893,
+    "sha256": "3af7bb8db110130c603f227e3a3b2412041efd31de048a1d0b20cdc0135409ba"
+  },
+  "docs/business-ui-acceptance/acceptance-tests.csv": {
+    "bytes": 3658,
+    "sha256": "de7f883fe0aea49ab0f80869edc619740cd7bbcbd6021d969106f73d469d220b"
+  },
+  "docs/business-ui-acceptance/gap-register.csv": {
+    "bytes": 3832,
+    "sha256": "621f1edca8df475a21a7762a860fff24a6cc02e1ef3c211393133964499b1d86"
+  },
+  "docs/business-ui-acceptance/evidence/current-mobile-menu.png": {
+    "bytes": 24045,
+    "sha256": "45aacda02a2db1d6f641d5ce30d43a1aaa3f42c9ca191a214a58391dd02d77ec"
+  },
+  "docs/business-ui-acceptance/evidence/current-mobile-listing.png": {
+    "bytes": 285149,
+    "sha256": "083f2f1e47eaa9c109529e6b74ff983d5b10a32f6eb78ce516b0dd2d5fb8b336"
+  },
+  "docs/business-ui-acceptance/evidence/search-empty.png": {
+    "bytes": 54208,
+    "sha256": "176133a5ba528bbb516240c4eeacf833728cd58e8dd995cf0f488c694836269e"
+  },
+  "docs/business-ui-acceptance/evidence/database-baseline.json": {
+    "bytes": 33145,
+    "sha256": "6ed9ad7b7296c5bd3442aafb76143da596722bfa97779c2bcfd6a52d917903c0"
+  },
+  "docs/business-ui-acceptance/evidence/current-desktop-listing.png": {
+    "bytes": 644101,
+    "sha256": "d4de5489209f1e4d4cb000afa22c473a2e1aa80d7edb65b1bd2add76fd623c28"
+  },
+  "docs/business-ui-acceptance/evidence/admin-order.png": {
+    "bytes": 132358,
+    "sha256": "7f2a64f1421c2f8a1f81325b78476a84e7ee4481f5d82240aa0ba73cecac3792"
+  },
+  "docs/business-ui-acceptance/evidence/qa-mobile-variants.png": {
+    "bytes": 101763,
+    "sha256": "d8234aaa0df6e968bd71a9d3ceb2c06b5316882a8c19ec3b741b4f60cb1cc7de"
+  },
+  "docs/business-ui-acceptance/evidence/current-tablet-product.png": {
+    "bytes": 353198,
+    "sha256": "d22b1ccc56696e2ef010997c152d6f79eeef9bed3b550db58d19f9792f9dee19"
+  },
+  "docs/business-ui-acceptance/evidence/inventory.json": {
+    "bytes": 132505,
+    "sha256": "a525af1355e4e831c52fec8f60113e46aa304b29ce04dc4f39596ddbc433f6fd"
+  },
+  "docs/business-ui-acceptance/evidence/gallery-verification.json": {
+    "bytes": 282,
+    "sha256": "cf1fce24804be8d68337c29a16d89315853cb5841e56ac429cf4c6ec8a5cfc91"
+  },
+  "docs/business-ui-acceptance/evidence/current-product-test-image.png": {
+    "bytes": 69390,
+    "sha256": "97fa0476597ef55d1257d4013ee766f01b9ca6059c3612284b7d1807db579778"
+  },
+  "docs/business-ui-acceptance/evidence/homepage-desktop.png": {
+    "bytes": 781657,
+    "sha256": "2b102aef682b2d70e01e59241570cb8ea0b45014b1c82ea12f0661177f9e4c76"
+  },
+  "docs/business-ui-acceptance/evidence/qa-environment.json": {
+    "bytes": 453,
+    "sha256": "4f54cab9e51fa7c3597c80212676a63c0e62167ef9afbdce15b7067a8d243e1b"
+  },
+  "docs/business-ui-acceptance/evidence/cleanup.json": {
+    "bytes": 470,
+    "sha256": "ac3b851a4e6c27ad3c6d0bbcb60daa42cbe4c6243af8d3e43a8c612e4e947630"
+  },
+  "docs/business-ui-acceptance/evidence/admin-order-history.png": {
+    "bytes": 142865,
+    "sha256": "cb359990039a3ba30cba3aae9e26e1d0aad2ad0af498ad1ce8cbabf8d9a3724c"
+  },
+  "docs/business-ui-acceptance/evidence/current-desktop-home.png": {
+    "bytes": 661118,
+    "sha256": "07dc7df52768fc55a46d3b8b4db62e21ea39a2b51e2a1583a2c9868dc2ed9bd9"
+  },
+  "docs/business-ui-acceptance/evidence/admin-variants.png": {
+    "bytes": 178799,
+    "sha256": "d7a6b999b7249683b68b6a4d961c94b1704ad79ddf5957ae244ebb68f86afaf1"
+  },
+  "docs/business-ui-acceptance/evidence/customer-reference-hashes.json": {
+    "bytes": 1335,
+    "sha256": "e9c7fcca8d01aaf84bfe3d21b04709b2fce867bb54ae85c4d808e6e1b7d39595"
+  },
+  "docs/business-ui-acceptance/evidence/current-tablet-home.png": {
+    "bytes": 483569,
+    "sha256": "f92572e34390988670986a62e920bd6beb5572d64e29dfbfb6f6b3343377dda2"
+  },
+  "docs/business-ui-acceptance/evidence/current-contact.png": {
+    "bytes": 66050,
+    "sha256": "1a876f2baffded2449b2e90df9f5a51c080aedbd361302d3d0e768c0b3d46197"
+  },
+  "docs/business-ui-acceptance/evidence/current-desktop-indoor.png": {
+    "bytes": 505095,
+    "sha256": "19fe59827fedb18dda9550ccf7fc0015f81fb2d78f171782a24c9a765f0c84d8"
+  },
+  "docs/business-ui-acceptance/evidence/cart.png": {
+    "bytes": 90324,
+    "sha256": "ec3f13cb8a0142d85cb0569651c7610823b5a5fa0ef093e04ad6b89375416155"
+  },
+  "docs/business-ui-acceptance/evidence/data-verification.json": {
+    "bytes": 3072,
+    "sha256": "8644cb0b1e9f533d7bc69026f6b11b8905a3601ca06cfc28cd9b3feddab51fe4"
+  },
+  "docs/business-ui-acceptance/evidence/current-tablet-listing.png": {
+    "bytes": 460940,
+    "sha256": "6eb3b163636411d97fab8580de7c9f9017a2915b9ed9ea8723ba1cc447b39d11"
+  },
+  "docs/business-ui-acceptance/evidence/inputs.json": {
+    "bytes": 1677,
+    "sha256": "dabd48e74d069afcb7be786e2266f7632336e8a73b771039f86810948db364fd"
+  },
+  "docs/business-ui-acceptance/evidence/current-tablet-indoor.png": {
+    "bytes": 378820,
+    "sha256": "fb912260cecae4975c9031259abf85602ee4fd43e0399208c5d50303fb33ee14"
+  },
+  "docs/business-ui-acceptance/evidence/acceptance-summary.json": {
+    "bytes": 430,
+    "sha256": "b789b5ae35307916780624a9e02007c215f9ccef59e8e07345417c3676aad9e8"
+  },
+  "docs/business-ui-acceptance/evidence/current-mobile-product.png": {
+    "bytes": 287023,
+    "sha256": "4e6fa68bb28e5bf9e8c7e528853901664d550f9a47cbcad4d8f2e708e921eb00"
+  },
+  "docs/business-ui-acceptance/evidence/current-mobile-indoor.png": {
+    "bytes": 322035,
+    "sha256": "95b77b594c0d4d2189eeb4177f0ba3a676a13b69167c13e17135e52dbb870f6d"
+  },
+  "docs/business-ui-acceptance/evidence/admin-configured-skus.png": {
+    "bytes": 171636,
+    "sha256": "21c0d9d884052543dd01ca973ab9276228d2533fee5b7b7fbaaab8d9d38b86d2"
+  },
+  "docs/business-ui-acceptance/evidence/source-hashes.json": {
+    "bytes": 1376,
+    "sha256": "7a5104c44e5a8e3f63c97152bce53a4ca7ff66c29da1399da5ae506532b7f9b3"
+  },
+  "docs/business-ui-acceptance/evidence/order-success-mobile.png": {
+    "bytes": 71890,
+    "sha256": "162f9fc02b264f4aa05e69e3853058f73c768bfc29db9baa3d3226d69ebb6eee"
+  },
+  "docs/business-ui-acceptance/evidence/responsive.json": {
+    "bytes": 3306,
+    "sha256": "b945a78b3ab50cd6c39bce104b6a17b0c0cc39b3960fccb5836c1b35ad9658ee"
+  },
+  "docs/business-ui-acceptance/evidence/qa-mobile-cart.png": {
+    "bytes": 61999,
+    "sha256": "30a7bf5a7af15929ed355261c13bcd9509edb16a61bc91699e2ce1c929903b50"
+  },
+  "docs/business-ui-acceptance/evidence/category-qa.png": {
+    "bytes": 92500,
+    "sha256": "dfbaaaa6aa846c982e6d187c2f518f7634041bdb977e522dc523efde6e7ed967"
+  },
+  "docs/business-ui-acceptance/evidence/current-desktop-product.png": {
+    "bytes": 521678,
+    "sha256": "546b15781b442c496738a056fca0ca2af3683b6cbc7dcc3f534c64a4f963046a"
+  },
+  "docs/business-ui-acceptance/evidence/qa-mobile-checkout.png": {
+    "bytes": 86485,
+    "sha256": "d501003fad18f4038bc0277bcd85836316984c918544a1e1cbb9d3d899098f11"
+  },
+  "docs/business-ui-acceptance/evidence/checkout-mobile.png": {
+    "bytes": 86485,
+    "sha256": "d501003fad18f4038bc0277bcd85836316984c918544a1e1cbb9d3d899098f11"
+  },
+  "docs/business-ui-acceptance/evidence/current-mobile-home.png": {
+    "bytes": 343759,
+    "sha256": "0746941040be46b3bea9e7e97bbceec59d639e7eb95d523427b9a88829a97cfa"
+  },
+  "docs/business-ui-acceptance/evidence/product-two-groups.png": {
+    "bytes": 154517,
+    "sha256": "eb1cf102c65546a7af5060e3ece7a892bb4b4486343bd221a90a9361c4830a0a"
+  },
+  "docs/business-ui-acceptance/evidence/shopee-reference.json": {
+    "bytes": 411,
+    "sha256": "04093f02bd110525c18afa50c7baf8306124e198c4c174ca1500fb3338195ccd"
+  },
+  "docs/business-ui-acceptance-report.md": {
+    "bytes": 30558,
+    "sha256": "04f1ec1b45558fc3c7ca519f93178b74152755a5304f53d7d48387bb9a3e3697"
+  }
+}

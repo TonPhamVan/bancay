@@ -1,0 +1,58 @@
+[
+  {
+    "page": "cart",
+    "expectedWidth": 1440,
+    "brokenVisible": 0,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "page": "cart",
+    "expectedWidth": 768,
+    "brokenVisible": 0,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "page": "cart",
+    "expectedWidth": 390,
+    "brokenVisible": 0,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "page": "cart",
+    "expectedWidth": 320,
+    "brokenVisible": 0,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "page": "checkout",
+    "expectedWidth": 1440,
+    "brokenVisible": 0,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "page": "checkout",
+    "expectedWidth": 768,
+    "brokenVisible": 0,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "page": "checkout",
+    "expectedWidth": 390,
+    "brokenVisible": 0,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "page": "checkout",
+    "expectedWidth": 320,
+    "brokenVisible": 0,
+    "scroll": 305,
+    "width": 320
+  }
+]

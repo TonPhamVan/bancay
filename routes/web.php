@@ -6,6 +6,7 @@ use App\Http\Controllers\Frontend\CatalogController;
 use App\Http\Controllers\Frontend\CheckoutController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\DiscoveryController;
+use App\Http\Controllers\Frontend\LandscapeController;
 use App\Http\Controllers\Frontend\LegacyRedirectController;
 use App\Http\Middleware\StorefrontContext;
 use Illuminate\Support\Facades\Route;
@@ -25,6 +26,7 @@ Route::middleware(StorefrontContext::class)->name('store.')->group(function () {
     Route::get('/bai-viet/{slug}', [ArticleController::class, 'show'])->name('articles.show');
     Route::get('/chuyen-muc/{slug}', [ArticleController::class, 'index'])->name('article-categories.show');
     Route::get('/lien-he', ContactController::class)->name('contact');
+    Route::get('/tu-van-canh-quan', LandscapeController::class)->name('landscape');
     Route::get('/gio-hang', [CartController::class, 'index'])->block(15, 10)->name('cart.index');
     Route::post('/gio-hang', [CartController::class, 'store'])->middleware('throttle:60,1')->block(15, 10)->name('cart.store');
     Route::patch('/gio-hang/{variant}', [CartController::class, 'update'])->middleware('throttle:60,1')->block(15, 10)->name('cart.update');

@@ -1,0 +1,150 @@
+{
+  "browser": "IAB Chromium",
+  "checks": [
+    {
+      "expectedWidth": 1440,
+      "h1": 1,
+      "ideaImages": [
+        {
+          "alt": "Ảnh ý tưởng ban công với cây treo, chậu cây và tiểu cảnh nước",
+          "height": "1286",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng ban công với cây treo, chậu cây và tiểu cảnh nước",
+          "height": "1286",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng tiểu cảnh chậu men xanh phối cây và thác nước nhỏ",
+          "height": "1432",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/water-feature-f778c80b9852.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng phối lưỡi hổ, cây lá màu và cây xanh dọc lan can",
+          "height": "1432",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/plant-composition-52697b6cc82e.webp",
+          "width": "960"
+        }
+      ],
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "expectedWidth": 768,
+      "h1": 1,
+      "ideaImages": [
+        {
+          "alt": "Ảnh ý tưởng ban công với cây treo, chậu cây và tiểu cảnh nước",
+          "height": "1286",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng ban công với cây treo, chậu cây và tiểu cảnh nước",
+          "height": "1286",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng tiểu cảnh chậu men xanh phối cây và thác nước nhỏ",
+          "height": "1432",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/water-feature-f778c80b9852.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng phối lưỡi hổ, cây lá màu và cây xanh dọc lan can",
+          "height": "1432",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/plant-composition-52697b6cc82e.webp",
+          "width": "960"
+        }
+      ],
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "expectedWidth": 390,
+      "h1": 1,
+      "ideaImages": [
+        {
+          "alt": "Ảnh ý tưởng ban công với cây treo, chậu cây và tiểu cảnh nước",
+          "height": "1286",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng ban công với cây treo, chậu cây và tiểu cảnh nước",
+          "height": "1286",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng tiểu cảnh chậu men xanh phối cây và thác nước nhỏ",
+          "height": "1432",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/water-feature-f778c80b9852.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng phối lưỡi hổ, cây lá màu và cây xanh dọc lan can",
+          "height": "1432",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/plant-composition-52697b6cc82e.webp",
+          "width": "960"
+        }
+      ],
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "expectedWidth": 320,
+      "h1": 1,
+      "ideaImages": [
+        {
+          "alt": "Ảnh ý tưởng ban công với cây treo, chậu cây và tiểu cảnh nước",
+          "height": "1286",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng ban công với cây treo, chậu cây và tiểu cảnh nước",
+          "height": "1286",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng tiểu cảnh chậu men xanh phối cây và thác nước nhỏ",
+          "height": "1432",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/water-feature-f778c80b9852.webp",
+          "width": "960"
+        },
+        {
+          "alt": "Ảnh ý tưởng phối lưỡi hổ, cây lá màu và cây xanh dọc lan can",
+          "height": "1432",
+          "loaded": true,
+          "src": "http://localhost:8000/storefront/landscape-ideas/plant-composition-52697b6cc82e.webp",
+          "width": "960"
+        }
+      ],
+      "scroll": 305,
+      "width": 320
+    }
+  ],
+  "logs": []
+}

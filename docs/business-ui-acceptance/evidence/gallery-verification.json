@@ -1,0 +1,5 @@
+{
+  "before": "http://localhost:8000/storage/products/legacy/534b9e9fcebf75058466e00ec8cebcea61b4e45f8d555904036cea17330e6655.webp",
+  "after": "http://localhost:8000/storage/products/legacy/c8c6d2fb9f9327dd1dd0eb6a37f94b65a7cc0cf27bbd1f090925e55ef66b2d16.webp",
+  "changed": true
+}

@@ -1,0 +1,43 @@
+{
+  "approved_at_local": "2026-10-30",
+  "rights": "User confirms these are idea images and permits website use.",
+  "presentation": "Idea illustrations; not claimed as completed store projects or purchasable catalog products.",
+  "assets": [
+    {
+      "source_name": "balcony.png",
+      "source_sha256": "d47c632faafd663947250f424064a5ee212b9c467cf4065e01e972c36a35252f",
+      "source_bytes": 4005103,
+      "original_width": 1529,
+      "original_height": 2048,
+      "path": "/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+      "width": 960,
+      "height": 1286,
+      "bytes": 126776,
+      "sha256": "5d87e80a95cd1b066a184d96974275cbce27a3ee358e5dd890b5acbbe3ade96f"
+    },
+    {
+      "source_name": "water-feature.png",
+      "source_sha256": "f778c80b985222817f1b104fd590e75514e37846c795519c56ccc1d38f19b2f3",
+      "source_bytes": 3923540,
+      "original_width": 1373,
+      "original_height": 2048,
+      "path": "/storefront/landscape-ideas/water-feature-f778c80b9852.webp",
+      "width": 960,
+      "height": 1432,
+      "bytes": 166630,
+      "sha256": "bb9f50a1180112d40ebc1b315247eac6356554324f87cefd1c41952f66615b3b"
+    },
+    {
+      "source_name": "plant-composition.png",
+      "source_sha256": "52697b6cc82ecd1c7a14f34f7e9b2b0b604950cb43d9fc0c9c01c5f4e75a6b14",
+      "source_bytes": 4303675,
+      "original_width": 1373,
+      "original_height": 2048,
+      "path": "/storefront/landscape-ideas/plant-composition-52697b6cc82e.webp",
+      "width": 960,
+      "height": 1432,
+      "bytes": 165500,
+      "sha256": "82212c46449ce6b06d73abb91c32bb50c44cabbb0a9673f29cfc57dd29568341"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "browser": "IAB Chromium",
+  "before": {
+    "cards": 24,
+    "gridTop": 1995.5,
+    "scroll": 1265,
+    "width": 1280,
+    "description_sha256": "56d6bc869b4048a3cee1f3aa5461d00534bded36858691649fdf5f6da3d18477"
+  },
+  "after": {
+    "cards": 24,
+    "collapsed": true,
+    "gridTop": 595.5,
+    "previewHeight": 56,
+    "scroll": 1265,
+    "width": 1280
+  },
+  "expanded": {
+    "containerWidth": 1265,
+    "descriptionWidth": 1201,
+    "open": true,
+    "previewVisible": false,
+    "description_sha256": "56d6bc869b4048a3cee1f3aa5461d00534bded36858691649fdf5f6da3d18477",
+    "originalContentPreserved": true
+  },
+  "keyboardCollapse": true,
+  "responsive": [
+    {
+      "expectedWidth": 1440,
+      "cards": 24,
+      "collapsed": true,
+      "gridTop": 595.5,
+      "previewHeight": 56,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "expectedWidth": 768,
+      "cards": 24,
+      "collapsed": true,
+      "gridTop": 539,
+      "previewHeight": 56,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "expectedWidth": 390,
+      "cards": 24,
+      "collapsed": true,
+      "gridTop": 572,
+      "previewHeight": 56,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "expectedWidth": 320,
+      "cards": 24,
+      "collapsed": true,
+      "gridTop": 653,
+      "previewHeight": 56,
+      "scroll": 305,
+      "width": 320
+    }
+  ],
+  "logs": [],
+  "mobileExpanded": {
+    "descriptionWidth": 265,
+    "open": true,
+    "scroll": 305,
+    "width": 320
+  }
+}

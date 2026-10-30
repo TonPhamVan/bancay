@@ -1,0 +1,18 @@
+{
+  "method": "Reviewer record of executed CUA browser actions and source/DB verification, not an automated suite replay",
+  "cases": 30,
+  "results": {
+    "BLOCKED": 1,
+    "MISSING": 1,
+    "PARTIAL": 1,
+    "PASS": 26,
+    "UX FAIL": 1
+  },
+  "release_blocking_gaps": [
+    "BA-G01",
+    "BA-G02",
+    "BA-G04"
+  ],
+  "physical_device_testing": "NOT TESTED",
+  "fresh_browser": "IAB Chromium desktop/tablet/mobile viewport"
+}

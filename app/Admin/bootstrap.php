@@ -1,5 +1,6 @@
 <?php
 
+use ExmentAdminCore\Admin\Admin;
 use ExmentAdminCore\Admin\Form;
 
 /**
@@ -20,3 +21,4 @@ use ExmentAdminCore\Admin\Form;
  * Admin::js('/packages/prettydocs/js/main.js');
  */
 Form::forget(['map', 'editor']);
+Admin::js('/storefront/admin-variant-matrix.js?v='.substr(hash_file('sha256', public_path('storefront/admin-variant-matrix.js')), 0, 12), false);

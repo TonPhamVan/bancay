@@ -1,0 +1,34 @@
+{
+    "checked_at_utc": "2026-10-30T03:24:19+00:00",
+    "database": "bancay_release_candidate_20261030_001",
+    "status": "FAIL",
+    "checks": {
+        "two_groups_four_variants": true,
+        "all_four_stock_restored": true,
+        "repriced_catalog": true,
+        "immutable_order_snapshot": true,
+        "matrix_order_cancelled": true,
+        "matrix_order_history": true,
+        "migrated_product": false,
+        "migrated_stock_released": true,
+        "migrated_order_cancelled": true,
+        "no_negative_or_over_reserved_inventory": true,
+        "no_duplicate_fixture_orders": true
+    },
+    "qa_product_id": 122,
+    "qa_order_ids": [
+        260,
+        261
+    ],
+    "legacy_product_id": "4",
+    "current_catalog": {
+        "price": 150000,
+        "sale_price": 110000
+    },
+    "order_snapshot": {
+        "unit_price": 90000,
+        "quantity": 2,
+        "subtotal": 180000
+    },
+    "fixture_note": "Only synthetic QA orders and cloned legacy catalog; no main/source/production writes."
+}

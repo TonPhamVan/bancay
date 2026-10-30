@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-30T02:17:23.824177+00:00",
+  "all_base_tables_equal": {
+    "bancay": false,
+    "bancay_phase4_staging": true
+  },
+  "changed_tables": {
+    "bancay": [
+      "admin_operation_log"
+    ],
+    "bancay_phase4_staging": []
+  },
+  "domain_data_unchanged": true,
+  "native_log_note": "Main audit-log changes observed during the review window; origin not inferred and no rows reverted.",
+  "qa_database_removed": true,
+  "qa_container_removed": true
+}

@@ -1,0 +1,42 @@
+{
+  "run": "20261030-r1",
+  "environment": "isolated localhost:8004 QA clone; synthetic new product/orders; log mail",
+  "browser": "IAB Chromium",
+  "cases": [
+    {"id":"BUI-01","case":"Native Exment login with existing cloned identity","result":"PASS","evidence":"admin-matrix-desktop.png"},
+    {"id":"BUI-02","case":"Admin create category and product, publish on QA","result":"PASS","evidence":"admin-matrix-desktop.png"},
+    {"id":"BUI-03","case":"Upload owned synthetic QA image and assign to SKU","result":"PASS","evidence":"matrix-saved.png"},
+    {"id":"BUI-04","case":"Create two option groups, two values each, generate four combinations","result":"PASS","evidence":"matrix-before-save.png"},
+    {"id":"BUI-05","case":"Select all, fill base/sale/stock/status, save four rows together","result":"PASS","evidence":"matrix-saved.png"},
+    {"id":"BUI-06","case":"Edit each SKU in matrix, save and reload values","result":"PASS","evidence":"admin-matrix-desktop.png; e2e-database.json"},
+    {"id":"BUI-07","case":"Late row invalid sale preserves unsaved input and displays row error","result":"PASS","evidence":"matrix-validation.png; validation-retention.json"},
+    {"id":"BUI-08","case":"Second stale browser tab rejected after first tab saves","result":"PASS","evidence":"matrix-stale.png"},
+    {"id":"BUI-09","case":"Stock quantity below existing reservation rejected","result":"PASS","evidence":"matrix-reserved-rejection.png"},
+    {"id":"BUI-10","case":"Frontend mobile select M/Xanh, cart, checkout, success at 90000 x 2","result":"PASS","evidence":"product-mobile.png; checkout-success.png"},
+    {"id":"BUI-11","case":"Reprice SKU to 150000 base/110000 sale, old order remains 90000 x 2","result":"PASS","evidence":"order-snapshot-after-reprice.png; e2e-database.json"},
+    {"id":"BUI-12","case":"Admin confirm then cancel, history and stock10/reserved0","result":"PASS","evidence":"order-history.png; e2e-database.json"},
+    {"id":"BUI-13","case":"Migrated product legacy4 image/category/variant/cart/checkout to order","result":"PASS","evidence":"migrated-checkout.png; e2e-database.json"},
+    {"id":"BUI-14","case":"Migrated order admin snapshot, cancellation and reservation release","result":"PASS","evidence":"migrated-order-history.png; e2e-database.json"},
+    {"id":"BUI-15","case":"Home service CTA to landing to contact anchor; verify tel/Facebook receiver without external contact","result":"PASS","evidence":"service-desktop.png; service-mobile.png; BusinessStorefrontTest"},
+    {"id":"BUI-16","case":"Visible mobile search without opening navigation menu","result":"PASS","evidence":"narrow-home.png"},
+    {"id":"BUI-17","case":"Home/service/listing/product at1440/768/390/320, no body overflow or visible broken images","result":"PASS","evidence":"responsive.json"},
+    {"id":"BUI-18","case":"Cart/checkout at1440/768/390/320, no body overflow or visible broken images","result":"PASS","evidence":"commerce-responsive.json; checkout-narrow.png"},
+    {"id":"BUI-19","case":"320px admin matrix keyboard horizontal scrolling","result":"PASS","evidence":"admin-matrix-narrow.png; responsive.json"},
+    {"id":"BUI-20","case":"Console warn/error on four core tabs inspected","result":"PASS","evidence":"browser-logs.json"},
+    {"id":"BUI-21","case":"Real new-industry product business E2E","result":"BLOCKED","reason":"Actual approved SKU/price/stock/photos absent; synthetic irrigation QA fixture cannot satisfy this requirement","blocker":"BA-G04"}
+  ],
+  "named_browser_matrix": [
+    {"browser":"IAB Chromium desktop/tablet/mobile viewport","result":"PASS","scope":"Fresh cases above; not a separate Chrome/Edge installation or physical device"},
+    {"browser":"Desktop Chrome","result":"NOT TESTED","reason":"CUA Chrome browser provider unavailable; native app inventory had no running Chrome"},
+    {"browser":"Desktop Edge","result":"NOT TESTED","reason":"CUA Edge browser provider unavailable; native app inventory had no running Edge"},
+    {"browser":"Mobile Chrome","result":"NOT TESTED","reason":"No separate Chrome mobile provider/device; IAB responsive viewports tested separately"},
+    {"browser":"Safari/iOS","result":"NOT TESTED","reason":"No Safari/iOS provider/device available"}
+  ],
+  "supplemental_automated": [
+    {"case":"Simple product, CONTACT/FIXED conversion, exact PHP_INT_MAX money","result":"PASS","evidence":"VariantMatrixTest in tests.json"},
+    {"case":"Batch rollback/ownership/duplicate SKU/invalid image/ACL/forbidden fields","result":"PASS","evidence":"VariantMatrixTest in tests.json"},
+    {"case":"Public pagination Vietnamese current page/query/sort, only real published departments","result":"PASS","evidence":"BusinessStorefrontTest in tests.json"},
+    {"case":"201 actual legacy redirects,220 sitemap URLs,759 assets","result":"PASS","evidence":"http-seo.json"}
+  ],
+  "full_plan_browser_gate": "BLOCKED VERIFICATION — BA-V01; no claim of fresh Chrome/Edge PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "at_utc": "2026-10-30T03:37:38.562794+00:00",
+  "all_base_tables_equal": {
+    "bancay": true,
+    "bancay_phase4_staging": true
+  },
+  "changed_tables": {
+    "bancay": [],
+    "bancay_phase4_staging": []
+  },
+  "domain_data_unchanged": true,
+  "native_log_note": "No main native audit-log differences observed.",
+  "qa_database_removed": true,
+  "qa_container_removed": true,
+  "qa_account_removed": true
+}

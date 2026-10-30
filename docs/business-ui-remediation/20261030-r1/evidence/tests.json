@@ -1,0 +1,910 @@
+{
+  "assertions": 1187,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 0,
+  "total": 180,
+  "status": "PASS",
+  "cases": [
+    {
+      "class": "Tests\\Unit\\DependencyGuardTest",
+      "name": "test_non_string_tokens_never_reach_user_provider",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Unit\\DependencyGuardTest",
+      "name": "test_valid_string_token_still_uses_provider_and_hash_mode",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Unit\\MoneyTest",
+      "name": "test_money_is_exact_integer_arithmetic",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Unit\\MoneyTest",
+      "name": "test_money_overflow_is_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Unit\\MoneyTest",
+      "name": "test_terminal_order_status_does_not_reopen",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Unit\\MoneyTest",
+      "name": "test_integer_vnd_display_does_not_round_bigint_values_through_float",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\AdminFormEncodingTest",
+      "name": "test_native_product_form_preserves_literal_entities_and_contains_untrusted_text",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\AdminFormEncodingTest",
+      "name": "test_native_settings_input_preserves_literal_entities_and_quotes",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\BusinessStorefrontTest",
+      "name": "test_consultation_page_has_real_owned_contacts_and_discovery_links",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\BusinessStorefrontTest",
+      "name": "test_consultation_falls_back_to_contact_without_inventing_phone_or_social",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\BusinessStorefrontTest",
+      "name": "test_departments_use_actual_published_category_names_and_hide_empty_or_draft_content",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\BusinessStorefrontTest",
+      "name": "test_department_does_not_misclassify_a_plant_named_long_den_as_lighting",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\BusinessStorefrontTest",
+      "name": "test_vietnamese_pagination_preserves_search_and_sort_query",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyAdminTextTest",
+      "name": "test_import_sized_category_description_can_be_saved_and_byte_overflow_is_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_dry_run_never_writes_domain_or_public_files_and_write_needs_receipt",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_normalized_catalog_history_and_idempotent_rerun_preserve_snapshots",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_stale_target_or_changed_source_invalidates_dry_run_receipt",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_invalid_json_missing_reference_and_invalid_history_are_quarantined",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_product_variant_failure_rolls_back_whole_entity_and_files",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_rerun_never_overwrites_manual_catalog_price_or_historical_snapshot",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_only_range_includes_required_parents_without_duplicate_children",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_media_paths_are_contained_and_html_is_sanitized_without_external_requests",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_exact_integer_and_grouping_validation_reject_overflow_and_bad_formats",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_content_urls_are_portable_and_repair_preserves_edits_and_timestamps",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_content_repair_rejects_stale_plan_without_overwriting_admin_edits",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_explicit_category_range_is_bounded_and_ancestry_is_never_guessed",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_target_source_and_backup_guards_cannot_be_forced",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_reviewed_category_mapping_is_explicit_source_immutable_and_receipt_bound",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_reviewed_media_repairs_are_safe_idempotent_and_preserve_manual_edits",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_reviewed_media_hash_and_source_fingerprint_cannot_drift",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LegacyMigrationTest",
+      "name": "test_restoring_catalog_preserves_only_explicitly_reviewed_historical_null_links",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LocalDatasetMergerTest",
+      "name": "test_copy_remaps_relations_combinations_and_history_without_changing_demo",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\LocalDatasetMergerTest",
+      "name": "test_copy_failure_rolls_back_all_new_roots_and_children",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\MigrationLifecycleTest",
+      "name": "test_empty_database_full_rollback_and_remigrate",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_sitemap_matches_visible_ancestors_and_excludes_private_scheduled_drafts",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_robots_is_environment_specific_without_mutating_environment",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_security_headers_cover_public_native_and_error_responses",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_legacy_category_pagination_translates_zero_based_without_open_redirect",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_production_rejects_untrusted_host_headers",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_production_error_body_hides_exception_details",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_banner_slots_obey_status_schedule_category_and_support_all_home_slides",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_search_metacharacters_are_escaped_and_bad_shape_is_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5HardeningTest",
+      "name": "test_every_workflow_edge_and_rejection_preserves_stock_and_history",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5SecurityTest",
+      "name": "test_mime_rejects_parameter_name_header_injection_on_every_entry_point",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5SecurityTest",
+      "name": "test_v7_operation_log_masks_actual_recursive_input_api_and_reset_path",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\Phase5SecurityTest",
+      "name": "test_content_images_are_sanitized_dimensioned_and_lazy_without_fetching_remote_sources",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReadinessEmailTest",
+      "name": "test_default_email_rule_rejects_folded_crlf_addresses",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReadinessEmailTest",
+      "name": "test_native_exment_validator_extensions_and_plain_email_still_work",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReadinessEmailTest",
+      "name": "test_native_exment_mail_channel_sends_valid_mail_to_memory_only",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReadinessEmailTest",
+      "name": "test_native_mail_channel_rejects_folded_recipient_before_transport",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseDerivedViewsTest",
+      "name": "test_view_rebuild_requires_exact_database_confirmation",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseDerivedViewsTest",
+      "name": "test_verified_test_restore_can_rebuild_views_without_changing_business_data",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseDerivedViewsTest",
+      "name": "test_production_rebuild_is_denied_without_maintenance",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_new_window_order_ledger_preserves_snapshot_stock_and_is_deterministic",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_status_delta_includes_preexisting_order_and_keeps_stable_recovery_reference",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_mixed_lineage_and_changed_immutable_snapshots_are_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_wrong_lineage_cannot_be_used_as_a_cutoff",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_invalid_totals_are_not_silently_exported_as_verified",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_removed_inventory_cannot_be_omitted_from_reconciliation",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_existing_totals_cannot_change_even_when_appended_items_balance_them",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_existing_contact_snapshot_cannot_change_in_a_verified_delta",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_current_order_status_must_agree_with_latest_history",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_customer_link_can_become_null_while_contact_and_prices_stay_unchanged",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_an_illegal_live_transition_cannot_be_exported_as_verified",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\ReleaseOrderDeltaTest",
+      "name": "test_imported_history_never_gets_a_live_fulfillment_instruction",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewCommitSafetyTest",
+      "name": "test_cleanup_and_logger_failure_do_not_undo_committed_image_replacement",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrationTest",
+      "name": "test_admin_catalog_to_guest_order_to_admin_snapshot_and_cancel",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_database_rejects_null_fixed_price_even_when_validation_is_bypassed",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_database_rejects_variant_money_outside_php_integer_domain",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_database_rejects_order_money_outside_php_integer_domain",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_database_rejects_item_money_outside_php_integer_domain",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_replacing_category_image_preserves_file_used_by_product",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_deleting_one_image_reference_preserves_another_products_image",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_shared_logo_reference_is_preserved_until_last_reference_is_removed",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_setting_logo_replacement_keeps_shared_product_image",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewIntegrityTest",
+      "name": "test_maximum_supported_integer_remains_exact_in_order_snapshots",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\RiskReviewSchemaUpgradeTest",
+      "name": "test_upgrade_preflight_and_rollback_preserve_existing_rows",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_guest_is_redirected_and_unassigned_user_cannot_read_or_write_domains",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_product_manager_cannot_view_orders_customers_settings_or_native_user_management",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_role_revocation_is_immediate_even_when_system_permissions_are_disabled",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_content_and_order_role_presets_are_least_privilege",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_admin_configuration_is_idempotent_and_keeps_existing_native_identity",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_native_admin_pages_render_and_dashboard_hides_unauthorized_statistics",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_category_form_validates_unique_slug_and_cycle_and_restricts_used_category",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_product_form_sanitizes_html_ignores_legacy_identity_and_archives_without_losing_order_snapshots",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_image_upload_reencodes_pixels_and_rejects_fake_image_and_cross_product_update",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_image_batch_failure_cleans_written_files_and_primary_switch_is_atomic",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_options_keep_ids_reject_duplicates_and_cannot_delete_used_values",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_variant_generation_is_bounded_additive_and_does_not_overwrite_existing_stock_price_or_ids",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_variant_update_validates_price_unique_sku_and_keeps_combination_and_stock",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_inventory_rejects_negative_below_reserved_and_stale_updates",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_order_status_endpoint_records_actor_and_rejects_replay_and_completed_cancel",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_cancel_releases_stock_once_and_order_manager_cannot_generic_update_totals_or_items",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_nested_product_ids_do_not_allow_cross_product_variant_or_option_mutation",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_customer_addresses_validate_ownership_and_default_and_old_order_contact_is_unchanged",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_articles_banners_and_settings_validate_and_never_accept_secrets_or_scripts",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_search_filter_is_parameterized_and_product_list_query_count_stays_bounded",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_export_rechecks_permission_and_neutralizes_spreadsheet_formulas",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_date_filter_supports_a_single_bound_and_rejects_reversed_range",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_native_password_reset_hashes_credentials_and_audit_redacts_escaped_nested_secrets",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreAdminTest",
+      "name": "test_removed_native_login_identity_revokes_existing_store_session",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreConcurrencyTest",
+      "name": "test_parallel_stock_order_status_and_sku_writes_preserve_invariants",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_health_exment_and_phase3_storefront_routes_are_registered",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_synthetic_seed_builds_relationships_and_is_idempotent",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_simple_variant_has_one_inventory_and_no_json_options",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_vietnamese_options_slug_and_full_utf8_round_trip",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_customer_has_only_one_default_address",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_banner_scope_is_not_promoted_when_category_is_deleted",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_sku_is_globally_unique_at_validation_and_database",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_duplicate_combination_is_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_sku_unique_constraint_rejects_bypassed_validation",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_product_requires_existing_category_foreign_key",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_guest_cannot_attach_order_to_arbitrary_customer_id",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_variant_image_must_belong_to_same_product_in_database",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_header_injection_email_and_newline_image_paths_are_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_invalid_history_actor_rolls_back_order_and_stock",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_hard_deleted_catalog_links_become_null_without_losing_snapshot",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_variant_requires_one_value_per_own_option",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_composite_fk_blocks_cross_product_option_values",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_database_rejects_invalid_sale_price",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_contact_price_cannot_be_ordered_as_free",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_client_price_and_invalid_quantity_are_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_guest_order_snapshots_price_name_sku_and_reserves_stock",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_second_order_cannot_oversell_reserved_stock",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_failed_multiline_order_rolls_back_all_reservations",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_status_history_and_basic_inventory_lifecycle",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_cancel_releases_reservation_once",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_invalid_transition_does_not_write_history_or_touch_stock",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_stock_adjustment_cannot_invalidate_reservation",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_database_rejects_reserved_quantity_above_stock",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_order_item_snapshot_is_immutable",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_status_history_is_append_only",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_soft_archived_catalog_does_not_remove_order_history",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_missing_fk_and_duplicate_primary_image_are_blocked",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_category_parent_cannot_become_its_descendant",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_article_category_tree_has_the_same_cycle_guard",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_public_settings_do_not_accept_secret_keys",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_upload_path_and_editor_content_are_sanitized",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StoreFoundationTest",
+      "name": "test_authorization_defaults_deny_and_uses_exment_identity",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_public_pages_have_empty_states_and_private_cart_headers",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_frontend_demo_is_repeatable_and_refuses_production",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_only_published_past_products_and_visible_ancestors_are_public",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_category_includes_all_visible_descendants_and_excludes_other_branches",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_listing_paginates_at_24_and_validates_sort_and_page",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_search_name_and_active_sku_are_bound_and_xss_escaped",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_sort_uses_current_fixed_variant_price_and_contact_sorts_last",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_banner_status_schedule_position_and_category_scope_are_respected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_product_picker_has_only_active_variants_with_stock_price_and_image",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_contact_product_structured_data_has_no_fake_offer_or_rating",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_cart_add_merge_update_remove_clear_and_buy_now_use_same_service",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_cart_rejects_price_tampering_mismatched_owner_and_invalid_quantities",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_inactive_draft_future_contact_and_out_of_stock_variants_cannot_be_added",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_cart_reprices_and_blocks_items_hidden_or_reserved_after_add",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_checkout_validation_rejects_client_items_totals_and_missing_contact_data",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_guest_checkout_creates_authoritative_immutable_snapshots_and_owned_success",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_repeated_post_and_lost_session_grant_repair_do_not_create_duplicate_order",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_token_is_bound_to_session_and_unknown_or_expired_token_fails",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_last_available_item_clears_cart_and_old_replay_keeps_a_new_cart",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_quote_change_requires_review_and_refresh_reissues_token",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_stock_or_category_change_after_checkout_prevents_order_creation",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_failure_after_reservation_rolls_back_order_attempt_and_inventory_atomically",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_order_success_cannot_be_read_without_exact_session_grant",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_articles_require_published_category_ancestors_and_sanitize_html",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_seo_metadata_uses_trusted_origin_and_jsonld_escapes_script_delimiters",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_settings_are_text_and_unsafe_links_and_missing_paths_have_safe_fallbacks",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_legacy_redirects_resolve_public_legacy_ids_without_open_redirect_or_home_fallback",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_public_csrf_is_not_exempt_and_wrong_http_method_is_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_listing_and_cart_query_counts_remain_bounded_when_items_grow",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\StorefrontTest",
+      "name": "test_desktop_navigation_exposes_categories_beyond_the_first_five",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_native_json_endpoint_saves_four_combinations_and_stock_in_one_batch",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_invalid_later_row_rolls_back_earlier_price_and_inventory",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_stale_sku_and_stock_versions_reject_without_overwriting",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_cross_product_variant_is_not_found_and_foreign_image_is_rejected",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_duplicate_sku_and_duplicate_rows_cannot_be_saved",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_existing_global_sku_conflict_rolls_back_batch",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_stock_reason_required_and_reserved_stock_cannot_be_reduced",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_contact_switch_clears_prices_and_money_remains_exact_at_php_limit",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_unknown_stock_fields_oversized_batch_and_missing_nullable_fields_fail_closed",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_endpoint_rechecks_authorization_and_matrix_has_accessible_fields",
+      "status": "PASS"
+    },
+    {
+      "class": "Tests\\Feature\\VariantMatrixTest",
+      "name": "test_matrix_repricing_preserves_existing_order_snapshot_and_reservation",
+      "status": "PASS"
+    }
+  ]
+}

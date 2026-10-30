@@ -9,6 +9,7 @@ use App\Models\ProductVariant;
 use App\Models\Setting;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
 
 final class Catalog
 {
@@ -36,6 +37,40 @@ final class Catalog
         return $this->articleCategories ??= $this->publication->categories(true);
     }
 
+    public function orderedCategories(): Collection
+    {
+        $priorities = collect(config('merchandising.departments'))->flatMap(fn ($department) => $department['categories'])
+            ->map(fn ($name) => Str::slug($name))->unique()->values()->flip();
+
+        return $this->categories()->sortBy(fn ($category) => $priorities->get(Str::slug($category->name), 1000));
+    }
+
+    public function departmentBlocks(): array
+    {
+        $blocks = [];
+        foreach (config('merchandising.departments') as $department) {
+            $category = null;
+            foreach ($department['categories'] as $name) {
+                $category = $this->categories()->first(fn ($row) => Str::slug($row->name) === Str::slug($name));
+                if ($category) {
+                    break;
+                }
+            }
+            if (! $category) {
+                continue;
+            }
+            $products = $this->products()->whereIn('category_id', $this->publication->descendants($this->categories(), $category->id))
+                ->orderByDesc('featured')->orderByDesc('id')->limit(4)->get();
+            if ($products->isEmpty()) {
+                continue;
+            }
+            $blocks[] = ['title' => $department['title'], 'url' => route('store.categories.show', $category->slug, false),
+                'products' => $products->map(fn ($product) => $this->display->card($product))];
+        }
+
+        return $blocks;
+    }
+
     public function settings(): array
     {
         return $this->settings ??= Setting::whereIn('key', config('website.public_setting_keys'))->pluck('value', 'key')->all();
@@ -47,7 +82,7 @@ final class Catalog
 
         return ['settings' => $settings, 'name' => ($settings['site_name'] ?? null) ?: config('app.name'),
             'logo' => empty($settings['logo']) ? null : $this->display->image($settings['logo']),
-            'navigation' => $this->categories(), 'articleNavigation' => $this->articleCategories()->where('show_in_menu', true),
+            'navigation' => $this->orderedCategories(), 'articleNavigation' => $this->articleCategories()->where('show_in_menu', true),
             'cartCount' => collect(session('store.cart', []))->sum('quantity'),
             'links' => ['facebook' => $this->safeLink($settings['facebook'] ?? null), 'map' => $this->safeLink($settings['map'] ?? null),
                 'email' => filter_var($settings['email'] ?? '', FILTER_VALIDATE_EMAIL) ? 'mailto:'.$settings['email'] : null,

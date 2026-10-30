@@ -1,0 +1,122 @@
+[
+  {
+    "viewport": "desktop",
+    "page": "home",
+    "url": "http://localhost:8000/",
+    "gridColumns": "286px 286px 286px 286px",
+    "h1": "Mang một gócbình yênvề nhà.",
+    "scroll": 1425,
+    "visibleBrokenImages": 0,
+    "width": 1440
+  },
+  {
+    "viewport": "desktop",
+    "page": "listing",
+    "url": "http://localhost:8000/san-pham",
+    "gridColumns": "286px 286px 286px 286px",
+    "h1": "Tìm một chút xanh cho mình",
+    "scroll": 1425,
+    "visibleBrokenImages": 0,
+    "width": 1440
+  },
+  {
+    "viewport": "desktop",
+    "page": "indoor",
+    "url": "http://localhost:8000/danh-muc/cay-canh-noi-that-legacy-33",
+    "gridColumns": "286px 286px 286px 286px",
+    "h1": "Cây cảnh Nội thất",
+    "scroll": 1425,
+    "visibleBrokenImages": 0,
+    "width": 1440
+  },
+  {
+    "viewport": "desktop",
+    "page": "product",
+    "url": "http://localhost:8000/san-pham/cay-hanh-phuc-hai-tang-legacy-127",
+    "gridColumns": "286px 286px 286px 286px",
+    "h1": "[ CHỌN SIZE] Cây hạnh phúc hai tầng.",
+    "scroll": 1425,
+    "visibleBrokenImages": 0,
+    "width": 1440
+  },
+  {
+    "viewport": "tablet",
+    "page": "home",
+    "url": "http://localhost:8000/",
+    "gridColumns": "213.656px 213.672px 213.672px",
+    "h1": "Mang một gócbình yênvề nhà.",
+    "scroll": 753,
+    "visibleBrokenImages": 0,
+    "width": 768
+  },
+  {
+    "viewport": "tablet",
+    "page": "listing",
+    "url": "http://localhost:8000/san-pham",
+    "gridColumns": "213.656px 213.672px 213.672px",
+    "h1": "Tìm một chút xanh cho mình",
+    "scroll": 753,
+    "visibleBrokenImages": 0,
+    "width": 768
+  },
+  {
+    "viewport": "tablet",
+    "page": "indoor",
+    "url": "http://localhost:8000/danh-muc/cay-canh-noi-that-legacy-33",
+    "gridColumns": "213.656px 213.672px 213.672px",
+    "h1": "Cây cảnh Nội thất",
+    "scroll": 753,
+    "visibleBrokenImages": 0,
+    "width": 768
+  },
+  {
+    "viewport": "tablet",
+    "page": "product",
+    "url": "http://localhost:8000/san-pham/cay-hanh-phuc-hai-tang-legacy-127",
+    "gridColumns": "213.656px 213.672px 213.672px",
+    "h1": "[ CHỌN SIZE] Cây hạnh phúc hai tầng.",
+    "scroll": 753,
+    "visibleBrokenImages": 0,
+    "width": 768
+  },
+  {
+    "viewport": "mobile",
+    "page": "home",
+    "url": "http://localhost:8000/",
+    "gridColumns": "159.5px 159.5px",
+    "h1": "Mang một gócbình yênvề nhà.",
+    "scroll": 375,
+    "visibleBrokenImages": 0,
+    "width": 390
+  },
+  {
+    "viewport": "mobile",
+    "page": "listing",
+    "url": "http://localhost:8000/san-pham",
+    "gridColumns": "159.5px 159.5px",
+    "h1": "Tìm một chút xanh cho mình",
+    "scroll": 375,
+    "visibleBrokenImages": 0,
+    "width": 390
+  },
+  {
+    "viewport": "mobile",
+    "page": "indoor",
+    "url": "http://localhost:8000/danh-muc/cay-canh-noi-that-legacy-33",
+    "gridColumns": "159.5px 159.5px",
+    "h1": "Cây cảnh Nội thất",
+    "scroll": 375,
+    "visibleBrokenImages": 0,
+    "width": 390
+  },
+  {
+    "viewport": "mobile",
+    "page": "product",
+    "url": "http://localhost:8000/san-pham/cay-hanh-phuc-hai-tang-legacy-127",
+    "gridColumns": "159.5px 159.5px",
+    "h1": "[ CHỌN SIZE] Cây hạnh phúc hai tầng.",
+    "scroll": 375,
+    "visibleBrokenImages": 0,
+    "width": 390
+  }
+]

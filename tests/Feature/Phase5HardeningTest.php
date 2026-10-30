@@ -44,7 +44,8 @@ final class Phase5HardeningTest extends TestCase
         $urls = array_map('strval', $document->xpath('//*[local-name()="loc"]'));
         $this->assertContains('https://bancay.example.test/san-pham/'.$variant->product->slug, $urls);
         $this->assertContains('https://bancay.example.test/bai-viet/'.$article->slug, $urls);
-        $this->assertCount(8, $urls); // four static, two categories, product and article
+        $this->assertContains('https://bancay.example.test/tu-van-canh-quan', $urls);
+        $this->assertCount(9, $urls); // five static, two categories, product and article
         $this->assertSame($urls, array_values(array_unique($urls)));
         foreach ($urls as $url) {
             $this->assertStringNotContainsString('/admin', $url);

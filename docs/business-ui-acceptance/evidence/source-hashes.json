@@ -1,0 +1,14 @@
+{
+  "routes/web.php": "960bef41c40506a21756a8ed6a09f5d1da993d6cfeb69b39c54c4d56274394ea",
+  "app/Http/Controllers/Frontend/ContactController.php": "48f52b95ef3dbf1081e7646858a44e399b0505fdc77531b1187a5416ce99173d",
+  "app/Services/Storefront/Catalog.php": "ba1cd0d0e70a2d53fe45b791f061a68d0acf57a77faa20bc14ea952cba758948",
+  "app/Services/Storefront/Presentation.php": "5f1b388e459e6d60bcc6586265cd49f71723246180f5ea36a448bd0b2870211e",
+  "resources/views/home/index.blade.php": "56717b77ad7d0c6ecf7ecceaec3841ebeafc8fefd590ae72992d24de17a1af96",
+  "resources/views/home/contact.blade.php": "f1aaf4c9838deb267873eb7f696eb03d4e7f855b355258cdc4ef48e92674dac7",
+  "resources/views/products/index.blade.php": "0eca28dca6a848fbfe62aaefb7ac29ee1489601e124c49f5819fa01ac8cebf7b",
+  "resources/views/products/show.blade.php": "5979fca17b1a9055c02a9d5b049c8f0c34ef820b45080970bdce50d127b7644a",
+  "resources/views/components/store/product-card.blade.php": "a7fd71b3af77443420e3b250a3c516280e09aa4273ef4222e33172c508326f5d",
+  "resources/views/admin/store/product.blade.php": "594ed3f3212194f23103a5e4b17ccce73add80c2083592d0366c953ad7ee59bd",
+  "resources/views/admin/store/variant-form.blade.php": "c03927fc31dde7ddae30068a91903d75103ee36b52b86fd02e691a7eabb4f39d",
+  "resources/views/admin/store/form.blade.php": "8cb13c4f5e60d659ef76010e030ea3f724bc587e688b381a91b5f9b5b3b66a83"
+}

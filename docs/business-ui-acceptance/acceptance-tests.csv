@@ -1,0 +1,31 @@
+Case ID,Case,Result,Executed observation,Evidence
+A01,Admin login,PASS,QA native login; Exment v7 dashboard,evidence/admin-configured-skus.png
+A02,Create category,PASS,Category 15 published through UI,evidence/data-verification.json
+A03,Create product and publish,PASS,Product 122 basic/HTML/SEO/category/publication via UI,evidence/admin-configured-skus.png
+A04,Upload product image,PASS,File chooser upload and rendered image; QA storage only,evidence/admin-configured-skus.png
+A05,Classification group 1,PASS,Loại with two values created before variants,evidence/admin-variants.png
+A06,Classification group 2,PASS,Chiều dài dây with two values created,evidence/admin-variants.png
+A07,Generate four combinations,PASS,"2x2 combinations, initially INACTIVE CONTACT stock0",evidence/admin-variants.png
+A08,Edit four SKU/price/sale/status/image,PASS,"Four individual UI saves, each ACTIVE with 90000 sale",evidence/data-verification.json
+A09,Set four inventory quantities,PASS,"Four inventory pages, each physical10/reserved0 after cancellation",evidence/data-verification.json
+A10,Seller-friendly editable matrix,UX FAIL,Function exists through accordions; no table/bulk save; eight separate price/stock submits,evidence/admin-configured-skus.png
+A11,Logical product form/editor UX,PARTIAL,Basic/SEO and detail sections exist; raw HTML textarea and split pages,../../resources/views/admin/store/form.blade.php
+C01,Open current homepage,PASS,"Actual 8000 opened and captured, no source writes",evidence/current-desktop-home.png
+C02,Browse category to product,PASS,QA category15 to product122 by UI link,evidence/category-qa.png
+C03,Vietnamese search,PASS,hạnh phúc returns six results in mobile search,evidence/current-mobile-menu.png
+C04,No-result search,PASS,Unmatched QA keyword shows zero and recovery guidance,evidence/search-empty.png
+C05,Apply price sorting,PASS,UI applies price_asc and resets page; source uses effective variant price,../../app/Services/Storefront/Catalog.php
+C06,Mobile pagination,PASS,Next opens page2 with 24 cards,evidence/current-mobile-listing.png
+C07,Gallery navigation,PASS,Thumbnail switches displayed src from TEST variant image to real cover,evidence/gallery-verification.json
+C08,Select two-group variant,PASS,Second choice in both groups resolves QA-BIZ-4,evidence/product-two-groups.png
+C09,Quantity and add cart,PASS,"Quantity2 at sale90000, cart180000",evidence/cart.png
+C10,Checkout fields and total,PASS,"Name/phone/address/note, email optional, summary180000",evidence/checkout-mobile.png
+C11,Create order,PASS,QA order260 created; session-owned success,evidence/order-success-mobile.png
+C12,Admin order snapshot/workflow,PASS,"SKU4, unit90000, qty2, total180000; NEW > CONFIRMED > CANCELLED",evidence/data-verification.json
+R01,Desktop main layout,PASS,"Four pages at1440, four columns; no horizontal overflow",evidence/responsive.json
+R02,Tablet main layout,PASS,"Four pages at768, three columns; no horizontal overflow",evidence/responsive.json
+R03,Mobile main layout,PASS,"Four pages at390, two columns; no horizontal overflow",evidence/responsive.json
+R04,Mobile options/cart/checkout,PASS,"Long option names wrap, selected two groups, cart to checkout180000",evidence/qa-mobile-variants.png
+L01,Landscape consultation entry,MISSING,"No homepage entry, service route or service section",evidence/current-contact.png
+L02,Consultation submission,BLOCKED,Cannot proceed because required service flow is missing; no real lead sent,../../routes/web.php
+T01,Contact actions visible,PASS,Phone/mail/Facebook rendered; no external message/call sent,evidence/current-contact.png

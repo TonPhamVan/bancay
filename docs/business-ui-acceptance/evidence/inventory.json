@@ -1,0 +1,1171 @@
+{
+  "at_utc": "2026-10-29T12:26:54+00:00",
+  "versions": {
+    "php": "8.3.36",
+    "laravel": "12.70.2",
+    "exment": "v7.0.0",
+    "database": "10.11.19-MariaDB-ubu2204"
+  },
+  "counts": {
+    "products": 121,
+    "visible_products": 119,
+    "visible_migrated_products": 115,
+    "categories": 14,
+    "visible_categories": 12
+  },
+  "categories": [
+    {
+      "id": 1,
+      "legacy_id": null,
+      "parent_id": null,
+      "name": "Demo Plants",
+      "slug": "demo-plants",
+      "description": null,
+      "image": null,
+      "sort_order": 0,
+      "status": "DRAFT",
+      "featured": false,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-26T15:25:00.000000Z",
+      "created_at": "2026-10-27T15:25:55.000000Z",
+      "updated_at": "2026-10-29T12:14:02.000000Z",
+      "products_count": "1"
+    },
+    {
+      "id": 2,
+      "legacy_id": null,
+      "parent_id": null,
+      "name": "UI Test Cây cảnh",
+      "slug": "ui-test-cay-canh",
+      "description": "<p>Danh mục tổng hợp để kiểm tra Phase 2.</p>",
+      "image": null,
+      "sort_order": 0,
+      "status": "DRAFT",
+      "featured": false,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": null,
+      "created_at": "2026-10-27T19:18:01.000000Z",
+      "updated_at": "2026-10-27T19:18:01.000000Z",
+      "products_count": "1"
+    },
+    {
+      "id": 3,
+      "legacy_id": null,
+      "parent_id": null,
+      "name": "Cây trong nhà",
+      "slug": "cay-trong-nha-demo",
+      "description": "<p>Một chút xanh cho những không gian bạn yêu.</p>",
+      "image": "categories/phase3/hero.webp",
+      "sort_order": 10,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-26T22:51:14.000000Z",
+      "created_at": "2026-10-27T22:51:14.000000Z",
+      "updated_at": "2026-10-27T22:51:14.000000Z",
+      "products_count": "0"
+    },
+    {
+      "id": 4,
+      "legacy_id": null,
+      "parent_id": "3",
+      "name": "Cây để bàn",
+      "slug": "cay-de-ban-demo",
+      "description": null,
+      "image": "products/phase3/zz.webp",
+      "sort_order": 11,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-26T22:51:14.000000Z",
+      "created_at": "2026-10-27T22:51:14.000000Z",
+      "updated_at": "2026-10-27T22:51:14.000000Z",
+      "products_count": "2"
+    },
+    {
+      "id": 5,
+      "legacy_id": null,
+      "parent_id": "3",
+      "name": "Cây lá kiểng",
+      "slug": "cay-la-kieng-demo",
+      "description": null,
+      "image": "products/phase3/monstera.webp",
+      "sort_order": 12,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-26T22:51:14.000000Z",
+      "created_at": "2026-10-27T22:51:14.000000Z",
+      "updated_at": "2026-10-27T22:51:14.000000Z",
+      "products_count": "1"
+    },
+    {
+      "id": 6,
+      "legacy_id": null,
+      "parent_id": null,
+      "name": "Góc xanh làm quà",
+      "slug": "goc-xanh-lam-qua-demo",
+      "description": null,
+      "image": "products/phase3/zz.webp",
+      "sort_order": 13,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-26T22:51:14.000000Z",
+      "created_at": "2026-10-27T22:51:14.000000Z",
+      "updated_at": "2026-10-27T22:51:14.000000Z",
+      "products_count": "1"
+    },
+    {
+      "id": 7,
+      "legacy_id": "33",
+      "parent_id": null,
+      "name": "Cây cảnh Nội thất",
+      "slug": "cay-canh-noi-that-legacy-33",
+      "description": "<p><strong><span style=\"font-size:16px;\">Cây cảnh trong nhà: </span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\"><strong><a href=\"https://caybonmua.vn/cay-canh-noi-that-dm33.html\">Cây cảnh nội thất</a> </strong>hay theo cách gọi khác <strong><a href=\"https://caybonmua.vn/cay-canh-noi-that-dm33.html\">“Cây cảnh trong nhà”</a></strong> là cách gọi chung dành để gọi một số loại cây cảnh có thể thích nghi, sống sót hoặc phát triển tốt với điều kiện sống trong nhà, từ độ ẩm, nhiệt độ, ít ánh nắng và thường được trồng trong chậu.</span></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"color:rgb(77,81,86);font-size:14px;\"><strong>Caybonmua.vn</strong> cung cấp rất nhiều loại </span><a href=\"https://caybonmua.vn/cay-canh-noi-that-dm33.html\"><strong>cây cảnh trồng trong nhà</strong></a><span style=\"color:rgb(77,81,86);font-size:14px;\"> tốt cho sức khỏe mang đến tài lộc cho gia chủ, một số loại cây xanh không chỉ có tác dụng là đẹp mà nó còn giúp hút những khí xấu, thanh lọc không khí, giảm từ trường từ những thiết bị di dộng làm ảnh hướng đến sức khỏe của bạn.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Cây cảnh văn phòng:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> cung cấp rất nhiều <strong><a href=\"https://caybonmua.vn/cay-canh-noi-that-dm33.html\">cây cảnh văn phòng</a> </strong>dùng để trang trí nội thất, giúp thanh lọc không khí hiện đang là một trong những xu hướng thiết kế được rất nhiều công ty ưa chuộng. Cây cảnh thực sự đóng một vài trò quan trọng trong không gian nội thất văn phòng ngày nay.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây cảnh văn phòng tại Hà Nội:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> là địa chỉ uy tín tại Hà Nội bán <a href=\"https://caybonmua.vn/cay-canh-noi-that-dm33.html\"><strong>cây văn phòng, cây nội thất</strong></a> đa dạng về mẫu mã, giá thành hợp lý, hàng có sẵn tại cửa hàng cho nên ship hàng nhanh chóng, thuận tiện, giá thành hợp lý.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Thuê cây cảnh văn phòng:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> là địa chỉ uy tín tại hà nội <strong>có dịch vụ cho thuê cây văn phòng</strong>, chăm sóc thường xuyên, thay đổi cây 3 tháng một lần, có bảng giá chuyên nghiệp dành cho các văn phòng tại Hà Nội.</span></p>\n\n<p style=\"text-align:justify;\"><strong><span style=\"font-size:16px;\">Cây cảnh văn phòng hợp phong thủy:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn </strong>là website thương mại cây xanh tư vấn, cung cấp cho người dùng những loại cây hợp mênh, hợp phong thủy cho văn phòng để mang đến tài lộc, may mắn, bình an cho người trong công ty. Liên hệ Mr sơn 0888.085.444 Mrs Sim 0838.999.020 để được tư vấn.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây văn phòng đẹp, dễ sống:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Hãy cũng <strong>caybonmua.vn</strong> tìm hiểu những loại cây văn phòng dễ sống, dễ chăm sóc dưới đây như cây bàng singapore, thiết mộc lan, lan ý, kim tiền.... Đây đều là những loại cây đẹp, dễ trồng mà giá thành lại rất hợp lý.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Văn phòng thì trồng cây gì?</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Những loại <a href=\"https://caybonmua.vn/cay-canh-noi-that-dm33.html\"><strong>cây văn phòng</strong></a> dễ trồng có tại caybonmua.vn như cây bàng singapore, thiết mộc lan, lan ý, kim tiền....  Liên hệ ngay Mr sơn 0888.085.444 để được tư vấn chi tiết, cụ thể.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Giá thuê cây văn phòng tại Hà Nội: </span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Cập nhật bảng giá chi tiết cho giá thuê <a href=\"https://caybonmua.vn/cay-canh-noi-that-dm33.html\"><strong>cây văn phòng</strong></a> tại Hà Nội, theo số lượng cây và quy trình chăm sóc đổi mới từ 3 tháng, 6 tháng, 12 tháng. Chi phí hợp lý đảm bảo chăm sóc tốt trong mọi môi trường.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây cảnh trong nhà tốt cho sức khỏe:</strong></span></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Cùng <strong>caybonmua.vn</strong> tìm hiểu những loại cây tốt cho sức khỏe, giúp thành lọc không khí tốt như cây lưỡi hổ, ngũ gia bì, cọ cảnh, cây thiết mộc lan.....</span></p>\n",
+      "image": "categories/legacy/ecd314b6aed6983e9c956b4693a06d15f6351dc51ee3d2fa015baad80ab6b943.webp",
+      "sort_order": 1,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-28T16:15:44.000000Z",
+      "created_at": "2026-10-28T01:24:24.000000Z",
+      "updated_at": "2026-10-28T01:24:24.000000Z",
+      "products_count": "44"
+    },
+    {
+      "id": 8,
+      "legacy_id": "34",
+      "parent_id": null,
+      "name": "Cây mini để bàn ",
+      "slug": "cay-mini-de-ban-legacy-34",
+      "description": "<p><span style=\"font-size:16px;\"><strong>Cây cảnh mini cho mệnh hỏa:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh hỏa 1994,1995,1987,1986 hợp cây cảnh nào giúp phát tài phát lộc, may mắn tài lộc những loại cây hoa màu đỏ hay những loại cây lá hình bầu, tròn vì hỏa như:</span>✅<span style=\"font-size:14px;\"> dừa cạn,</span>✅<span style=\"font-size:14px;\"> kim ngân,</span>✅<span style=\"font-size:14px;\"> lan quân tử, </span>✅<span style=\"font-size:14px;\">Trầu bà đế vương đỏ,phong lộc , Hồng môn,Trạng nguyên ...</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây cảnh để bàn cho mệnh hỏa:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh hỏa 1994,1995,1987,1986 hợp<strong> cây cảnh để bàn</strong> nào giúp phát tài phát lộc, may mắn tài lộc những loại cây hoa màu đỏ hay những loại cây lá hình bầu, tròn vì hỏa như:</span>✅<span style=\"font-size:14px;\"> dừa cạn,</span>✅<span style=\"font-size:14px;\"> kim ngân,</span>✅<span style=\"font-size:14px;\"> lan quân tử, </span>✅<span style=\"font-size:14px;\">Trầu bà đế vương đỏ,phong lộc , Hồng môn,Trạng nguyên ...</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây nội thất cho mệnh hỏa:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh hỏa 1994,1995,1987,1986 hợp<strong> cây nội thất</strong> nào giúp phát tài phát lộc, may mắn tài lộc những loại cây hoa màu đỏ hay những loại cây lá hình bầu, tròn vì hỏa như:</span>✅<span style=\"font-size:14px;\"> dừa cạn,</span>✅<span style=\"font-size:14px;\"> kim ngân,</span>✅<span style=\"font-size:14px;\"> lan quân tử, </span>✅<span style=\"font-size:14px;\">Trầu bà đế vương đỏ,phong lộc , Hồng môn,Trạng nguyên ... Những loại cây nội thấy tô điểm thêm cho không gian.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Trồng cây phong thủy mệnh hỏa: </strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">caybonmua.vn cung cấp cho khách hàng những loại cây đẹp, bền, dễ chăm sóc và còn phù hợp mang đến may mắn tài lộc cho <strong>người mệnh hỏa</strong>: 1995,1994,1986,1987.... năm 2020.</span>✅<span style=\"font-size:14px;\">Những loại cây này đa dạng về kích thước, chủng loại phù hợp làm cây để bàn, cây văn phòng.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Cây hợp mệnh hỏa:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Trong thế giới các loại cây văn phòng, có rất nhiều loại cây đẹp nhưng mỗi loại cây lại phù hợp với từng mệnh hay không gian khác nhau.</span>✅<span style=\"font-size:14px;\"> caybonmua.vncung cấp đến khách hàng 10 loại cây hợp phù hợp với người <strong>mệnh hỏa</strong> năm 2020 đễ trồng, dễ chăm sóc.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Người mệnh hỏa hợp trồng cây gì nhất:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người <strong>mệnh hỏa</strong> hợp trồng những loại cây mang màu đỏ  màu sắc tượng trưng cho <strong>mệnh hỏa</strong>. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây cảnh cho mệnh hỏa tại hà nội:</span></strong></p>\n\n<p>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">caybonmua.vn là địa chỉ uy tín cung cấp các loại cây cảnh mini, cây văn phòng, cây ban công cho người mệnh hỏa tại Hà Nội. </span></span>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">Giá thành hợp lý, dịch vụ hậu mãi tốt đáp ứng mọi nhu cầu của khách hàng.</span></span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh hỏa hợp cây gì?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh hỏa hợp trồng những loại cây mang màu đỏ Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh hỏa hợp cây để bàn gì năm 2020?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh hỏa hợp trồng những loại cây mang màu đỏ tượng trưng cho mệnh hỏa ngoài ra còn những loại cây thường xanh mang ý nghĩa là mệnh mộc vì mộc sinh hỏa. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên, cây này vừa có màu sắc phù hợp mà còn có ý nghĩa mang đến may mắn trong học hành thi cử.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Những loại cây để bàn cho người mệnh hỏa?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh hỏa hợp trồng những loại cây để bàn mang mang màu sắc đỏ hoặc lá có hình tròn tượng trưng cho hành hỏa trong ngũ hành. Mua cây để bàn giá rẻ, giao hàng nhanh chóng, giá tốt nhất thị trường.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Mệnh hỏa hợp cây gì để ban công năm 2020?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh hỏa hợp trồng những loại cây ban công mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh hỏa hoặc tương sinh ra hành hỏa như hành mộc. Ngoài ra, những loại cây đó còn phải chịu được nắng gió, dễ dàng chăm sóc vì được bố trí ở ban công, logia.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>1995,1994 mệnh hỏa hợp trồng cây gì nhất?</strong></span></p>\n\n<p>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">Nam nữ sinh năm 1995,1994 mệnh sơn đầu hỏa hợp trồng cây kim ngân, cây lan quân tử trên bàn làm việc. Còn đối với ban công ngoài trời thì hợp trồng cây xác pháo, trạng nguyên, dạ yến thảo, tuyết sơn phi hồng.</span></span></p>\n\n<p><span style=\"font-size:16px;\"><strong>1986,1987 mệnh hỏa hợp trồng cây gì nhất?</strong></span></p>\n\n<p>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">Nam nữ sinh năm 1986,1987 mệnh lư trung hỏa hợp trồng cây kim ngân, cây lan quân tử trên bàn làm việc. Còn đối với ban công ngoài trời thì hợp trồng cây xác pháo, trạng nguyên, dạ yến thảo, tuyết sơn phi hồng.</span></span></p>\n\n<p> </p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây cảnh cho mệnh thổ:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh Thổ hợp cây cảnh nào giúp phát tài phát lộc, may mắn tài lộc những loại cây có màu vàng, nâu hoặc màu đỏ vì hỏa sinh thổ như:</span>✅<span style=\"font-size:14px;\"> lan hồ điệp,</span>✅<span style=\"font-size:14px;\"> lưỡi hổ,</span>✅<span style=\"font-size:14px;\"> lan quân tử, </span>✅<span style=\"font-size:14px;\">Trầu bà đế vương đỏ,phong lộc , Hồng môn,Trạng nguyên ...</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Trồng cây phong thủy mệnh thổ: </strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">caybonmua.vn cung cấp cho khách hàng những loại cây đẹp, bền, dễ chăm sóc và còn phù hợp mang đến may mắn tài lộc cho người mệnh thổ năm 2020.</span>✅<span style=\"font-size:14px;\">Những loại cây này đa dạng về kích thước, chủng loại phù hợp làm cây để bàn, cây văn phòng.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Cây hợp mệnh thổ:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Trong thế giới các loại cây văn phòng, có rất nhiều loại cây đẹp nhưng mỗi loại cây lại phù hợp với từng mệnh hay không gian khác nhau.</span>✅<span style=\"font-size:14px;\"> caybonmua.vncung cấp đến khách hàng 10 loại cây hợp phù hợp với người mệnh thổ năm 2020 đễ trồng, dễ chăm sóc.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Người mệnh thổ hợp trồng cây gì nhất:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây cảnh cho mệnh thổ tại hà nội:</span></strong></p>\n\n<p>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">caybonmua.vn là địa chỉ uy tín cung cấp các loại cây cảnh mini, cây văn phòng, cây ban công cho người mệnh thổ tại Hà Nội. </span></span>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">Giá thành hợp lý, dịch vụ hậu mãi tốt đáp ứng mọi nhu cầu của khách hàng.</span></span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh thổ hợp cây gì?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh thổ hợp cây để bàn gì năm 2020?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Những loại cây để bàn cho người mệnh thổ?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây để bàn mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Mệnh thổ hợp cây gì để ban công năm 2020?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây ban công mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>1991 mệnh thổ hợp trồng cây gì?</strong></span></p>\n\n<p>✅ <span style=\"font-size:14px;\">Người sinh năm 1991 mệnh lộ bàng thổ hợp trồng những loại cây để bàn mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>1990 mệnh thổ hợp trồng cây gì?</strong></span></p>\n\n<p>✅ <span style=\"font-size:14px;\">Người sinh năm 1990 mệnh lộ bàng thổ hợp trồng những loại cây để bàn mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p> </p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây cảnh mini cho mệnh thủy:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh thủy 1997,1996,1983,1982, 2004,2005 hợp cây cảnh nào giúp phát tài phát lộc, may mắn tài lộc những loại cây hoa màu xanh, màu trắng vì kim sinh thủy hay những loại cây lá kim, hình chóp như:</span>✅<span style=\"font-size:14px;\"> lan ý ,</span>✅<span style=\"font-size:14px;\"> kim tiền,</span>✅<span style=\"font-size:14px;\"> tùng bồng lai, </span>✅<span style=\"font-size:14px;\">phong lộc , cây dành dành, cây mai vạn phúc.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây cảnh để bàn cho mệnh thủy:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh thủy 1997,1996,1983,1982, 2004,2005  hợp<strong> cây cảnh để bàn</strong> nào giúp phát tài phát lộc, may mắn tài lộc những loại cây hoa màu trắng, màu xanh những loại cây lá kim, hình chóp như:</span>✅<span style=\"font-size:14px;\"> lan ý ,</span>✅<span style=\"font-size:14px;\"> kim tiền,</span>✅<span style=\"font-size:14px;\"> tùng bồng lai, </span>✅<span style=\"font-size:14px;\">phong lộc , cây dành dành, cây mai vạn phúc.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây nội thất cho mệnh thủy:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh hỏa 1994,1995,1987,1986 hợp<strong> cây nội thất</strong> nào giúp phát tài phát lộc, may mắn tài lộc những loại cây hoa màu đỏ hay những loại cây lá hình bầu, tròn vì hỏa như:</span>✅<span style=\"font-size:14px;\"> dừa cạn,</span>✅<span style=\"font-size:14px;\"> kim ngân,</span>✅<span style=\"font-size:14px;\"> lan quân tử, </span>✅<span style=\"font-size:14px;\">Trầu bà đế vương đỏ,phong lộc , Hồng môn,Trạng nguyên ... Những loại cây nội thấy tô điểm thêm cho không gian.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Trồng cây phong thủy mệnh thủy: </strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">caybonmua.vn cung cấp cho khách hàng những loại cây đẹp, bền, dễ chăm sóc và còn phù hợp mang đến may mắn tài lộc cho <strong>người mệnh thủy</strong> 1997,1996,1983,1982, 2004,2005 năm 2020.</span>✅<span style=\"font-size:14px;\">Những loại cây này đa dạng về kích thước, chủng loại phù hợp làm cây để bàn, cây văn phòng.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Cây hợp mệnh thủy:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Trong thế giới các loại cây văn phòng, có rất nhiều loại cây đẹp nhưng mỗi loại cây lại phù hợp với từng mệnh hay không gian khác nhau.</span>✅<span style=\"font-size:14px;\"> caybonmua.vncung cấp đến khách hàng 8 loại cây hợp phù hợp với người <strong>mệnh thủy</strong> năm 2020 đễ trồng, dễ chăm sóc.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Người mệnh thủy hợp trồng cây gì nhất:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người <strong>mệnh thủy</strong> hợp trồng những loại cây mang màu đỏ  màu sắc tượng trưng cho <strong>mệnh thủy</strong>. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây cảnh cho mệnh thủy tại hà nội:</span></strong></p>\n\n<p>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">caybonmua.vn là địa chỉ uy tín cung cấp các loại cây cảnh mini, cây văn phòng, cây ban công cho người <strong>mệnh thủy</strong> tại Hà Nội. </span></span>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">Giá thành hợp lý, dịch vụ hậu mãi tốt đáp ứng mọi nhu cầu của khách hàng.</span></span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh thủy hợp cây gì?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người <strong>mệnh thủy</strong> hợp trồng những loại cây mang màu xanh, màu trắng  Còn phù hợp nhất là hoa thanh tú, cây đậu biếc, cây lan ý, cây dành dành.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh thủy hợp cây để bàn gì năm 2020?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người <strong>mệnh thủy</strong> hợp trồng những loại cây mang màu xanh,màu trắng vì kim sinh thủy những loại hoa màu trắng cũng sẽ mang đến may mắn cho khách hàng. Cây đề bàn mang đến cảm giác thoải mái,  may mắn khi làm viêc.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Những loại cây để bàn cho người mệnh thủy?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thủy hợp trồng những loại cây để bàn mang mang màu sắc xanh hoặc màu trắng . Mua cây để bàn giá rẻ, giao hàng nhanh chóng, giá tốt nhất thị trường.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Mệnh thủy hợp cây gì để ban công năm 2020?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thủy hợp trồng những loại cây ban công mang màu xanh, trắng tương sinh ra hành thủy như hành kim . Ngoài ra, những loại cây đó còn phải chịu được nắng gió, dễ dàng chăm sóc vì được bố trí ở ban công, logia.</span></p>\n\n<p> </p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây cảnh cho mệnh thổ:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh Thổ hợp cây cảnh nào giúp phát tài phát lộc, may mắn tài lộc những loại cây có màu vàng, nâu hoặc màu đỏ vì hỏa sinh thổ như:</span>✅<span style=\"font-size:14px;\"> lan hồ điệp,</span>✅<span style=\"font-size:14px;\"> lưỡi hổ,</span>✅<span style=\"font-size:14px;\"> lan quân tử, </span>✅<span style=\"font-size:14px;\">Trầu bà đế vương đỏ,phong lộc , Hồng môn,Trạng nguyên ...</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Trồng cây phong thủy mệnh thổ: </strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">caybonmua.vn cung cấp cho khách hàng những loại cây đẹp, bền, dễ chăm sóc và còn phù hợp mang đến may mắn tài lộc cho người mệnh thổ năm 2020.</span>✅<span style=\"font-size:14px;\">Những loại cây này đa dạng về kích thước, chủng loại phù hợp làm cây để bàn, cây văn phòng.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Cây hợp mệnh thổ:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Trong thế giới các loại cây văn phòng, có rất nhiều loại cây đẹp nhưng mỗi loại cây lại phù hợp với từng mệnh hay không gian khác nhau.</span>✅<span style=\"font-size:14px;\"> caybonmua.vncung cấp đến khách hàng 10 loại cây hợp phù hợp với người mệnh thổ năm 2020 đễ trồng, dễ chăm sóc.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Người mệnh thổ hợp trồng cây gì nhất:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây cảnh cho mệnh thổ tại hà nội:</span></strong></p>\n\n<p>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">caybonmua.vn là địa chỉ uy tín cung cấp các loại cây cảnh mini, cây văn phòng, cây ban công cho người mệnh thổ tại Hà Nội. </span></span>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">Giá thành hợp lý, dịch vụ hậu mãi tốt đáp ứng mọi nhu cầu của khách hàng.</span></span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh thổ hợp cây gì?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh thổ hợp cây để bàn gì năm 2020?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Những loại cây để bàn cho người mệnh thổ?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây để bàn mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Mệnh thổ hợp cây gì để ban công năm 2020?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh thổ hợp trồng những loại cây ban công mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>1991 mệnh thổ hợp trồng cây gì?</strong></span></p>\n\n<p>✅ <span style=\"font-size:14px;\">Người sinh năm 1991 mệnh lộ bàng thổ hợp trồng những loại cây để bàn mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>1990 mệnh thổ hợp trồng cây gì?</strong></span></p>\n\n<p>✅ <span style=\"font-size:14px;\">Người sinh năm 1990 mệnh lộ bàng thổ hợp trồng những loại cây để bàn mang màu đỏ, vàng, nâu màu sắc tượng trưng cho mệnh thổ. Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa mà hỏa sinh thổ nghĩa là cây mang đến may mắn cho mệnh thổ rất nhiều.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây cảnh mini cho mệnh kim:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh kim 1984, 1985, 1992,1993 hợp cây cảnh nào giúp phát tài phát lộc, may mắn tài lộc những loại cây hoa màu trắng, màu vàng vì thổ sinh kim hay những loại cây lá kim, hình chóp như:</span>✅<span style=\"font-size:14px;\"> tùng bồng lai ,</span>✅<span style=\"font-size:14px;\"> mai vạn phúc,</span>✅<span style=\"font-size:14px;\"> cây kim tiền.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây cảnh để bàn cho mệnh kim:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh kim 1984, 1985, 1992,1993 hợp <strong>cây cảnh để bàn </strong>nào giúp phát tài phát lộc,  may mắn tài lộc những loại cây hoa màu trắng, màu vàng vì thổ sinh kim hay những loại cây lá kim, hình chóp như:</span>✅<span style=\"font-size:14px;\"> tùng bồng lai ,</span>✅<span style=\"font-size:14px;\"> mai vạn phúc,</span>✅<span style=\"font-size:14px;\"> cây kim tiền.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây nội thất cho mệnh kim:</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Mệnh kim 1984, 1985, 1992,1993 hợp <strong>cây nội thất </strong>nào giúp phát tài phát lộc,  may mắn tài lộc những loại cây hoa màu trắng, màu vàng vì thổ sinh kim hay những loại cây lá kim, hình chóp như:</span>✅<span style=\"font-size:14px;\"> tùng bồng lai ,</span>✅<span style=\"font-size:14px;\"> mai vạn phúc,</span>✅<span style=\"font-size:14px;\"> cây kim tiền. Cây vừa tạo màu xanh và tô điểm thêm cho không gian sống.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Trồng cây phong thủy mệnh kim: </strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">caybonmua.vn cung cấp cho khách hàng những loại cây đẹp, bền, dễ chăm sóc và còn phù hợp mang đến may mắn tài lộc cho <strong>người mệnh kim</strong> 1984, 1985, 1992,1993 năm 2020.</span>✅<span style=\"font-size:14px;\">Những loại cây này đa dạng về kích thước, chủng loại phù hợp làm cây để bàn, cây văn phòng.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Cây hợp mệnh kim:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Trong thế giới các loại cây văn phòng, có rất nhiều loại cây đẹp nhưng mỗi loại cây lại phù hợp với từng mệnh hay không gian khác nhau.</span>✅<span style=\"font-size:14px;\"> caybonmua.vncung cấp đến khách hàng 8 loại cây hợp phù hợp với người <strong>mệnh kim</strong> năm 2020 đễ trồng, dễ chăm sóc.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Người mệnh kim hợp trồng cây gì nhất:</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người <strong>mệnh kim </strong>hợp trồng những loại cây mang màu đỏ  màu sắc tượng trưng cho <strong>mệnh kim.</strong> Còn phù hợp nhất là cây xác pháo, cây trạng nguyên vì cây này là mệnh hỏa.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây cảnh cho mệnh kim tại hà nội:</span></strong></p>\n\n<p>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">caybonmua.vn là địa chỉ uy tín cung cấp các loại cây cảnh mini, cây văn phòng, cây ban công cho người <strong>mệnh kim</strong> tại Hà Nội. </span></span>✅<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">Giá thành hợp lý, dịch vụ hậu mãi tốt đáp ứng mọi nhu cầu của khách hàng.</span></span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh kim hợp cây gì?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người <strong>mệnh kim</strong> hợp trồng những loại cây mang màu xanh lá cây, màu trắng, xanh da trời  Còn phù hợp nhất là hoa thanh tú,cây lan ý, cây dành dành, cây mai vạn phúc.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mệnh kim hợp cây để bàn gì năm 2020?</span></strong></p>\n\n<p>✅<span style=\"font-size:14px;\">Người <strong>mệnh kim</strong> hợp trồng những loại cây mang màu xanh lá cây, xanh da trời vì thủy sinh mộc những loại hoa màu xanh da trời cũng sẽ mang đến may mắn cho khách hàng. Cây đề bàn mang đến cảm giác thoải mái,  may mắn khi làm viêc.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Những loại cây để bàn cho người mệnh kim?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người mệnh mộc hợp trồng những loại cây để bàn mang mang màu sắc xanh lá cây, xanh da trời . Mua cây để bàn giá rẻ, giao hàng nhanh chóng, giá tốt nhất thị trường.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Mệnh kim hợp cây gì để ban công năm 2020?</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Người <strong>mệnh kim</strong> hợp trồng những loại cây ban công mang màu xanh, bởi thủy sinh mộc theo thuyết ngũ hành tương sinh . Ngoài ra, những loại cây đó còn phải chịu được nắng gió, dễ dàng chăm sóc vì được bố trí ở ban công, logia.</span></p>\n",
+      "image": "categories/legacy/4f8b0f68f850bb037de5a190758b7e2d6730c05b520c95f04265bcce25a3430c.webp",
+      "sort_order": 2,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-28T16:15:44.000000Z",
+      "created_at": "2026-10-28T01:24:24.000000Z",
+      "updated_at": "2026-10-28T01:24:24.000000Z",
+      "products_count": "8"
+    },
+    {
+      "id": 9,
+      "legacy_id": "35",
+      "parent_id": null,
+      "name": "Cây Bụi Ngoại Thất ",
+      "slug": "cay-bui-ngoai-that-legacy-35",
+      "description": "<p><strong><span style=\"font-size:16px;\">Cây Bụi Ngoại Thất là gì?</span></strong></p>\n\n<p><span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\">Cây bụi</a> hay <a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\">cây bụi thấp</a> là các loài cây được phân biệt bằng một thân cây có rất nhiều nhánh và chiều cao ngắn hơn các loài cây thông thường, thường là dưới 5–6 m (15–20 ft) những không quá ngắn so với các loài cây thân thảo hay các loài cỏ.</span></p>\n\n<p><span style=\"font-size:14px;\">Ngoại thất là những gì thuộc về bên ngoài của một công trình.</span></p>\n\n<p><span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\"><strong>Cây bụi ngoại thất</strong></a> là những cây một thân có nhiều nhánh và có chiều cao ngắn hơn các loại cây thông thường (cao dưới 6m) được trồng sân vườn với mục đích trang trí.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây bụi ngoại thất: </strong></span></p>\n\n<p style=\"text-align:justify;\"><span style=\"font-size:14px;\">✅<span style=\"color:rgb(77,81,86);\"><strong>Caybonmua.vn</strong> cung cấp rất nhiều loại<a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\"> </a></span><a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\"><strong>cây cảnh trồng ngoại thất.</strong></a><span style=\"color:rgb(77,81,86);\"> </span>Những loại cây bụi ngoại thất thường được sử dụng để trang trí công trình cảnh quan, cây có tác dụng tạo không gian đẹp, thoáng mát, thường được trồng thành hàng, thành viền trên đường phố, công viên, quán cafe, sân vườn…</span></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> cung cấp rất nhiều <strong><a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\">cây bụi ngoại thất</a> </strong>dùng để trang trí thảm sân vườn, giúp thanh lọc không khí hiện đang là một trong những xu hướng thiết kế được rất nhiều gia đình ưa chuộng. <strong><a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\">Cây bụi ngoại thất</a></strong> thực sự đóng một vài trò quan trọng trong không gian ngoại thất, sân vườn ngày nay.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây bụi ngoại thất tại Hà Nội:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> là địa chỉ uy tín tại Hà Nội bán <strong><a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\">cây bụi ngoại thất đẹp </a></strong>đa dạng về mẫu mã, giá thành hợp lý, hàng có sẵn tại cửa hàng cho nên ship hàng nhanh chóng, thuận tiện, giá thành hợp lý.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây bụi ngoại thất đẹp, dễ sống:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Hãy cũng <strong>caybonmua.vn</strong> tìm hiểu những loại <a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\"><strong>cây bụi ngoại thất</strong></a> dễ sống, dễ chăm sóc dưới đây như cây bạch thiên hương, trúc quân tử, cúc ngũ sắc, ngọc nữ, mai tiểu thư.... Đây đều là những loại cây đẹp, dễ trồng mà giá thành lại rất hợp lý.</span></p>\n\n<p style=\"text-align:justify;\"><strong><span style=\"font-size:16px;\">Những thời điểm thích hợp để trồng cây bụi:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Sau khi hoàn thành công trình công cộng, bạn muốn che phủ nền đất trống bằng những <a href=\"http://caybonmua.vn/cay-bui-ngoai-that-dm35.html\">cây bụi đẹp</a> để tạo thêm điểm nhấn.</span></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Bạn đang sở hữu một diện tích khá lớn đất công trình nhưng lại phân vân không biết nên trồng loại cây nào cho phù hợp. Câu trả lời cho bạn chính là <a href=\"http://caybonmua.vn/cay-bui-ngoai-that-dm35.html\">cây bụi công trình</a>.</span></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Bạn muốn tìm loại cây tiết kiệm được chi phí nhưng vẫn đảm bảo được vẻ đẹp ấn tượng cho công trình. <a href=\"http://caybonmua.vn/cay-bui-ngoai-that-dm35.html\">Cây bụi</a> chính là sự lựa chọn tối ưu nhất dành cho bạn.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây bụi ngoại thất được ưa chuộng:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Những loại <a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\"><strong>cây bụi ngoại thất</strong></a> dễ trồng có tại <strong>caybonmua.vn</strong> như cây bạch thiên hương, trúc quân tử, cúc ngũ sắc, ngọc nữ, mai tiểu thư....  Liên hệ ngay Mr sơn 0888.085.444 để được tư vấn chi tiết, cụ thể.</span></p>\n",
+      "image": "categories/legacy/bd467d809414a5ca6d748e31995deb6a4cf7ce82451f875fc35c50e523bdd1fc.webp",
+      "sort_order": 0,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-28T16:15:44.000000Z",
+      "created_at": "2026-10-28T01:24:25.000000Z",
+      "updated_at": "2026-10-28T01:24:25.000000Z",
+      "products_count": "19"
+    },
+    {
+      "id": 10,
+      "legacy_id": "36",
+      "parent_id": null,
+      "name": "Cây hoa leo ",
+      "slug": "cay-hoa-leo-legacy-36",
+      "description": "<p><span style=\"font-size:16px;\"><strong>Cây hoa leo: </strong></span></p>\n\n<p><span style=\"font-size:14px;\">✅<strong><a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\">Cây hoa leo</a> </strong>là những cây thường có thân cây hóa gỗ, mọc trên đất và leo lên hàng rào.<strong> <a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\">Cây hoa leo</a></strong> không phải là một nhóm cây được xếp cùng họ hàng với nhau, mà chỉ có cùng một dạng phát triển lối sống tương tự của các loài thuộc các họ khác nhau.</span></p>\n\n<p style=\"text-align:justify;\"><span style=\"font-size:14px;\">✅<span style=\"color:rgb(77,81,86);\"><strong>Caybonmua.vn</strong> cung cấp rất nhiều loại </span><strong><a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\">cây hoa leo giàn đẹp</a></strong> đem đến vẻ đẹp thiên nhiên, sự tươi mới và tỏa sáng cho không gian của căn nhà, khuôn viên xung quanh. Đồng thời, chúng mang đến bóng mát cho sân vườn, cho căn nhà. <a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\"><strong>Cây hoa leo</strong></a> làm giảm bớt nhiệt độ nắng nóng, hút các chất độc, khí bui bẩn, điều hòa không khí và cân bằng độ ẩm cho không gian xung quanh. Không những thế, chúng còn tạo không gian thơ mộng, đẹp, thư giãn bởi sắc đẹp và hương thơm của cây hoa leo đẹp.</span></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> cung cấp rất nhiều <strong><a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\">cây hoa leo giàn đẹp</a> </strong>dùng để trang trí sân vườn, ban công, được rất nhiều gia đình ưa chuộng. Cây <a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\"><strong>hoa leo giàn</strong></a> thực sự đóng một vài trò quan trọng trong không gian ngoại thất, sân vườn ngày nay.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây hoa leo giàn tại Hà Nội:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> là địa chỉ uy tín tại Hà Nội bán cây<a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\"><strong> hoa leo giàn đẹp</strong></a>, đa dạng về mẫu mã, giá thành hợp lý, hàng có sẵn tại cửa hàng cho nên ship hàng nhanh chóng, thuận tiện, giá thành hợp lý.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây hoa leo giàn đẹp, dễ sống:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Hãy cũng <strong>caybonmua.vn</strong> tìm hiểu những loại <a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\"><strong>cây hoa leo giàn</strong></a> dễ sống, dễ chăm sóc dưới đây như hồng leo Hải Phòng, hoa Chùm Ớt, hoa Đậu Biếc, hoa Giấy, Sử Quân Tử, Lan Hoàng Dương,.... Đây đều là những loại cây đẹp, dễ trồng mà giá thành lại rất hợp lý.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây hoa leo được nhiều người trồng:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Những loại <a href=\"https://caybonmua.vn/cay-hoa-leo-dm36.html\"><strong>cây hoa leo giàn</strong></a> dễ trồng có tại <strong>caybonmua.vn</strong> như cây hồng leo Hải Phòng, hoa Chùm Ớt, hoa Đậu Biếc, hoa Giấy, Sử Quân Tử, Lan Hoàng Dương,....   Liên hệ ngay Mr sơn 0888.085.444 để được tư vấn chi tiết, cụ thể.</span></p>\n",
+      "image": "categories/legacy/1f541f5bfc6e0d7bbf4b0cb22373cb954d161acae7134d5180434c53ed2077b5.webp",
+      "sort_order": 0,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-28T16:15:44.000000Z",
+      "created_at": "2026-10-28T01:24:25.000000Z",
+      "updated_at": "2026-10-28T01:24:25.000000Z",
+      "products_count": "11"
+    },
+    {
+      "id": 11,
+      "legacy_id": "37",
+      "parent_id": null,
+      "name": "Cây treo ban công ",
+      "slug": "cay-treo-ban-cong-legacy-37",
+      "description": "<p><span style=\"font-size:16px;\"><strong>Cây hoa treo ban công:</strong></span></p>\n\n<p><span style=\"font-size:14px;\">✅Trên thị trường có rất nhiều loại cây được sử dụng để treo trên ban công. Những loại cây này đều là loại cây dễ sống, không cần chăm sóc nhiều. Ngày nay, nhu cầu sử dụng cây trang trí cho ban công ngày càng tăng cao bởi cây xanh đóng một vai trò vô cùng quan trọng trong đời sống của con người hiện đại. <strong><a href=\"https://caybonmua.vn/cay-treo-ban-cong-dm37.html\">Cây trồng ban công</a></strong> hầu hết là trồng trong chậu vì thế thổ nhưỡng không được dồi dào như đất trồng sân vườn. Chính vì thế ưu tiên những loại cây nhỏ, rễ ít, không phân tán quá nhiều để tránh không đủ dinh dưỡng nuôi cây. Ngoài ra cũng tránh để ban công chịu lực quá mạnh.</span></p>\n\n<p><span style=\"font-size:14px;\">✅</span><span style=\"color:rgb(77,81,86);font-size:14px;\"><strong>Caybonmua.vn </strong>hiện đang cung cấp rất nhiều loại <a href=\"https://caybonmua.vn/cay-treo-ban-cong-dm37.html\"><strong>cây treo ban công</strong></a> với mọi hình dáng, kích thước để phù hợp với ban công nhà bạn, tạo cho ban công một vẻ đẹp thiên nhiên, dịu mát, là 1 nơi phù hợp để thư giãn sau những ngày làm việc căng thẳng.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Các loại cây treo ban công đẹp: </strong></span></p>\n\n<p><span style=\"font-size:14px;\">✅<strong>Caybonmua.vn</strong> cung cấp các loại cây ban công có hoa đẹp, thường xanh như cây hoa thanh tú, cây chùm ớt, cây liễu hồng..... Những loại cây này rất dễ trồng và chăm sóc, phù hợp với những người có công việc bận rộn  không có thời gian nhiều để chăm sóc cây mà cây vẫn đẹp và xanh tốt.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây hoa treo ban công tại Hà Nội:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> là địa chỉ uy tín tại Hà Nội bán <a href=\"https://caybonmua.vn/cay-treo-ban-cong-dm37.html\"><strong>cây hoa treo ban công đẹp</strong></a>, đa dạng về mẫu mã, giá thành hợp lý, hàng có sẵn tại cửa hàng cho nên ship hàng nhanh chóng, thuận tiện, giá thành hợp lý.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây hoa ban công được ưa chuộng:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Những loại <strong><a href=\"https://caybonmua.vn/cay-treo-ban-cong-dm37.html\">cây hoa treo ban công</a> </strong>dễ trồng có tại <strong>caybonmua.vn</strong> như cây hoa thanh tú, cây chùm ớt, cây liễu hồng..... Liên hệ ngay Mr sơn 0888.085.444 để được tư vấn chi tiết, cụ thể.</span></p>\n",
+      "image": "categories/legacy/8fd3d6f7f887c542ac3c678e6049f6605f7137301330fd8555a55d6a21b2aa44.webp",
+      "sort_order": 3,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-28T16:15:44.000000Z",
+      "created_at": "2026-10-28T01:24:25.000000Z",
+      "updated_at": "2026-10-28T01:24:25.000000Z",
+      "products_count": "11"
+    },
+    {
+      "id": 12,
+      "legacy_id": "38",
+      "parent_id": null,
+      "name": " Hoa Hồng ",
+      "slug": "cay-hoa-hong-legacy-38",
+      "description": "<p><span style=\"font-size:16px;\"><strong>Cây hoa Hồng:</strong></span></p>\n\n<p><span style=\"font-size:14px;\">✅Trên thị trường, hiện nay có rất nhiều loại <a href=\"https://caybonmua.vn/cay-hoa-hong-dm38.html\"><strong>hoa hồng đẹp</strong></a> với nhiều chủng loại, hình dạng khác nhau. Những <a href=\"https://caybonmua.vn/cay-hoa-hong-dm38.html\"><strong>cây hoa hồng</strong></a> Mang lại niềm vui cho những người trồng hoa, chiêm ngưỡng thành quả bằng những bông hoa rực rỡ toả hương thơm. Ngoài ra, bạn cũng có thể ngắt những cành hoa hồng đẹp nhất để cắm bình hoa theo sở thích, giúp tô điểm cho không gian của bạn thêm màu sắc và tỏa hương thơm dễ chịu.</span></p>\n\n<p><span style=\"font-size:14px;\">✅</span><span style=\"font-size:14px;\"><strong>Caybonmua.vn </strong>hiện đang cung cấp rất nhiều loại <a href=\"https://caybonmua.vn/cay-hoa-hong-dm38.html\"><strong>Cây Hoa hồng</strong></a> với mọi hình dạng. Cây </span><span style=\"font-size:14px;\">Hoa hồng thường được rất nhiều người yêu thích, lựa chọn trồng từ không gian gia đình, công viên, biệt thự đến quán cà phê.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây hoa hồng đẹp: </strong></span></p>\n\n<p><span style=\"font-size:14px;\">✅ Hiện nay, để trang trí cho các khuôn viên thì chủ nhà rất yêu thích hoa hồng. Hoa hồng thì có hồng Việt và Hồng ngoại đều được lựa chọn rất nhiều. Những cây đều có hoa đẹp, dễ trồng, dễ chăm khi lựa chọn cây chú ý là cây có thân khỏe, xanh ko bị đen thân. </span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cây hoa hồng leo:</strong></span></p>\n\n<p><span style=\"font-size:14px;\">✅ Điểm danh những loại hoa hồng Việt leo như cây hồng cổ hải phòng. Bên cạnh đó những loại hồng leo ngoại cũng được người tiêu dùng tin tưởng như lovelygreen, Aoi rose.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Các loại cây hoa hồng đẹp: </strong></span></p>\n\n<p><span style=\"font-size:14px;\">✅<strong>Caybonmua.vn</strong> cung cấp các loại <a href=\"https://caybonmua.vn/cay-hoa-hong-dm38.html\"><strong>cây hoa hồng đẹp</strong></a> dùng để trồng biệt thự, sân vườn, trang trí ban công như hồng cổ Sapa, hồng cổ Hải phòng, Hồng ngoại,... Những loại hoa hồng này có những bông ra rất to, đẹp, bền hoa, là một sự lựa chọn tuyệt vời dành cho những người yêu hoa.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây hoa hồng tại Hà Nội:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> là địa chỉ uy tín tại Hà Nội bán <a href=\"https://caybonmua.vn/cay-hoa-hong-dm38.html\"><strong>Cây hoa hồng đẹp</strong></a>, đa dạng về mẫu mã, giá thành hợp lý, hàng có sẵn tại cửa hàng cho nên ship hàng nhanh chóng, thuận tiện, giá thành hợp lý nhất thị trường.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây hoa hồng được trồng nhiều nhất:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Những loại <a href=\"https://caybonmua.vn/cay-hoa-hong-dm38.html\"><strong>Cây hoa hồng</strong></a> dễ trồng dễ chăm có tại <strong>caybonmua.vn</strong> như  hồng cổ Sapa, hồng cổ Hải phòng, Hồng ngoại,... Liên hệ ngay Mr sơn 0888.085.444 để được tư vấn chi tiết, cụ thể.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Cách chăm sóc cây hoa hồng:</strong></span></p>\n\n<p style=\"text-align:justify;\">✅ <span style=\"font-size:14px;\">Theo kinh nghiệm của caybonmua.vn thì cây hoa hồng nên tưới cây bằng vòi phun nhẹ tưới đều vào buổi sáng, nếu vào các ngày nắng gắt nên tưới thêm cho cây không bị héo, lưu ý tưới lúc chiều mát nhưng không quá trể để nước không còn ướt lá và nụ hoa qua đêm dễ tạo môi trường cho sâu bệnh phát triển. Nếu cây trồng chậu nên tưới ngày 2 lần.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Những bệnh hoa hồng thường mắc phải:</strong></span></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Trên đây là những bệnh của hoa hồng thường mắc phải, mọi người hãy chú ý khi thấy cây bị mắc bệnh thì liên hệ ngay với caybonmua.vn để được tư vấn cách chữa, chăm cây.Bệnh đốm đen.</span>✅<span style=\"font-size:14px;\"> Đốm đen là bệnh phổ biến nhất trên cây hoa hồng. ...Bệnh phấn trắng. ...</span><span style=\"font-size:14px;\">Bệnh vàng lá Triệu chứng của bệnh nhiễm độc là lá cây chuyển sang màu vàng. ...</span><span style=\"font-size:14px;\">Bệnh rỉ sét (Rose Ruts) Rose Rust chủ yếu xảy ra vào mùa hè. ...</span><span style=\"font-size:14px;\">Rệp. ...</span><span style=\"font-size:14px;\">Nhện đỏ ...</span><span style=\"font-size:14px;\">Sâu bướm. ...</span><span style=\"font-size:14px;\">Bệnh héo Verticillium</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Lý do hoa hồng không ra hoa.</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Có rất nhiều lý do khiến cây hoa hồng không ra hoa những thường là do cây bị mắc một số bệnh như đốm đen. phấn trắng hoặc do cây ko được cung cấp đủ dinh dường, nước tưới quá nhiều bị úng cây. </span>✅Q<span style=\"font-size:14px;\">uý khách hàng vui lòng chụp ảnh và inbox cho caybonmua.vn để được tư vấn cụ thể nhất về tình trạng của cây.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Những loại hồng ngoại được yêu thích, dễ trồng, dễ chăm.</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Tỏng hợp những loại hoa hồng ngoại được yêu thích nhất, dễ trồng, dễ chăm ra hoa quanh năm gồm: Hoa hồng ngoại Aoi rose, </span>Hoa hồng nhập ngoại Aunt Margy’s rose</p>\n\n<p><span style=\"font-size:14px;\">Hoa hồng nhập ngoại Muriel Robin rose................</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Những bệnh hoa hồng ngoại thường mắc phải.</strong></span></p>\n\n<p>✅<span style=\"font-size:14px;\">Cây hồng ngoại cũng như hồng Việt mặc một số bệnh như sau: Đốm đen là bệnh phổ biến nhất trên cây hoa hồng. ...Bệnh phấn trắng. ...Bệnh vàng lá Triệu chứng của bệnh nhiễm độc là lá cây chuyển sang màu vàng. ...Bệnh rỉ sét (Rose Ruts) Rose Rust chủ yếu xảy ra vào mùa hè. ...Rệp. ...Nhện đỏ ...Sâu bướm. ...Bệnh héo Verticillium</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>Hoa hồng ngoại có ra hoa quanh năm, dễ trồng hay không?</strong></span></p>\n\n<p>✅ Những loại hoa hồng ngoại rất dễ trồng, dễ chăm vì đa phần là hàng triết. Bên cạnh đó, những bệnh mà hoa hồng ngoại thường mắc phải như Bệnh đốm đen, bệnh phấn trắng, bệnh nhện đỏ..... Là những bệnh thường được gặp khi phát hiện ra cây hồng mắc bệnh quý khách hàng cần mua ngay thuốc để phòng tránh bệnh cho hồng.</p>\n",
+      "image": "categories/legacy/e91c36c70b942cd529bc20e2de791ee3e7315514adb0a95529e49d0b484373b9.webp",
+      "sort_order": 0,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-28T16:15:44.000000Z",
+      "created_at": "2026-10-28T01:24:25.000000Z",
+      "updated_at": "2026-10-28T01:24:25.000000Z",
+      "products_count": "4"
+    },
+    {
+      "id": 13,
+      "legacy_id": "39",
+      "parent_id": null,
+      "name": "Cây Thảm ngoại thất",
+      "slug": "cay-tham-ngoai-that-legacy-39",
+      "description": "<p><span style=\"font-size:16px;\"><strong>Cây thảm ngoại thất: </strong></span></p>\n\n<p style=\"text-align:justify;\"><span style=\"font-size:14px;\">✅<span style=\"color:rgb(77,81,86);\"><strong>Caybonmua.vn</strong> cung cấp rất nhiều loại<a href=\"https://caybonmua.vn/cay-bui-ngoai-that-dm35.html\"> </a></span><a href=\"https://caybonmua.vn/cay-tham-ngoai-that-dm39.html\"><strong>cây thảm trồng ngoại thất.</strong></a><a href=\"https://caybonmua.vn/cay-tham-ngoai-that-dm39.html\"><span style=\"color:rgb(77,81,86);\"> </span></a>Những loại cây thảm ngoại thất thường được sử dụng để trồng nền cho công trình, cảnh quan sân vườn, cây có tác dụng cải thiện không khí, giữ ẩm cho đất, giảm lượng ngập úng do mưa bão, chống xói mòn đất, thường được trồng thành nền, thảm trên đường phố, công viên, quán cafe, sân vườn…</span></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> cung cấp rất nhiều <strong><a href=\"https://caybonmua.vn/cay-tham-ngoai-that-dm39.html\">cây thảm ngoại thất</a> </strong>với nhiều công năng khác nhau. <strong><a href=\"https://caybonmua.vn/cay-tham-ngoai-that-dm39.html\">Cây thảm ngoại thất</a></strong> thực sự đóng một vài trò quan trọng trong không gian ngoại thất, sân vườn ngày nay.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Mua cây thảm ngoại thất tại Hà Nội:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\"><strong>Caybonmua.vn</strong> là địa chỉ uy tín tại Hà Nội bán <a href=\"https://caybonmua.vn/cay-tham-ngoai-that-dm39.html\"><strong>cây thảm ngoại thất</strong></a> đa dạng về mẫu mã, giá thành hợp lý, hàng có sẵn tại cửa hàng cho nên ship hàng nhanh chóng, thuận tiện, giá thành hợp lý.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây thảm ngoại thất đẹp, dễ sống:</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Hãy cũng <strong>caybonmua.vn</strong> tìm hiểu những loại <a href=\"https://caybonmua.vn/cay-tham-ngoai-that-dm39.html\"><strong>cây thảm ngoại thất</strong></a> dễ sống, dễ chăm sóc dưới đây như cây lan rẻ quạt, tía tô nhật, cây lá gấm, cây hoa dừa cạn.... Đây đều là những loại cây đẹp, dễ trồng mà giá thành lại rất hợp lý.</span></p>\n\n<p><strong><span style=\"font-size:16px;\">Những loại cây thảm ngoại thất được ưa chuộng.</span></strong></p>\n\n<p style=\"text-align:justify;\">✅<span style=\"font-size:14px;\">Những loại <a href=\"https://caybonmua.vn/cay-tham-ngoai-that-dm39.html\"><strong>cây thảm ngoại thất</strong></a> dễ trồng có tại <strong>caybonmua.vn</strong> như cây cây lan rẻ quạt, tía tô nhật, cây lá gấm, cây hoa dừa cạn.... Liên hệ ngay Mr sơn 0888.085.444 để được tư vấn chi tiết, cụ thể.</span></p>\n",
+      "image": "categories/legacy/481e67f11a42431046311666fac7ee89748344b36b4e86a60d9c98dd05c285a9.webp",
+      "sort_order": 0,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-28T16:15:44.000000Z",
+      "created_at": "2026-10-28T01:24:25.000000Z",
+      "updated_at": "2026-10-28T01:24:25.000000Z",
+      "products_count": "18"
+    },
+    {
+      "id": 14,
+      "legacy_id": "41",
+      "parent_id": null,
+      "name": "Phụ kiện trang trí",
+      "slug": "phu-kien-trang-tri-legacy-41",
+      "description": "<p><span style=\"font-size:16px;\"><strong>CUNG CẤP CHẬU XI MĂNG ĐÁ MÀI NHIỀU, CHẬU COMPOSITE, CHẬU SỨ, CHẬU GỐM &amp; CÁC PHỤ KIỆN TRANG TRÍ CỦA </strong></span></p>\n\n<div>\n<p>✅ <span style=\"font-size:14px;\">Caybonmua.vn chuyên cung cấp các loại chậu đá mài như chậu chữ nhật, vuông, tròn và các loại chậu composite kích thước khác nhau phục vụ theo nhu cầu của khách hàng.</span>✅ Liên hệ ngay 0838.999.020. để biết thêm chi tiết.</p>\n</div>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG ĐÁ MÀI </strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn phủ ánh ngọc trai vát đáy có nhiều kích thước khác nhau như: 300x300x680,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu đỏ, trắng. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn phủ ánh ngọc trai vát đáy theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài cao cấp, bền bì, nhiều màu sắc, nhiều kích thước lựa chọn cho không gian nội thất. <a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài theo nhu cầu của khách hàng. Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG CHỮ NHẬT </strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài hình chữ nhật có nhiều kích thước khác nhau như: 300x300x600, 400x400x800, 400x400x1000, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài hình chữ nhật theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><strong>CHẬU XI MĂNG VUÔNG</strong></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài hình vuông có nhiều kích thước khác nhau như: 200x200x200, 250x250x250, 300x300x300, 350x350x350, 400x400x400, 500x500x500, 600x600x600, 800x800x800, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài hình vuông theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất .</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG GIỌT NƯỚC </strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài hình giọt nước có nhiều kích thước khác nhau như: 320x480, 360x550, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài giọt nước theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG TRỤ TRÒN</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài trụ tròn có nhiều kích thước khác nhau như: 400x600, 400x700, 400x800, 350x600, 300x500, 300x600, 250x500, 370x400, 370x420, 300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài trụ tròn theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất</span></p>\n\n<p><strong><span style=\"font-size:16px;\">CHẬU XI MĂNG BO MIỆNG</span></strong></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài bo miệng có kích thước 370x380, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng bo miệng  theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG BẦU TRÒN</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài bầu tròn có kích thước 420x430, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng bầu tròn theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG TRỨNG THẤP</strong></span></p>\n\n<p><span style=\"font-size:14px;\">✅​Chậu xi măng đá mài trứng thấp có nhiều kích thước khác nhau như: 300x220, 370x300, 470x420 và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu....... ✅​Màu sắc lựa chọn có 3 màu trắng, xám, đen. ✅​<a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài trứng thấp theo nhu cầu của khách hàng, hàng có sẵn tại kho. ✅​Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG TRỨNG CAO</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài trứng cao có nhiều kích thước khác nhau như: 470x470 30x370, 270x290 và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài trứng cao theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG KẺ DỌC</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài kẻ dọc có nhiều kích thước khác nhau như: 310x360, 410x450, 510x560, và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài trứng cao theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG KẺ NGANG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài kẻ ngnag có nhiều kích thước khác nhau như: 250x300, 350x400, 450x500, 550x600, và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài kẻ ngang theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG ĐẦU ĐẠN</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài đầu đạn có nhiều kích thước khác nhau như:320x600, 350x600, 400x700, 400x900 và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài đầu đạn theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG VÓT</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài vót có nhiều kích thước khác nhau như:350x600, 400x700 và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài vót theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG VUÔNG VÁT</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài vuông vátt có nhiều kích thước khác nhau như:300x300x500, 300x300x600,  và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài vuông vát theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG VUÔNG TRỤ</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài vuông trụ có nhiều kích thước khác nhau như:350x350x600, 350x350x700, 300x300x500, 300x300,600 và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu. </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài vuông trụ theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU XI MĂNG TRỨNG ĐẠI</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu xi măng đá mài trứng đại có nhiều kích thước khác nhau như:600x460, 500x410, 400x360 và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu. </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 3 màu trắng, xám, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu xi măng đá mài trứng đại theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU COMPOSITE</strong></span></p>\n\n<p>Chậu cây cảnh composite cao cấp, nhẹ,siêu bền đẹp, có đủ kiểu dáng tinh tế, tô điểm không gian xanh.<a href=\"https://caybonmua.vn/\"> Caybonmua.vn</a> chuyên cung cấp các loại chậu composite theo nhu cầu của khách hàng.  Liên hệ ngay 0838.999.020 để tham khảo thêm nhiều sản phẩm và được tư vấn tốt nhất.</p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU KẺ CHỈ HOẶC TRƠN SƠN TRẮNG BÓNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite kẻ hoặc trơn sơn trắng bóng có nhiều kích thước khác nhau như: 150x150x150, 300x150x150, 200x200x200, 500x200x200,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite kẻ hoặc trơn sơn trắng bóng theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU KẺ DỌC SƠN TRẮNG BÓNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite kẻ sơn trắng bóng có nhiều kích thước khác nhau như: 300x300x300, 400x400x400,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite kẻ sơn trắng bóng theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU HÀNG RÀO 1 MẶT SƠN TRẮNG BÓNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite hàng rào 1 mặt sơn trắng bóng có nhiều kích thước khác nhau như: 500x200x200, 500x250x250, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite hàng rào 1 mặt sơn trắng bóng theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU HÀNG RÀO 4 MẶT SƠN TRẮNG BÓNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite hàng rào 4 mặt sơn trắng bóng có nhiều kích thước khác nhau như: 300x300x300, 400x400x400, 500x500x500,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite hàng rào 4 mặt sơn trắng bóng theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU GỈ SÉT</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite gỉ sét có nhiều kích thước khác nhau như: 500x200x200, 500x240x240, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite gỉ sét theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU GỈ SÉT VUÔNG, VÁT ĐÁY</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite gỉ sét vuông. vát đáy có nhiều kích thước khác nhau như: 300x300x680,.. và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite  gỉ sét vuông. vát đáy theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU KẺ DỌC GỈ SÉT</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite kẻ dọc có nhiều kích gỉ sét thước khác nhau như: 300x300x300, 400x400x400,.. và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite gỉ sét dọc. vát đáy theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU HÀNG RÀO 1 MẶT GỈ SÉT</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite hàng rào 1 mặt gỉ sét có nhiều kích thước khác nhau như: 500x200x200, 500x240x240, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite hàng rào 1 mặt gỉ sét theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU HÀNG RAO 4 MẶT GỈ SÉT</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite hàng rào 4 mặt gỉ sét có nhiều kích thước khác nhau như: 300x300x300, 400x400x400,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite hàng rào 4 mặt gỉ sét theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN ĐÁ GRANITO </strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn đá granito có nhiều kích thước khác nhau như: 500x200x200, 500x240x240, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu đỏ, xám. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn đá granito theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN ĐÁ HẠT </strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn đá hạt trắng có nhiều kích thước khác nhau như: 500x200x200, 500x240x240, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 trắng, ghi. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn đá hạt trắng theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN VÂN XƯỚC</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn đá granito có nhiều kích thước khác nhau như: 500x200x200, 500x240x240, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite vân xước theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN PHỦ ÁNH NGỌC TRAI</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn phủ ánh ngọc trai có nhiều kích thước khác nhau như: 500x200x200, 500x240x240, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu đỏ, trắng. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn phủ ánh ngọc trai theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN PHỦ ÁNH NGỌC TRAI VÁT ĐÁY</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn phủ ánh ngọc trai vát đáy có nhiều kích thước khác nhau như: 300x300x680,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu đỏ, trắng. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn phủ ánh ngọc trai vát đáy theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN ĐÁ GRANITO VÁT ĐÁY</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn đá granito vát đáy có nhiều kích thước khác nhau như: 300x300x680,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu đỏ, xám </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn đá granito vát đáy theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN VÂN XƯỚC VÁT ĐÁY</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn vân xước vát đáy có nhiều kích thước khác nhau như: 300x300x680,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span><span style=\"font-size:14px;\"> </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn vân xước vát đáy theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN ĐÁ HẠT TRẮNG GHI VÁT ĐÁY</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơnđá hạt vát đáy  vát đáy có nhiều kích thước khác nhau như: 300x300x680,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu trắng, ghi. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn đá hạt vát đáy theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU CÁ SẤU GIẢ CỔ</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite cá sấu giả cổ có nhiều kích thước khác nhau như: 500x200x200, 500x240x240, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu</span><span style=\"font-size:14px;\">. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite cá sấu giả cổ theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU SƠN HIỆU ỨNG 3D XÁM VÀNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu composite sơn hiệu 3D có nhiều kích thước khác nhau như: 500x200x200, 500x240x240, 600x300x300,... và rất nhiều kích cỡ khác, khách hàng có lựa chọn kích thước đặt theo yêu cầu.</span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 2 màu xám, vàng. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu composite sơn hiệu ứng 3D theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><strong>CHẬU SỨ</strong></p>\n\n<p>Chậu sứ của Bát Tràng đủ màu: màu trắng, đen, xanh, vàng, đỏ,... Với nhiều kiểu dáng tròn, vuông, chữ nhật, lượn sóng,…<a href=\"https://caybonmua.vn/\"> Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ, chậu sứ cao cấp, chậu sứ lớn, chậu sứ mini các loại với giá tốt nhất thị trường. Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất</p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU KHẾ CAO BỘ 2</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ khế cao bộ 2 đường kính miệng có nhiều kích thước khác nhau như: 110x110,160x160, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ khế cao bộ 2 theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU TRÁM KIM CƯƠNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ trám kim cương đường kính miệng có nhiều kích thước khác nhau như: 110mm, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ khế cao bộ 2 theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU TRỨNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ trứng đường kính miệng có nhiều kích thước khác nhau như: 80, 100, 130, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 6 màu trắng, xanh, hồng, đen, cam, xanh lá. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ trứng theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU QUẢ LÊ</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ quả lê đường kính miệng có nhiều kích thước khác nhau như: 120, 160, 220, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ quả lê theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU BÁT</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ bát đường kính miệng có kích thước120, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 6 màu trắng, xanh, hồng, đen, cam, xanh lá. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ bát theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU VUÔNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ vuông đường kính miệng có nhiều kích thước khác nhau như:140, 180,100, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ vuông theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><strong>CHẬU ANG TRỤ BẸT BỘ 4</strong></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ ang trụ bẹt bộ 4 đường kính miệng có nhiều kích thước khác nhau như:100, 140, 180, 220 , lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 6 màu trắng, xanh, hồng, đen, cam, xanh lá. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ ang trụ bẹt 4 theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU VUÔNG VÁT</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ vuông vát đường kính miệng có nhiều kích thước khác nhau như:100, 140, 180, 220 , lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ vuông vát theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU TRỤ TRÁM</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ trụ trám có kích thước100x120 , lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 6 màu trắng, xanh, hồng, đen, cam, xanh lá. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ trụ trám theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU ASA</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ asa có kích thước100x110 , lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ asa theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU TRỤ TRƠN BỘ 2</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ trụ trơn bộ 2 đường kính miệng có nhiều kích thước khác nhau như:110, 140, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 6 màu trắng, xanh, hồng, đen, cam, xanh lá. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ trụ trơn bộ 2 theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU TRỤ BO</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ trụ bo có kích thước100x110 , lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ trụ bo theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU HẠT DẺ</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ hạt dẻ đường kính miệng có nhiều kích thước khác nhau như:100, 140, 180, 220 , lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 6 màu trắng, xanh, hồng, đen, cam, xanh lá. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ hạt dẻ theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU THẮT NƠ</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ thắt nơ có kích thước100x110 , lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ thắt nơ theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU ANG BO BỘ 3</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ ang bo bộ 3 đường kính miệng có nhiều kích thước khác nhau như:100, 140, 180, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 6 màu trắng, xanh, hồng, đen, cam, xanh lá. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ ang bo bộ 3 theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU KIM CƯƠNG</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ kim cương đường kính miệng có kích thước120, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ kim cương theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU CHÈM CHÉO</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ chèm chéo đường kính miệng có kích thước100, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 4 màu trắng, xanh, hồng, đen. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ chèm chéo theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn tốt nhất.</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU HẠT DẺ LÙN BỘ 3</strong></span></p>\n\n<p>✅​<span style=\"font-size:14px;\">Chậu sứ hạt dẻ lùn bộ 3 kính miệng có nhiều kích thước khác nhau như:140, 180,220, lựa chọn kích thước đặt theo yêu cầu....... </span>✅​<span style=\"font-size:14px;\">Màu sắc lựa chọn có 6 màu trắng, xanh, hồng, đen, cam, xanh lá. </span>✅​<span style=\"font-size:14px;\"><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các loại chậu sứ hạt dẻ lùn bộ 3 theo nhu cầu của khách hàng, hàng có sẵn tại kho. </span>✅​<span style=\"font-size:14px;\">Liên hệ ngay 0838.999.020 để được tư vấn</span></p>\n\n<p><span style=\"font-size:16px;\"><strong>CHẬU GỐM</strong></span></p>\n\n<p>Chậu cây gốm sứ tráng men đa dạng về kiểu dáng, màu men. <a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên cung cấp các dòng chậu cây trang trí sân vườn, chậu hoa trong nhà, chậu gốm sứ cỡ lớn, chậu treo… Liên hệ ngay 0838.999.020 để được chúng tôi tư vấn những sản phẩm tốt nhất</p>\n\n<p><span style=\"font-size:16px;\"><strong>VƯỜN CÂY ĐỨNG</strong></span></p>\n\n<p><a href=\"https://caybonmua.vn/\">Caybonmua.vn</a> chuyên thiết kế và thi công vườn cây đứng theo yêu cầu cầu của khách hàng 1 cách nhanh chóng, sẽ đáp ứng cho bạn nhiều lợi ích, tạo không gian xanh tự nhiên cũng như góp phần cho thiết kế ngôi nhà thật đặc biệt. Liên hệ 0838.999.020 để được tư vấn tốt nhất. </p>\n",
+      "image": "categories/legacy/ab06e5e8d8d69695a88d35929512d3a68c70d651508aef426ab87f16d9b1a2a4.webp",
+      "sort_order": 10,
+      "status": "PUBLISHED",
+      "featured": true,
+      "meta_title": null,
+      "meta_description": null,
+      "published_at": "2026-10-28T16:15:44.000000Z",
+      "created_at": "2026-10-28T01:24:25.000000Z",
+      "updated_at": "2026-10-28T01:24:25.000000Z",
+      "products_count": "0"
+    }
+  ],
+  "visible_products": [
+    {
+      "id": 3,
+      "name": "Trầu bà Monstera · Chậu đất nung",
+      "slug": "monstera-chau-dat-nung-demo",
+      "category_id": "5",
+      "legacy_id": null
+    },
+    {
+      "id": 4,
+      "name": "Kim tiền · Chậu gốm trắng",
+      "slug": "kim-tien-chau-gom-demo",
+      "category_id": "4",
+      "legacy_id": null
+    },
+    {
+      "id": 5,
+      "name": "Monstera · Góc nắng nhỏ",
+      "slug": "monstera-goc-nang-demo",
+      "category_id": "6",
+      "legacy_id": null
+    },
+    {
+      "id": 6,
+      "name": "Kim tiền · Bạn cùng bàn",
+      "slug": "kim-tien-ban-lam-viec-demo",
+      "category_id": "4",
+      "legacy_id": null
+    },
+    {
+      "id": 7,
+      "name": "Cây bàng Singapore 01",
+      "slug": "cay-bang-singapore-01-legacy-4",
+      "category_id": "8",
+      "legacy_id": "4"
+    },
+    {
+      "id": 8,
+      "name": "Cây kim ngân 01",
+      "slug": "cay-kim-ngan-01-legacy-5",
+      "category_id": "8",
+      "legacy_id": "5"
+    },
+    {
+      "id": 9,
+      "name": "Cây tùng bồng lai 01",
+      "slug": "cay-tung-bong-lai-01-legacy-6",
+      "category_id": "8",
+      "legacy_id": "6"
+    },
+    {
+      "id": 10,
+      "name": "Cây Cẩm Nhung 01",
+      "slug": "cay-cam-nhung-01-legacy-8",
+      "category_id": "8",
+      "legacy_id": "8"
+    },
+    {
+      "id": 11,
+      "name": "Cây Lan tổ yến 01",
+      "slug": "cay-lan-to-yen-01-legacy-9",
+      "category_id": "8",
+      "legacy_id": "9"
+    },
+    {
+      "id": 12,
+      "name": "Cây sao biển 01",
+      "slug": "cay-sao-bien-01-legacy-11",
+      "category_id": "8",
+      "legacy_id": "11"
+    },
+    {
+      "id": 13,
+      "name": " Cây Kim Tiền chậu boom sứ",
+      "slug": "cay-kim-tien-size-l-legacy-12",
+      "category_id": "7",
+      "legacy_id": "12"
+    },
+    {
+      "id": 14,
+      "name": "Cây Hạnh Phúc 01",
+      "slug": "cay-hanh-phuc-01-legacy-13",
+      "category_id": "8",
+      "legacy_id": "13"
+    },
+    {
+      "id": 15,
+      "name": "Hoa giấy Thái 3 màu",
+      "slug": "hoa-giay-thai-3-mau-legacy-14",
+      "category_id": "9",
+      "legacy_id": "14"
+    },
+    {
+      "id": 16,
+      "name": "Cây Dừa cạn ",
+      "slug": "cay-dua-can-legacy-16",
+      "category_id": "13",
+      "legacy_id": "16"
+    },
+    {
+      "id": 17,
+      "name": "Cây Diễm Châu",
+      "slug": "cay-diem-chau-legacy-17",
+      "category_id": "13",
+      "legacy_id": "17"
+    },
+    {
+      "id": 18,
+      "name": "Cây Ngọc Ngân, Phú Quý mix đola, thường xuân",
+      "slug": "cay-ngoc-ngan-phu-quy-mix-dola-thuong-xuan-legacy-18",
+      "category_id": "7",
+      "legacy_id": "18"
+    },
+    {
+      "id": 19,
+      "name": "Cây Lan Tim treo",
+      "slug": "cay-lan-tim-treo-ban-cong-legacy-19",
+      "category_id": "11",
+      "legacy_id": "19"
+    },
+    {
+      "id": 20,
+      "name": "Cây đô la treo ban công ",
+      "slug": "cay-do-la-treo-ban-cong-legacy-20",
+      "category_id": "11",
+      "legacy_id": "20"
+    },
+    {
+      "id": 21,
+      "name": "Cây hoa leo huỳnh đệ",
+      "slug": "cay-hoa-leo-huynh-de-legacy-21",
+      "category_id": "10",
+      "legacy_id": "21"
+    },
+    {
+      "id": 22,
+      "name": "Cây  Thanh Tú",
+      "slug": "cay-thanh-tu-legacy-22",
+      "category_id": "11",
+      "legacy_id": "22"
+    },
+    {
+      "id": 23,
+      "name": "Cúc InDo treo ban công",
+      "slug": "cuc-indo-treo-ban-cong-legacy-23",
+      "category_id": "11",
+      "legacy_id": "23"
+    },
+    {
+      "id": 24,
+      "name": "Cây lan hoàng dương leo giàn",
+      "slug": "cay-lan-hoang-duong-leo-gian-legacy-24",
+      "category_id": "10",
+      "legacy_id": "24"
+    },
+    {
+      "id": 25,
+      "name": "Cây hoa leo Sử Quân Tử ",
+      "slug": "cay-hoa-leo-su-quan-tu-legacy-26",
+      "category_id": "10",
+      "legacy_id": "26"
+    },
+    {
+      "id": 26,
+      "name": "Cây Mai tiểu thư",
+      "slug": "cay-mai-tieu-thu-legacy-28",
+      "category_id": "9",
+      "legacy_id": "28"
+    },
+    {
+      "id": 27,
+      "name": "Cây hoa ngọc nữ ",
+      "slug": "cay-hoa-ngoc-nu-legacy-29",
+      "category_id": "9",
+      "legacy_id": "29"
+    },
+    {
+      "id": 28,
+      "name": "Cây hạnh phúc hàng bụi",
+      "slug": "cay-hanh-phuc-hang-bui-legacy-30",
+      "category_id": "7",
+      "legacy_id": "30"
+    },
+    {
+      "id": 29,
+      "name": "Cây trầu bà cột size lớn",
+      "slug": "cay-trau-ba-cot-size-lon-legacy-31",
+      "category_id": "7",
+      "legacy_id": "31"
+    },
+    {
+      "id": 30,
+      "name": "Cây Thiết Mộc Lan 1 thân L3",
+      "slug": "cay-thiet-moc-lan-1-than-l3-legacy-32",
+      "category_id": "7",
+      "legacy_id": "32"
+    },
+    {
+      "id": 31,
+      "name": "Cây Thiết Mộc Lan 1 thân L2 ",
+      "slug": "cay-thiet-moc-lan-1-than-l2-legacy-33",
+      "category_id": "7",
+      "legacy_id": "33"
+    },
+    {
+      "id": 32,
+      "name": "Kim ngân xoắn nội thất ",
+      "slug": "kim-ngan-xoan-noi-that-legacy-35",
+      "category_id": "7",
+      "legacy_id": "35"
+    },
+    {
+      "id": 33,
+      "name": "Kim ngân thân lớn size đại",
+      "slug": "kim-ngan-noi-that-legacy-36",
+      "category_id": "7",
+      "legacy_id": "36"
+    },
+    {
+      "id": 34,
+      "name": "Trầu bà cột hàng vip 1 ",
+      "slug": "trau-ba-cot-hang-vip-1-legacy-37",
+      "category_id": "7",
+      "legacy_id": "37"
+    },
+    {
+      "id": 35,
+      "name": "Cây hoa trạng nguyên ",
+      "slug": "cay-hoa-trang-nguyen-legacy-38",
+      "category_id": "9",
+      "legacy_id": "38"
+    },
+    {
+      "id": 36,
+      "name": "Cây hoa Mai địa thảo",
+      "slug": "cay-hoa-mai-dia-thao-legacy-39",
+      "category_id": "11",
+      "legacy_id": "39"
+    },
+    {
+      "id": 37,
+      "name": "Cây Đỗ Quyên",
+      "slug": "cay-do-quyen-legacy-40",
+      "category_id": "9",
+      "legacy_id": "40"
+    },
+    {
+      "id": 38,
+      "name": "Cây Ớt Ngũ Sắc",
+      "slug": "cay-ot-ngu-sac-legacy-41",
+      "category_id": "11",
+      "legacy_id": "41"
+    },
+    {
+      "id": 39,
+      "name": "Cây Cúc Ngũ Sắc 1 thân",
+      "slug": "cay-cuc-ngu-sac-1-than-legacy-43",
+      "category_id": "9",
+      "legacy_id": "43"
+    },
+    {
+      "id": 40,
+      "name": "Cây Cúc Ngũ Sắc Tím",
+      "slug": "cay-cuc-ngu-sac-tim-legacy-44",
+      "category_id": "11",
+      "legacy_id": "44"
+    },
+    {
+      "id": 41,
+      "name": "Cây Kim Tiền hàng vip1 ",
+      "slug": "cay-kim-tien-legacy-45",
+      "category_id": "7",
+      "legacy_id": "45"
+    },
+    {
+      "id": 42,
+      "name": "Hoa Giấy leo giàn ",
+      "slug": "hoa-giay-leo-gian-legacy-46",
+      "category_id": "10",
+      "legacy_id": "46"
+    },
+    {
+      "id": 43,
+      "name": "Cây Phát Tài Núi hai tầng",
+      "slug": "cay-phat-tai-nui-legacy-47",
+      "category_id": "7",
+      "legacy_id": "47"
+    },
+    {
+      "id": 44,
+      "name": "[ CHỌN SIZE] Cây hạnh phúc một thân",
+      "slug": "cay-hanh-phuc-size-lon-legacy-48",
+      "category_id": "7",
+      "legacy_id": "48"
+    },
+    {
+      "id": 45,
+      "name": "Cây Trúc Bách Hợp",
+      "slug": "cay-truc-bach-hop-legacy-49",
+      "category_id": "7",
+      "legacy_id": "49"
+    },
+    {
+      "id": 46,
+      "name": "Cây hoa Lồng Đèn",
+      "slug": "cay-hoa-long-den-legacy-50",
+      "category_id": "10",
+      "legacy_id": "50"
+    },
+    {
+      "id": 47,
+      "name": "Cây Hoa Mười Giờ",
+      "slug": "cay-hoa-muoi-gio-legacy-51",
+      "category_id": "11",
+      "legacy_id": "51"
+    },
+    {
+      "id": 48,
+      "name": "Cây Hoa Đậu Biếc.",
+      "slug": "cay-hoa-dau-biec-legacy-52",
+      "category_id": "10",
+      "legacy_id": "52"
+    },
+    {
+      "id": 49,
+      "name": "Cây Vàng Anh Lá Đốm",
+      "slug": "cay-vang-anh-la-dom-legacy-53",
+      "category_id": "13",
+      "legacy_id": "53"
+    },
+    {
+      "id": 50,
+      "name": "Cây chùm ớt cao 2m",
+      "slug": "cay-chum-ot-cao-1m5-2m-legacy-54",
+      "category_id": "10",
+      "legacy_id": "54"
+    },
+    {
+      "id": 51,
+      "name": "Kim ngân thân lớn vip2",
+      "slug": "kim-ngan-than-lon-vip-02-legacy-55",
+      "category_id": "7",
+      "legacy_id": "55"
+    },
+    {
+      "id": 52,
+      "name": "Hồng leo HP cao 2m",
+      "slug": "hong-leo-hp-cao-2m-legacy-56",
+      "category_id": "10",
+      "legacy_id": "56"
+    },
+    {
+      "id": 53,
+      "name": "Hanh phúc đk 15-20cm",
+      "slug": "hanh-phuc-dk-15-20cm-legacy-57",
+      "category_id": "7",
+      "legacy_id": "57"
+    },
+    {
+      "id": 54,
+      "name": "Hồng cổ sapa bụi",
+      "slug": "hong-co-sapa-bui-legacy-58",
+      "category_id": "12",
+      "legacy_id": "58"
+    },
+    {
+      "id": 55,
+      "name": "Hồng cổ Sapa 1 thân",
+      "slug": "hong-co-sapa-1-than-legacy-59",
+      "category_id": "12",
+      "legacy_id": "59"
+    },
+    {
+      "id": 56,
+      "name": "Hoa hồng đỏ Việt",
+      "slug": "hoa-hong-do-viet-legacy-60",
+      "category_id": "12",
+      "legacy_id": "60"
+    },
+    {
+      "id": 57,
+      "name": "Hồng ngoại Pas De Deux",
+      "slug": "hong-ngoai-pas-de-deux-legacy-61",
+      "category_id": "12",
+      "legacy_id": "61"
+    },
+    {
+      "id": 58,
+      "name": "Trúc quân tử 1m5-1m8",
+      "slug": "truc-quan-tu-1m5-1m8-legacy-62",
+      "category_id": "9",
+      "legacy_id": "62"
+    },
+    {
+      "id": 59,
+      "name": "Cây Mai Xanh Thái cao 50cm",
+      "slug": "cay-mai-xanh-thai-cao-50cm-legacy-63",
+      "category_id": "10",
+      "legacy_id": "63"
+    },
+    {
+      "id": 60,
+      "name": "Cây Vạn Niên Thanh",
+      "slug": "cay-van-nien-thanh-legacy-67",
+      "category_id": "13",
+      "legacy_id": "67"
+    },
+    {
+      "id": 61,
+      "name": "Cây Bướm Đêm",
+      "slug": "cay-buom-dem-legacy-68",
+      "category_id": "9",
+      "legacy_id": "68"
+    },
+    {
+      "id": 62,
+      "name": "Cây Muống Nhật.",
+      "slug": "cay-muong-nhat-legacy-69",
+      "category_id": "13",
+      "legacy_id": "69"
+    },
+    {
+      "id": 63,
+      "name": "Cây Lá Gấm",
+      "slug": "cay-la-gam-legacy-70",
+      "category_id": "13",
+      "legacy_id": "70"
+    },
+    {
+      "id": 64,
+      "name": "Cây Tía Tô Nhật.",
+      "slug": "cay-tia-to-nhat-legacy-71",
+      "category_id": "13",
+      "legacy_id": "71"
+    },
+    {
+      "id": 65,
+      "name": "Cây Hoa Lan Rẻ Quạt.",
+      "slug": "cay-hoa-lan-re-quat-legacy-72",
+      "category_id": "13",
+      "legacy_id": "72"
+    },
+    {
+      "id": 66,
+      "name": "Cây Ngọc Ngân ",
+      "slug": "cay-ngoc-ngan-legacy-73",
+      "category_id": "8",
+      "legacy_id": "73"
+    },
+    {
+      "id": 67,
+      "name": "Cây Hương Thảo",
+      "slug": "cay-huong-thao-legacy-74",
+      "category_id": "9",
+      "legacy_id": "74"
+    },
+    {
+      "id": 68,
+      "name": "Cây Hoa Oải Hương Lavender",
+      "slug": "cay-hoa-oai-huong-legacy-75",
+      "category_id": "9",
+      "legacy_id": "75"
+    },
+    {
+      "id": 69,
+      "name": "Cây Lan Chi Treo.",
+      "slug": "cay-lan-chi-treo-legacy-76",
+      "category_id": "11",
+      "legacy_id": "76"
+    },
+    {
+      "id": 70,
+      "name": "Cây Ô Gô Gân Đỏ",
+      "slug": "cay-o-go-gan-do-legacy-77",
+      "category_id": "13",
+      "legacy_id": "77"
+    },
+    {
+      "id": 71,
+      "name": "Cây Dứa Agao.",
+      "slug": "cay-dua-agao-legacy-78",
+      "category_id": "9",
+      "legacy_id": "78"
+    },
+    {
+      "id": 72,
+      "name": "Cây Dứa Vạn Phát.",
+      "slug": "cay-dua-van-phat-legacy-79",
+      "category_id": "13",
+      "legacy_id": "79"
+    },
+    {
+      "id": 73,
+      "name": "Cây hoa Cúc Mặt Trời.",
+      "slug": "cay-hoa-cuc-mat-troi-legacy-80",
+      "category_id": "13",
+      "legacy_id": "80"
+    },
+    {
+      "id": 74,
+      "name": "Cây Hoa Râu Mèo",
+      "slug": "cay-hoa-rau-meo-legacy-81",
+      "category_id": "13",
+      "legacy_id": "81"
+    },
+    {
+      "id": 75,
+      "name": "Cây Bạch Thiên Hương size lớn.",
+      "slug": "cay-bach-thien-huong-size-lon-legacy-82",
+      "category_id": "9",
+      "legacy_id": "82"
+    },
+    {
+      "id": 76,
+      "name": "Cây Huỳnh Liên.",
+      "slug": "cay-huynh-lien-legacy-83",
+      "category_id": "9",
+      "legacy_id": "83"
+    },
+    {
+      "id": 77,
+      "name": "Cây Hoàn Kiếm",
+      "slug": "cay-hoan-kiem-legacy-84",
+      "category_id": "9",
+      "legacy_id": "84"
+    },
+    {
+      "id": 78,
+      "name": "Cây Bướm Hồng",
+      "slug": "cay-buom-hong-legacy-85",
+      "category_id": "9",
+      "legacy_id": "85"
+    },
+    {
+      "id": 79,
+      "name": "Cây Ánh Dương",
+      "slug": "cay-anh-duong-legacy-86",
+      "category_id": "13",
+      "legacy_id": "86"
+    },
+    {
+      "id": 80,
+      "name": "Cây hoa Dâm Bụt Thái.",
+      "slug": "cay-hoa-dam-but-thai-legacy-87",
+      "category_id": "9",
+      "legacy_id": "87"
+    },
+    {
+      "id": 81,
+      "name": "cây kim đồng vàng.",
+      "slug": "cay-kim-dong-vang-legacy-88",
+      "category_id": "7",
+      "legacy_id": "88"
+    },
+    {
+      "id": 82,
+      "name": "Cây Ngọc Bút.",
+      "slug": "cay-ngoc-but-legacy-89",
+      "category_id": "9",
+      "legacy_id": "89"
+    },
+    {
+      "id": 83,
+      "name": "Cây Dương Xỉ",
+      "slug": "cay-duong-xi-legacy-90",
+      "category_id": "9",
+      "legacy_id": "90"
+    },
+    {
+      "id": 84,
+      "name": "Cây Hồng Anh",
+      "slug": "cay-hong-anh-legacy-91",
+      "category_id": "10",
+      "legacy_id": "91"
+    },
+    {
+      "id": 85,
+      "name": "Cây hoa Ngọc Nữ.",
+      "slug": "cay-hoa-ngoc-nu-legacy-92",
+      "category_id": "10",
+      "legacy_id": "92"
+    },
+    {
+      "id": 86,
+      "name": "Cây hoa 8 giờ.",
+      "slug": "cay-hoa-8-gio-legacy-93",
+      "category_id": "13",
+      "legacy_id": "93"
+    },
+    {
+      "id": 87,
+      "name": "Cây Nhất Mạt Hương.",
+      "slug": "cay-nhat-mat-huong-legacy-94",
+      "category_id": "11",
+      "legacy_id": "94"
+    },
+    {
+      "id": 88,
+      "name": "Cây Hoa Cẩm Tú Cầu Nhật.",
+      "slug": "cay-hoa-cam-tu-cau-nhat-legacy-95",
+      "category_id": "9",
+      "legacy_id": "95"
+    },
+    {
+      "id": 89,
+      "name": "Cây cúc lá nhám đủ màu ",
+      "slug": "cay-cuc-la-nham-legacy-96",
+      "category_id": "13",
+      "legacy_id": "96"
+    },
+    {
+      "id": 90,
+      "name": "Cây thu hải đường.",
+      "slug": "cay-thu-hai-duong-legacy-97",
+      "category_id": "13",
+      "legacy_id": "97"
+    },
+    {
+      "id": 91,
+      "name": "Cây hoa Violet Nhật giống F1 đủ màu",
+      "slug": "cay-hoa-violet-nhat-giong-f1-du-mau-legacy-98",
+      "category_id": "13",
+      "legacy_id": "98"
+    },
+    {
+      "id": 92,
+      "name": "cây trúc hawai, cây cau hawai",
+      "slug": "cay-truc-hawai-legacy-100",
+      "category_id": "7",
+      "legacy_id": "100"
+    },
+    {
+      "id": 93,
+      "name": "Cây Trầu Bà Đế Vương",
+      "slug": "cay-trau-ba-de-vuong-legacy-101",
+      "category_id": "7",
+      "legacy_id": "101"
+    },
+    {
+      "id": 94,
+      "name": "cây tường vi, hoa tường vi,",
+      "slug": "cay-tuong-vi-hoa-tuong-vi-legacy-102",
+      "category_id": "13",
+      "legacy_id": "102"
+    },
+    {
+      "id": 95,
+      "name": "Cây Phát Tài Núi",
+      "slug": "cay-phat-tai-nui-legacy-103",
+      "category_id": "7",
+      "legacy_id": "103"
+    },
+    {
+      "id": 96,
+      "name": "Cây Lưỡi Hổ",
+      "slug": "cay-luoi-ho-legacy-104",
+      "category_id": "7",
+      "legacy_id": "104"
+    },
+    {
+      "id": 97,
+      "name": "Cây Đại Phú Gia",
+      "slug": "cay-dai-phu-gia-legacy-105",
+      "category_id": "7",
+      "legacy_id": "105"
+    },
+    {
+      "id": 98,
+      "name": "Cây Bạch Mã Hoàng Tử",
+      "slug": "cay-bach-ma-hoang-tu-legacy-106",
+      "category_id": "7",
+      "legacy_id": "106"
+    },
+    {
+      "id": 99,
+      "name": "Cây Cau Tiểu Trâm",
+      "slug": "cay-cau-tieu-tram-legacy-107",
+      "category_id": "7",
+      "legacy_id": "107"
+    },
+    {
+      "id": 100,
+      "name": "Cây vảy rồng ",
+      "slug": "cay-vay-rong-legacy-108",
+      "category_id": "11",
+      "legacy_id": "108"
+    },
+    {
+      "id": 101,
+      "name": "Cây Ngũ Gia Bì ",
+      "slug": "cay-ngu-gia-bi-legacy-109",
+      "category_id": "7",
+      "legacy_id": "109"
+    },
+    {
+      "id": 102,
+      "name": "12111",
+      "slug": "12111-legacy-110",
+      "category_id": "7",
+      "legacy_id": "110"
+    },
+    {
+      "id": 103,
+      "name": "Cây Trầu Bà Chân Vịt & kệ gỗ decor",
+      "slug": "cay-trau-ba-chan-vit-legacy-111",
+      "category_id": "7",
+      "legacy_id": "111"
+    },
+    {
+      "id": 104,
+      "name": "Cây Trầu Bà Nam Mỹ & kệ gỗ decor",
+      "slug": "cay-trau-ba-nam-my-cay-monstera-legacy-112",
+      "category_id": "7",
+      "legacy_id": "112"
+    },
+    {
+      "id": 105,
+      "name": "ffff",
+      "slug": "ffff-legacy-113",
+      "category_id": "7",
+      "legacy_id": "113"
+    },
+    {
+      "id": 106,
+      "name": "chậu cây mix",
+      "slug": "chau-cay-mix-legacy-114",
+      "category_id": "7",
+      "legacy_id": "114"
+    },
+    {
+      "id": 107,
+      "name": "chậu cây mix",
+      "slug": "chau-cay-mix-2-legacy-115",
+      "category_id": "7",
+      "legacy_id": "115"
+    },
+    {
+      "id": 108,
+      "name": "[Mẫu 1] Cây lưỡi hổ mix 4 loại - chậu xi măng.",
+      "slug": "1-legacy-116",
+      "category_id": "7",
+      "legacy_id": "116"
+    },
+    {
+      "id": 109,
+      "name": "[Mẫu 2] Cây lưỡi hổ mix 4 loại - chậu sứ bát tràng",
+      "slug": "cay-luoi-ho-mix-4-loai-chau-su-bat-trang-legacy-117",
+      "category_id": "7",
+      "legacy_id": "117"
+    },
+    {
+      "id": 110,
+      "name": "[Mẫu 1] Cây Trầu bà chân vịt mix 5 loại - Chậu xi măng",
+      "slug": "mau-1-cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-118",
+      "category_id": "7",
+      "legacy_id": "118"
+    },
+    {
+      "id": 111,
+      "name": "[Mẫu 3] Cây lưỡi hổ mix 4 loại - chậu xi măng.",
+      "slug": "cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-119",
+      "category_id": "7",
+      "legacy_id": "119"
+    },
+    {
+      "id": 112,
+      "name": "[Mẫu 4] Cây lưỡi hổ mix 4 loại - chậu xi măng.",
+      "slug": "cay-luoi-ho-mix-4-loai-chau-xi-mang-legacy-120",
+      "category_id": "7",
+      "legacy_id": "120"
+    },
+    {
+      "id": 113,
+      "name": "[Mẫu 1] Cây chuối rẻ quạt mix 5 loại - chậu xi măng",
+      "slug": "cay-chuoi-re-quat-mix-5-loai-chau-xi-mang-legacy-121",
+      "category_id": "7",
+      "legacy_id": "121"
+    },
+    {
+      "id": 114,
+      "name": "[ Mẫu 1] Cây Thiết mộc lan mix 5 loại - chậu xi măng",
+      "slug": "cay-thiet-moc-lan-mix-5-loai-chau-xi-mang-legacy-122",
+      "category_id": "7",
+      "legacy_id": "122"
+    },
+    {
+      "id": 115,
+      "name": "[Mẫu 2] Cây Trầu bà chân vịt mix 5 loại - Chậu xi măng",
+      "slug": "cay-trau-ba-chan-vit-mix-5-loai-chau-xi-mang-legacy-123",
+      "category_id": "7",
+      "legacy_id": "123"
+    },
+    {
+      "id": 116,
+      "name": "Cây kim tiền decor",
+      "slug": "cay-kim-tien-size-m-ke-go-decor-cao-cap-legacy-124",
+      "category_id": "7",
+      "legacy_id": "124"
+    },
+    {
+      "id": 117,
+      "name": "Cây Lưỡi hổ & kệ gỗ decor cao cấp.",
+      "slug": "cay-luoi-ho-ke-go-decor-cao-cap-legacy-125",
+      "category_id": "7",
+      "legacy_id": "125"
+    },
+    {
+      "id": 118,
+      "name": "Cây hạnh phúc bụi & kệ gỗ decor cao cấp.",
+      "slug": "cay-hanh-phuc-bui-ke-go-decor-cao-cap-legacy-126",
+      "category_id": "7",
+      "legacy_id": "126"
+    },
+    {
+      "id": 119,
+      "name": "[ CHỌN SIZE] Cây hạnh phúc hai tầng.",
+      "slug": "cay-hanh-phuc-hai-tang-legacy-127",
+      "category_id": "7",
+      "legacy_id": "127"
+    },
+    {
+      "id": 120,
+      "name": "Cây Phú Quý 01",
+      "slug": "cay-phu-quy-01-legacy-7",
+      "category_id": "7",
+      "legacy_id": "7"
+    },
+    {
+      "id": 121,
+      "name": "Cây lưỡi hổ 01",
+      "slug": "cay-luoi-ho-01-legacy-10",
+      "category_id": "7",
+      "legacy_id": "10"
+    }
+  ],
+  "business_keyword_inventory": {
+    "Cây nội thất": {
+      "keyword": "nội thất",
+      "matching_categories": [
+        7
+      ],
+      "visible_name_matches": [
+        32
+      ]
+    },
+    "Phân bón": {
+      "keyword": "phân bón",
+      "matching_categories": [],
+      "visible_name_matches": []
+    },
+    "Đất / giá thể": {
+      "keyword": "giá thể",
+      "matching_categories": [],
+      "visible_name_matches": []
+    },
+    "Dụng cụ": {
+      "keyword": "dụng cụ",
+      "matching_categories": [],
+      "visible_name_matches": []
+    },
+    "Tưới": {
+      "keyword": "tưới",
+      "matching_categories": [],
+      "visible_name_matches": []
+    },
+    "Đèn": {
+      "keyword": "đèn",
+      "matching_categories": [],
+      "visible_name_matches": [
+        46
+      ]
+    },
+    "Cảnh quan": {
+      "keyword": "cảnh quan",
+      "matching_categories": [],
+      "visible_name_matches": []
+    }
+  },
+  "product_columns": [
+    "id",
+    "legacy_id",
+    "category_id",
+    "name",
+    "slug",
+    "short_description",
+    "description",
+    "status",
+    "featured",
+    "meta_title",
+    "meta_description",
+    "published_at",
+    "created_at",
+    "updated_at",
+    "deleted_at"
+  ],
+  "related_tables": [
+    "product_option_values",
+    "product_options",
+    "product_variant_values",
+    "product_variants"
+  ]
+}

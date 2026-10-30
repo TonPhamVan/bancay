@@ -1,0 +1,219 @@
+{
+  "at_utc": "2026-10-30T03:42:00.083578+00:00",
+  "status": "PASS",
+  "git_baseline": "ba7a3c781b6f9686ffcd0904c1a7d585f3edb0cd",
+  "uncommitted": true,
+  "qa_ownership_mismatch_rejected": true,
+  "qa_account_removed": true,
+  "source_files_sha256": {
+    "app/Actions/Catalog/UpdateVariantMatrix.php": "eeed0dc601eb0f0d805ed05e2c4ed142e7c43c5c1548e6c5657753b02698d7ad",
+    "app/Admin/StoreController.php": "696969a1fdbeea809659157aef16b6032457ccf6aa2fb219884d1dd4e85c2963",
+    "app/Admin/bootstrap.php": "e9a88864387830b095a21752a4470e05dd092f2c59d985cc411ce80ade4fa6e2",
+    "app/Http/Controllers/Frontend/CatalogController.php": "d867520c3a80b01e0b1ede29071902364622669d139a75e44875df7e9d4068ec",
+    "app/Http/Controllers/Frontend/DiscoveryController.php": "ee31dec64f5f7bb3056c3b1e682c854dadcbab2110691755eb1c8aea30535ca7",
+    "app/Http/Controllers/Frontend/LandscapeController.php": "6acfe639cdcb74a0aa3a0b891cf81b5410c90994cce283ca99c0b95e434d10a1",
+    "app/Http/Requests/UpdateVariantMatrixRequest.php": "4b68af1c7608447ee3b69899bfecaea8e795dd5065bd9f1cb4b71e1987f00807",
+    "app/Services/Admin/VariantMatrix.php": "274c1a428d83dba0d31520426f665945fa9bd409df7bc6ac35a8f1cf09267c75",
+    "app/Services/Storefront/Catalog.php": "f5c33dd5edb21cd678ad4f08626354b2e537727d1fe267b3fe7668a631f33e06",
+    "config/merchandising.php": "527c2fd0e32eb9fd3aec8158d0017a938ea530826d8a34f67f6c5c5a388fac57",
+    "public/storefront/admin-variant-matrix.js": "3ebc39768bbd085f437bd31ed30256dc472f8d85abd693079c9322e1eb2857ec",
+    "resources/css/store.css": "c6d68d69ccaeec42afdaa8efc9e4b2df37e234798c4960cb0c008be2d23f0196",
+    "resources/views/admin/store/product.blade.php": "91a9fdcf27f08538673b352bee6f20bfbb06b68d12d661d0224e40d0e4ef8db9",
+    "resources/views/admin/store/shell.blade.php": "09c6f8f00421da86173807375c6cacd0b316b0074785b6cae5235bc6ebc4059a",
+    "resources/views/admin/store/variant-matrix.blade.php": "376e7943d43086bc7590bd2698cb0f77e2400d343dfe39cc175c3f7ac80aa57a",
+    "resources/views/articles/index.blade.php": "cc1b37a4c32dd01995167d620f5be362a9022b67118b1974acd213fc89b6716c",
+    "resources/views/cart/index.blade.php": "bcc45fb9934e78ce7dacfab6d1f0bf9e35ecc81fcfe7c2195a21cd1235b5031a",
+    "resources/views/components/store/product-card.blade.php": "ce2f9d069f64b0c6adc99cea5d4a92eaf5f235265b8586f44e23ec444ac6ebd0",
+    "resources/views/home/index.blade.php": "507cd9d98e3271bb16f819056690158f6d2cead8ce9eb23d76b6c26995b6727b",
+    "resources/views/home/landscape.blade.php": "6eb6f924c2ec5a7b9676c0807adc7eefe2157a4b5d7f4324a7c6e7823073d4b1",
+    "resources/views/layouts/store.blade.php": "c07ad63a27f5920d6d2a1c68e8494bbe1d4c166fca1a2b1ef5789b26f6eb82c6",
+    "resources/views/products/index.blade.php": "c059b0b6d1a8581240fb0596d9cc7b909949c4f6fc16b7123e553115e6f52adb",
+    "resources/views/products/show.blade.php": "936eb0863d5bde8a22061d310de00e49dba09cd7b85765af931dff64d9b4f3f6",
+    "resources/views/store/pagination.blade.php": "4e339460663c98e6f972d12937a482c0d53fcadf2169928feaa9db50f6f2b376",
+    "routes/web.php": "bcf83272fa06f1ea29f23dc03c8d4d7005ce8d8fe92359f650c62571a0d5bac0",
+    "scripts/business-remediation/collect_content.php": "734cf91ddb5644575e5a35140b9d0bf2929b44e20d5045d1cd057be027d8b7c1",
+    "scripts/business-remediation/http_checks.py": "0de3ee08ee67319d5f7e88345c4a36cee5c5d78d629ab162f7a920895c7a4b89",
+    "scripts/business-remediation/verify_artifacts.py": "1ae138d39755808a083c5759af688f6665bb4fefceea78ddfa191c29035d5e0c",
+    "scripts/business-remediation/verify_run.php": "dad6182fa4fab89485a606851a52c74bb8cdfad86589195568cd69f8acd7a893",
+    "scripts/business-review/inventory.php": "cf2079f2cba2fbb4579c9f3d985d1645f509c170ef59f2582b8e2422c2f64d02",
+    "scripts/business-review/qa_environment.py": "680e7010877680c221b8676d89158a6623a27cb7c1ce02ea0904c4283eb0ab15",
+    "scripts/business-review/verify_data.py": "b710df39c5979de5e919b4a6095c169d94b5456698f07ae8c9287175feb39f8a",
+    "tests/Feature/BusinessStorefrontTest.php": "44ff7d9b7631bfb81c6f6bd99778a695db0ee7dc542435608d35ca23057bb50a",
+    "tests/Feature/Phase5HardeningTest.php": "518a38e6c0c2352ba010a2a3a98615f1befcb81a99da746b2f42249b8b14855f",
+    "tests/Feature/VariantMatrixTest.php": "48210f5bc62723b054fb8a7d49bb1c2b477529bfbee67ff2c1f7392f37e976fa"
+  },
+  "artifacts": {
+    "docs/business-ui-remediation/20261030-r1/content-review.csv": {
+      "bytes": 84828,
+      "sha256": "ddd1d377b6c33250c35227652a2b59f8a20f61691bfbd547c3f8ecdba25437b6"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/admin-matrix-desktop.png": {
+      "bytes": 235446,
+      "sha256": "a7e6202e3c98d534bdd34c9cb7af22404a8d290d2e695260ab2bb411d709c114"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/admin-matrix-narrow.png": {
+      "bytes": 128494,
+      "sha256": "7480ce36bc4e9453b9dd90161ebeb874b4d7c037a1902fbd0e39dd7a673e9c69"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/browser-logs.json": {
+      "bytes": 162,
+      "sha256": "185efae52c5bcb76b777a2dbaea13cdff45e120701e6168ac5aa5859b50b66e4"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/browser-tests.json": {
+      "bytes": 4958,
+      "sha256": "1d87501a6009aea437ab10d88cb39aab0031dd92c6596e7c407d94f88ba59fbd"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/checkout-narrow.png": {
+      "bytes": 86571,
+      "sha256": "b35ce19aba739cd5b2b8c35dcdc1ab6fd04a20efc4e2731e141173d7482f7e09"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/checkout-success.png": {
+      "bytes": 72842,
+      "sha256": "8bc5ce2107d9e5dd71c9be5c39100c25ebfcdbe1e4ad4d7ede9dd35e8790dddd"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/cleanup.json": {
+      "bytes": 413,
+      "sha256": "7c58e07f8949f8b82ca5cb2da80e449145a02969f40f1396094eae57b6adb156"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/commerce-responsive.json": {
+      "bytes": 944,
+      "sha256": "9db11426465da7c061e919e51fcbd911866dc9cbdd3c6ba846f01779a7868f63"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/composer-audit.json": {
+      "bytes": 58,
+      "sha256": "5336f8aa9a59cd25dde3c3079ee514fff801762ab600e79073e4cc82a73ca668"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/content-queue.json": {
+      "bytes": 520,
+      "sha256": "96c4c7f4fe8c57da10e50208a12f8669d04623cbfe0516080d0267d1fceb0b9d"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/data-integrity.json": {
+      "bytes": 2703,
+      "sha256": "fabaeb1a1af41f304241c02d692407c495546cd301206de03fd6a219aca3f126"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/database-baseline.json": {
+      "bytes": 33146,
+      "sha256": "964042e260427b0d9253910a0726d50c1504ca87d870dadef992d5784c2193d5"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/desktop-home.png": {
+      "bytes": 811392,
+      "sha256": "e772d6f0f54a9c4a5b76cb2ff2f6ddf0091932c67bd53000ad0d1195609446c4"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/e2e-database-first.json": {
+      "bytes": 1026,
+      "sha256": "7ed47e4782f8bd68ed0601328ab45aee7663bafefec2c3d4e4e69cee26480777"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/e2e-database.json": {
+      "bytes": 1025,
+      "sha256": "9a38471df5a7c661eb058b4689e68d2e0b7f1ddedfcfee464d07104fbb6a5e97"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/http-seo.json": {
+      "bytes": 79773,
+      "sha256": "83a79b3af34370755c4fcea1b9653d12cbdbaa4a93f5eb222c9557a33132ff4a"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/main-service-preview.png": {
+      "bytes": 106883,
+      "sha256": "f9849313634e04511af129fd7aa395fa8a1f49b85e4b4f13483454eae1d2aff6"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/matrix-before-save.png": {
+      "bytes": 249729,
+      "sha256": "8ec20dd279eb0ba826289f63bd23c035ec6207b12b4aa8ea3bc89ab5fcb95718"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/matrix-reserved-rejection.png": {
+      "bytes": 248059,
+      "sha256": "a452c78817e9ad1a9d88786217a1b547a8c8903c1ae3c224c9c9724de77933b0"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/matrix-saved.png": {
+      "bytes": 244097,
+      "sha256": "ff30e02b89053e54e054e87697c46c7f574eef63253ecf7579e25327891aa872"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/matrix-stale.png": {
+      "bytes": 240448,
+      "sha256": "625fdf687b5c13777bab5a04a924c0654899b7ebca94029ae93cef3bf38fc275"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/matrix-validation.png": {
+      "bytes": 252827,
+      "sha256": "376cb784ca9409aaeb6f5fec9de204260048c119751fa4dbbf7a1e2256a421bc"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/migrated-checkout.png": {
+      "bytes": 100649,
+      "sha256": "406ab7a775c40e82d49443c4200519c9ece6e9d1a5329ff477a854f51aabf620"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/migrated-order-history.png": {
+      "bytes": 137222,
+      "sha256": "644a34d134ca276b82ca391a5018a3d73de6208c0caa6a6477ea4aa1531747c3"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/narrow-home.png": {
+      "bytes": 361678,
+      "sha256": "892d4dbb03234d3c2fb42c21ac6afea15770f2feeec5c60da0dbc7596d76cbb0"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/narrow-service.png": {
+      "bytes": 182938,
+      "sha256": "fa21021a996a793efb6dea4b5484d4098f60293e0d33314ab3fdb0d9a8810fe4"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/npm-audit.json": {
+      "bytes": 361,
+      "sha256": "ff376e8c2625763ddeb5c7e029098b9e1813ec08ac1ed055052390052d052941"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/order-history.png": {
+      "bytes": 142477,
+      "sha256": "5280326b5ef4b219bf1cf9480845773e8b389f0659df64b68c6c546f90a59ec9"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/order-snapshot-after-reprice.png": {
+      "bytes": 132353,
+      "sha256": "8dd12f5b83adb99b70958ffd27ee7c130aefdd103c33fbfc71be945f6a89969e"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/performance.json": {
+      "bytes": 19479,
+      "sha256": "5118297c13c221e5d2594d4dce1f420e731ffe1fcc258ea8f33720a13ee23420"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/product-mobile.png": {
+      "bytes": 91506,
+      "sha256": "65b316fce445e954149cffeac98df0f6c2251dd9e7ca98fe08892eb5709d500a"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/qa-environment.json": {
+      "bytes": 452,
+      "sha256": "85593eb624b989b213339e79e3039bc204850d034eecdc78ec03ba780d12416f"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/quality.json": {
+      "bytes": 1617,
+      "sha256": "305229ae12a7a6765f45f814179b2d8b95b074a8a296b3f5fe80411c22efcc87"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/responsive.json": {
+      "bytes": 2492,
+      "sha256": "c01522930ceb595b2f9233effed28bef2e442b92f3b4d502ee64bd54a0e3482d"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/service-desktop.png": {
+      "bytes": 265383,
+      "sha256": "980076911e0cdf5c197f0ae97bda272cae7f3099e40b849d2da64d588b7bb0c3"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/service-mobile.png": {
+      "bytes": 195096,
+      "sha256": "abbee9299d5a2f52e1948e1fcae6c5302f477e59f11e537c992409831b808a4b"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/tests-first.json": {
+      "bytes": 109,
+      "sha256": "378b868bc1a5ef09a1e4eb24c94bbad7d9240d0dbbcfd717cb8e516f3c6a0d89"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/tests.json": {
+      "bytes": 30899,
+      "sha256": "99cd6397e914d422c951993cf670cd97b84bfeadcee869b2b1578af88e3f57b9"
+    },
+    "docs/business-ui-remediation/20261030-r1/evidence/validation-retention.json": {
+      "bytes": 154,
+      "sha256": "25d9c48d575e43a17094b736e3b48b43f670028429e31aa359d6085ffbcf9ba1"
+    },
+    "docs/business-ui-remediation/20261030-r1/gap-register.csv": {
+      "bytes": 3337,
+      "sha256": "ca19ad63360de8fe9db6f327a724e871d1ffc273ba40d0837f2428d05703920f"
+    },
+    "docs/business-ui-remediation/content-inputs.md": {
+      "bytes": 4467,
+      "sha256": "ce46dca88e3389f99050e840bac2c1c0291e1082955559b8299046767d693934"
+    },
+    "docs/business-ui-remediation-report.md": {
+      "bytes": 14060,
+      "sha256": "04c413847acbe7f892e74c76d08b85ef9973b9c21507137bbb5f6ab898224e46"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "error": "S / Xanh: Giá cố định > 0, giá sale <= giá gốc; Liên hệ không có giá.",
+  "firstPrice": "150000",
+  "secondSale": "200000"
+}

@@ -1,0 +1,54 @@
+{
+  "at_utc": "2026-10-30T03:34:42.736063+00:00",
+  "build": {
+    "status": "PASS",
+    "exit_code": 0
+  },
+  "js_tests": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0
+  },
+  "new_admin_js_syntax": "PASS",
+  "pint": "PASS",
+  "composer_validate_strict": "PASS",
+  "composer_check_platform_reqs": "PASS",
+  "exment_checkrequire": "PASS",
+  "dependency_changes": false,
+  "production_access": false,
+  "compiled_assets": {
+    "assets/lora-italic-latin-DBI-iqMr.woff2": {
+      "bytes": 40772,
+      "sha256": "d824d807d4d832d12c87932d0b8ec1314dcfd502157a56dee6bb04cf8a3768ae"
+    },
+    "assets/lora-italic-vietnamese-BGkqizij.woff2": {
+      "bytes": 9344,
+      "sha256": "3acfc1db6992c092405884cf12763e512e21229cc040a1eea94549869006736a"
+    },
+    "assets/lora-normal-latin-BiLcIKcI.woff2": {
+      "bytes": 37788,
+      "sha256": "ddb8c66035104e233fc024669183aad3738b6daa16deee2ebb1241bd0f98ace1"
+    },
+    "assets/lora-normal-vietnamese-CfJ7gtf3.woff2": {
+      "bytes": 8992,
+      "sha256": "98c22de85f6e83bcd6ae1a443e12e256fbc8de7142bec4f76b059f8ff9c2797e"
+    },
+    "assets/store-CMSKoBRP.js": {
+      "bytes": 55403,
+      "sha256": "1e4604e8bc94e31481efff079dc8247cbe6c0eb32f24fe39f366d23754cbbe43"
+    },
+    "assets/store-CZ2IjYz5.css": {
+      "bytes": 45138,
+      "sha256": "b31665d9345f4114968b55ad18eb0049bdc90d06df6b46ac09bfafb35fcd9ca1"
+    }
+  },
+  "pint_files": 204,
+  "private_value_scan": {
+    "status": "PASS",
+    "text_files": 80,
+    "private_credential_matches": 0,
+    "sql_env_zip_or_private_paths": 0
+  },
+  "python_syntax": "PASS",
+  "qa_cleanup_ownership_guard": "PASS"
+}

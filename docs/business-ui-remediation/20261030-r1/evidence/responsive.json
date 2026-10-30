@@ -1,0 +1,139 @@
+{
+  "pages": [
+    {
+      "viewport": "desktop",
+      "page": "home",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "viewport": "desktop",
+      "page": "service",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "viewport": "desktop",
+      "page": "listing",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "viewport": "desktop",
+      "page": "product",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "viewport": "tablet",
+      "page": "home",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "viewport": "tablet",
+      "page": "service",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "viewport": "tablet",
+      "page": "listing",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "viewport": "tablet",
+      "page": "product",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "viewport": "mobile",
+      "page": "home",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "viewport": "mobile",
+      "page": "service",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "viewport": "mobile",
+      "page": "listing",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "viewport": "mobile",
+      "page": "product",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "viewport": "narrow",
+      "page": "home",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "viewport": "narrow",
+      "page": "service",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "viewport": "narrow",
+      "page": "listing",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "viewport": "narrow",
+      "page": "product",
+      "brokenVisible": 0,
+      "h1": 1,
+      "scroll": 305,
+      "width": 320
+    }
+  ],
+  "adminNarrow": {
+    "region": 231,
+    "scroll": 305,
+    "scrollLeft": 105,
+    "table": 1180,
+    "width": 320
+  }
+}

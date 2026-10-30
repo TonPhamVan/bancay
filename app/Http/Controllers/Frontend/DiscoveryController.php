@@ -20,7 +20,7 @@ final class DiscoveryController extends Controller
     public function sitemap(Catalog $catalog, Seo $seo)
     {
         $catalog->reset();
-        $paths = ['/', '/san-pham', '/bai-viet', '/lien-he'];
+        $paths = ['/', '/san-pham', '/bai-viet', '/lien-he', '/tu-van-canh-quan'];
         foreach ($catalog->categories() as $row) {
             $paths[] = route('store.categories.show', $row->slug, false);
         }

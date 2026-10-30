@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-10-30T12:09:25.149731+00:00",
+  "before_sha256": {
+    "resources/views/home/landscape.blade.php": "6eb6f924c2ec5a7b9676c0807adc7eefe2157a4b5d7f4324a7c6e7823073d4b1",
+    "app/Http/Controllers/Frontend/LandscapeController.php": "6acfe639cdcb74a0aa3a0b891cf81b5410c90994cce283ca99c0b95e434d10a1",
+    "docs/business-ui-remediation/content-inputs.md": "ce46dca88e3389f99050e840bac2c1c0291e1082955559b8299046767d693934",
+    "docs/business-ui-remediation-report.md": "04c413847acbe7f892e74c76d08b85ef9973b9c21507137bbb5f6ab898224e46"
+  },
+  "decision": "Catalog real data absent, keep pending. User-provided landscape photos are ideas and permitted for website use.",
+  "scope": "Local static service assets/copy and documentation only; no DB writes."
+}

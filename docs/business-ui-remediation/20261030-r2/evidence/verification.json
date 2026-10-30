@@ -1,0 +1,57 @@
+{
+  "at_utc": "2026-10-30T12:16:36.653409+00:00",
+  "business_database_writes": false,
+  "catalog_state": "CONTENT REQUIRED; user confirms no real source yet",
+  "photo_approval": "User: Ảnh ý tưởng, được phép dùng",
+  "assets": [
+    {
+      "path": "/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+      "http_status": 200,
+      "mime": "image/webp",
+      "sha256": "5d87e80a95cd1b066a184d96974275cbce27a3ee358e5dd890b5acbbe3ade96f",
+      "original_preserved": true
+    },
+    {
+      "path": "/storefront/landscape-ideas/water-feature-f778c80b9852.webp",
+      "http_status": 200,
+      "mime": "image/webp",
+      "sha256": "bb9f50a1180112d40ebc1b315247eac6356554324f87cefd1c41952f66615b3b",
+      "original_preserved": true
+    },
+    {
+      "path": "/storefront/landscape-ideas/plant-composition-52697b6cc82e.webp",
+      "http_status": 200,
+      "mime": "image/webp",
+      "sha256": "82212c46449ce6b06d73abb91c32bb50c44cabbb0a9673f29cfc57dd29568341",
+      "original_preserved": true
+    }
+  ],
+  "status": "PASS",
+  "http_status": 200,
+  "canonical": "http://localhost:8000/tu-van-canh-quan",
+  "og_image": "http://localhost:8000/storefront/landscape-ideas/balcony-d47c632faafd.webp",
+  "noindex": true,
+  "gallery_lazy_images": 3,
+  "historical_r1_artifacts_unchanged": 41,
+  "pint_controller": "PASS",
+  "changed_files": {
+    "resources/views/home/landscape.blade.php": {
+      "before_sha256": "6eb6f924c2ec5a7b9676c0807adc7eefe2157a4b5d7f4324a7c6e7823073d4b1",
+      "after_sha256": "fb1e5bf5469b4e85873e355e6ea23d05d2cd9b47453e49c107d909875490b31f"
+    },
+    "app/Http/Controllers/Frontend/LandscapeController.php": {
+      "before_sha256": "6acfe639cdcb74a0aa3a0b891cf81b5410c90994cce283ca99c0b95e434d10a1",
+      "after_sha256": "07a45c6f01f2bcd217e2122d520c09d46e0c383582cb34d0ee0be74920f78b98"
+    },
+    "docs/business-ui-remediation/content-inputs.md": {
+      "before_sha256": "ce46dca88e3389f99050e840bac2c1c0291e1082955559b8299046767d693934",
+      "after_sha256": "1ecbde3158e78e8002f0ab40863658b3be92077e37a726cbdb14f41bbd3380d7"
+    },
+    "docs/business-ui-remediation-report.md": {
+      "before_sha256": "04c413847acbe7f892e74c76d08b85ef9973b9c21507137bbb5f6ab898224e46",
+      "after_sha256": "35ccdacb186d3da039a48aee741e35f333ef43fe9834c3fca4608b4b8d084901"
+    }
+  },
+  "new_asset_bytes": 458906,
+  "verification_script_sha256": "c09e25bf987d453acf676c3e778edc9d1ae2c33467658fbab5a7fcbf42fd98a4"
+}
