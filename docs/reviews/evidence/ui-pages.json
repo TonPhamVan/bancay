@@ -1,0 +1,56 @@
+[
+  {
+    "id": "inventory",
+    "url": "http://localhost:8004/admin/plugins/bancay_catalog/inventory?q=QA-AR",
+    "errors": false,
+    "fields": 25,
+    "scroll": 1265,
+    "title": "bancay | Sản phẩm & Tồn kho",
+    "width": 1280
+  },
+  {
+    "id": "customer-form",
+    "url": "http://localhost:8004/admin/plugins/bancay_customers/customers/create",
+    "errors": false,
+    "fields": 28,
+    "scroll": 1280,
+    "title": "bancay | Khách hàng",
+    "width": 1280
+  },
+  {
+    "id": "article-form",
+    "url": "http://localhost:8004/admin/plugins/bancay_content/articles/create",
+    "errors": false,
+    "fields": 38,
+    "scroll": 1265,
+    "title": "bancay | Nội dung & Banner",
+    "width": 1280
+  },
+  {
+    "id": "banner-form",
+    "url": "http://localhost:8004/admin/plugins/bancay_content/banners/create",
+    "errors": false,
+    "fields": 34,
+    "scroll": 1265,
+    "title": "bancay | Nội dung & Banner",
+    "width": 1280
+  },
+  {
+    "id": "settings",
+    "url": "http://localhost:8004/admin/plugins/bancay_settings/settings",
+    "errors": false,
+    "fields": 33,
+    "scroll": 1265,
+    "title": "bancay | Cấu hình cửa hàng",
+    "width": 1280
+  },
+  {
+    "id": "roles",
+    "url": "http://localhost:8004/admin/role_group",
+    "errors": false,
+    "fields": 36,
+    "scroll": 1280,
+    "title": "bancay | Role Setting",
+    "width": 1280
+  }
+]

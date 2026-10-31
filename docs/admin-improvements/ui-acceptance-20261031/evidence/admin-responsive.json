@@ -1,0 +1,26 @@
+[
+  {
+    "form": true,
+    "page": "/admin/plugins/bancay_content/banners/create",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "form": true,
+    "page": "/admin/plugins/bancay_content/banners/create",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "form": true,
+    "page": "/admin/plugins/bancay_content/banners/create",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "form": true,
+    "page": "/admin/plugins/bancay_content/banners/create",
+    "scroll": 305,
+    "width": 320
+  }
+]

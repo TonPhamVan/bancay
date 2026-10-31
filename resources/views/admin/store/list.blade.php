@@ -3,16 +3,22 @@
 @section('store-content')
 <div class="store-actions"><h2>{{ $definition['title'] }}</h2>
     @if(!in_array($entity, ['orders','inventory']))<a class="btn btn-success" href="{{ R::url($module, $entity.'/create') }}">Tạo mới</a>@endif
-    @if(in_array($entity, ['products','inventory','orders','customers']))<a class="btn btn-default" href="{{ R::url($module, $entity.'/export').'?'.http_build_query(request()->query()) }}">Xuất CSV</a>@endif
+    @if(in_array($entity, ['products','inventory','orders','customers']))<a class="btn btn-default" data-no-unsaved-guard href="{{ R::url($module, $entity.'/export').'?'.http_build_query(request()->query()) }}">Xuất CSV</a>@endif
 </div>
+@if($entity==='orders')<nav class="store-actions" aria-label="Lọc trạng thái đơn hàng">
+@foreach([''=>'Tất cả','NEW'=>'Mới','CONFIRMED'=>'Đã xác nhận','PACKING'=>'Chuẩn bị','SHIPPING'=>'Đang giao','COMPLETED'=>'Hoàn thành','CANCELLED'=>'Đã hủy'] as $value=>$label)
+<a class="btn {{ request('status','')===$value ? 'btn-primary' : 'btn-default' }}" @if(request('status','')===$value) aria-current="page" @endif href="{{ R::url('orders','orders').'?'.http_build_query(array_replace(array_diff_key($queueContext,['page'=>true]),['status'=>$value])) }}">{{ $label }}</a>
+@endforeach</nav>@endif
 <form method="get" action="{{ R::url($module, $entity) }}" class="store-card">
     <div class="store-grid">
         <div><label for="q">Tìm tên{{ $entity === 'products' ? ' / SKU' : ($entity === 'orders' ? ' / mã đơn / điện thoại' : ($entity === 'customers' ? ' / điện thoại / email' : '')) }}</label><input id="q" name="q" value="{{ request('q') }}" maxlength="200"></div>
         @if($entity !== 'inventory')<div><label for="status">Trạng thái</label><select id="status" name="status"><option value="">Tất cả</option>
             @foreach($entity === 'orders' ? ['NEW','CONFIRMED','PACKING','SHIPPING','COMPLETED','CANCELLED','RETURNED'] : (in_array($entity,['customers','banners']) ? ['ACTIVE','INACTIVE'] : ['DRAFT','PUBLISHED','ARCHIVED']) as $status)
-                <option value="{{ $status }}" @selected(request('status') === $status)>{{ $status }}</option>
+                <option value="{{ $status }}" @selected(request('status') === $status)>{{ \App\Admin\StoreLabels::status($status) }}</option>
             @endforeach
         </select></div>@endif
+        @if($entity === 'inventory')<div><label for="stock">Tồn khả dụng</label><select id="stock" name="stock"><option value="">Tất cả</option>@foreach(['out'=>'Hết hàng (≤ 0)','low'=>'Sắp hết (1–'.\App\Services\Admin\StoreQueries::LOW_STOCK.')','available'=>'Còn hàng (> 0)'] as $key=>$label)<option value="{{ $key }}" @selected(request('stock')===$key)>{{ $label }}</option>@endforeach</select><p class="help">Khả dụng = tồn thực tế − giữ chỗ; áp dụng cho mọi SKU.</p></div>@endif
+        @if($entity === 'orders')<div><label for="origin">Nguồn đơn</label><select id="origin" name="origin"><option value="">Tất cả</option><option value="live" @selected(request('origin')==='live')>Website hiện tại</option><option value="legacy" @selected(request('origin')==='legacy')>Lịch sử legacy</option></select></div>@endif
         @if(in_array($entity,['products','articles']))<div><label for="category_id">Danh mục</label><select id="category_id" name="category_id"><option value="">Tất cả</option>@foreach($filterChoices as $key=>$text)<option value="{{ $key }}" @selected((string)request('category_id')===(string)$key)>{{ $text }}</option>@endforeach</select></div>@endif
         @if(in_array($entity,['categories','article-categories']))<div><label for="parent_id">Danh mục cha</label><select id="parent_id" name="parent_id"><option value="">Tất cả</option><option value="0" @selected(request('parent_id')==='0')>Danh mục gốc</option>@foreach($filterChoices as $key=>$text)<option value="{{ $key }}" @selected((string)request('parent_id')===(string)$key)>{{ $text }}</option>@endforeach</select></div>@endif
         @if($entity === 'products')<div><label for="featured">Nổi bật</label><select id="featured" name="featured"><option value="">Tất cả</option><option value="1" @selected(request('featured')==='1')>Có</option><option value="0" @selected(request('featured')==='0')>Không</option></select></div>@endif
@@ -31,8 +37,8 @@
     @if($entity === 'inventory'){{ $row->variant?->sku }}<br><span class="muted">{{ $row->variant?->product?->name ?? 'Sản phẩm đã lưu trữ' }}</span>
     @else
         @if($entity === 'products' && $row->images->isNotEmpty())<img class="thumb" src="{{ Storage::disk('public')->url(($row->images->firstWhere('is_primary',true) ?? $row->images->first())->path) }}" alt="">@endif
-        <a href="{{ R::url($module,$entity.'/'.$row->id) }}">{{ $row->{$definition['display']} }}</a>
-        @if($entity === 'orders')<br>{{ $row->customer_name }}@endif
+        <a href="{{ $entity==='orders' ? app(\App\Services\Admin\OrderQueue::class)->detailUrl($row,$queueContext) : R::url($module,$entity.'/'.$row->id) }}">{{ $row->{$definition['display']} }}</a>
+        @if($entity === 'orders')<br>{{ $row->customer_name }}<br><span class="muted">{{ $row->is_legacy ? 'Lịch sử legacy · không xử lý tồn live' : 'Website hiện tại' }}</span>@endif
         @if($entity === 'articles')<br><span class="muted">{{ $row->category?->name }}</span>@endif
         @if(in_array($entity,['categories','article-categories']))<br><span class="muted">{{ $row->parent?->name ?? 'Danh mục gốc' }} · Thứ tự {{ $row->sort_order }}</span>@endif
     @endif
@@ -43,8 +49,8 @@
 @endif
 @if($entity === 'orders')<td>{{ $row->customer_phone }}</td><td>{{ \App\Support\IntegerDisplay::format($row->total) }}</td>@endif
 @if($entity === 'customers')<td>{{ $row->phone }}<br>{{ $row->email }}</td><td>{{ $row->orders_count }}</td>@endif
-@if($entity === 'inventory')<td>{{ $row->quantity }}</td><td>{{ $row->reserved_quantity }}</td><td>{{ $row->available() }}</td>@else<td>{{ $row->status->value }}</td>@endif
-<td>{{ in_array($entity,['orders','customers']) ? $row->created_at : $row->updated_at }}</td><td><a href="{{ R::url($module,$entity.'/'.$row->id) }}">Xem</a>@if(!in_array($entity,['orders','inventory'])) · <a href="{{ R::url($module,$entity.'/'.$row->id.'/edit') }}">Sửa</a>@endif</td></tr>
+@if($entity === 'inventory')<td>{{ $row->quantity }}</td><td>{{ $row->reserved_quantity }}</td><td>{{ $row->available() }}</td>@else<td>{{ \App\Admin\StoreLabels::status($row->status) }}</td>@endif
+<td>{{ in_array($entity,['orders','customers']) ? $row->created_at : $row->updated_at }}</td><td><a href="{{ $entity==='orders' ? app(\App\Services\Admin\OrderQueue::class)->detailUrl($row,$queueContext) : R::url($module,$entity.'/'.$row->id) }}">Xem</a>@if(!in_array($entity,['orders','inventory'])) · <a href="{{ R::url($module,$entity.'/'.$row->id.'/edit') }}">Sửa</a>@endif</td></tr>
 @empty<tr><td colspan="10">Chưa có dữ liệu phù hợp.</td></tr>@endforelse
 </tbody></table>{{ $rows->links('pagination::bootstrap-5') }}</div>
 @endsection

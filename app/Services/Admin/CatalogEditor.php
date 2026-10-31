@@ -3,6 +3,7 @@
 namespace App\Services\Admin;
 
 use App\Actions\Catalog\CreateVariant;
+use App\Admin\StoreLabels;
 use App\Domain\Catalog\PricingType;
 use App\Domain\Catalog\RecordStatus;
 use App\Models\Product;
@@ -17,11 +18,11 @@ final class CatalogEditor
 {
     public function option(Product $product, array $input, ?int $id = null): ProductOption
     {
-        $data = Validator::make($input, [
+        $data = StoreLabels::validate($input, [
             'name' => ['required', 'string', 'max:100', Rule::unique('product_options')->where('product_id', $product->id)->ignore($id)],
             'sort_order' => ['required', 'integer', 'min:0', 'max:2147483647'],
             'values' => ['required', 'array', 'min:1', 'max:100'], 'values.*' => ['required', 'string', 'max:100', 'distinct:ignore_case'],
-        ])->validate();
+        ], ['name' => 'Tên nhóm', 'sort_order' => 'Thứ tự nhóm', 'values' => 'Giá trị phân loại', 'values.*' => 'Giá trị phân loại']);
 
         return DB::transaction(function () use ($product, $data, $id) {
             $product = Product::lockForUpdate()->findOrFail($product->id);

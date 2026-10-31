@@ -10,10 +10,15 @@ use App\Http\Requests\UpdateVariantMatrixRequest;
 use App\Models\ArticleCategory;
 use App\Models\Category;
 use App\Models\Setting;
+use App\Services\Admin\ArticlePreview;
 use App\Services\Admin\CatalogEditor;
 use App\Services\Admin\CustomerAddresses;
+use App\Services\Admin\OrderQueue;
 use App\Services\Admin\ProductImages;
+use App\Services\Admin\ProductPreview;
+use App\Services\Admin\ProductReadiness;
 use App\Services\Admin\RecordEditor;
+use App\Services\Admin\SeoSnippet;
 use App\Services\Admin\SettingsEditor;
 use App\Services\Admin\StockAdjustment;
 use App\Services\Admin\StoreQueries;
@@ -69,6 +74,7 @@ final class StoreController
             return view('admin.store.settings', ['settings' => Setting::pluck('value', 'key')]);
         }
         $rows = app(StoreQueries::class)->listing($module, $entity, request()->query())->paginate(25)->withQueryString();
+        $queueContext = $entity === 'orders' ? app(OrderQueue::class)->fromList(request()->query()) : [];
         $filterChoices = match ($entity) {
             'products' => Category::orderBy('name')->pluck('name', 'id'),
             'articles' => ArticleCategory::orderBy('name')->pluck('name', 'id'),
@@ -76,7 +82,7 @@ final class StoreController
             default => collect(),
         };
 
-        return view('admin.store.list', compact('module', 'entity', 'definition', 'rows', 'filterChoices'));
+        return view('admin.store.list', compact('module', 'entity', 'definition', 'rows', 'filterChoices', 'queueContext'));
     }
 
     public function form(string $module, string $entity, mixed $id = null)
@@ -88,8 +94,9 @@ final class StoreController
             ? $definition['model']::where('id', '<>', $record->id ?? 0)->orderBy('name')->pluck('name', 'id') : collect();
         $choices = ['parents' => $parents, 'categories' => Category::orderBy('name')->pluck('name', 'id'),
             'article-categories' => ArticleCategory::orderBy('name')->pluck('name', 'id')];
+        $seoPreview = $record->exists && in_array($entity, ['products', 'articles'], true) ? app(SeoSnippet::class)->forRecord($record) : null;
 
-        return view('admin.store.form', compact('module', 'entity', 'definition', 'record', 'choices'));
+        return view('admin.store.form', compact('module', 'entity', 'definition', 'record', 'choices', 'seoPreview'));
     }
 
     public function save(string $module, string $entity, mixed $id = null)
@@ -122,16 +129,26 @@ final class StoreController
     {
         $definition = $this->access($module, $entity);
         $record = $definition['model']::findOrFail($this->id($id));
+        if ($entity === 'articles' && request()->boolean('preview')) {
+            return app(ArticlePreview::class)->response($record);
+        }
         if ($entity === 'products') {
+            if (request()->boolean('preview')) {
+                return app(ProductPreview::class)->response($record);
+            }
             $record->load(['category', 'images', 'options.values', 'variants.optionValues', 'variants.inventory']);
             $matrixRows = app(VariantMatrix::class)->rows($record);
+            $readiness = app(ProductReadiness::class)->inspect($record);
+            $imageVersion = app(ProductImages::class)->version($record);
 
-            return view('admin.store.product', compact('module', 'entity', 'definition', 'record', 'matrixRows'));
+            return view('admin.store.product', compact('module', 'entity', 'definition', 'record', 'matrixRows', 'readiness', 'imageVersion'));
         }
         if ($entity === 'orders') {
             $record->load(['items', 'statusHistories.actor.base_user']);
+            $queueContext = app(OrderQueue::class)->context(request('queue', []));
+            $queueNav = app(OrderQueue::class)->navigation($record, $queueContext);
 
-            return view('admin.store.order', compact('record'));
+            return view('admin.store.order', compact('record', 'queueContext', 'queueNav'));
         }
         if ($entity === 'customers') {
             $record->load('addresses');
@@ -169,11 +186,17 @@ final class StoreController
                         break;
                     case 'image': app(ProductImages::class)->update($record, $this->id(request('image_id')), $input);
                         break;
+                    case 'images-batch':
+                        request()->merge(['image_form' => (string) $record->id]);
+                        app(ProductImages::class)->batch($record, $input);
+                        break;
                     case 'delete-image':
                         Validator::make($input, ['confirm' => ['accepted']])->validate();
                         app(ProductImages::class)->delete($record, $this->id(request('image_id')));
                         break;
                     case 'option':
+                        // Scope flashed input to this product/group, even when an older client omits the marker.
+                        request()->merge(['option_form' => $id.':'.($this->optionalId('option_id') ?? 'new')]);
                         $input['values'] = is_string($input['values'] ?? null) ? preg_split('/\r\n|\r|\n/', trim($input['values'])) : ($input['values'] ?? []);
                         app(CatalogEditor::class)->option($record, $input, $this->optionalId('option_id'));
                         break;
@@ -195,8 +218,11 @@ final class StoreController
             } elseif ($entity === 'inventory' && $command === 'adjust') {
                 app(StockAdjustment::class)->execute($record, $input, \Exment::user()->id);
             } elseif ($entity === 'orders' && $command === 'status') {
-                $data = Validator::make($input, ['status' => ['required', Rule::enum(OrderStatus::class)],
-                    'expected_status' => ['required', Rule::enum(OrderStatus::class)], 'note' => ['nullable', 'string', 'max:5000']])->validate();
+                $queueContext = app(OrderQueue::class)->context($input['queue'] ?? []);
+                $data = StoreLabels::validate($input, ['status' => ['required', Rule::enum(OrderStatus::class)],
+                    'expected_status' => ['required', Rule::enum(OrderStatus::class)], 'note' => ['nullable', 'string', 'max:5000'],
+                    'confirm_cancel' => ($input['status'] ?? null) === 'CANCELLED' ? ['required', 'accepted'] : ['exclude']],
+                    ['status' => 'Trạng thái', 'expected_status' => 'Trạng thái đã mở', 'note' => 'Ghi chú', 'confirm_cancel' => 'hủy đơn']);
                 app(ChangeOrderStatus::class)->execute($record, OrderStatus::from($data['status']), \Exment::user()->id,
                     $data['note'] ?? null, OrderStatus::from($data['expected_status']));
             } elseif ($entity === 'customers' && $command === 'address') {
@@ -208,7 +234,9 @@ final class StoreController
                 abort(405);
             }
 
-            return redirect(StoreResources::url($module, $entity.'/'.$id))->with('store_success', 'Đã thực hiện thao tác.');
+            $redirect = $entity === 'orders' ? app(OrderQueue::class)->detailUrl($record, $queueContext) : StoreResources::url($module, $entity.'/'.$id);
+
+            return redirect($redirect)->with('store_success', 'Đã thực hiện thao tác.');
         });
     }
 

@@ -1,0 +1,34 @@
+{
+  "scope": "Owned QA localhost8004; IAB observations before provider stop",
+  "pass": [
+    "Native login and draft product create",
+    "Per-value row add/save",
+    "Multi-line second group and4 saved combinations",
+    "Generate4 SKUs",
+    "Upload2 authorized idea assets into QA gallery",
+    "Reorder Up plus alt/primary atomic save",
+    "Matrix own-image price100000 stock10 save",
+    "Compact toggle leaves dirty=false and hides optional columns"
+  ],
+  "not_verified": [
+    "Final in-page leave/stay dialog and PJAX/history/back",
+    "Refresh/close native warning",
+    "Current responsive/sticky256-row checks",
+    "Manual order queue flow",
+    "Article/SEO/banner UI",
+    "Fresh Chrome/Edge baseline"
+  ],
+  "interruption": "Computer Use stopped because Windows browser URL could not be determined confidently for policy enforcement",
+  "windows_input_stopped": true,
+  "qa_tabs_explicit_cleanup": "UNVERIFIED after provider stop; unmarked temporary agent tabs",
+  "screenshots": {
+    "matrix-compact.png": {
+      "bytes": 65559,
+      "sha256": "7a9e48c544a67a4c70a999f9cc2c5897357dd71e3dc3b5c740db9d8c3cfe52b8"
+    },
+    "gallery-batch.png": {
+      "bytes": 66139,
+      "sha256": "c2bd95197332c9c914b6e747e7b70aad6cc591ddade14754f5ed11b15a5892b9"
+    }
+  }
+}

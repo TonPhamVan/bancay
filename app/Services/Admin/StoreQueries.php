@@ -8,6 +8,7 @@ use App\Models\Customer;
 use App\Models\Order;
 use App\Models\Product;
 use App\Models\ProductVariant;
+use App\Services\Storefront\Publication;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Validator;
@@ -15,14 +16,12 @@ use Illuminate\Validation\Rule;
 
 final class StoreQueries
 {
+    public const LOW_STOCK = 5;
+
     public function listing(string $module, string $entity, array $input): Builder
     {
         $definition = StoreResources::get($module, $entity);
-        $data = Validator::make($input, ['q' => ['nullable', 'string', 'max:200'], 'status' => ['nullable', 'string', 'max:30'],
-            'category_id' => ['nullable', 'integer', 'min:1'], 'parent_id' => ['nullable', 'integer', 'min:0'],
-            'featured' => ['nullable', 'boolean'], 'from' => ['nullable', 'date_format:Y-m-d'],
-            'to' => ['nullable', 'date_format:Y-m-d', Rule::when(! empty($input['from']), ['after_or_equal:from'])],
-            'sort' => ['nullable', Rule::in(['newest', 'oldest', 'name', 'sort_order'])]])->validate();
+        $data = $this->filters($input);
         $query = $definition['model']::query();
         if ($entity === 'products') {
             $query->with(['category', 'images', 'variants.inventory'])->withCount('variants');
@@ -34,8 +33,18 @@ final class StoreQueries
             }
         } elseif ($entity === 'inventory') {
             $query->with(['variant.product']);
+            if (! empty($data['stock'])) {
+                match ($data['stock']) {
+                    'out' => $query->whereRaw('quantity - reserved_quantity <= 0'),
+                    'low' => $query->whereRaw('quantity - reserved_quantity > 0')->whereRaw('quantity - reserved_quantity <= ?', [self::LOW_STOCK]),
+                    'available' => $query->whereRaw('quantity - reserved_quantity > 0'),
+                };
+            }
         } elseif ($entity === 'orders') {
             $query->with('customer');
+            if (! empty($data['origin'])) {
+                $query->where('is_legacy', $data['origin'] === 'legacy');
+            }
         } elseif ($entity === 'customers') {
             $query->withCount('orders');
         } elseif ($entity === 'articles') {
@@ -86,6 +95,17 @@ final class StoreQueries
         };
     }
 
+    public function filters(array $input): array
+    {
+        return Validator::make($input, ['q' => ['nullable', 'string', 'max:200'], 'status' => ['nullable', 'string', 'max:30'],
+            'category_id' => ['nullable', 'integer', 'min:1'], 'parent_id' => ['nullable', 'integer', 'min:0'],
+            'featured' => ['nullable', 'boolean'], 'from' => ['nullable', 'date_format:Y-m-d'],
+            'stock' => ['nullable', Rule::in(['out', 'low', 'available'])], 'origin' => ['nullable', Rule::in(['live', 'legacy'])],
+            'page' => ['nullable', 'integer', 'min:1', 'max:100000'],
+            'to' => ['nullable', 'date_format:Y-m-d', Rule::when(! empty($input['from']), ['after_or_equal:from'])],
+            'sort' => ['nullable', Rule::in(['newest', 'oldest', 'name', 'sort_order'])]])->validate();
+    }
+
     public function dashboard(): array
     {
         $stats = [];
@@ -93,15 +113,16 @@ final class StoreQueries
         $lowStock = collect();
         if (Gate::allows('catalog.manage')) {
             $stats['Tổng sản phẩm'] = Product::count();
-            $stats['Sản phẩm công khai'] = Product::where('status', 'PUBLISHED')->where('published_at', '<=', now())->count();
+            $visibleCategories = app(Publication::class)->categories()->keys();
+            $stats['Sản phẩm hiển thị trên website'] = Publication::scope(Product::query())->whereIn('category_id', $visibleCategories)->count();
             $lowStock = ProductVariant::with(['product', 'inventory'])->where('status', 'ACTIVE')->whereHas('product')
-                ->whereHas('inventory', fn ($q) => $q->whereRaw('quantity - reserved_quantity <= 5'))->limit(10)->get();
+                ->whereHas('inventory', fn ($q) => $q->whereRaw('quantity - reserved_quantity <= ?', [self::LOW_STOCK]))->orderBy('id')->limit(10)->get();
         }
         if (Gate::allows('commerce.manage')) {
             $stats['Đơn mới'] = Order::where('is_legacy', false)->where('status', 'NEW')->count();
             $stats['Đơn đang xử lý'] = Order::where('is_legacy', false)->whereIn('status', ['CONFIRMED', 'PACKING', 'SHIPPING'])->count();
             $stats['Doanh thu đơn hoàn thành (VND)'] = Order::where('is_legacy', false)->where('status', 'COMPLETED')->sum('total');
-            $recent = Order::latest('id')->limit(10)->get();
+            $recent = Order::where('is_legacy', false)->latest('id')->limit(10)->get();
         }
         if (Gate::allows('customers.manage')) {
             $stats['Khách hàng'] = Customer::count();

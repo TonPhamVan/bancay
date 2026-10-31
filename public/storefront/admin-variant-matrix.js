@@ -15,6 +15,7 @@
     function update(form) {
         const selected = rows(form).filter(row => row.querySelector('[data-matrix-select]').checked).length;
         const count = dirty(form).length;
+        form.dataset.dirty = count ? 'true' : 'false';
         form.querySelector('[data-bulk-apply]').textContent = `Áp dụng cho ${selected} dòng đã chọn`;
         form.querySelector('[data-bulk-apply]').disabled = selected === 0;
         form.querySelector('[data-matrix-save]').textContent = `Lưu ${count} dòng thay đổi`;
@@ -23,6 +24,12 @@
         form.querySelector('[data-matrix-select-all]').checked = selected === rows(form).length;
         form.querySelector('[data-matrix-select-all]').indeterminate = selected > 0 && selected < rows(form).length;
         rows(form).forEach(row => row.classList.toggle('matrix-changed', changed(form, row)));
+        rows(form).forEach(row => {
+            const select = row.querySelector('[data-field=image_id]');
+            const thumbnail = row.querySelector('[data-matrix-thumbnail]');
+            const source = select.selectedOptions[0]?.dataset.thumbnail;
+            if (thumbnail && source && thumbnail.getAttribute('src') !== source) thumbnail.src = source;
+        });
     }
     function status(form, message, error = false) {
         const target = form.querySelector('[data-matrix-status]');
@@ -62,6 +69,7 @@
     document.addEventListener('change', event => {
         const form = event.target.closest('[data-variant-matrix]');
         if (!form) return;
+        if (event.target.matches('[data-matrix-compact]')) form.classList.toggle('matrix-compact', event.target.checked);
         if (event.target.matches('[data-matrix-select-all]')) {
             rows(form).forEach(row => { row.querySelector('[data-matrix-select]').checked = event.target.checked; });
         }
@@ -157,6 +165,7 @@
         }
     });
     window.addEventListener('beforeunload', event => {
+        if (window.bancayAdminUxLoaded) return; // Shared guard also protects native PJAX navigation and other forms.
         if ([...document.querySelectorAll('[data-variant-matrix]')].some(form => dirty(form).length)) {
             event.preventDefault(); event.returnValue = '';
         }

@@ -272,7 +272,7 @@ final class StoreAdminTest extends ExmentAdminTestCase
         foreach (['PACKING', 'SHIPPING', 'COMPLETED'] as $status) {
             app(ChangeOrderStatus::class)->execute($order, OrderStatus::from($status), $user->id);
         }
-        $this->postJson($url, ['status' => 'CANCELLED', 'expected_status' => 'COMPLETED'])->assertUnprocessable();
+        $this->postJson($url, ['status' => 'CANCELLED', 'expected_status' => 'COMPLETED', 'confirm_cancel' => 1])->assertUnprocessable();
         $this->get($this->storeUrl('orders', 'orders/'.$order->id))->assertOk()->assertSee('Snapshot')->assertSee('Synthetic confirmation');
         $this->assertDatabaseCount('order_status_histories', 5);
     }
@@ -284,8 +284,8 @@ final class StoreAdminTest extends ExmentAdminTestCase
         $url = $this->storeUrl('orders', 'orders/'.$order->id);
         $this->putJson($url, ['total' => 1, 'status' => 'COMPLETED'])->assertStatus(405);
         $this->deleteJson($url, ['confirm' => 1])->assertStatus(405);
-        $this->post($url.'/actions/status', ['status' => 'CANCELLED', 'expected_status' => 'NEW'])->assertRedirect();
-        $this->postJson($url.'/actions/status', ['status' => 'CANCELLED', 'expected_status' => 'CANCELLED'])->assertUnprocessable();
+        $this->post($url.'/actions/status', ['status' => 'CANCELLED', 'expected_status' => 'NEW', 'confirm_cancel' => 1])->assertRedirect();
+        $this->postJson($url.'/actions/status', ['status' => 'CANCELLED', 'expected_status' => 'CANCELLED', 'confirm_cancel' => 1])->assertUnprocessable();
         $this->assertDatabaseHas('inventories', ['quantity' => 10, 'reserved_quantity' => 0]);
         $this->assertSame(198000, $order->fresh()->total);
     }

@@ -1,0 +1,24 @@
+{
+  "phase_5_5_report": "NOT FOUND",
+  "files": {
+    "docs/master-plan.md": "cc7bd8e17698ac25f04ee531c346c89378ec053bd934621b57e764c3d20f4a85",
+    "docs/phase-0.md": "07b2c7bb901b841e5c52d5e40fb22faad1bf4b85f8330c56e4ffc3a07520cd86",
+    "docs/phase-1-report.md": "d793e447b93d5f14cc3f01bda6520b14c0b5b19984624a7769b11eab54645edb",
+    "docs/phase-2-report.md": "776b744ac5bbb5827192b834050f925d3600a749a0bf2af5c8fd1612b434c8cf",
+    "docs/phase-3-report.md": "787957d2e84922fc4801a189e2a42e67b570f21f1a3ec99d382357d3f7a7948d",
+    "docs/phase-4-report.md": "d1eb4a5d56762bf80d05bbf195b90091b9fa1326b24952fb69879f9ce09a727d",
+    "docs/phase-5-report.md": "d4edfef4cb785e1803c34f16f1ba4057fe73a628925b04ef5043bd09af39d4cb",
+    "docs/risk-review-report.md": "b7eb3c22483f77a6d94757f011318e7c69f86cfcc27ae6f97060ec99992f82c8",
+    "docs/risk-register.md": "eef879d23e12e87a8b21ffadbf42cd7ee54f0aea9595356245498ac0ac2f54a4",
+    "docs/architecture.md": "9071fa86588bc2087e8d7e1531a7fefb910a4aa76e963030ebb2a6226bce1128",
+    "docs/database-design.md": "b5d07b7b9ff5d590c0e614f1914852e18e8e61664c3cd034319ccc03e45e87fe",
+    "docs/exment-admin.md": "27ee18957a7bd68a0fb8c0c57d049a04f7adadfb94747dd19cf0e9ad4384df56",
+    "docs/exment-v7-report.md": "4bc66b7bff290ecb66edf48f078dc471d7733c0b2e6e0efefeaf8242f4c865f7",
+    "docs/business-ui-acceptance/request.md": "3af7bb8db110130c603f227e3a3b2412041efd31de048a1d0b20cdc0135409ba",
+    "docs/business-ui-remediation-report.md": "35ccdacb186d3da039a48aee741e35f333ef43fe9834c3fca4608b4b8d084901",
+    "docs/permissions.md": "0fe28b479100abb4fe3b4b3c55bf790bbd709e4cfb97766a7d721c34f4414dd8",
+    "docs/product-management.md": "f62bcf7ee9ecd9b570ea9a81fdcdd9126d7db00d48d1583f77198540d4861b80",
+    "docs/order-workflow.md": "fba20e6a2130ec8c252109bfd95c9b62c37ca072c1286a71250365d1ff538111",
+    "docs/release-readiness/recheck-54a0a2f/report.md": "dae9d8f57f61f4024ce481c938a457f9ab3ecdd430fd93e041b5a8f5d2e174d9"
+  }
+}

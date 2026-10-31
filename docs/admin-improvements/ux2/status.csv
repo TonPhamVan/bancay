@@ -1,0 +1,14 @@
+ID,Implementation,Verification,Next action
+AR04,Row/multi-line input and bounded counter,Current IAB overflow100-limit and backend PASS,Staff UAT
+AR05,Thumbnail/sticky/compact,Current IAB save responsive256-row keyboard PASS,Staff UAT
+AR06,Saved private Article and SEO preview only,Current IAB and HTTP private preview/fallback PASS,Visual editor remains deferred
+AR10,Context/status tabs/next eligible live order,Current IAB filtered queue/status/history/next/back PASS,Staff UAT
+AR11,Banner/settings guidance and conditional category marker,Current IAB guidance/responsive and HTTP PASS,Staff UAT
+AR12,Role-scoped shortcuts/help,HTTP role checks PASS,Staff UAT
+AR18,Shared unsaved guard with in-page dialog,Current IAB stay/leave/Back/PJAX/Escape PASS,Native refresh/close NOT TESTED
+AR19,Atomic gallery metadata/reorder,Current IAB stale/keyboard/batch and HTTP PASS,Pointer drag deferred; staff UAT
+UX2-V01,20 current IAB case groups PASS,PARTIALLY VERIFIED,Native refresh/close and standalone browser verification
+AR16/AR17,Native replacement remains prototype/deferred,Historical B1 prototype PASS,Full parity before runtime replacement
+BA-G04,Launch catalog and staff UAT pending,BLOCKER,Owner supplies/approves actual launch data
+BA-V01,Fresh Chrome/Edge baseline pending,BLOCKER,Current-build browser acceptance
+P5-B01/P5-B02/P5-B03,Production prerequisites unchanged,BLOCKER,Coherent production backup DirectAdmin profile and frozen-source rehearsal

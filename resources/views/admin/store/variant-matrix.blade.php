@@ -3,6 +3,7 @@
 <form method="post" action="{{ R::url('catalog','products/'.$record->id.'/actions/variant-matrix') }}" data-variant-matrix data-rows="{{ json_encode($matrixRows, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) }}">
 @csrf
 <h4>Bảng phân loại hàng</h4>
+<label><input type="checkbox" data-matrix-compact> Thu gọn bảng (ẩn cột giá sale và ảnh; dữ liệu vẫn được giữ)</label>
 <p class="help">Chỉnh trực tiếp các dòng rồi lưu một lần. Giá là VND nguyên; nhập giá gốc sẽ chọn Giá cố định. Chọn Liên hệ để bỏ giá. Tồn giữ chỗ và tổ hợp không sửa trực tiếp.</p>
 <div data-matrix-status role="status" aria-live="polite" tabindex="-1"></div>
 <fieldset data-matrix-controls class="matrix-controls">
@@ -13,7 +14,7 @@
 </div>
 <div class="store-scroll matrix-scroll" role="region" aria-label="Bảng chỉnh sửa SKU, cuộn ngang để xem đủ cột" tabindex="0">
 <table class="variant-matrix"><caption class="help">{{ count($matrixRows) }} SKU · Có thể lưu tối đa 256 dòng thay đổi mỗi lần</caption>
-<thead><tr><th><input type="checkbox" data-matrix-select-all aria-label="Chọn tất cả SKU"></th><th scope="col">Phân loại / SKU</th><th scope="col">Loại giá</th><th scope="col">Giá gốc</th><th scope="col">Giá sale</th><th scope="col">Ảnh</th><th scope="col">Tồn thực tế</th><th scope="col">Giữ chỗ / Khả dụng</th><th scope="col">Trạng thái</th></tr></thead>
+<thead><tr><th><input type="checkbox" data-matrix-select-all aria-label="Chọn tất cả SKU"></th><th scope="col">Phân loại / SKU</th><th scope="col">Loại giá</th><th scope="col">Giá gốc</th><th scope="col" data-matrix-optional>Giá sale</th><th scope="col" data-matrix-optional>Ảnh</th><th scope="col">Tồn thực tế</th><th scope="col">Giữ chỗ / Khả dụng</th><th scope="col">Trạng thái</th></tr></thead>
 <tbody>
 @foreach($matrixRows as $row)
 <tr data-matrix-row="{{ $row['id'] }}">
@@ -21,8 +22,9 @@
 <td class="matrix-identity"><strong>{{ $row['label'] }}</strong><label for="matrix-sku-{{ $row['id'] }}" class="muted">SKU</label><input id="matrix-sku-{{ $row['id'] }}" data-field="sku" value="{{ $row['sku'] }}" required maxlength="100" pattern="[A-Za-z0-9][A-Za-z0-9._\-]*"><div data-row-errors class="text-danger" aria-live="polite"></div></td>
 <td><select data-field="pricing_type" aria-label="Loại giá {{ $row['label'] }}"><option value="CONTACT" @selected($row['pricing_type']==='CONTACT')>Liên hệ</option><option value="FIXED" @selected($row['pricing_type']==='FIXED')>Giá cố định</option></select></td>
 <td><input data-field="price" type="text" inputmode="numeric" pattern="[0-9]*" value="{{ $row['price'] }}" aria-label="Giá gốc {{ $row['label'] }}"></td>
-<td><input data-field="sale_price" type="text" inputmode="numeric" pattern="[0-9]*" value="{{ $row['sale_price'] }}" aria-label="Giá sale {{ $row['label'] }}"></td>
-<td><select data-field="image_id" aria-label="Ảnh {{ $row['label'] }}"><option value="">Không chọn</option>@foreach($record->images as $image)<option value="{{ $image->id }}" @selected($row['image_id']===(string)$image->id)>#{{ $image->id }} {{ $image->alt_text ?: 'Ảnh '.$loop->iteration }}</option>@endforeach</select></td>
+<td data-matrix-optional><input data-field="sale_price" type="text" inputmode="numeric" pattern="[0-9]*" value="{{ $row['sale_price'] }}" aria-label="Giá sale {{ $row['label'] }}"></td>
+@php $cover=($record->images->firstWhere('is_primary',true) ?? $record->images->first())?->path; $selected=$record->images->firstWhere('id',$row['image_id']); @endphp
+<td data-matrix-optional><img class="thumb" data-matrix-thumbnail src="{{ $selected || $cover ? Storage::disk('public')->url($selected?->path ?? $cover) : '/storefront/fallback.svg' }}" alt="Ảnh SKU {{ $row['label'] }}" loading="lazy" width="64" height="64"><select data-field="image_id" aria-label="Ảnh {{ $row['label'] }}"><option value="" data-thumbnail="{{ $cover ? Storage::disk('public')->url($cover) : '/storefront/fallback.svg' }}">Ảnh chung sản phẩm</option>@foreach($record->images as $image)<option value="{{ $image->id }}" data-thumbnail="{{ Storage::disk('public')->url($image->path) }}" @selected($row['image_id']===(string)$image->id)>#{{ $image->id }} {{ $image->alt_text ?: 'Ảnh '.$loop->iteration }}</option>@endforeach</select></td>
 <td><input data-field="quantity" type="text" inputmode="numeric" pattern="[0-9]*" value="{{ $row['quantity'] }}" required aria-label="Tồn thực tế {{ $row['label'] }}"></td>
 <td><span data-reserved>{{ $row['reserved'] }}</span> / <strong data-available>{{ $row['available'] }}</strong></td>
 <td><select data-field="status" aria-label="Trạng thái {{ $row['label'] }}"><option value="ACTIVE" @selected($row['status']==='ACTIVE')>Hoạt động</option><option value="INACTIVE" @selected($row['status']==='INACTIVE')>Tạm ngưng</option></select></td>

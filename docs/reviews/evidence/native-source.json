@@ -1,0 +1,107 @@
+{
+  "lock_exment_version": "v7.0.0",
+  "lock_reference": "bf795a90598d436ea83956fcd4f2db83d8526944",
+  "source_basis": "installed local vendor; no edits; upstream byte parity not re-tested",
+  "files": {
+    "vendor/exceedone/exment/src/Model/CustomTable.php": {
+      "exists": true,
+      "sha256": "94798bcb5f4372ba977b99db97ce545e29f49557fa71753f3acb9c1fde82060f",
+      "lines": 4053
+    },
+    "vendor/exceedone/exment/src/Model/CustomValue.php": {
+      "exists": true,
+      "sha256": "eec73dc3c2e1738383d8a4bb3012ea87fed84cf88da70dacb67b3e5eece969da",
+      "lines": 2234
+    },
+    "vendor/exceedone/exment/src/Model/CustomColumn.php": {
+      "exists": true,
+      "sha256": "3977ba2a79208a42f0581d3b6771a1f25e14366ca04101fdabdb3dc228d861b0",
+      "lines": 854
+    },
+    "vendor/exceedone/exment/src/Model/CustomRelation.php": {
+      "exists": true,
+      "sha256": "969ce167c869db3b60e981fe914fe0523dfcae1f9afc6c7831af6e80ee74d5b1",
+      "lines": 409
+    },
+    "vendor/exceedone/exment/src/Controllers/CustomFormController.php": {
+      "exists": true,
+      "sha256": "095ba0fa6dc2aa199c419b159b39cf15bfc33975cb4cb00c7584ecf007e4e859",
+      "lines": 975
+    },
+    "vendor/exceedone/exment/src/Controllers/CustomViewController.php": {
+      "exists": true,
+      "sha256": "94f52f05528c08b1305eb06f598d7e8af89d0205fcfe7ffa0d9b9a6e71560d39",
+      "lines": 819
+    },
+    "vendor/exceedone/exment/src/Controllers/WorkflowController.php": {
+      "exists": true,
+      "sha256": "c06e43420fc811fe8504a14c668a57a87dab8f1e514c73749405f95d08c209a6",
+      "lines": 1551
+    },
+    "vendor/exceedone/exment/src/Controllers/DashboardController.php": {
+      "exists": true,
+      "sha256": "ce653c4157eb21b3702d6938dce2faf1c4d5fb87692032e579d5fd0815c475d1",
+      "lines": 644
+    },
+    "vendor/exceedone/exment/src/Controllers/RoleGroupController.php": {
+      "exists": true,
+      "sha256": "d07b7d89fa1c17dfc12dff1986393166ada59d02e1309f0668d223694a92db23",
+      "lines": 859
+    },
+    "vendor/exceedone/exment/src/Controllers/FileController.php": {
+      "exists": true,
+      "sha256": "7f05bfeb932fd2cb38de4fd69c68b340e83a6f65194cff3f7364ead6f2d585b4",
+      "lines": 653
+    },
+    "vendor/exceedone/exment/src/Controllers/CustomNotifyController.php": {
+      "exists": true,
+      "sha256": "f53c8010423626fa1307420c6bfeddaab5723914bff8bb1b02bfda77b2793768",
+      "lines": 360
+    },
+    "vendor/exceedone/exment/src/Controllers/ApiDataController.php": {
+      "exists": true,
+      "sha256": "17bcf1aad72c2b1cba95cb2725582ae2ae384b70a39fa33751183375a87aa7bf",
+      "lines": 1411
+    },
+    "vendor/exceedone/exment/src/Controllers/CustomValueController.php": {
+      "exists": true,
+      "sha256": "c77c0ecffa4ace0703098ca00529295eaf82bfc7d949c8a2f5b98cd84516495b",
+      "lines": 2132
+    },
+    "vendor/exceedone/exment/src/Controllers/CustomCopyController.php": {
+      "exists": true,
+      "sha256": "7101a14800af89ad37d8c27a5ac474b1127fc742303c19760b2bdfca4c9b0c2c",
+      "lines": 307
+    },
+    "vendor/exceedone/exment/src/Services/Plugin/PluginPageBase.php": {
+      "exists": true,
+      "sha256": "e263dd7c6a21128bab2c6527226c9378cca6ad108f6268e64ebf8654796840ce",
+      "lines": 50
+    },
+    "vendor/exceedone/exment/src/Services/Plugin/PluginDashboardBase.php": {
+      "exists": true,
+      "sha256": "16ca2f1cf1594f6467047d03007018ec41b32e380288f737e7f17ed1cf7046d2",
+      "lines": 71
+    },
+    "vendor/exceedone/exment/src/Services/DataImportExport/Providers/Import/DefaultTableProvider.php": {
+      "exists": true,
+      "sha256": "40b08d5d0825f02a79da13b8f83ebc70126feee17d0d6af5b9a648f05f4f1f77",
+      "lines": 397
+    },
+    "vendor/exceedone/exment/src/Services/DataImportExport/Providers/Export/DefaultTableProvider.php": {
+      "exists": true,
+      "sha256": "a5a7571bf56e4f83b7efb530443335572ea978d350a7921f6d1d13f43b0886c4",
+      "lines": 316
+    },
+    "vendor/exceedone/exment-admin-core/src/Grid.php": {
+      "exists": true,
+      "sha256": "c36ce9f3cd294e0678c43b9ae61363c7e72edd1be0f43fef480bd9a826794f80",
+      "lines": 1059
+    },
+    "vendor/exceedone/exment-admin-core/src/Form.php": {
+      "exists": true,
+      "sha256": "cf0db2ec52805331c76071f67bce29a6e6ac98c18f04a23bb737314f020336fd",
+      "lines": 2181
+    }
+  }
+}

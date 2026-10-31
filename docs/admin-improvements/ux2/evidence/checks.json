@@ -1,0 +1,63 @@
+{
+  "at_utc": "2026-10-31T01:22:13.542731+00:00",
+  "git": "93c581c3976b41d7bcfcf6f44313d11073da8cdb",
+  "uncommitted_implementation": true,
+  "checks": {
+    "php": {
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "204ef60bc1b1130300811a374f4c0efe6f98cde2989f8097c73b489e0be3a134",
+      "summary": [
+        "Tests:    198 passed (1372 assertions)",
+        "Duration: 87.72s"
+      ]
+    },
+    "pint": {
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "4c4173837668414290340f35b4079811a1748b955420a1dd452093cc21db6342"
+    },
+    "composer-validate": {
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "9de9eed6b7454ab6fa84d23ac480f6798168eeef66e6fd20225fae7097920acb"
+    },
+    "platform": {
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "978a0e13867deb5f38c0f43aa13010607caedd6c93e41dfb104023cbffcfb6cf"
+    },
+    "exment": {
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "b54896916c63bd04e3e13fef4d359dc1b449bf5c50a177184e57c279116a157b"
+    },
+    "composer-audit": {
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "82dee8cfca0e92780ff8ffab2d7ec751e7de9ee9cb79910b72fed6b28203f222",
+      "advisories": 0,
+      "abandoned": 0
+    },
+    "assets": {
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "83b776e85be98c99c917dff7ee2f5393ee6a57dc07fa2e5da3c3689299a41251",
+      "summary": [
+        "\u2139 tests 5",
+        "\u2139 pass 5",
+        "\u2139 fail 0",
+        "\u2139 skipped 0",
+        "\u2713 built in 3.88s"
+      ],
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 0,
+        "critical": 0,
+        "total": 0
+      }
+    }
+  }
+}

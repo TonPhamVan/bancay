@@ -26,7 +26,7 @@ final class StoreResources
 
     public static function all(): array
     {
-        $seo = ['meta_title' => ['SEO title', 'text'], 'meta_description' => ['SEO description', 'textarea']];
+        $seo = ['meta_title' => ['Tiêu đề SEO', 'text'], 'meta_description' => ['Mô tả SEO', 'textarea']];
         $publication = ['DRAFT' => 'Nháp', 'PUBLISHED' => 'Công khai', 'ARCHIVED' => 'Lưu trữ'];
         $active = ['ACTIVE' => 'Hoạt động', 'INACTIVE' => 'Tạm ngưng'];
         $category = ['name' => ['Tên', 'text'], 'slug' => ['Slug', 'text'], 'parent_id' => ['Danh mục cha', 'parents'],
@@ -67,6 +67,29 @@ final class StoreResources
         abort_unless(in_array($entity, self::MODULES[$module] ?? [], true), 404);
 
         return self::all()[$entity];
+    }
+
+    public static function required(string $entity, string $field, bool $exists): bool
+    {
+        // Banner category is conditional; the server enforces required_if:position,category.
+        if ($entity === 'banners' && $field === 'category_id') {
+            return false;
+        }
+
+        return in_array($field, ['name', 'title', 'category_id', 'article_category_id', 'status', 'sort_order', 'position', 'priority'], true)
+            || ($field === 'image_upload' && $entity === 'banners' && ! $exists);
+    }
+
+    public static function hint(string $field): ?string
+    {
+        return match ($field) {
+            'slug' => 'Để trống để tạo từ tên. Dùng chữ thường, số và dấu gạch ngang; cần duy nhất.',
+            'published_at' => 'Bắt buộc khi chọn Công khai. Chỉ hiển thị khi đã đến ngày và toàn bộ danh mục cha công khai.',
+            'meta_title' => 'Để trống sẽ dùng tên sản phẩm/bài viết/danh mục và cấu hình website.',
+            'meta_description' => 'Tóm tắt riêng cho trang này. Để trống sẽ dùng mô tả hoặc cấu hình website.',
+            'description', 'content' => 'HTML được lọc khi lưu; script và nội dung không an toàn bị loại bỏ.',
+            default => null,
+        };
     }
 
     public static function url(string $module, string $path = ''): string

@@ -3,6 +3,7 @@
 namespace App\Services\Admin;
 
 use App\Actions\Catalog\CreateProduct;
+use App\Admin\StoreLabels;
 use App\Admin\StoreResources;
 use App\Domain\Catalog\PublicationStatus;
 use App\Domain\Catalog\RecordStatus;
@@ -33,7 +34,8 @@ final class RecordEditor
         if ($entity === 'banners' && ! $model->exists) {
             $rules['image_upload'][0] = 'required';
         }
-        $data = Validator::make($input, $rules)->validate();
+        $attributes = array_map(fn ($field) => $field[0], $definition['fields']);
+        $data = StoreLabels::validate($input, $rules, $attributes);
         if ($entity === 'banners' && isset($data['starts_at'], $data['ends_at']) && strtotime($data['ends_at']) < strtotime($data['starts_at'])) {
             throw ValidationException::withMessages(['ends_at' => 'Ngày kết thúc phải sau ngày bắt đầu.']);
         }

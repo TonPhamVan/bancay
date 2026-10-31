@@ -63,12 +63,12 @@ final class RiskReviewIntegrationTest extends ExmentAdminTestCase
         $this->assertSame(100000, $order->fresh('items')->items[0]->unit_price);
         $this->get($this->storeUrl('orders', 'orders/'.$order->id))->assertOk()->assertSee('QA-RR-100')->assertSee('100,000')->assertDontSee('150,000');
         $statusUrl = $this->storeUrl('orders', 'orders/'.$order->id.'/actions/status');
-        $this->post($statusUrl, ['status' => 'CANCELLED', 'expected_status' => 'NEW', 'note' => 'Synthetic review cancellation'])->assertRedirect()->assertSessionHasNoErrors();
+        $this->post($statusUrl, ['status' => 'CANCELLED', 'expected_status' => 'NEW', 'confirm_cancel' => 1, 'note' => 'Synthetic review cancellation'])->assertRedirect()->assertSessionHasNoErrors();
         $this->assertSame(10, $variant->inventory->fresh()->quantity);
         $this->assertSame(0, $variant->inventory->fresh()->reserved_quantity);
         $this->assertCount(2, $order->fresh('statusHistories')->statusHistories);
         $this->assertSame((int) $admin->id, (int) $order->fresh('statusHistories')->statusHistories->last()->changed_by);
-        $this->postJson($statusUrl, ['status' => 'CANCELLED', 'expected_status' => 'NEW'])->assertUnprocessable();
+        $this->postJson($statusUrl, ['status' => 'CANCELLED', 'expected_status' => 'NEW', 'confirm_cancel' => 1])->assertUnprocessable();
         $this->assertSame(10, $variant->inventory->fresh()->quantity);
         $this->assertSame(0, $variant->inventory->fresh()->reserved_quantity);
     }

@@ -1,0 +1,36 @@
+{
+    "status": "PASS",
+    "read_only": true,
+    "facts": {
+        "product": 122,
+        "options": 2,
+        "values": [
+            [
+                "Nhỏ",
+                "Lớn"
+            ],
+            [
+                "Trắng",
+                "Nâu"
+            ]
+        ],
+        "variants": 4,
+        "large_rows": 256,
+        "images": 2,
+        "primary_count": 1,
+        "primary_id": 358,
+        "image_alt": "QA accepted gallery",
+        "stock": 10,
+        "reserved": 0,
+        "order_id": 262,
+        "status": "CANCELLED",
+        "total": 200000,
+        "item_quantity": 2,
+        "item_price": 100000,
+        "history": [
+            "NEW",
+            "CONFIRMED",
+            "CANCELLED"
+        ]
+    }
+}

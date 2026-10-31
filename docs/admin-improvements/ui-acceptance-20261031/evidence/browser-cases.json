@@ -1,0 +1,120 @@
+{
+  "browser": "ChatGPT in-app browser",
+  "cases": [
+    {
+      "id": "UI-04-R",
+      "result": "PASS",
+      "case": "101 values retained, Vietnamese limit, focus textarea, unsaved retry dialog; 100 rows/add disabled; return to2 values saved"
+    },
+    {
+      "id": "UI-05",
+      "result": "PASS",
+      "case": "Gallery keyboard reorder/alt/primary batch save"
+    },
+    {
+      "id": "UI-06",
+      "result": "PASS",
+      "case": "Stale image batch rejected, retains attempted alt and unsaved guard; leave confirmed"
+    },
+    {
+      "id": "UI-07",
+      "result": "PASS",
+      "case": "SKU thumbnail follows image selection; compact retains data; saved image358 survives reload"
+    },
+    {
+      "id": "UI-08",
+      "result": "PASS",
+      "case": "256 SKU rows,last-row keyboard Tab,320px matrix overflow inside region and sticky header"
+    },
+    {
+      "id": "UI-09",
+      "result": "PASS",
+      "case": "Queue search/status/origin/oldest retained on detail/status/history/next/back; only remaining NEW row visible"
+    },
+    {
+      "id": "UI-10",
+      "result": "PASS",
+      "case": "Draft article saved preview renders null date/content with internal banner and noindex"
+    },
+    {
+      "id": "UI-11",
+      "result": "PASS",
+      "case": "Article SEO saved fallback visible; browser Back Stay preserves URL/input; leave discards"
+    },
+    {
+      "id": "UI-12",
+      "result": "PASS",
+      "case": "Banner placement/size/schedule guide explains unsupported slots; settings help and clean file form navigation has no false dirty dialog"
+    },
+    {
+      "id": "UI-13",
+      "result": "PASS",
+      "case": "390px product/gallery,variant/cartqty2,checkout creates200000VND order"
+    },
+    {
+      "id": "UI-14",
+      "result": "PASS",
+      "case": "Checkout order262 visible with variant/SKU snapshot2x100000,total200000,NEW→CONFIRMED→CANCELLED history"
+    },
+    {
+      "id": "UI-15",
+      "result": "PASS",
+      "case": "Main products pagination page2 25–48/119,1440/768/390/320 no document overflow and no broken loaded image"
+    },
+    {
+      "id": "UI-16",
+      "result": "PASS",
+      "case": "320px responsive menu category navigation and Enter expand full introduction without horizontal overflow"
+    },
+    {
+      "id": "UI-17",
+      "result": "PASS",
+      "case": "Banner category optional for shared positions after required-marker fix; server conditional rule retained"
+    },
+    {
+      "id": "UI-18",
+      "result": "PASS",
+      "case": "Admin banner form at1440/768/390/320 no document overflow"
+    },
+    {
+      "id": "UI-19",
+      "result": "PASS",
+      "case": "Draft article public URL shows404 while private preview works"
+    },
+    {
+      "id": "UI-20",
+      "result": "PASS",
+      "case": "Fresh list→256 SKU detail link works with no console errors; earlier transient click issue not reproduced"
+    },
+    {
+      "id": "UI-21",
+      "result": "PASS",
+      "case": "Main/admin redirects to native login with form visible; QA native admin login succeeds"
+    },
+    {
+      "id": "UI-22",
+      "result": "PASS",
+      "case": "Compact-only toggle does not mark SKU data dirty"
+    },
+    {
+      "id": "UI-23",
+      "result": "PASS",
+      "case": "Escape dismisses unsaved dialog preserving edit; matrix reset clears dirty without saving"
+    },
+    {
+      "id": "UI-L01",
+      "result": "NOT TESTED",
+      "case": "Native browser refresh/close confirmation: provider reload completed without exposing beforeunload dialog; no native lifecycle PASS claimed"
+    },
+    {
+      "id": "BA-V01",
+      "result": "BLOCKED",
+      "case": "Fresh standalone Desktop Chrome/Edge and Mobile Chrome unavailable in connected browser inventory; IAB is not substituted for named browsers"
+    },
+    {
+      "id": "UI-L02",
+      "result": "NOT TESTED",
+      "case": "Safari/iOS unavailable"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "product",
+    "expectedWidth": 1440,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "order",
+    "expectedWidth": 1440,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "form",
+    "expectedWidth": 1440,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "product",
+    "expectedWidth": 768,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "order",
+    "expectedWidth": 768,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "form",
+    "expectedWidth": 768,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "product",
+    "expectedWidth": 390,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "order",
+    "expectedWidth": 390,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "form",
+    "expectedWidth": 390,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "product",
+    "expectedWidth": 320,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "id": "order",
+    "expectedWidth": 320,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "id": "form",
+    "expectedWidth": 320,
+    "scroll": 305,
+    "width": 320
+  }
+]

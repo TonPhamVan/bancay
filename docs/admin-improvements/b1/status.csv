@@ -1,0 +1,15 @@
+ID,Status,Evidence,Next action,Release blocking
+AR01,RESOLVED,AdminImprovementsTest and option-error-retained.png,Staff UAT,false
+AR02,IMPLEMENTED,StoreLabels and form/list/detail rendering tests,Continue vocabulary review in staff UAT,false
+AR03,IMPLEMENTED,Preview permission/public404 tests and draft-preview screenshots,Owner checks actual launch products,false
+AR04-subset,IMPLEMENTED,4 combination browser observation and bounded generator tests,Chip/row redesign remains optional,false
+AR08,IMPLEMENTED,Inventory boundary/CSV tests and inventory-out-filter.png,Staff UAT,false
+AR09,IMPLEMENTED,Missing confirm422/replay/snapshot tests and cancellation QA DB verification,Reason policy stays optional,false
+AR15,RESOLVED,Publication equality/live queue tests and native shortcut browser check,Staff UAT,false
+AR16,DEFERRED NON-BLOCKING,NativeCategoryPrototypeTest3/12 feasibility only,Full upload/HTTP/CSRF/export/PJAX parity before adoption,false
+AR17,DEFERRED NON-BLOCKING,Current shared metadata and unchanged plugin route declarations,Separate measured simplification after parity,false
+BA-G04,BLOCKER,Owner confirms launch catalog unavailable,Supply/approve actual SKU prices stock photos and staff UAT,true
+BA-V01,BLOCKER,IAB/MCP Apps are the only current browser providers,Fresh Chrome/Edge baseline on current build,true
+P5-B01,BLOCKER,Existing release register and user-deferred hosting backup,Actual coherent production backup and CI3 recovery evidence,true
+P5-B02,BLOCKER,DirectAdmin target confirmed profile absent,Actual target configuration verification,true
+P5-B03,BLOCKER,Existing release register,Final-source freeze/provenance and candidate rehearsal,true

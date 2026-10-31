@@ -1,0 +1,39 @@
+{
+  "date_local": "2026-10-30",
+  "browser": "IAB Chromium",
+  "base": "http://localhost:8004",
+  "scope": "owned disposable QA; no production/main/stage business writes",
+  "cases": [
+    {"id":"UI01","case":"Native login with existing cloned administrator","result":"PASS","evidence":"native-home.png"},
+    {"id":"UI02","case":"Native home versus business dashboard navigation","result":"PASS WITH UX OPPORTUNITY","finding":"Native dashboard has unregistered widget and different entry; business public-count scope mismatch","source":"StoreQueries::dashboard","recommendation":"AR15"},
+    {"id":"UI03","case":"Empty category submit rejects required name/slug","result":"PASS","finding":"English messages/raw field aliases","recommendation":"AR02","evidence":"validation.png"},
+    {"id":"UI04","case":"Create published category and blank-slug auto generation","result":"PASS","fixture_id":15},
+    {"id":"UI05","case":"Create product as DRAFT and open child-management detail","result":"PASS","fixture_id":122,"evidence":"product-form.png"},
+    {"id":"UI06","case":"Upload owned QA image through file chooser","result":"PASS","image_id":357},
+    {"id":"UI07","case":"Add two classification groups with two values each","result":"PASS"},
+    {"id":"UI08","case":"Generate four missing combinations, initial CONTACT/INACTIVE/stock0","result":"PASS"},
+    {"id":"UI09","case":"Bulk price100000,quantity10,ACTIVE,image selection, single atomic matrix save","result":"PASS","evidence":"matrix.png; runtime.json"},
+    {"id":"UI10","case":"Edit Basic to publish product, frontend exact variant/price/qty","result":"PASS"},
+    {"id":"UI11","case":"Create synthetic order100000x2 and show snapshot in admin","result":"PASS","order_id":260,"evidence":"order-list.png; runtime.json"},
+    {"id":"UI12","case":"NEW to CONFIRMED to CANCELLED, history and reservation release","result":"PASS","evidence":"order-history.png; runtime.json"},
+    {"id":"UI13","case":"Filter by synthetic order code,status,date in actual list form","result":"PASS","evidence":"read-checks.json; order-filter.png"},
+    {"id":"UI14","case":"Inventory grid/read-only current/held/available","result":"PASS","evidence":"inventory.png"},
+    {"id":"UI15","case":"Customer/article/banner create forms and public shop settings render","result":"PASS READ ONLY","writes":"NOT TESTED in browser this run; covered by fresh feature suite","evidence":"ui-pages.json"},
+    {"id":"UI16","case":"Native User/LoginUser/RoleGroup pages render","result":"PASS READ ONLY","grants_or_credentials_changed":false,"evidence":"roles.png; read-checks.json"},
+    {"id":"UI17","case":"Duplicate option values rejected","result":"PASS BUSINESS GUARD","evidence":"option-error.json"},
+    {"id":"UI18","case":"Retain entered duplicate options after validation","result":"FAIL UX","finding":"Attempted Nhỏ/newline/Nhỏ resets to persisted Nhỏ/newline/Lớn","recommendation":"AR01","evidence":"option-error.png; option-error.json"},
+    {"id":"UI19","case":"Product/order/article forms1440/768/390/320, body overflow","result":"PASS 12 OBSERVATIONS","evidence":"responsive.json"},
+    {"id":"UI20","case":"Dirty matrix navigation warning/PJAX","result":"NEEDS VALIDATION","finding":"Navigation attempt kept current product URL; no dialog exposed by provider. No lost edit reproduced.","evidence":"read-checks.json"},
+    {"id":"UI21","case":"Product/Order/Content manager and unauthorized direct requests","result":"PASS AUTOMATED; NOT TESTED FRESH ROLE UI","evidence":"test-cases.json"},
+    {"id":"UI22","case":"Chrome/Edge/mobile Chrome/Safari separately","result":"NOT TESTED","finding":"Current browser inventory exposes IAB and MCPApps; IAB viewports are not branded/physical-device certification"}
+  ],
+  "measurements": {
+    "product_create_to_publish_write_submits":7,
+    "counting_rule":"Basic1 + upload1 + options2 + generate1 + matrix1 + publish1; excludes category creation, typing, expand and navigation",
+    "filtered_order_list_to_detail_clicks":1,
+    "confirm_from_new_default": "1 submit from detail",
+    "cancel_from_confirmed": "1 status selection +1 submit; note entry optional",
+    "total_clicks_or_elapsed_operator_time":"NOT MEASURED",
+    "staff_usability_study":"NOT PERFORMED"
+  }
+}

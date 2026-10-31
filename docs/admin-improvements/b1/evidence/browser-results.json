@@ -1,0 +1,122 @@
+{
+  "scope": "Owned QA localhost:8004 only; IAB, not external Chrome/Edge",
+  "cases": [
+    [
+      "B1-01",
+      "Native existing admin login",
+      "PASS"
+    ],
+    [
+      "B1-02",
+      "Create category with Vietnamese required/help labels",
+      "PASS"
+    ],
+    [
+      "B1-03",
+      "Create draft product and checklist",
+      "PASS"
+    ],
+    [
+      "B1-04",
+      "New option duplicate keeps submitted lines and inline error",
+      "PASS"
+    ],
+    [
+      "B1-05",
+      "Two groups show four saved combinations",
+      "PASS"
+    ],
+    [
+      "B1-06",
+      "Generate four inactive CONTACT SKUs",
+      "PASS"
+    ],
+    [
+      "B1-07",
+      "Matrix save active SKU 100000 VND / stock 10",
+      "PASS"
+    ],
+    [
+      "B1-08",
+      "Draft storefront preview has exact active SKU and no buy controls",
+      "PASS"
+    ],
+    [
+      "B1-09",
+      "Preview 390px no document overflow",
+      "PASS"
+    ],
+    [
+      "B1-10",
+      "Existing group duplicate keeps failed group, other group unchanged",
+      "PASS"
+    ],
+    [
+      "B1-11",
+      "Error autofocus returns to invalid values textarea",
+      "PASS"
+    ],
+    [
+      "B1-12",
+      "Publish synthetic product and visibility checklist updates",
+      "PASS"
+    ],
+    [
+      "B1-13",
+      "Public checkout 2 x 100000 = 200000",
+      "PASS"
+    ],
+    [
+      "B1-14",
+      "Admin opens order snapshot and confirms",
+      "PASS"
+    ],
+    [
+      "B1-15",
+      "Separate cancellation UI shows order/quantity/effect",
+      "PASS"
+    ],
+    [
+      "B1-16",
+      "Confirmed -> cancelled, append-only history displayed",
+      "PASS"
+    ],
+    [
+      "B1-17",
+      "Out filter shows three zero-stock fixture SKUs",
+      "PASS"
+    ],
+    [
+      "B1-18",
+      "Available filter shows 10 physical / 0 reserved / 10 available after cancel",
+      "PASS"
+    ],
+    [
+      "B1-19",
+      "Admin 320px no document overflow; matrix scroll contained",
+      "PASS"
+    ],
+    [
+      "B1-20",
+      "Admin 768px no document overflow",
+      "PASS"
+    ],
+    [
+      "B1-21",
+      "Native navbar shortcut visible after full request",
+      "PASS"
+    ],
+    [
+      "B1-22",
+      "Admin/preview/buyer console errors zero",
+      "PASS"
+    ]
+  ],
+  "limitations": {
+    "external_chrome": "NOT TESTED: no Chrome browser provider in current inventory",
+    "external_edge": "NOT TESTED: no Edge browser provider in current inventory",
+    "safari_ios": "NOT TESTED: no available environment",
+    "staff_real_catalog_UAT": "PENDING: owner catalog unavailable"
+  },
+  "syntheticOnly": true
+}

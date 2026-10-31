@@ -1,0 +1,25 @@
+{
+    "status": "PASS",
+    "read_only": true,
+    "facts": {
+        "fixture_product_id": 122,
+        "options": 2,
+        "variants": 4,
+        "active_variants": 1,
+        "order_count_for_fixture": 1,
+        "order_status": "CANCELLED",
+        "order_total": 200000,
+        "snapshot_price": 100000,
+        "snapshot_quantity": 2,
+        "history": [
+            "NEW",
+            "CONFIRMED",
+            "CANCELLED"
+        ],
+        "physical_stock": 10,
+        "reserved_stock": 0,
+        "available_stock": 10,
+        "active_plugins": 6,
+        "public_count": 120
+    }
+}

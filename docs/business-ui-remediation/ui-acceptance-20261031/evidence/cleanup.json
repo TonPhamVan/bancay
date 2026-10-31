@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-10-31T12:17:35.358265+00:00",
+  "changed_tables": {
+    "bancay": [
+      "admin_operation_log",
+      "product_images"
+    ],
+    "bancay_phase4_staging": []
+  },
+  "domain_row_counts_and_checksums_unchanged": true,
+  "stage_all_tables_equal": true,
+  "main_image_auto_increment_only": {
+    "before": 357,
+    "after": 358,
+    "data_rows_and_checksum_equal": true,
+    "normalized_schema_equal": true,
+    "origin": "not inferred",
+    "counter_restored": false
+  },
+  "main_audit_log": "activity preserved; origin not inferred",
+  "main_writes_performed_by_cleanup": false,
+  "qa_database_removed": true,
+  "qa_account_removed": true,
+  "qa_container_removed": true
+}

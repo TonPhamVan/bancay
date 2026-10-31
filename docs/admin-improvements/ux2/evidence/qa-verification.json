@@ -1,0 +1,26 @@
+{
+    "status": "PASS",
+    "read_only": true,
+    "facts": {
+        "fixture_product_id": 122,
+        "publication": "DRAFT",
+        "options": 2,
+        "variants": 4,
+        "images": 2,
+        "primary_count": 1,
+        "ordered_image_ids": [
+            358,
+            357
+        ],
+        "primary_image_id": 358,
+        "primary_alt_matches_attempt": true,
+        "persisted_price": 100000,
+        "physical_stock": 10,
+        "reserved_stock": 0,
+        "variant_image_owned": true,
+        "public_count": 119,
+        "active_banner_positions": {
+            "home_slider": "1"
+        }
+    }
+}

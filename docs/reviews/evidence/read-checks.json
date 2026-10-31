@@ -1,0 +1,22 @@
+{
+  "orderFilter": {
+    "url": "http://localhost:8004/admin/plugins/bancay_orders/orders?q=BC-01M66HEEWKV7M5CCZXXMMXTS8Y&status=CANCELLED&from=2026-10-30&to=2026-10-30&sort=newest",
+    "containsSyntheticOrder": true
+  },
+  "nativeIdentityPages": [
+    {
+      "path": "/admin/data/user",
+      "title": "bancay | User"
+    },
+    {
+      "path": "/admin/loginuser",
+      "title": "bancay | Login User Setting"
+    }
+  ],
+  "dirtyNavigation": {
+    "attempted": true,
+    "urlStayedOnProduct": true,
+    "dialogExposed": false,
+    "result": "NEEDS VALIDATION for native browser/PJAX; no confirmed lost edit"
+  }
+}

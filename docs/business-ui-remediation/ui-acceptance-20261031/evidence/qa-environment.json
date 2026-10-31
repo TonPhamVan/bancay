@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-31T01:38:04.852119+00:00",
+  "git": "93c581c3976b41d7bcfcf6f44313d11073da8cdb",
+  "source": "bancay",
+  "target": "bancay_release_candidate_20261031_002",
+  "url": "http://localhost:8004",
+  "base_tables": 98,
+  "clone_equal_before_tests": true,
+  "dump_sha256": "7aa3597a0626acef4f49b24ed727ff753988ec882e5981a890f53f8b8a4d4d30",
+  "dump_bytes": 2212889,
+  "mail": "log",
+  "views_rebuilt": true,
+  "production_access": false
+}

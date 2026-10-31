@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-10-30T13:59:21+00:00",
+  "checks": {
+    "two_options_four_skus": true,
+    "four_skus_price_stock": true,
+    "image_uploaded": true,
+    "published": true,
+    "order_snapshot": true,
+    "history": true
+  },
+  "qa_fixture": {
+    "product": 122,
+    "order": 260
+  },
+  "versions": {
+    "php": "8.3.36",
+    "laravel": "12.70.2",
+    "exment": "v7.0.0",
+    "admin_core": "v1.0.1"
+  },
+  "custom_tables": [
+    "document",
+    "comment",
+    "base_info",
+    "user",
+    "organization",
+    "mail_template",
+    "mail_send_log",
+    "information",
+    "line_flex_template",
+    "line_send_log",
+    "safety_check_event",
+    "safety_check_answer",
+    "system_logs"
+  ],
+  "plugins": [
+    {
+      "plugin_name": "BancayCatalog",
+      "active_flg": "1",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_name": "BancayContent",
+      "active_flg": "1",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_name": "BancayCustomers",
+      "active_flg": "1",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_name": "BancayDashboard",
+      "active_flg": "1",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_name": "BancayOrders",
+      "active_flg": "1",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_name": "BancaySettings",
+      "active_flg": "1",
+      "version": "1.0.0"
+    }
+  ],
+  "runtime_plugin_files": {
+    "BancayCatalog": {
+      "source_sha256": "b88a5cb1f1d9e9521ad472db6c45443934c8df6cfa3a8e1ff79be795e5b7a127",
+      "runtime_matches": true
+    },
+    "BancayContent": {
+      "source_sha256": "58686827c90f20099fc966e33bb7ea91652929797ce6903a5bd9afd21d2a2dd3",
+      "runtime_matches": true
+    },
+    "BancayCustomers": {
+      "source_sha256": "e8fd30bb036d8bfc82a01850f465492a4546e3663b459610c0ad559698ab2d0f",
+      "runtime_matches": true
+    },
+    "BancayDashboard": {
+      "source_sha256": "a8a3cd835b990058043e302f4b1f87444741afc1e5125432a436e390cf78fd6d",
+      "runtime_matches": true
+    },
+    "BancayOrders": {
+      "source_sha256": "b085732bd4d2999d0728c9b588aa232e9b45111413d3ff6aed18d852e261e234",
+      "runtime_matches": true
+    },
+    "BancaySettings": {
+      "source_sha256": "9bd197c2e4ce5c62120645e34b62853c4655004279cca44fa5f7bf0842db4c3c",
+      "runtime_matches": true
+    }
+  },
+  "api_enabled": false,
+  "native_locale": "en",
+  "dashboard_published_count": 121,
+  "public_visible_count": 120
+}
